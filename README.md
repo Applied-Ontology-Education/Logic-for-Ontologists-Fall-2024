@@ -1,0 +1,1 @@
+# Logic-for-Ontologists-Fall-2024
