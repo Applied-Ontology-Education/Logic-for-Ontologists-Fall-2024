@@ -1,7 +1,7 @@
 # Logic for Ontologists Fall 2024
 
 ## Slack Channel
-https://ncorlabswg.slack.com/archives/C07JHSSULBW
+https://ncorlabswg.slack.com/archives/C07JFAHJ1T5
 
 ## Repository Content
 This repository contains the following directories: 
