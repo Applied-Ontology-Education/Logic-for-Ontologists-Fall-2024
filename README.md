@@ -1,5 +1,14 @@
 # Logic for Ontologists Fall 2024
 
+## Slack Channel
+https://ncorlabswg.slack.com/archives/C07JHSSULBW
+
+## Repository Content
+This repository contains the following directories: 
+* **documentation** - Syllabus for the course as well as tutorials for using Git and GitHub in this course and an etiquette guide
+* **projects** - Six projects, each containing required readings as well as a challenging assignment to be submitted via GitHub
+
+## Course Overview
 Artificial Intelligence communities have, for decades, worked to design computing systems able to solve complicated tasks as well as humans can. Siri, autonomous vehicles, Computer-Aided Diagnosing systems, and automated theorem provers, are examples of the fruits of such labor. For such feats of computing ingenuity to work properly, however, relevant knowledge must be represented in formalisms interpretable by computing systems.
 
 One goal of this course is to provide students with a deep understanding of formalisms underwriting contemporary knowledge representation. We will examine several ‘Description Logics’ which reflect decidable fragments of First-Order Logic and provide formal foundations for widely used semantic web languages. Semantic web languages – such as the Resource Description Framework – in turn provide concrete vocabularies used to represent information across the web. Another goal of this course is to provide students with a deep understanding of these semantic web languages, emphasizing their importance to the development of ontologies – structured vocabularies comprised of human and computer interpretable terminological content representing entities in some domain. Students will gain competency in the application of semantic web languages to represent the philosophical commitments of one of the most important ontologies in the world: Basic Formal Ontology (BFO).
