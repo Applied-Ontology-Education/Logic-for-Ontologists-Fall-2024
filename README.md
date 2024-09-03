@@ -3,6 +3,10 @@
 ## Slack Channel
 https://ncorlabswg.slack.com/archives/C07JFAHJ1T5
 
+## Youtube Channel 
+
+[Logic for Ontologists Playlist](https://www.youtube.com/watch?v=Ep-SGJZZBg8&list=PLDpLIEgKNGbOVAAfiD_28PH18wcktXy3M)
+
 ## Repository Content
 This repository contains the following directories: 
 * **documentation** - Syllabus for the course as well as tutorials for using Git and GitHub in this course and an etiquette guide
