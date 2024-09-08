@@ -1,0 +1,13 @@
+OWL assignment part 1
+
+X^NS explanation
+
+-Functional/ Transitive, Functional implies ∀x∀y∀z((R(x,y)∧R(x,z))→(y=z)), in the example for birthdate, Z and Y are of the same value (date) This cannot be simultaneous to a transitive property because X, is not equal to Y and Z as well as X not being contained in either Y or Z. 
+
+-Inversefunctional/ transitive, Inverse functional represents a direct relation from each output to one input. If xRy and zRy, then x=z, everyone is of a person that has a social security number. Inversefunctional combined with transitivity, would mean that for any given set, people have the same social securty number. 
+
+-Transitive/Asymmetrical, If x is contained in y and y is contained in z, then x is contained in z. This describes transitivity, which is an ordered description of containment. An asymmetric role constraint describes the way in which we can ascribe relations. I am a bit stumped on this one because it seems that you can say "If x is contained in y and y is contained in z, then x is contained in z." and also say that If x is contained in y, then y is not contained in X, unless its not a containment question but rather a "parent of" question.
+
+-Transitive/Irreflexive, Transitity does not necessitate reflexivity rather it describes containment. Coupling with an irreflexivity constraint which can be described as ¬xRx, transitivity can still be valid, since transitivity maps out any given x to any y z, not any X to itself. R(x,y) makes X as a proper subset of any set (x,y), this is irreflexive because it cannot be a proper subset of itself. It is transitive because transitivity allows for ¬xRx, still gives validity to R(x,y) R(y,z), thus allowing R(x,z). Reasoners
+might cite undecidability because it might try to relate the subset x, back to itself which is incompatible with transitivity.
+
