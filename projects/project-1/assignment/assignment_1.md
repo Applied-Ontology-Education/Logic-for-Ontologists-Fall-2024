@@ -10,3 +10,5 @@
 | **Irref.**   | OK     | OK      | X<sup>NS</sup>    | OK    | OK     | X<sup>UNSAT</sup>| -      |
 
 
+Trans.-Funct.
+Trans.-iFunct.
