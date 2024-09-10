@@ -49,7 +49,7 @@ Leveraring the [OWL2 DL Direct Semantics](https://www.w3.org/TR/owl2-direct-sema
 
 For example, to explain why `R` cannot be both asymmetric and symmetric, your explanation may take the form: 
 - Suppose `R` is both symmetric and asymmetric. Then by symmetry for any x and y, if x`R`y it follows that y`R`x. However, by asymmetry it also follows that it is not the case that y`R`x. Hence, `R` cannot be both symmetric and asymmetric.
-Similarly, to explain why `R` cannot be both transitive and inverse functional, your explanation may take the form:
+Similarly, to explain why `R` cannot be both transitive and inverse functional.
 
 ## Assignment Part 2
 
