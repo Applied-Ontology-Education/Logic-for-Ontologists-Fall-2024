@@ -29,3 +29,16 @@ Suppose that a relation R is both reflexive and asymmetric. By reflexivity, for 
 Ref-Irref (UNSAT)
 
 Suppose that a relation R is both reflexive and irreflexive. By reflexivity, we have that xRx. By irreflexivity, we have that it is not the case that xRx. This is not a satisfiable formula.
+
+
+Exercise 2
+
+iFunct-Trans
+
+<img width="616" alt="image" src="https://github.com/user-attachments/assets/f0c0db1e-5bd0-4e2f-82b3-b43cc5412b33">
+
+
+Funct-Trans
+
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/f4e8da51-221f-46fa-98ad-06e93d5009ba">
+
