@@ -12,13 +12,15 @@
 
 Trans.-Funct (NS)
 
-Suppose that a relation R is both transitive and functional. 
+Suppose that a relation R is both transitive and functional. This means that R 
 
 Trans.-iFunct (NS)
 
 Suppose that a relation
 
 Asymm-Trans (NS)
+
+Suppose that a relation R is both transitive and asymmetric. This means that if xRy and yRz, then xRz, and that if xRy, then it is not the case that yRx. This means that for all 
 
 Asymm-Symm (UNSAT) (done by JB)
 
