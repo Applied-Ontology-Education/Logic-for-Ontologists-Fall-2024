@@ -3110,6 +3110,7 @@ Giacomo, Jisoo, Elena
 </table>
 
 
+Exercise 2, part 2. Explanations
 
 - Ref/Irref
 
