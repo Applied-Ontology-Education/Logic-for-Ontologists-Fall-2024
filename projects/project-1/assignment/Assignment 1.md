@@ -3108,16 +3108,7 @@ Exercise 2, part 2. Explanations
 
 - Symm/Asymm
 
-</thead>
-<tbody>
-<tr>
-<td class="org-left">Funct</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">A</td>
-<td class="org-left">Ai</td>
-<td class="org-left">B</td>
-<td class="org-left">Bi</td>
-</tr>
+![image](https://github.com/user-attachments/assets/04f01e22-a5bc-4e12-bb6a-af93eb7274fa)
 
 A/A:
 If A is symmetric, xAy implies yAx. If A is asymmetric, xAy implies ¬(y A x). Both cannot hold simultaneously, causing a conflict (X).
