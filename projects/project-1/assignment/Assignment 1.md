@@ -1,4 +1,4 @@
-Part I
+Part I - Elena M.
 
 |        | Funct. | iFunct. | Trans. | Symm. | Asymm. | Ref. | Irref. |
 |--------|--------|---------|--------|-------|--------|------|--------|
@@ -47,7 +47,7 @@ Part II
 
 # Authors
 
-Giacomo, Jisoo, Elena
+Giacomo, Jisoo, Elena, Sean
 
 
 <a id="org2d94bb3"></a>
@@ -3106,9 +3106,10 @@ Giacomo, Jisoo, Elena
 
 Exercise 2, part 2. Explanations
 
-- Symm/Asymm
+Symmetry/Asymmetry
 
-![image](https://github.com/user-attachments/assets/04f01e22-a5bc-4e12-bb6a-af93eb7274fa)
+![image](https://github.com/user-attachments/assets/f5128db3-6aea-4f1c-a151-d684d697dab2)
+
 
 A/A:
 If A is symmetric, xAy implies yAx. If A is asymmetric, xAy implies ¬(y A x). Both cannot hold simultaneously, causing a conflict (X).
@@ -3140,10 +3141,200 @@ If xAy implies yAx (symmetry) or ¬(yAx) (asymmetry), then B as a sub-property o
 Bi/Bi:
 same as A/A
 
+<header>
+  <h2>Reflexive, x</h2>
+</header>
 
-- Ref/Irref
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
-![image](https://github.com/user-attachments/assets/745b2fa1-7bbf-4f0e-bdea-fb27a40496c4)
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Asymm</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Ref</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">Ok</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">Ok</td>
+<td class="org-left">Ok</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<header>
+  <h3>Reflexivity/Asymmetry</h3>
+</header>
+
+- <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
+
+- <b>A/Ai</b>: suppose that A is reflexive and Ai is asymmetric. By reflexivity, xAx. Since Ai is inverse A, xAix also holds.
+However, because of asymmetricity, xAix should not hold.   
+
+- <b>A/B</b>: suppose that A is reflexive and B is asymmetric. By reflexivity, xAx. However, since B is a subproperty of A meaning that all the instances of B have to be a part of
+instances of A, the same problem that occured with A/A occurs. Therefore, it is not the case that A is reflexive and B is asymmetric.
+
+- <b>A/Bi</b>: suppose that A is reflexive and Bi is asymmetric. By reflexivity, xAx. And since B is a subproperty of A xBx should hold. Since Bi is inverse B, xBix also holds.
+However, because of asymmetricity, xBix should not hold.   
+
+- <b>Ai/A</b>: suppose that Ai is reflexive and A is asymmetric. By reflexivity, xAix. Since A is inverse Ai, xAix also holds.
+However, because of asymmetricity, xAx should not hold.
+    
+- <b>Ai/B</b>: suppose that Ai is reflexive and B is asymmetric. By reflexivity, xAix. Since B is a subproperty of A that is inverse Ai, xBx should hold.
+However, because of asymmetricity, xBx should not hold.
+  
+- <b>Ai/Bi</b>: suppose that Ai is reflexive and Bi is asymmetric. The explanation for this error will be the same for A being refelxive and B being asymmetric.
+    
+- <b>B/Bi</b>: suppose that B is reflexive and Bi is asymmetric. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
+However, because of asymmetricity, if xBiy, then it is not the case that yBix.   
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+  
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Irr</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Ref</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="orgceec1a2"></a>
+
+<header>
+  <h3>Reflexivity/Irreflexivity</h3>
+</header>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<a id="org9d8084e"></a>
 
 - For A/A, see Exercise 1
   
@@ -3166,4 +3357,3 @@ same as A/A
 - For B/Bi, suppose that B is irreflexive and Bi is reflexive. By irreflexivity, it is not the case that xBx. By reflexivity, it is the case that xBix. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi, which in this case are both x. That is, xBx. But this contradicts the irreflexivity of B.
 
 -  For Bi/Bi, see Exercise 1
-
