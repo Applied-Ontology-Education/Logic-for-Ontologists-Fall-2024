@@ -12,7 +12,7 @@
 
 Trans.-Funct (NS)
 
-Suppose that a relation R is both transitive and functional. This means that R 
+Suppose that a relation R is both transitive and functional. This means that xRy and yRz imply that xRz. Moreover, this implies that xRx, xRy, xRz. Now, transitivity can potentially apply over an infinitely long chain of individuals. For each of these individuals, 
 
 Trans.-iFunct (NS)
 
