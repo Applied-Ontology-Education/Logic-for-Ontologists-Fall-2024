@@ -138,7 +138,7 @@ I have only added tables that have errors in them and those that are not redunda
 
 
  <header>
-  <h2>Invers functional, x</h2>
+  <h2>Inverse functional, x</h2>
 </header>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
