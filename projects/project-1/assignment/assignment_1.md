@@ -12,15 +12,15 @@
 
 Trans.-Funct (NS)
 
-Suppose that a relation R is both transitive and functional. This means that xRy and yRz imply that xRz. Moreover, this implies that xRx, xRy, xRz. Now, transitivity can potentially apply over an infinitely long chain of individuals. For each of these individuals, 
+Suppose that a relation R is both transitive and functional. This means that xRy and yRz imply that xRz. Now, for each of these individuals, a reasoner has to go through asking whether xRz, xRy and whether the relation between x and y or z is functional. It basically has to check for two roles at the same time, creating a complex role which is potentially undecidable.
 
 Trans.-iFunct (NS)
 
-Suppose that a relation
+Suppose that a relation R is both transitive and inverse functional. This means that xRy and yRz imply that xRz. Now, for each of these individuals, a reasoner has to go through asking whether xRz, xRy and whether the relation between z and x or y is inverse functional. It basically has to check for two roles at the same time, creating a complex role which is potentially undecidable.
 
 Asymm-Trans (NS)
 
-Suppose that a relation R is both transitive and asymmetric. This means that if xRy and yRz, then xRz, and that if xRy, then it is not the case that yRx. This means that for all 
+Suppose that a relation R is both transitive and inverse functional. This means that xRy imply that it is not the case that yRx.
 
 Asymm-Symm (UNSAT) (done by JB)
 
@@ -30,7 +30,7 @@ Suppose that a relation R is both reflexive and asymmetric. By reflexivity, for 
 
 Ref-Irref (UNSAT)
 
-Suppose that a relation R is both reflexive and irreflexive. By reflexivity, we have that xRx. By irreflexivity, we have that it is not the case that xRx. This is not a satisfiable formula.
+Suppose that a relation R is both reflexive and irreflexive. By reflexivity, we have that xRx. By irreflexivity, we have that it is not the case that xRx. This is a contradiction, and thus not a satisfiable formula.
 
 Exercise 2
 
