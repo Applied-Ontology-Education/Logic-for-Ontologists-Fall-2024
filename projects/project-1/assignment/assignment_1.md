@@ -3138,5 +3138,36 @@ Exercise 2, part 2. Explanations
 
 -  For Bi/Bi, see Exercise 1
 
+- Symm/Asymm
 
+![image](https://github.com/user-attachments/assets/04f01e22-a5bc-4e12-bb6a-af93eb7274fa)
 
+A/A:
+If A is symmetric, xAy implies yAx. If A is asymmetric, xAy implies ¬(y A x). Both cannot hold simultaneously, causing a conflict (X).
+
+A/Ai:
+If A is symmetric, xAy implies yAx. For Ai, xAiy implies yAix. Asymmetry of A would conflict with symmetry of Ai. Hence, inconsistency (X).
+
+Ai/A:
+If Ai is symmetric implies xAi and yAix, but since Ai​ is the inverse of A (which is asymmetric), this creates a contradiction where xAy forbids yAx. Symmetry and asymmetry cannot coexist for inverse properties.
+
+Ai/Ai:
+same as A/A
+
+B/A:
+If A is symmetric or asymmetric, B must align with these characteristics due to its sub-property status
+
+B/Ai
+If B, inverse of A, is symmetric it means that yAx and xAy both hold. This contradicts Ai´s asymmetry, where xAiy forbids yAix. making it impossible for B to be symmetric and Ai asymmetric.
+
+B/B:
+same as A/A
+
+B/Bi:
+Bi as the inverse of B can conflict if B is symmetric or asymmetric. The inverse relationship can cause contradictions with symmetry or asymmetry (X).
+
+B/Ai:
+If xAy implies yAx (symmetry) or ¬(yAx) (asymmetry), then B as a sub-property of A and Ai​ as its inverse can conflict because xBy and xAi​y may not align due to the inverse relationship (X).
+
+Bi/Bi:
+same as A/A
