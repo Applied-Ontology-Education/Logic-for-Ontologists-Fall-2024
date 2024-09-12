@@ -11,7 +11,7 @@
 
 
 Trans.-Funct (NS)
-
+qwd
 Suppose that a relation R is both transitive and functional. This means that xRy and yRz imply that xRz. Now, for each of these individuals, a reasoner has to go through asking whether xRz, xRy and whether the relation between x and y or z is functional. It basically has to check for two roles at the same time, creating a complex role which is potentially undecidable.
 
 Trans.-iFunct (NS)
