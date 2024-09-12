@@ -47,7 +47,7 @@ Part II
 
 # Authors
 
-Giacomo, Jisoo, Elena
+Giacomo, Jisoo, Elena, Sean
 
 
 <a id="org2d94bb3"></a>
