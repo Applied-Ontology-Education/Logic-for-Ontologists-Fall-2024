@@ -5,7 +5,7 @@
 <p>Jisoo Seo</p>
 
 <p>The purpose of the assignment is to explain the two kinds of errors that occur when an object property R is attributed different pairs of role constraints. 
-  This is summarized in the table 1 below.</p>
+  This is summarized in the table 1 below. </p>
 
 |        | Funct. | iFunct. | Trans. | Symm. | Asymm. | Ref. | Irref. |
 |--------|--------|---------|--------|-------|--------|------|--------|
