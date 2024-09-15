@@ -3200,3 +3200,34 @@ See exercise 1
 -  For Bi/Bi, see Exercise 1
 
 
+- Reflexivity/Asymmetry
+
+<img width="643" alt="image" src="https://github.com/user-attachments/assets/cf5ae51e-1d23-4001-a15a-aa67e25e137c">
+
+
+- For A/A, Ai/Ai, B/B, Bi/Bi: see Exercise 1
+
+- A/Ai: suppose that A is reflexive and Ai is asymmetric. By reflexivity, xAx. Since Ai is inverse A, xAix also holds.
+However, because of asymmetry, xAix should not hold.   
+
+- A/B: OK
+
+- A/Bi: Ok
+
+- Ai/A: suppose that Ai is reflexive and A is asymmetric. By reflexivity, xAix. Since A is inverse Ai, xAix also holds.
+However, because of asymmetricity, xAx should not hold.
+    
+- Ai/B: Ok
+  
+- Ai/Bi: Ok
+    
+- B/Bi: suppose that B is reflexive and Bi is asymmetric. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
+However, because of asymmetricity, if xBiy, then it is not the case that yBix.
+
+- B/Ai
+
+- Bi/A
+
+- Bi/Ai
+
+- B/A
