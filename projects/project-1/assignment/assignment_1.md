@@ -9,7 +9,7 @@
 | **Ref.**     | OK     | OK      | OK     | OK    | X<sup>UNSAT</sup> | -    | X<sup>UNSAT</sup> |
 | **Irref.**   | OK     | OK      | X<sup>NS</sup>    | OK    | OK     | X<sup>UNSAT</sup>| -      |
 
-
+\
 Trans.-Funct (NS)
 
 Suppose that a relation R is both transitive and functional. This creates a complex role, which known proofs show creates undecidability.
