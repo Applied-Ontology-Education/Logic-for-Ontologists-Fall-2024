@@ -54,6 +54,8 @@ either SubObjectiveProperty and/or Inverse relation.</p>
 <p>For this assignment, we created tables that represent the two role constraints and object properties A,B, Ai, and Bi where B is a subproperty of A and Ai has an inverse relation to A.
 I have only added tables that have errors in them and those that are not redundant.</p>
 
+I haven't finished the explanations.
+
 <header>
   <h2>Functional, x</h2>
 </header>
