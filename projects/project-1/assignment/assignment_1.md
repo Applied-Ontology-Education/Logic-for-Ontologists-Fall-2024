@@ -12,15 +12,15 @@
 
 Trans.-Funct (NS)
 
-Suppose that a relation R is both transitive and functional. This means that xRy and yRz imply that xRz. Now, for each of these individuals, a reasoner has to go through asking whether xRz, xRy and whether the relation between x and y or z is functional. It basically has to check for two roles at the same time, creating a complex role which is potentially undecidable.
+Suppose that a relation R is both transitive and functional. This creates a complex role, which known proofs show creates undecidability.
 
 Trans.-iFunct (NS)
 
-Suppose that a relation R is both transitive and inverse functional. This means that xRy and yRz imply that xRz. Now, for each of these individuals, a reasoner has to go through asking whether xRz, xRy and whether the relation between z and x or y is inverse functional. It basically has to check for two roles at the same time, creating a complex role which is potentially undecidable.
+Suppose that a relation R is both transitive and inverse functional. This creates a complex role, which known proofs show creates undecidability.
 
 Asymm-Trans (NS)
 
-Suppose that a relation R is both transitive and inverse functional. This means that xRy imply that it is not the case that yRx.
+Suppose that a relation R is both transitive and inverse functional. This creates a complex role, which known proofs show creates undecidability.
 
 Asymm-Symm (UNSAT) (done by JB)
 
@@ -52,7 +52,7 @@ Exercise 2
 
 # Authors
 
-Giacomo, Jisoo, Elena
+Giacomo, Jisoo, Elena, Sean
 
 
 <a id="org2d94bb3"></a>
@@ -3137,13 +3137,14 @@ Exercise 2, part 2. Explanations
 - For B/Bi, suppose that B is irreflexive and Bi is reflexive. By irreflexivity, it is not the case that xBx. By reflexivity, it is the case that xBix. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi, which in this case are both x. That is, xBx. But this contradicts the irreflexivity of B.
 
 -  For Bi/Bi, see Exercise 1
+  
 
 - Symm/Asymm
 
 ![image](https://github.com/user-attachments/assets/04f01e22-a5bc-4e12-bb6a-af93eb7274fa)
 
 A/A:
-If A is symmetric, xAy implies yAx. If A is asymmetric, xAy implies ¬(y A x). Both cannot hold simultaneously, causing a conflict (X).
+If A is symmetric, xAy implies yAx. If A is asymmetric, xAy implies ¬(y A x). Both cannot hold simultaneously, causing a contradiction.
 
 A/Ai:
 If A is symmetric, xAy implies yAx. For Ai, xAiy implies yAix. Asymmetry of A would conflict with symmetry of Ai. Hence, inconsistency (X).
@@ -3171,3 +3172,31 @@ If xAy implies yAx (symmetry) or ¬(yAx) (asymmetry), then B as a sub-property o
 
 Bi/Bi:
 same as A/A
+
+
+- Trans/Asymm
+
+- <img width="639" alt="image" src="https://github.com/user-attachments/assets/f713b95b-ed69-413e-bc04-1580acf8bb98">
+
+A/A:
+See exercise 1
+
+- For A/Ai, suppose that A is transitive and Ai is asymmetric. Being Ai the inverse of A, it is the case that the relation A holds between the opposite instances in the relation Ai. But this creates a complex role chain (see exercise 1).
+  
+- For Ai/A, suppose that Ai is transitive and A is asymmetric. Being A the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+  
+- For Ai/Ai, see Exercise 1
+  
+- For B/A, suppose that B is transitive and A is asymmetric. Being B a subproperty of A, xBy implies xAy. But this creates a complex role chain (see exercise 1).
+  
+-  For B/B, see Exercise 1
+
+- For B/Bi, suppose that B is transitive and Bi is asymmetric. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. But this creates a complex role chain (see exercise 1).
+
+- For Bi/A, suppose that Bi is transitive and A is asymmetric. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. Being B a subproperty of A, xBy implies xAy. But this creates a complex role chain (see exercise 1).
+
+- For Bi, Ai, suppose that Bi is transitive and Ai is asymmetric. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. Being B a subproperty of A, xBy implies xAy. Being A the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+
+-  For Bi/Bi, see Exercise 1
+
+
