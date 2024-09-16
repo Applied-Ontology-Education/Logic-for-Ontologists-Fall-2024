@@ -569,25 +569,28 @@ same as A/A
 
 - <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
 
-- <b>A/Ai</b>: suppose that A is reflexive and Ai is asymmetric. By reflexivity, xAx. Since Ai is inverse A, xAix also holds.
-However, because of asymmetricity, xAix should not hold.   
+- <b>A/Ai</b>: suppose that A is asymmetric and Ai is reflexive. By reflexivity, xAix. Since A is inverse Ai, xAx also holds.
+However, because of asymmetricity, xAx should not hold.   
 
-- <b>A/B</b>: suppose that A is reflexive and B is asymmetric. By reflexivity, xAx. However, since B is a subproperty of A meaning that all the instances of B have to be a part of
-instances of A, the same problem that occured with A/A occurs. Therefore, it is not the case that A is reflexive and B is asymmetric.
+- <b>A/B</b>: suppose that A is asymmetric and B is reflexive. By reflexivity, xBx. However, since B is a subproperty of A meaning that all the instances of B have to be a part of
+instances of A, the same problem that occured with A/A occurs. Therefore, it is not the case that A is asymmetric and B is reflexive.
 
-- <b>A/Bi</b>: suppose that A is reflexive and Bi is asymmetric. By reflexivity, xAx. And since B is a subproperty of A xBx should hold. Since Bi is inverse B, xBix also holds.
-However, because of asymmetricity, xBix should not hold.   
+- <b>A/Bi</b>: suppose that A is asymmetric and Bi is reflexive. By reflexivity, xBix. And since Bi is a subproperty of Ai meaning that all the instances of Bi have to be a part of
+instances of Ai, the same problem that occured with A/Ai occurs. Therefore, it is not the case that A is asymmetric and Bi is reflexive.
 
-- <b>Ai/A</b>: suppose that Ai is reflexive and A is asymmetric. By reflexivity, xAix. Since A is inverse Ai, xAix also holds.
-However, because of asymmetricity, xAx should not hold.
+- <b>Ai/A</b>: suppose that Ai is asymmetric and A is reflexive. By reflexivity, xAx. Since A is inverse Ai, xAix also holds.
+However, because of asymmetricity, xAix should not hold.
     
-- <b>Ai/B</b>: suppose that Ai is reflexive and B is asymmetric. By reflexivity, xAix. Since B is a subproperty of A that is inverse Ai, xBx should hold.
-However, because of asymmetricity, xBx should not hold.
+- <b>Ai/B</b>: suppose that Ai is asymmetric and B is reflexive. By reflexivity, xBx. Since B is a subproperty of A that is inverse Ai, xAix should hold.
+However, because of asymmetricity, xAix should not hold.
   
-- <b>Ai/Bi</b>: suppose that Ai is reflexive and Bi is asymmetric. The explanation for this error will be the same for A being refelxive and B being asymmetric.
+- <b>Ai/Bi</b>: suppose that Ai is asymmetric and Bi is reflexive. The explanation for this error will be the same for A being asymmetric and B being reflexive.
     
-- <b>B/Bi</b>: suppose that B is reflexive and Bi is asymmetric. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
-However, because of asymmetricity, if xBiy, then it is not the case that yBix.   
+- <b>B/Bi</b>: suppose that B is asymmetric and Bi is reflexive. By reflexivity, xBix. Since Bi is inverse B, xBx also holds.
+However, because of asymmetricity, xBx does not hold. Therefore, it does not hold that B is asymmetric and Bi is reflexive.
+
+- <b>Bi/B</b>: suppose that Bi is asymmetric and B is reflexive. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
+However, because of asymmetricity, if xBiy, then it is not the case that yBix.  
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
   
