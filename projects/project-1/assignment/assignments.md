@@ -54,8 +54,6 @@ either SubObjectiveProperty and/or Inverse relation.</p>
 <p>For this assignment, we created tables that represent the two role constraints and object properties A,B, Ai, and Bi where B is a subproperty of A and Ai has an inverse relation to A.
 I have only added tables that have errors in them and those that are not redundant.</p>
 
-I haven't finished the explanations.
-
 <header>
   <h2>Functional, x</h2>
 </header>
@@ -136,14 +134,11 @@ I haven't finished the explanations.
 </table>
 
 
-<a id="orga2c05d9"></a>
 
 
  <header>
   <h2>Inverse functional, x</h2>
 </header>
-
-Jisoo
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -206,6 +201,29 @@ Jisoo
 </table>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<header>
+  <h3>Inverse functional/Transitivity</h3>
+</header>
+
+- <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
+
+- <b>A/Ai</b>: suppose that A is transitive and Ai is inverse functional. This implies that A is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that A is transitive and Ai is inverse functional.
+
+- <b>Ai/A</b>: suppose that Ai is transitive and A is inverse functional. This implies that Ai is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Ai is transitive and A is inverse functional.
+
+- <b>B/A</b>: suppose that B is transitive and A is inverse functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and A is inverse functional.
+
+- <b>B/Ai</b>: suppose that B is transitive and Ai is inverse functional. This implies that A is functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and Ai is inverse functional.
+    
+- <b>B/Bi</b>: suppose that B is transitive and Bi is inverse functional. This implies that B is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and Bi is inverse functional.
+
+  
+- <b>Bi/A</b>: suppose that Bi is transitive and A is inverse functional. This implies that Ai is functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and A is inverse functional.
+    
+- <b>Bi/Ai</b>: suppose that Bi is transitive and Ai is inverse functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and Ai is inverse functional.
+
+- <b>Bi/B</b>: suppose that Bi is transitive and B is inverse functional. This implies that Bi is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and B is inverse functional. 
 
 
 <header>
