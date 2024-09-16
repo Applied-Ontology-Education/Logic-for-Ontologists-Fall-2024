@@ -77,7 +77,7 @@ I have only added tables that have errors in them and those that are not redunda
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">7</th>
+<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">Trans</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
@@ -144,7 +144,7 @@ I have only added tables that have errors in them and those that are not redunda
 
 <thead>
 <tr>
-<th scope="col" class="org-left">3</th>
+<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">Trans</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
@@ -247,7 +247,7 @@ I have only added tables that have errors in them and those that are not redunda
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">5</th>
+<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">Asymm</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
@@ -320,7 +320,7 @@ I have only added tables that have errors in them and those that are not redunda
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">7</th>
+<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">Irr</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
@@ -404,7 +404,7 @@ I have only added tables that have errors in them and those that are not redunda
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">5</th>
+<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">Asymm</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
