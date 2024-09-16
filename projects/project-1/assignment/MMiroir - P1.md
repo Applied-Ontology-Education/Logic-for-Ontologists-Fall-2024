@@ -5,21 +5,44 @@ My results for assignment 2 vary significantly from the example chart provided. 
 
 ## Assignment Part 1
 ### Role Constraint Combinations**
-|            | Funct.  | iFunct. | Trans. | Symm.    | Asymm.    | Ref.      |Irref.     |
-|--------    |-------- |---------|--------|-------   |--------   |-----      |--------   |
-| **Funct.** |-       | OK      |X<sup>NS| OK        | OK        | OK        | OK        |
-| **iFunct.**|OK      | -       |X<sup>NS| OK        | OK        | OK        | OK        |
-| **Trans.** |X<sup>NS| X<sup>NS| -      | OK        |X<sup>NS   | OK        |X<sup>NS   |
-| **Symm.**  |OK      | OK      | OK     | -         |X<sup>UNSAT| OK        | OK        |
-| **Asymm.** |OK      | OK      |X<sup>NS|X<sup>UNSAT| -         |X<sup>UNSAT| OK        |
-| **Ref.**   |OK      | OK      | OK     |     OK    |X<sup>UNSAT| -         |X<sup>UNSAT|
-| **Irref.** | OK     | OK      |X<sup>NS|     OK    |    OK     |X<sup>UNSAT| -         |
+|            | Funct. | iFunct.| Trans. | Symm.     | Asymm.    | Ref.      |Irref.     |
+|--------    |--------|--------|--------|-------    |--------   |-----      |--------   |
+| **Funct.** |-       | OK     |X<sup>NS| OK        | OK        | OK        | OK        |
+| **iFunct.**|OK      | -      |X<sup>NS| OK        | OK        | OK        | OK        |
+| **Trans.** |X<sup>NS|X<sup>NS| -      | OK        |X<sup>NS   | OK        |X<sup>NS   |
+| **Symm.**  |OK      | OK     | OK     | -         |X<sup>UNSAT| OK        | OK        |
+| **Asymm.** |OK      | OK     |X<sup>NS|X<sup>UNSAT| -         |X<sup>UNSAT| OK        |
+| **Ref.**   |OK      | OK     | OK     |     OK    |X<sup>UNSAT| -         |X<sup>UNSAT|
+| **Irref.** | OK     | OK     |X<sup>NS|     OK    |    OK     |X<sup>UNSAT| -         |
 
 **_provided by the assignment instructions_
 
-For example, to explain why `R` cannot be both asymmetric and symmetric, your explanation may take the form: 
-- Suppose `R` is both symmetric and asymmetric. Then by symmetry for any x and y, if x`R`y it follows that y`R`x. However, by asymmetry it also follows that it is not the case that y`R`x. Hence, `R` cannot be both symmetric and asymmetric.
-Similarly, to explain why `R` cannot be both transitive and inverse functional.
+### [Object Property Expression Axioms](https://www.w3.org/TR/owl2-direct-semantics/)
+
+ FunctionalObjectProperty( OPE ) 
+- ∀ x , y1 , y2 : ( x , y1 ) ∈ (OPE)<sup>OP</sup> and ( x , y2 ) ∈ (OPE)<sup>OP</sup> imply y1 = y2
+
+InverseFunctionalObjectProperty( OPE ) 
+-  ∀ x1 , x2 , y : ( x1 , y ) ∈ (OPE)<sup>OP</sup> and ( x2 , y ) ∈ (OPE)<sup>OP</sup> imply x1 = x2 
+
+TransitiveObjectProperty( OPE ) =
+- ∀ x , y , z : ( x , y ) ∈ (OPE)<sup>OP</sup> and ( y , z ) ∈ (OPE)<sup>OP</sup> imply ( x , z ) ∈ (OPE)<sup>OP</sup> 
+
+SymmetricObjectProperty( OPE ) 
+-  ∀ x , y : ( x , y ) ∈ (OPE)<sup>OP</sup> implies ( y , x ) ∈ (OPE)<sup>OP</sup> 
+
+ AsymmetricObjectProperty( OPE ) 
+-  ∀ x , y : ( x , y ) ∈ (OPE)<sup>OP</sup> implies ( y , x ) ∉ (OPE)<sup>OP</sup> 
+
+ ReflexiveObjectProperty( OPE ) 
+-  ∀ x : x ∈ ΔI implies ( x , x ) ∈ (OPE)<sup>OP</sup> 
+
+ IrreflexiveObjectProperty( OPE ) 
+- ∀ x : x ∈ ΔI implies ( x , x ) ∉ (OPE)<sup>OP</sup> 
+
+### Explanations
+
+_EXAMPLE GIVEN: To explain why `R` cannot be both asymmetric and symmetric, your explanation may take the form: Suppose `R` is both symmetric and asymmetric. Then by symmetry for any x and y, if x`R`y it follows that y`R`x. However, by asymmetry it also follows that it is not the case that y`R`x. Hence, `R` cannot be both symmetric and asymmetric. Similarly, to explain why `R` cannot be both transitive and inverse functional._
 
 #### Transitive + Functional -> NS
 - Suppose `R` is both transitive and functional. By transitivity for any x and y, if x`R`y and y`R`z, it follows that x`R`z. By functionality, if x`R`y and x`R`z, then it follows that y=z. 
@@ -59,7 +82,7 @@ It is not the case that xRx
 |            | A Trans | B Trans | Ai Trans | Bi Trans |
 |------------|---------|---------|----------|----------|
 | **A Irr**  | N<sub>1 | N<sub>2 | N<sub>3  | N<sub>4  |
-| **B Irr**  | N<sub>5 | N<sub>6 | N<sub>7  | N<sub>8  |
+| **B Irr**  | Y<sub>5 | N<sub>6 | Y<sub>7  | N<sub>8  |
 | **Ai Irr** | N<sub>9 | N<sub>10| N<sub>11 | N<sub>12 |
 | **Bi Irr** | Y<sub>13| N<sub>14| Y<sub>15 | N<sub>16 |
 
