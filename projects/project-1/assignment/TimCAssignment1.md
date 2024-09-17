@@ -207,7 +207,7 @@ Suppose Bi is inverse functional and B is transitive. This corresponds to the fo
 
 This creates a conflict because the inverse functionality of Bi means that each y should relate to only one x, ensuring a "one-to-one" correspondence. However, B being transitive allows x to relate to multiple z values via different y values. This situation violates the inverse functionality constraint, as it implies that a single y could relate back to multiple x values through B's transitivity. This conflict makes the properties incompatible for OWL reasoners.
 
-### Trials for Overlapping Transitive and Functional Properties
+### Trials for Overlapping Transitive and Asymmetric Properties
 |             | A Trans | B Trans | Ai Trans | Bi Trans |
 |-------------|---------|---------|----------|----------|
 | **A  Asym** | N<sub>1 | N<sub>2 | N<sub>3  | N<sub>4  |
