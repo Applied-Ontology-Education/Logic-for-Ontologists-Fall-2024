@@ -3120,16 +3120,20 @@ Exercise 2, part 2. Explanations
   If Ai is asymmetric, xAiy implies ¬(yAix).
   Therefore, this creates a conflict as symmetry and asymmetry cannot coexist.
 
+- Symmetric Ai / Asymmetric A
+  If Ai is symmetric, xAiy implies yAix
+  If A, being is asymmetric, xAy implies ¬(yAx)
+  Since Ai is the inverse of A, the symmetric nature of Ai contradicts the asymmetry of A, as an inverse property         cannot exhibit symmetry while its original property is asymmetric.
+
 - Ai/Ai:
   Same as A/A
+
+- Symmetric B / Asymmetric A
+  If B is symmetric xBy implies yBx.
+  However, A being asymmetric means xAy implies ¬(yAx).
+  Since B is a subproperty of A, the symmetric nature of B contradicts the asymmetry of A.
   
-- Symmetric A / Asymmentric B:
-  As B is a subproperty of A in order to avoid contradictions it should inherit the property of A.
-  If A is symmetric, xAy implies yAx
-  However, if B is asymmetric as a sub-property of A, it requires that xBy implies ¬(yBx)
-  Therefore, B being symmetric creates a logical contradiction with A's asymmetry.
-  
-- Symmetric B/ Asymmetric Ai
+- Symmetric B / Asymmetric Ai
   If B is symmetric, xBy implies yBx
   If Ai, as the inverse of A, is asymmetric and requires that xAiy implies ¬(yAix)
   The symmetry of B and the asymmetry of Ai cannot coexist without contradiction due to the inverse relationship          between A and Ai
@@ -3141,15 +3145,25 @@ Exercise 2, part 2. Explanations
   If B is symmetric, xBy implies yBx
   If Bi, as the inverse of B, is asymmetric, meaning xBiy implies ¬(yBix).
   The symmetry of B contradicts the asymmetry of Bi, as their inverse relationship requires consistency that cannot       hold simultaneously.
+  
+- Symmetric Bi / Asymmetric A
+  If Bi is symmetric, xBiy implies yBix.
+  However, if A is asymmetric, xAy implies ¬(yAx) 
+  Since Bi is the inverse of B the symmetric nature of Bi contradicts the asymmetry of A, as an asymmetric property A     cannot have a symmetric inverse Bi.
 
-- Symmetric B / Asymmetric Ai:
-  If B is symmetric, xBy implies yBx
-  Ai, as the inverse of A, is asymmetric and requires that xAiy implies ¬(yAix)
-  The symmetry of B and the asymmetry of Ai cannot coexist without contradiction due to the inverse relationship       between A and Ai
+- Symmetric Bi / Asymmetric Ai
+  If Bi is symmetric, then xBiy implies yBix must also hold.
+  However, if Ai is asymmetric, then xAiy implies yAix cannot hold.
+  Since Bi is the inverse of B its symmetry contradicts the asymmetry of Ai.
+  A symmetric inverse cannot exist when its corresponding property is asymmetric.
+
+- Symmetric Bi / Asymmetric B
+-  if Bi is symmetric, then xBiy implies yBix must also hold.
+-  However, if B is asymmetric, then xBy implies ¬(yBx).
+-  Since Bi is the inverse of B, its symmetry contradicts the asymmetry of B; an asymmetric property cannot have a         symmetric inverse.
 
 - Bi/Bi:
   same as A/A
-
 
 - Ref/Irref
 
