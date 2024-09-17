@@ -3314,6 +3314,8 @@ However, because of asymmetricity, xBx should not hold.
 - <b>B/Bi</b>: suppose that B is reflexive and Bi is asymmetric. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
 However, because of asymmetricity, if xBiy, then it is not the case that yBix.   
 
+
+
 Functionality / Transitivity
 
 ![image](https://github.com/user-attachments/assets/94f987df-41cd-4d1c-b278-1c45ad5ba4a3)
