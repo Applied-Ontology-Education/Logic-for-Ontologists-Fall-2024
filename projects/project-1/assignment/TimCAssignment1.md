@@ -56,49 +56,49 @@ Similarly, to explain why `R` cannot be both transitive and inverse functional.
 Suppose `R` is both functional and transitive.
 Because `R` is functional, if x`R`y and x`R`z, then y = z.
 Because `R` is transitive, if x`R`y and y`R`z, then x`R`z.
-Since `R` is functional, x relates to only one y. However, if `R` is also transitive, this creates a scenario where x relates to both y and z, violating the functional rule. Therefore, 'R' cannot be both functional and transitive.
+Since `R` is functional, x relates to only one y. However, if `R` is also transitive, this creates a scenario where x relates to both y and z, violating the functional rule. Therefore, `R` cannot be both functional and transitive.
 
 **(2) Inverse Functional and Transitive (XNS)**
 
-Suppose 'R' is both inverse functional and transitive.
-Because 'R' is inverse functional, if x'R'y and z'R'y, then x = z.
-Because 'R' is transitive, if x'R'y and y'R'z, then x'R'z.
-Since 'R' is inverse functional, z should relate to only one y. However, if 'R' is also transitive, z could relate to x, creating a scenario where z relates to both x and y, violating the inverse functional rule. Therefore, 'R' cannot be both inverse functional and transitive.
+Suppose `R` is both inverse functional and transitive.
+Because `R` is inverse functional, if x`R`y and z`R`y, then x = z.
+Because `R` is transitive, if x`R`y and y`R`z, then x`R`z.
+Since `R` is inverse functional, z should relate to only one y. However, if `R` is also transitive, z could relate to x, creating a scenario where z relates to both x and y, violating the inverse functional rule. Therefore, `R` cannot be both inverse functional and transitive.
 
 **(3) Transitive and Asymmetric (XNS)**
 
-Suppose 'R' is both transitive and asymmetric.
-Because 'R' is transitive, if x'R'y and y'R'z, then x'R'z.
-Because 'R' is asymmetric, if x'R'y, then it is not the case that yRx.
-By transitivity, x'R'z. However, if z'R'x were to occur, asymmetry would be violated, as z cannot relate back to x. Therefore, 'R' cannot be both transitive and asymmetric.
+Suppose `R` is both transitive and asymmetric.
+Because `R` is transitive, if x`R`y and y`R`z, then x`R`z.
+Because `R` is asymmetric, if x`R`y, then it is not the case that yRx.
+By transitivity, x`R`z. However, if z`R`x were to occur, asymmetry would be violated, as z cannot relate back to x. Therefore, `R` cannot be both transitive and asymmetric.
 
 **(4) Transitive and Irreflexive (XNS)**
 
-Suppose 'R' is both transitive and irreflexive.
-Because 'R' is transitive, if x'R'y and y'R'z, then x'R'z.
-Because 'R' is irreflexive, it is not the case that x'R'x for any x.
-In transitivity, x'R'y and y'R'x implies x'R'x, which directly violates irreflexivity since xRx cannot hold for any x. Therefore, 'R' cannot be both transitive and irreflexive.
+Suppose `R` is both transitive and irreflexive.
+Because `R` is transitive, if x`R`y and y`R`z, then x`R`z.
+Because `R` is irreflexive, it is not the case that x`R`x for any x.
+In transitivity, x`R`y and y`R`x implies x`R`x, which directly violates irreflexivity since xRx cannot hold for any x. Therefore, `R` cannot be both transitive and irreflexive.
 
 **(5) Symmetric and Asymmetric (XUNSAT)**
 
-Suppose 'R' is both symmetric and asymmetric.
-Because 'R' is symmetric, if x'R'y, then y'R'x.
-Because 'R' is asymmetric, if x'R'y, then it is not the case that y'R'x.
-Symmetry and asymmetry are in direct conflict because symmetry requires y'R'x whenever x'R'y, while asymmetry forbids y'R'x if x'R'y. Therefore, 'R' cannot be both symmetric and asymmetric.
+Suppose `R` is both symmetric and asymmetric.
+Because `R` is symmetric, if x`R`y, then y`R`x.
+Because `R` is asymmetric, if x`R`y, then it is not the case that y`R`x.
+Symmetry and asymmetry are in direct conflict because symmetry requires y`R`x whenever x`R`y, while asymmetry forbids y`R`x if x`R`y. Therefore, `R` cannot be both symmetric and asymmetric.
 
 **(6) Asymmetric and Reflexive (XUNSAT)**
 
-Suppose 'R' is both asymmetric and reflexive.
-Because 'R' is asymmetric, if x'R'y, then it is not the case that yRx.
-Because 'R' is reflexive, x'R'x for every x.
-Since reflexivity requires every element to relate to itself (x'R'x), and asymmetry prohibits x'R'x, 'R' cannot be both asymmetric and reflexive.
+Suppose `R` is both asymmetric and reflexive.
+Because `R` is asymmetric, if x`R`y, then it is not the case that yRx.
+Because `R` is reflexive, x`R`x for every x.
+Since reflexivity requires every element to relate to itself (x`R`x), and asymmetry prohibits x`R`x, `R` cannot be both asymmetric and reflexive.
 
 **(7) Reflexive and Irreflexive (XUNSAT)**
 
-Suppose 'R' is both reflexive and irreflexive.
-Because 'R' is reflexive, x'R'x for every x.
-Because 'R' is irreflexive, it is not the case that x'R'x for any x.
-These definitions are in direct conflict since it’s impossible for x'R'x to be both true and false at the same time. Therefore, 'R' cannot be both reflexive and irreflexive.
+Suppose `R` is both reflexive and irreflexive.
+Because `R` is reflexive, x`R`x for every x.
+Because `R` is irreflexive, it is not the case that x`R`x for any x.
+These definitions are in direct conflict since it’s impossible for x`R`x to be both true and false at the same time. Therefore, `R` cannot be both reflexive and irreflexive.
 
 ## Assignment Part 2
 
