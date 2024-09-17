@@ -3136,6 +3136,8 @@ Exercise 2, part 2. Explanations
 
 - For B/Bi, suppose that B is irreflexive and Bi is reflexive. By irreflexivity, it is not the case that xBx. By reflexivity, it is the case that xBix. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi, which in this case are both x. That is, xBx. But this contradicts the irreflexivity of B.
 
+- For Bi/B, suppose that Bi is irreflexive and B is reflexive. By irreflexivity, it is not the case that xBix. By reflexivity, it is the case that xBx. Being Bi the inverse of B, it is the case that the relation Bi holds between the opposite instances in the relation B, which in this case are both x. That is, xBix. But this contradicts the irreflexivity of Bi.
+
 -  For Bi/Bi, see Exercise 1
   
 
