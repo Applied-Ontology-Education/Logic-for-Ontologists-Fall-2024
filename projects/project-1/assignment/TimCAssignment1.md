@@ -221,3 +221,44 @@ This creates a conflict because the inverse functionality of Bi means that each 
 
   This creates a conflict because `Ai` is asymmetric, meaning if `xRy`, then `yRx` must not hold. Since `A` is transitive, this implies that `x` could relate to multiple elements, which violates the asymmetric constraint of `Ai`. This contradiction makes it incompatible for OWL reasoners.
 
+- **Conflict: Asymmetric A and Transitive Ai**  
+  
+  Suppose `A` is asymmetric, and `Ai` is transitive. This corresponds to the first row (A) and the third column (Ai) of the table, marked with "No". Since `A` is asymmetric, if `xRy` holds, then `yRx` cannot hold because `y` cannot be related to `x`.  
+
+  This creates a conflict because `Ai` is transitive; if `<x,y>` and `<y,z>` hold, then `<x,z>` must also hold due to transitivity. However, asymmetry states that if `xRy`, then it is not the case that `yRx`. This contradiction makes it incompatible for OWL reasoners.
+
+- **Conflict: Asymmetric A and Transitive B**  
+  
+  Suppose `A` is asymmetric, and `B` is transitive. This corresponds to the first row (A) and the fourth column (B) of the table, marked with "No". Since asymmetry holds, if `xRy`, then it is not the case that `yRx`.  
+  
+  This creates a conflict since `B` is transitive; because in transitivity, if `xRy` and `yRz`, then `xRz` must hold. However, asymmetry can’t hold because asymmetry prevents the case that `yRx`. This contradiction makes it incompatible for OWL reasoners.
+
+- **Conflict: Asymmetric A and Transitive Bi**  
+  
+  Suppose `A` is asymmetric, and `Bi` is transitive. This corresponds to the first row (A) and the fifth column (Bi) of the table, marked with “N”. Since asymmetry holds, if `xRy`, then it is not the case that `yRx`.  
+  
+  This creates a conflict since `Bi` is transitive; because in transitivity, if `xRy` and `yRz`, then `xRz` must hold, but asymmetry can’t hold as asymmetry prevents the case that `yRx`. Since `xRy`, then `yRx` cannot hold because asymmetry prevents reciprocal relations. This contradiction makes it incompatible for OWL reasoners.
+
+- **Conflict: Asymmetric Ai and Transitive B**  
+  
+  Suppose `Ai` is asymmetric, and `B` is transitive. This corresponds to the second row (Ai) and the second column (B) of the table, marked with “N”. Since asymmetry holds, if `xRy`, then it is not the case that `yRx`.  
+  
+  This creates a conflict since `B` is transitive; because in transitivity, if `xRy` and `yRz`, then `xRz` must hold, but asymmetry can’t hold as asymmetry prevents the case that `yRx`. Asymmetric `Ai` restricts reciprocal interactions, and transitive `B` extends relationships across elements to suggest connections that conflict with the asymmetry of `Ai`. This contradicti
+
+- **Conflict: Asymmetric Ai and Transitive Bi**  
+  
+  Suppose `Ai` is asymmetric, and `Bi` is transitive. This corresponds to the second row (Ai) and the fourth column (Bi) of the table, marked with “N”. Since asymmetry holds, if `xRy`, then it is not the case that `yRx`.  
+  
+  This creates a conflict since `Bi` is transitive; because in transitivity, if `xRy` and `yRz`, then `xRz` must hold, but asymmetry can’t hold as asymmetry prevents the case that `yRx`. This contradiction makes it incompatible for OWL reasoners.
+
+- **Conflict: Asymmetric B and Transitive Bi**  
+  
+  Suppose `B` is asymmetric, and `Bi` is transitive. This corresponds to the third row (B) and the fifth column (Bi) of the table, marked with “N”.  
+  
+  This creates a conflict since `Bi` is transitive; because in transitivity, if `xRy` and `yRz`, then `xRz` must hold, but asymmetry can’t hold as asymmetry prevents the case that `yRx`. This contradiction makes it incompatible for OWL
+
+- **Conflict: Asymmetric Bi and Transitive Bi**  
+  
+  Suppose `Bi` is asymmetric, and `Bi` is transitive. This corresponds to the fourth row (Bi) and the fourth column (Bi) of the table, marked with “N”.  
+  
+  This creates a conflict since `Bi` is transitive; because in transitivity, if `xRy` and `yRz`, then `xRz` must hold, but asymmetry can’t hold as asymmetry prevents the case that `yRx`. This contradiction makes it incompatible for OWL reasoners.
