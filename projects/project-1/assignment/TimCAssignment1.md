@@ -214,3 +214,10 @@ This creates a conflict because the inverse functionality of Bi means that each 
 | **B  Asym** | N<sub>5 | N<sub>6 | N<sub>7  | N<sub>8  |
 | **Ai Asym** | Y<sub>9 | Y<sub>10| N<sub>11 | N<sub>12 |
 | **Bi Asym** | Y<sub>13| Y<sub>14| N<sub>15 | N<sub>16 |
+
+- **Conflict: Asymmetric Ai and Transitive A**  
+
+  Suppose `Ai` is asymmetric, and `A` is transitive. This corresponds to the second row (Ai) and the second column (A) of the table, marked with "No". Since `A` is transitive, if `<x,y>` and `<y,z>` hold, then `<x,z>` must also hold due to transitivity. Since `Ai` is asymmetric, if `xRy`, then it is not the case that `yRx`.  
+
+  This creates a conflict because `Ai` is asymmetric, meaning if `xRy`, then `yRx` must not hold. Since `A` is transitive, this implies that `x` could relate to multiple elements, which violates the asymmetric constraint of `Ai`. This contradiction makes it incompatible for OWL reasoners.
+
