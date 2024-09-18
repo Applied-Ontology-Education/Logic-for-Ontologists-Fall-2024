@@ -156,9 +156,10 @@ See exercise 1
 - Bi/B: Suppose that Bi is asymmetric and B is reflexive. By reflexivity, xBx. Since Bi is inverse B, xBix also holds. However, because of asymmetry, if xBiy, then it is not the case that yBix.
 
 
+Inverse Functional/Transitive (Jisoo)
+
 ![image](https://github.com/user-attachments/assets/1670e82a-f623-4396-9c20-84bef8d20f90)
 
-Inverse Functional/Transitive (Jisoo)
 
 A/Ai: suppose that A is transitive and Ai is inverse functional. This implies that A is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that A is transitive and Ai is inverse functional.
 
