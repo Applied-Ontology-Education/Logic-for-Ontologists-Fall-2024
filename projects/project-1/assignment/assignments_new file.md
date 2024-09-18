@@ -20,11 +20,11 @@
 <h2>Error type 1: X<sup>NS</sup></h2>
 <p>This error occurs when Protege reasoner can not decide which logical model to follow. "NS" stands for "not simple."</p>
 
-1. Transitivity/Functionality: R can't both be contrainted by both transivity and functionality. Because of transivity when we suppose xRy and yRz, then xRz. This  leads to the possibility of multiple targets for a single source, which conflicts with the one-to-one constraint of functionality. In other words, functionality restricts an individual to being related to exactly one individual via the property. So, if xPy, then x cannot be related to any other individual via  P.
+1. Transitivity/Functionality: R can't be contrainted by both transitivity and functionality. Because of transitivity when we suppose xRy and yRz, then xRz. This  leads to the possibility of multiple targets for a single source, which conflicts with the one-to-one constraint of functionality. In other words, functionality restricts an individual to being related to exactly one individual via the property. So, if xPy, then x cannot be related to any other individual via  P.
 
-2. Transivity/Inverse Functionality: R can't both be contrainted by both transivity and inverse functionality. Because of transivity when we suppose xRy and yRz, then xRz. This  leads to the possibility of multiple targets for a single source, which conflicts with the one-to-one constraint of functionality. In other words, inverse funtionality restricts an individual to being related to exactly one individual via the property. So, if xPy, then x cannot be related to any other individual via  P.
+2. transitivity/Inverse Functionality: R can't be contrainted by both transitivity and inverse functionality. Because of transitivity when we suppose xRy and yRz, then xRz. This  leads to the possibility of multiple targets for a single source, which conflicts with the one-to-one constraint of functionality. In other words, inverse funtionality restricts an individual to being related to exactly one individual via the property. So, if xPy, then x cannot be related to any other individual via  P.
 
-3. Transivity/Asymmetry: R can't both be contrainted by both transivity and asymmetry. Because of transivity when we suppose xRy and yRz, then xRz. Transivity can lead to circular relations that violate asymmetry.
+3. transitivity/Asymmetry: R can't be contrainted by both transitivity and asymmetry. Because of transitivity, when we suppose xRy and yRz, then xRz. But if there is a possibility that zRx results through further transitive chains, this could violate the asummetry constraint, which prohinits zRx. Therefore, it does not hold that R is contrainted by both transitivity and asymmetry.
 
 <h2>Error type 2: X<sup>UNSAT</sup></h2>
 
