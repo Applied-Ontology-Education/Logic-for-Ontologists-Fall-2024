@@ -52,7 +52,7 @@ Therefore, a relation cannot be both reflexive and irreflexive simultaneously.
 
 Exercise 2, part 2. Explanations
 
-- Symm/Asymm
+- Symm/Asymm (Elena)
 
 ![image](https://github.com/user-attachments/assets/04f01e22-a5bc-4e12-bb6a-af93eb7274fa)
 
@@ -123,7 +123,7 @@ Exercise 2, part 2. Explanations
 
   same as A/A
 
-- Ref/Irref
+- Ref/Irref (Giacomo)
 
 ![image](https://github.com/user-attachments/assets/745b2fa1-7bbf-4f0e-bdea-fb27a40496c4)
 
@@ -151,7 +151,7 @@ Exercise 2, part 2. Explanations
 
 
 <header>
-  <h3>Reflexivity/Asymmetry</h3>
+  <h3>Reflexivity/Asymmetry</h3> (Jisoo)
 </header>
 
 - <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
@@ -177,7 +177,7 @@ However, because of asymmetricity, xBx should not hold.
 However, because of asymmetricity, if xBiy, then it is not the case that yBix.   
 
 
-Functionality / Transitivity
+Functionality / Transitivity (Elena)
 
 ![image](https://github.com/user-attachments/assets/94f987df-41cd-4d1c-b278-1c45ad5ba4a3)
 
@@ -307,3 +307,226 @@ same as A/A
 
 - <b>Bi/B</b>: suppose that Bi is transitive and B is inverse functional. This implies that Bi is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that Bi is transitive and B is inverse functional. 
 
+
+<header>
+  <h2>Reflexive, x</h2>
+</header>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Asymm</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Ref</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">Ok</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">Ok</td>
+<td class="org-left">Ok</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<header>
+  <h3>Reflexivity/Asymmetry (Jisoo)</h3>
+</header>
+
+- <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
+
+- <b>A/Ai</b>: Suppose that A is asymmetric and Ai is reflexive. By reflexivity, xAix. Since A is inverse Ai, xAx also holds.
+However, because of asymmetry, xAx should not hold.   
+
+- <b>A/B</b>: Suppose that A is asymmetric and B is reflexive. By reflexivity, xBx. However, since B is a subproperty of A meaning that all the instances of B have to be a part of
+instances of A, the same problem that occured with A/A occurs. In other words, because of asymmetry, xAx should not hold. Therefore, it is not the case that A is asymmetric and B is reflexive.
+
+- <b>A/Bi</b>: Suppose that A is asymmetric and Bi is reflexive. By reflexivity, xBix. And since Bi is a subproperty of Ai meaning that all the instances of Bi have to be a part of
+instances of Ai, the same problem that occured with A/Ai occurs. In other words, because of asymmetry, xAx should not hold. Therefore, it is not the case that A is asymmetric and Bi is reflexive.
+
+- <b>Ai/A</b>: Suppose that Ai is asymmetric and A is reflexive. By reflexivity, xAx. Since A is inverse Ai, xAix also holds.
+However, because of asymmetry, xAix should not hold.
+    
+- <b>Ai/B</b>: Suppose that Ai is asymmetric and B is reflexive. By reflexivity, xBx. Since B is a subproperty of A that is inverse Ai, xAix should hold.
+However, because of asymmetry, xAix should not hold.
+  
+- <b>Ai/Bi</b>: Suppose that Ai is asymmetric and Bi is reflexive. By reflexivity, xBix. However, since Bi is a subproperty of Ai meaning that all the instances of Bi have to be a part of
+instances of Ai, the same problem that occured with A/A occurs. Therefore, it is not the case that Ai is asymmetric and Bi is reflexive.
+    
+- <b>B/Bi</b>: Suppose that B is asymmetric and Bi is reflexive. By reflexivity, xBix. Since Bi is inverse B, xBx also holds.
+However, because of asymmetry, xBx does not hold. Therefore, it does not hold that B is asymmetric and Bi is reflexive.
+
+- <b>Bi/B</b>: Suppose that Bi is asymmetric and B is reflexive. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
+However, because of asymmetry, if xBiy, then it is not the case that yBix.
+
+<header>
+  <h2>Transitive, x</h2>
+</header>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Asymm</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Trans</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+</table>
+
+ <header>
+  <h3>Transitivity/Aysmmetry (Giacomo)</h3>
+</header>
+
+A/A:
+See exercise 1
+
+- For A/Ai, suppose that A is transitive and Ai is asymmetric. Ai being the inverse of A, it is the case that the relation A holds between the opposite instances in the relation Ai. But this creates a complex role chain (see exercise 1).
+  
+- For Ai/A, suppose that Ai is transitive and A is asymmetric. A being the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+  
+- For Ai/Ai, see Exercise 1
+
+- For A/A, see Exercise 1
+  
+- For B/A, suppose that B is transitive and A is asymmetric. B being a subproperty of A, xBy implies xAy. But this creates a complex role chain (see exercise 1).
+  
+-  For B/B, see Exercise 1
+
+- For B/Bi, suppose that B is transitive and Bi is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. But this creates a complex role chain (see exercise 1).
+
+- For Bi/A, suppose that Bi is transitive and A is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. Being B a subproperty of A, xBy implies xAy. But this creates a complex role chain (see exercise 1).
+
+- For Bi/Ai, suppose that Bi is transitive and Ai is asymmetric. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. B being a subproperty of A, xBy implies xAy. A being the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+
+-  For Bi/Bi, see Exercise 1
+
+- For B/Ai, suppose that B is transitive and Ai is asymmetric. B being a subproperty of A, xBy implies xAy. Being A the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+
+- For Bi/B, suppose that Bi is transitive and B is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. But this creates a complex role chain (see exercise 1).
