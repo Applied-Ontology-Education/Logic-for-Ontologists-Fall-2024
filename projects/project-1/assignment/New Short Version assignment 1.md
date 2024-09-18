@@ -260,42 +260,46 @@ Functionality / Transitivity (Elena)
 
 ![image](https://github.com/user-attachments/assets/94f987df-41cd-4d1c-b278-1c45ad5ba4a3)
 
-1. A/A
-If xAy and yAz (transitivity), then xAz must hold.
-However, if A is functional, x can only have one y, leading to a conflict because xAz contradicts functionality (X).
+- A/A
+A property A that is both functional and transitive does not lead to a contradiction, but instead forms a non-simple (NS) chain. In such cases, while transitivity allows for a sequence of relations, functionality ensures that each element relates to only one other element in the chain. 
 
-3. Transitive A / Functional Ai
-If xAy implies yAx (inverse of A as Ai), and xAi​z implies zAi​y, the transitive relationship between A and Ai creates a conflict since A is functional, and x cannot relate to multiple y's (X).
+- Transitive A / Functional Ai
+Given that Ai​ is the inverse of A, and if yAi​x, this implies that xAy.
+Since Ai is functional, meaning each element has exactly one predecessor, A becomes inverse functional. This creates a scenario where A is both inverse functional and functional. As a result, the interaction between A and Ai forms a non-simple property chain, as explored in exercise 1.
 
-4. Transitive Ai / Functional A
-If xAi​y implies yAx (inverse relationship), and yAz implies xAz (transitivity), functionality is violated because x can only have one relationship, but transitivity implies multiple connections for x (X).
+- Transitive Ai / Functional A
+IF Ai is transitive xAi​y (inverse relation) implies yAx, and for the transitivity of A yAz implies xAz.
+Here there is no direct contradiction between transitivity and functionality.
+This is because, in this case, y=zy=z, meaning transitivity holds without violating functionality.
+Instead of creating a contradiction, these properties form a non-simple (NS) chain, where the functional constraint remains valid, but the relationship chain is more complex.
 
-5. Ai/Ai
+- Ai/Ai
 same as A/A
 
-6. Transitive B / Functional A
-If xBy (B is a subproperty of A) implies xAy, and yAz holds, then xAz should hold (transitivity).
-However, since Bi nherits functionality from A, xAz contradicts the functional nature of A, creating a conflict (X).
+- Transitive B / Functional A
+If xBy (where B is a subproperty of A) implies xAy, and yAz holds, then by transitivity, xAz should hold as well. However, since B inherits functionality from A, the resulting chain where x relates to both y and z violates the functional constraint. This doesn’t create a direct contradiction, but it leads to a non-simple (NS) property chain, as explained in Exercise 1.
 
-8. Transitive B / Functional Ai
-If xBy implies xAy, and xAi​z implies zAi​y, the inverse relationship causes a conflict because B inherits transitivity and functionality from A, while Ai creates an inverse that doesn't align with these constraints (X).
+- Transitive B / Functional Ai
+If xBy (where B is a subproperty of A) implies xAy, and xAiy implies yAix, this creates an inverse functional relationship for Ai.
+Instead of generating a direct conflict, this results in a complex property chain where the transitivity of B leads to an inverse relationship, making Ai inverse functional. This creates an extended, non-simple chain rather than a contradiction.
 
-9. B/B
+- B/B
 same as A/A
 
-10. Transitive B / Functional Bi
-If xBy implies yBi​x (inverse), and yBz implies xBz, the combination of B and its inverse Bi creates a conflict because the inverse relationship breaks the functionality of B, as y would relate to multiple instances (X).
+- Transitive B / Functional Bi
+The combination of B (transitive) and Bi (functional inverse) creates a complex property chain because transitivity encourages multiple relationships, while inverse functionality restricts them to one. This interaction doesn't cause a contradiction but leads to a complex property chain.
 
-11. Transitive Bi / Functional A
-If xBi​y implies yAx (inverse), and xAy holds (transitivity), this creates a conflict because Bi is functional, and y can only relate to one instance, but transitivity suggests multiple relations (X).
+- Transitive Bi / Functional A
+If xBiy implies yAx (inverse), and xAy holds (transitivity), this doesn't lead to a contradiction. Rather, it forms a non-simple property chain where Bi's functionality interacts with the transitivity of A. Even though functionality suggests y can only relate to one instance, the transitivity still holds within the extended property structure.
 
-12. Transitive Bi / Functional Ai
-If xBi​y implies yAx, and yAi​z implies xAi​z (transitivity), functionality is violated because y can only relate to one instance, but transitivity requires multiple relationships (X).
+- Transitive Bi / Functional Ai
+The combination of Bi (functional inverse) and Ai (transitive inverse) forms a complex property chain because Bi limits relationships to one instance, while Ai's transitivity suggests multiple connections. This doesn't create a contradiction but a complex property chain.
 
-13. Transitive Bi / Functional B
-If xBi​y implies yBx (inverse), and xBy implies xBz (transitivity), the combination creates a conflict because B's transitivity contradicts Bi's functionality, as y can only relate to one instance (X).
+- Transitive Bi / Functional B
+If xBiy implies yBx (inverse), and xBy implies xBz (transitivity), the interaction between B's transitivity and Bi's inverse functionality doesn't cause a contradiction. Rather, it leads to a complex chain where y relates to multiple instances via different paths, preserving the consistency of the property relationships.
 
-14. Bi/Bi
+
+- Bi/Bi
 same as A/A
 
  <header>
