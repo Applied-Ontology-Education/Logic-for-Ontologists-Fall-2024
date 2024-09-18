@@ -203,7 +203,7 @@ I have only added tables that have errors in them and are not redundant.</p>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 <header>
-  <h3>Inverse functional/Transitivity</h3>
+  <h3>Inverse functional/Transitivity (Jisoo)</h3>
 </header>
 
 - <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
@@ -375,6 +375,32 @@ I have only added tables that have errors in them and are not redundant.</p>
 </tr>
 </tbody>
 </table>
+
+<header>
+  <h3>Transitivity/Irreflexivity (Jisoo)</h3>
+</header>
+
+- <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
+
+- <b>A/Ai</b>: Suppose that A is transitive and Ai is irreflexive. This means that if xAy and yAx hold, it also mean that yAix and xAiy holds. The  it should be the case that xAix. However, Ai i 
+Therefore, it does not hold that A is transitive and Ai is irreflexive.
+
+
+
+
+- <b>Ai/A</b>: suppose that Ai is transitive and A is irreflexive. This implies that Ai is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Ai is transitive and A is inverse functional.
+
+- <b>B/A</b>: suppose that B is transitive and A is irreflexive. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and A is inverse functional.
+
+- <b>B/Ai</b>: suppose that B is transitive and Ai is irreflexive. This implies that A is functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and Ai is inverse functional.
+    
+- <b>B/Bi</b>: suppose that B is transitive and Bi is irreflexive. This implies that B is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and Bi is inverse functional.
+  
+- <b>Bi/A</b>: suppose that Bi is transitive and A is irreflexive. This implies that Ai is functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and A is inverse functional.
+    
+- <b>Bi/Ai</b>: suppose that Bi is transitive and Ai is irreflexive. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and Ai is inverse functional.
+
+- <b>Bi/B</b>: suppose that Bi is transitive and B is irreflexive. This implies that Bi is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and B is inverse functional. 
 
 
 <a id="orgd02ec3b"></a>
@@ -584,7 +610,7 @@ same as A/A
 </table>
 
 <header>
-  <h3>Reflexivity/Asymmetry</h3>
+  <h3>Reflexivity/Asymmetry (Jisoo)</h3>
 </header>
 
 - <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
