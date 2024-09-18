@@ -128,8 +128,47 @@ I have only added tables that have errors in them and are not redundant.</p>
 </tbody>
 </table>
 
+ <header>
+  <h3>Functional/Transitivity (Elena)</h>
+</header>
 
+1. A/A
+If xAy and yAz (transitivity), then xAz must hold.
+However, if A is functional, x can only have one y, leading to a conflict because xAz contradicts functionality (X).
 
+3. Transitive A / Functional Ai
+If xAy implies yAx (inverse of A as Ai), and xAi​z implies zAi​y, the transitive relationship between A and Ai creates a conflict since A is functional, and x cannot relate to multiple y's (X).
+
+4. Transitive Ai / Functional A
+If xAi​y implies yAx (inverse relationship), and yAz implies xAz (transitivity), functionality is violated because x can only have one relationship, but transitivity implies multiple connections for x (X).
+
+5. Ai/Ai
+same as A/A
+
+6. Transitive B / Functional A
+If xBy (B is a subproperty of A) implies xAy, and yAz holds, then xAz should hold (transitivity).
+However, since Bi nherits functionality from A, xAz contradicts the functional nature of A, creating a conflict (X).
+
+8. Transitive B / Functional Ai
+If xBy implies xAy, and xAi​z implies zAi​y, the inverse relationship causes a conflict because B inherits transitivity and functionality from A, while Ai creates an inverse that doesn't align with these constraints (X).
+
+9. B/B
+same as A/A
+
+10. Transitive B / Functional Bi
+If xBy implies yBi​x (inverse), and yBz implies xBz, the combination of B and its inverse Bi creates a conflict because the inverse relationship breaks the functionality of B, as y would relate to multiple instances (X).
+
+11. Transitive Bi / Functional A
+If xBi​y implies yAx (inverse), and xAy holds (transitivity), this creates a conflict because Bi is functional, and y can only relate to one instance, but transitivity suggests multiple relations (X).
+
+12. Transitive Bi / Functional Ai
+If xBi​y implies yAx, and yAi​z implies xAi​z (transitivity), functionality is violated because y can only relate to one instance, but transitivity requires multiple relationships (X).
+
+13. Transitive Bi / Functional B
+If xBi​y implies yBx (inverse), and xBy implies xBz (transitivity), the combination creates a conflict because B's transitivity contradicts Bi's functionality, as y can only relate to one instance (X).
+
+14. Bi/Bi
+same as A/A
 
  <header>
   <h2>Inverse functional, x</h2>
@@ -296,6 +335,37 @@ I have only added tables that have errors in them and are not redundant.</p>
 </tr>
 </tbody>
 </table>
+
+ <header>
+  <h3>Transitivity/Aysmmetry (Giacomo)</h3>
+</header>
+
+A/A:
+See exercise 1
+
+- For A/Ai, suppose that A is transitive and Ai is asymmetric. Ai being the inverse of A, it is the case that the relation A holds between the opposite instances in the relation Ai. But this creates a complex role chain (see exercise 1).
+  
+- For Ai/A, suppose that Ai is transitive and A is asymmetric. A being the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+  
+- For Ai/Ai, see Exercise 1
+
+- For A/A, see Exercise 1
+  
+- For B/A, suppose that B is transitive and A is asymmetric. B being a subproperty of A, xBy implies xAy. But this creates a complex role chain (see exercise 1).
+  
+-  For B/B, see Exercise 1
+
+- For B/Bi, suppose that B is transitive and Bi is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. But this creates a complex role chain (see exercise 1).
+
+- For Bi/A, suppose that Bi is transitive and A is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. Being B a subproperty of A, xBy implies xAy. But this creates a complex role chain (see exercise 1).
+
+- For Bi/Ai, suppose that Bi is transitive and Ai is asymmetric. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. B being a subproperty of A, xBy implies xAy. A being the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+
+-  For Bi/Bi, see Exercise 1
+
+- For B/Ai, suppose that B is transitive and Ai is asymmetric. B being a subproperty of A, xBy implies xAy. Being A the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+
+- For Bi/B, suppose that Bi is transitive and B is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. But this creates a complex role chain (see exercise 1).
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
