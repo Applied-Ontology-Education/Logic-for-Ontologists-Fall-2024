@@ -218,7 +218,6 @@ I have only added tables that have errors in them and are not redundant.</p>
     
 - <b>B/Bi</b>: suppose that B is transitive and Bi is inverse functional. This implies that B is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and Bi is inverse functional.
 
-  
 - <b>Bi/A</b>: suppose that Bi is transitive and A is inverse functional. This implies that Ai is functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and A is inverse functional.
     
 - <b>Bi/Ai</b>: suppose that Bi is transitive and Ai is inverse functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and Ai is inverse functional.
@@ -382,25 +381,22 @@ I have only added tables that have errors in them and are not redundant.</p>
 
 - <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
 
-- <b>A/Ai</b>: Suppose that A is transitive and Ai is irreflexive. This means that if xAy and yAx hold, it also mean that yAix and xAiy holds. The  it should be the case that xAix. However, Ai i 
-Therefore, it does not hold that A is transitive and Ai is irreflexive.
+- <b>A/Ai</b>: Suppose that A is transitive and Ai is irreflexive. This means that if xAy and yAx hold, xAx holds. It also means that xAix should hold. However, Ai is irreflextive so xAix doesn't hold. Therefore, it does not hold that A is transitive and Ai is irreflexive.
 
+- <b>Ai/A</b>: Suppose that Ai is transitive and A is irreflexive. This means that if xAiy and yAix hold, xAix holds. It also means that xAx should hold. However, A is
+irreflextive so xAx doesn't hold. Therefore, it does not hold that Ai is transitive and A is irreflexive.
 
+- <b>B/A</b>: Suppose that B is transitive and A is irreflexive. This means that if xBy and yBx hold, xBx holds. It also means, since B is a subproperty of A, that all the instances of B should be part of instances of A. However, A is irreflextive so xAx doesn't hold. Therefore, it does not hold that B is transitive and A is irreflexive.
 
+- <b>B/Ai</b>: Suppose that B is transitive and Ai is irreflexive. This means that if xBy and yBx hold, xBx holds. It also means, since B is a subproperty of A, that all the instances of B should be part of instances of A. Since Ai is an inverse of A, xAix should hold. However, since Ai is irreflexive, it cannot hold. Therefore, it does not hold that B is transitive and A is irreflexive.
 
-- <b>Ai/A</b>: suppose that Ai is transitive and A is irreflexive. This implies that Ai is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Ai is transitive and A is inverse functional.
-
-- <b>B/A</b>: suppose that B is transitive and A is irreflexive. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and A is inverse functional.
-
-- <b>B/Ai</b>: suppose that B is transitive and Ai is irreflexive. This implies that A is functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and Ai is inverse functional.
-    
-- <b>B/Bi</b>: suppose that B is transitive and Bi is irreflexive. This implies that B is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and Bi is inverse functional.
+- <b>B/Bi</b>: Suppose that B is transitive and Bi is irreflexive. This means that if xBy and yBx hold, xBx holds. It also means that xBix should hold. However, Bi is irreflextive so xBix doesn't hold. Therefore, it does not hold that B is transitive and Bi is irreflexive.
   
-- <b>Bi/A</b>: suppose that Bi is transitive and A is irreflexive. This implies that Ai is functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and A is inverse functional.
+- <b>Bi/A</b>: Suppose that Bi is transitive and A is irreflexive. This means that if xBiy and yBix hold, xBix holds. It also means that xBx should hold. However, since B is a subproperty of A, all the instances of B should be part of instances of A. However, since A is irreflexive, xAx doesn't hold. Therefore, it does not hold that Bi is transitive and A is irreflexive.
     
-- <b>Bi/Ai</b>: suppose that Bi is transitive and Ai is irreflexive. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and Ai is inverse functional.
+- <b>Bi/Ai</b>: suppose that Bi is transitive and Ai is irreflexive. This means that if xBiy and yBix hold, xBix holds. It also means, since Bi is a subproperty of Ai, that all the instances of Bi should be part of instances of Ai. However, Ai is irreflextive so xAix doesn't hold. Therefore, it does not hold that Bi is transitive and Ai is irreflexive.
 
-- <b>Bi/B</b>: suppose that Bi is transitive and B is irreflexive. This implies that Bi is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and B is inverse functional. 
+- <b>Bi/B</b>: suppose that Bi is transitive and B is irreflexive. This means that if xBiy and yBix hold, xBix holds. It also means that xBx should hold. However, B is irreflextive so xBx doesn't hold. Therefore, it does not hold that Bi is transitive and B is irreflexive.
 
 
 <a id="orgd02ec3b"></a>
