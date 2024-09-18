@@ -2,7 +2,24 @@
 Collaborative attempt by Jay Bittner, Tim Coleman, and Mathilde Miroir
 
 ## Assignment Part 1
-### Role Constraint Combinations**
+
+### Table I. OWL2 DL Direct Semantics Role Constraints
+
+[OWL2 DL Direct Semantics](https://www.w3.org/TR/owl2-direct-semantics/) allows for constraints on object properties of the following sort, where `R` is an arbitrary object property:
+
+| **Constraint**         | **Definition**                                             | **Example** |
+|------------------------|------------------------------------------------------------|-------------|
+| **Functional**          | If xRy and xRz, then y=z                                   | If x *has birthdate* y and x *has birthdate* z, then y=z. |
+| **Inverse Functional**  | If xRy and zRy, then x=z                                   | If x *has social security number* y and z *has social security number* y, then x=z. |
+| **Transitive**          | If xRy and yRz, then xRz                                   | If x *is contained in* y and y *is contained in* z, then x *is contained in* z. |
+| **Symmetric**           | If xRy, then yRx                                           | If x *is a friend of* y, then y *is a friend of* x. |
+| **Asymmetric**          | If xRy, then it is not the case that yRx                   | If x *is the parent of* y, then it is not the case that y *is the parent of* x. |
+| **Reflexive**           | xRx                                                        | x *is as tall as* itself. |
+| **Irreflexive**         | It is not the case that xRx                                | No x *is taller than* itself. |
+
+
+
+### Table II. Role Constraint Combinations***
 |            | Funct. | iFunct.| Trans. | Symm.     | Asymm.    | Ref.      |Irref.     |
 |--------    |--------|--------|--------|-------    |--------   |-----      |--------   |
 | **Funct.** |-       | OK     |X<sup>NS| OK        | OK        | OK        | OK        |
@@ -13,43 +30,74 @@ Collaborative attempt by Jay Bittner, Tim Coleman, and Mathilde Miroir
 | **Ref.**   |OK      | OK     | OK     |     OK    |X<sup>UNSAT| -         |X<sup>UNSAT|
 | **Irref.** | OK     | OK     |X<sup>NS|     OK    |    OK     |X<sup>UNSAT| -         |
 
-**_provided by the assignment instructions_
+*_NS denotes a combination creates an object property chain that may lead to undecidability_
+
+**_UNSAT denotes a combination that is unsatisfiable_
+
+***_Provided by the assignment instructions_
+
+For the purposes of this assignment, the diagonal of the matrix in the above table (II) was ignored as these are not combinations of properties. Given that the matrix is also reflective across the diagonal, only side of the diagonal was observed and tested. Please note that this assignment does not explore Transitive & Inverse Functional (**C**) of the **NS** results or any of the **UNSAT** results.
+
+According to the table above (II), there are four property combinations which yielded an undecidable (**NS**) result: 
+
+- (**A**) Irreflexive **&** Transitive
+
+- (**B**) Transitive **&** Functional
+
+- (**C**) Transitive **&** Inverse Functional
+
+- (**D**) Transitive **&** Assymetric
+
+There are three property combinations which yield an unsatifiable (**UNSAT**) result:
+
+- (**E**) Assymetric **&** Symmetric
+
+- (**F**)) Assymetric **&** Reflexive 
+
+- (**G**) Reflexive **&** Irreflexive
+
 
 ### Explanations
 
 The following example, provided in the assignment, serves as the guide for which all following explanations adhere to: 
 - To explain why `R` cannot be both asymmetric and symmetric, your explanation may take the form: Suppose `R` is both symmetric and asymmetric. Then by symmetry for any x and y, if x`R`y it follows that y`R`x. However, by asymmetry it also follows that it is not the case that y`R`x. Hence, `R` cannot be both symmetric and asymmetric. Similarly, to explain why `R` cannot be both transitive and inverse functional.
 
-#### (1) Transitive + Functional (NS)
-- Suppose `R` is both transitive and functional. By transitivity for any x and y, if x`R`y and y`R`z, it follows that x`R`z. By functionality, if x`R`y and x`R`z, then it follows that y=z. 
-
-####  (2) Transitive + Inverse Functional (NS)
-- Suppose `R` is both transitive and inverse functional. By transitivity for any x and y, if x`R`y and y`R`z, it follows that x`R`z. By inverse functional, if xRy and zRy, it follows that x=z.
-
-
-#### (3) Assymetric + Transitive (NS)
-- Suppose `R` is both assymetric and transitive. By assymetry, if xRy, then it is not the case that yRx. By transitivity, if xRy and yRz, then xRz.
-
-#### (4) Assymetric + Symmetric (UNSAT)
-- _Explained in the assignment instructions_ : Suppose `R` is both symmetric and asymmetric. Then by symmetry for any x and y, if x`R`y it follows that y`R`x. However, by asymmetry it also follows that it is not the case that y`R`x. Hence, `R` cannot be both symmetric and asymmetric.
-
-#### (5) Assymetric + Reflexive (UNSAT)
-- Suppose `R` is both assymetric and reflexive. By assymetry, f xRy, then it is not the case that yRx. By reflexivity, xRx.
-
-#### (6)Reflexive + Irreflexive (UNSAT)
-- Suppose `R` is both reflexive and irreflexive. Then by reflexivity for any x, x`R`x. However by irreflexivity, it also follows that it is not the case that xRx. Hence, `R` cannot be both reflexive and irreflexive. Similary for the case of why `R` cannot be both symmetric and assymetric.
-
-
-#### (7) Irreflexive + Transitive (NS)
+#### (A) Transitive + Irreflexive (NS)
 - Suppose `R` is both irreflexive and transitive.  By irreflexivity, it is not the case that xRx. By transitivity, for any x and y, if x`R`y and y`R`z, it follows that x`R`z.
 
+ADD EXPLANATION HERE
+
+#### (B) Transitive + Functional (NS)
+- Suppose `R` is both transitive and functional. By transitivity for any x and y, if x`R`y and y`R`z, it follows that x`R`z. By functionality, if x`R`y and x`R`z, then it follows that y=z. 
+
+ADD EXPLANATION HERE
+
+#### (C) Transitive + Inverse Functional (NS)
+- Suppose `R` is both transitive and inverse functional. By transitivity for any x and y, if x`R`y and y`R`z, it follows that x`R`z. By inverse functional, if xRy and zRy, it follows that x=z.
+
+ADD EXPLANATION HERE
+
+#### (D) Transitive + Assymetric (NS)
+- Suppose `R` is both assymetric and transitive. By assymetry, if xRy, then it is not the case that yRx. By transitivity, if xRy and yRz, then xRz.
+
+ADD EXPLANATION HERE
+
+#### (E) Assymetric + Symmetric (UNSAT) - _Explained in the assignment instructions_
+- Suppose `R` is both symmetric and asymmetric. Then by symmetry for any x and y, if x`R`y it follows that y`R`x. However, by asymmetry it also follows that it is not the case that y`R`x. Hence, `R` cannot be both symmetric and asymmetric.
+
+ADD EXPLANATION HERE
+
+#### (F) Assymetric + Reflexive (UNSAT)
+- Suppose `R` is both assymetric and reflexive. By assymetry, f xRy, then it is not the case that yRx. By reflexivity, xRx.
+
+ADD EXPLANATION HERE
+
+#### (G) Reflexive + Irreflexive (UNSAT)
+- Suppose `R` is both reflexive and irreflexive. Then by reflexivity for any x, x`R`x. However by irreflexivity, it also follows that it is not the case that xRx. Hence, `R` cannot be both reflexive and irreflexive. Similary for the case of why `R` cannot be both symmetric and assymetric.
+
+ADD EXPLANATION HERE
+
 ## Assignment Part 2
-
-### Note
-
-- reflexive vs irreflexive (low priority)
-
-- symm vs asymm (low priority)
 
 ### Variable Constraints
 
@@ -58,7 +106,7 @@ The following example, provided in the assignment, serves as the guide for which
 - `Ai` is the inverse of `A`
 - `Bi` is the inverse of `B`
 
-### (A) Transitive and Irreflexive Trials 
+### Table III. (A) Transitive and Irreflexive Trials 
 |            | A Trans | B Trans | Ai Trans | Bi Trans |
 |------------|---------|---------|----------|----------|
 | **A Irr**  | N<sub>1 | N<sub>2 | N<sub>3  | N<sub>4  |
@@ -70,56 +118,46 @@ The following example, provided in the assignment, serves as the guide for which
 
 **_Subscripts denote corresponding explantion below_
 
-### (B) Transitive and Functional Trials  (j's previous contribution - replace A with x or y)
+### Table IV. (B) Transitive and Functional Trials  (j's previous contribution)
 
 |             | A Trans | B Trans | Ai Trans | Bi Trans |
 |-------------|---------|---------|----------|----------|
-| **A Func**  | A<sub>1 | A<sub>2 | A<sub>3  | A<sub>4  |
-| **B Func**  | A<sub>5 | A<sub>6 | A<sub>7  | A<sub>8  |
-| **Ai Func** | A<sub>9 | A<sub>10| A<sub>11 | A<sub>12 |
-| **Bi Func**  | A<sub>13| A<sub>14| A<sub>15 | A<sub>16 |
+| **A  Func** | N<sub>1 | N<sub>2 | N<sub>3  | N<sub>4  |
+| **B  Func** | N<sub>5 | N<sub>6 | N<sub>7  | N<sub>8  |
+| **Ai Func** | Y<sub>9 | Y<sub>10| N<sub>11 | N<sub>12 |
+| **Bi Func** | Y<sub>13| Y<sub>14| N<sub>15 | N<sub>16 |
 
 *_N denotes an error while Y denotes a successful run_
 
 **_Subscripts denote corresponding explantion below_
 
 
-### (C) trans vs infunc??? same as previous?
+### Table V. (C) trans vs infunc??? same as previous?
+
 |              | A Trans | B Trans | Ai Trans | Bi Trans |
 |--------------|---------|---------|----------|----------|
-| **A iFunc**  | A<sub>1 | A<sub>2 | A<sub>3  | A<sub>4  |
-| **B iFunc**  | A<sub>5 | A<sub>6 | A<sub>7  | A<sub>8  |
-| **Ai iFunc** | A<sub>9 | A<sub>10| A<sub>11 | A<sub>12 |
-| **Bi iFUnc** | A<sub>13| A<sub>14| A<sub>15 | A<sub>16 |
+| **A iFunc**  | -<sub>1 | -<sub>2 | -<sub>3  | -<sub>4  |
+| **B iFunc**  | -<sub>5 | -<sub>6 | -<sub>7  | -<sub>8  |
+| **Ai iFunc** | -<sub>9 | -<sub>10| -<sub>11 | -<sub>12 |
+| **Bi iFUnc** | -<sub>13| -<sub>14| -<sub>15 | -<sub>16 |
 
 *_N denotes an error while Y denotes a successful run_
 
 **_Subscripts denote corresponding explantion below_
 
-### (D) Transitive and Asymmetric Trials  (Tim's HW - replace A with x or y)
-|              | A Trans | B Trans | Ai Trans | Bi Trans |
-|--------------|---------|---------|----------|----------|
-| **A Asymm**  | A<sub>1 | A<sub>2 | A<sub>3  | A<sub>4  |
-| **B Asymm**  | A<sub>5 | A<sub>6 | A<sub>7  | A<sub>8  |
-| **Ai Asymm** | A<sub>9 | A<sub>10| A<sub>11 | A<sub>12 |
-| **Bi Asymm** | A<sub>13| A<sub>14| A<sub>15 | A<sub>16 |
+### Table VI. (D) Transitive and Asymmetric Trials  (Tim's HW)
+
+|            | A Trans | B Trans | Ai Trans | Bi Trans |
+|------------|---------|---------|----------|----------|
+| **A Asym** | N<sub>1 | N<sub>2 | N<sub>3  | N<sub>4  |
+| **B Asym** | N<sub>5 | N<sub>6 | N<sub>7  | N<sub>8  |
+| **Ai Asym**| Y<sub>9 | Y<sub>10| N<sub>11 | N<sub>12 |
+| **Bi Asym**| Y<sub>13| Y<sub>14| N<sub>15 | N<sub>16 |
 
 *_N denotes an error while Y denotes a successful run_
 
 **_Subscripts denote corresponding explantion below_
 
-
-### (E) Transitive and Asymmetric Trials  (J's HW - replace A with x or y)
-|              |A Reflex |B Reflex |Ai Reflex |Bi Reflex |
-|--------------|---------|---------|----------|----------|
-| **A Asymm**  | A<sub>1 | A<sub>2 | A<sub>3  | A<sub>4  |
-| **B Asymm**  | A<sub>5 | A<sub>6 | A<sub>7  | A<sub>8  |
-| **Ai Asymm** | A<sub>9 | A<sub>10| A<sub>11 | A<sub>12 |
-| **Bi Asymm** | A<sub>13| A<sub>14| A<sub>15 | A<sub>16 |
-
-*_N denotes an error while Y denotes a successful run_
-
-**_Subscripts denote corresponding explantion below_
 
 
 
@@ -128,331 +166,199 @@ The following example, provided in the assignment, serves as the guide for which
 #### (A) Transitive and Irreflexive Explanations
 - (A-1) Suppose `A` is both irreflexive and transitive. Because `A` is irreflexive, it is not the case for any `x` that `<x,x>` is in `A`. Because `A` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
+ADD EXPLANATION HERE
+
 - (A-2) Suppose `A` is irreflexive and `B` is transitive. Because `A` is irreflexive, it is not the case for any `x` that `<x,x>` is in `A`. Because `B` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
+
+ADD EXPLANATION HERE
 
 - (A-3) Suppose `A` is irreflexive and its inverse , `Ai`, is transitive. Because `A` is irreflexive, it is not the case for any `x` that `<x,x>` is in `A`. Because `Ai` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
+ADD EXPLANATION HERE
+
 - (A-4) Suppose `A` is irreflexive and `Bi` is transitive. Because `A` is irreflexive, it is not the case for any `x` that `<x,x>` is in `A`. Because `Bi` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
+
+ADD EXPLANATION HERE
 
 - (A-5) Suppose `B` is irreflexive and `A` is transitive. Because `A` is irreflexive, it is not the case for any `x` that `<x,x>` is in `A`. Because `A` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
+ADD EXPLANATION HERE
+
 - (A-6) Suppose `B` is both irreflexive and transitive. Because `B` is irreflexive, it is not the case for any `x` that `<x,x>` is in `B`. Because `B` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
+
+ADD EXPLANATION HERE
 
 - (A-7) Suppose `B` is irreflexive and `Ai` is transitive. Because `B` is irreflexive, it is not the case for any `x` that `<x,x>` is in `B`. Because `Ai` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
+ADD EXPLANATION HERE
+
 - (A-8) Suppose `B` is irreflexive and its inverse , `Bi`, is transitive. Because `B` is irreflexive, it is not the case for any `x` that `<x,x>` is in `B`. Because `Bi` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
+
+ADD EXPLANATION HERE
 
 - (A-9) Suppose `Ai` is irreflexive and its inverse , `A`, is transitive. Because `Ai` is irreflexive, it is not the case for any `x` that `<x,x>` is in `Ai`. Because `A` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
+ADD EXPLANATION HERE
+
 - (A-10) Suppose `Ai` is irreflexive and `B` is transitive. Because `Ai` is irreflexive, it is not the case for any `x` that `<x,x>` is in `Ai`. Because `B` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
+
+ADD EXPLANATION HERE
 
 - (A-11) Suppose `Ai` is both irreflexive and transitive. Because `Ai` is irreflexive, it is not the case for any `x` that `<x,x>` is in `Ai`. Because `Ai` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
+ADD EXPLANATION HERE
+
 - (A-12) Suppose `Ai` is irreflexive and `Bi` is transitive. Because `Ai` is irreflexive, it is not the case for any `x` that `<x,x>` is in `Ai`. Because `Bi` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
+
+ADD EXPLANATION HERE
 
 - (A-13) Suppose `Bi` is irreflexive and `A` is transitive. Because `Bi` is irreflexive, it is not the case for any `x` that `<x,x>` is in `Bi`. Because `A` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
+ADD EXPLANATION HERE
+
 - (A-14) Suppose `Bi` is irreflexive and its inverse , `B`, is transitive. Because `Bi` is irreflexive, it is not the case for any `x` that `<x,x>` is in `Bi`. Because `B` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
+
+ADD EXPLANATION HERE
 
 - (A-15) Suppose `Bi` is irreflexive and `Ai` is transitive. Because `Bi` is irreflexive, it is not the case for any `x` that `<x,x>` is in `Bi`. Because `Ai` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
+ADD EXPLANATION HERE
+
 - (A-16) Suppose `Bi` is both irreflexive and transitive. Because `Bi` is irreflexive, it is not the case for any `x` that `<x,x>` is in `Bi`. Because `Bi` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
-
+ADD EXPLANATION HERE
 
 #### (B) Transitive and Functional
 
-- (B-1) Suppose `A` is both transitive and functional. 
+- (B-1) Suppose `A` is both transitive and functional. Because `A` is transitive, if x`R`y and y`R`z, then x`R`z. Because `A` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `A` is transitive, it is 
+ADD EXPLANATION HERE
 
-Because `A` is functional, if  
+- (B-2) Suppose `A` is transitive and `B` is functional. Because `A` is transitive, if x`R`y and y`R`z, then x`R`z. Because `B` is functional, if x`R`y and x`R`z, then y=z.
 
-- (B-2) Suppose `A` is transitive and `B` is functional. 
+ADD EXPLANATION HERE
 
-Because `A` is transitive, 
+- (B-3) Suppose `A` is transitive and its inverse , `Ai`, is functional. Because `A` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Ai` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `B` is functional, if  
+ADD EXPLANATION HERE
 
-- (B-3) Suppose `A` is transitive and its inverse , `Ai`, is functional. 
+- (B-4) Suppose `A` is transitive and `Bi` is functional. Because `A` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Bi` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `A` is transitive, it is 
+ADD EXPLANATION HERE
 
-Because `Ai` is functional, if 
+- (B-5) Suppose `B` is transitive and `A` is functional. Because `A` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `A` is functional, if x`R`y and x`R`z, then y=z.
 
-- (B-4) Suppose `A` is transitive and `Bi` is functional. 
+ADD EXPLANATION HERE
 
-Because `A` is transitive,
+- (B-6) Suppose `B` is both transitive and functional. Because `B` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `B` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `Bi` is functional,
+ADD EXPLANATION HERE
 
-- (B-5) Suppose `B` is transitive and `A` is functional. 
+- (B-7) Suppose `B` is transitive and `Ai` is functional. Because `B` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Ai` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `A` is transitive,  
+ADD EXPLANATION HERE
 
-Because `A` is functional,
+- (B-8) Suppose `B` is transitive and its inverse , `Bi`, is functional. Because `B` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Bi` is functional, if x`R`y and x`R`z, then y=z.
 
-- (B-6) Suppose `B` is both transitive and functional. 
+ADD EXPLANATION HERE
 
-Because `B` is transitive, 
+- (B-9) Suppose `Ai` is transitive and its inverse , `A`, is functional. Because `Ai` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `A` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `B` is functional, 
+ADD EXPLANATION HERE
 
-- (B-7) Suppose `B` is transitive and `Ai` is functional. 
+- (B-10) Suppose `Ai` is transitive and `B` is functional. Because `Ai` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `B` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `B` is transitive,  
+ADD EXPLANATION HERE
 
-Because `Ai` is functional,
+- (B-11) Suppose `Ai` is both transitive and functional. Because `Ai` is transitive,  if  x`R`y and y`R`z, then x`R`z. Because `Ai` is functional, if x`R`y and x`R`z, then y=z.
 
-- (B-8) Suppose `B` is transitive and its inverse , `Bi`, is functional. 
+ADD EXPLANATION HERE
 
-Because `B` is transitive,  
+- (B-12) Suppose `Ai` is transitive and `Bi` is functional. Because `Ai` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Bi` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `Bi` is functional,
+ADD EXPLANATION HERE
 
-- (B-9) Suppose `Ai` is transitive and its inverse , `A`, is functional. 
+- (B-13) Suppose `Bi` is transitive and `A` is functional. Because `Bi` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `A` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `Ai` is transitive,  
+ADD EXPLANATION HERE
 
-Because `A` is functional, 
+- (B-14) Suppose `Bi` is transitive and its inverse , `B`, is functional. Because `Bi` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `B` is functional, if x`R`y and x`R`z, then y=z.
 
-- (B-10) Suppose `Ai` is transitive and `B` is functional. 
+ADD EXPLANATION HERE
 
-Because `Ai` is transitive, 
+- (B-15) Suppose `Bi` is transitive and `Ai` is functional. Because `Bi` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Ai` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `B` is functional, 
+ADD EXPLANATION HERE
 
-- (B-11) Suppose `Ai` is both transitive and functional. 
+- (B-16) Suppose `Bi` is both transitive and functional. Because `Bi` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Bi` is functional, if x`R`y and x`R`z, then y=z.
 
-Because `Ai` is transitive,  
+ADD EXPLANATION HERE
 
-Because `Ai` is functional, 
 
-- (B-12) Suppose `Ai` is transitive and `Bi` is functional. 
-
-Because `Ai` is transitive, 
-
-Because `Bi` is functional, 
-
-- (B-13) Suppose `Bi` is transitive and `A` is functional. 
-
-Because `Bi` is transitive, 
-
-Because `A` is functional, 
-
-- (B-14) Suppose `Bi` is transitive and its inverse , `B`, is functional. 
-
-Because `Bi` is transitive,
-
-Because `B` is functional,  
-
-- (B-15) Suppose `Bi` is transitive and `Ai` is functional. 
-
-Because `Bi` is transitive,
-
-Because `Ai` is functional, 
-
-- (B-16) Suppose `Bi` is both transitive and functional. 
-
-Because `Bi` is transitive, 
-
-Because `Bi` is functional, 
-
-#### (C) Transitive and Inverse Functional
+#### (C) Transitive and Inverse Functional - Not to be developed in this assignment.
 
 #### (D) Transitive and Asymmetric
 
-- (D-1) Suppose `A` is both transitive and functional. 
+- (D-1) Suppose `A` is both transitive and asymmetric. Because `A` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `A` is asymmetric, if xRy, then it is not the case that yRx. 
 
-Because `A` is transitive, it is 
+ADD EXPLANATION HERE
 
-Because `A` is functional, if  
+- (D-2) Suppose `A` is transitive and `B` is functional. Because `A` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `B` is asymmetric, if xRy, then it is not the case that yRx.   
 
-- (D-2) Suppose `A` is transitive and `B` is functional. 
+ADD EXPLANATION HERE
 
-Because `A` is transitive, 
+- (D-3) Suppose `A` is transitive and its inverse , `Ai`, is functional. Because `A` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Ai` is asymmetric, if xRy, then it is not the case that yRx.  
 
-Because `B` is functional, if  
+ADD EXPLANATION HERE
 
-- (D-3) Suppose `A` is transitive and its inverse , `Ai`, is functional. 
+- (D-4) Suppose `A` is transitive and `Bi` is functional. Because `A` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Bi` is asymmetric, if xRy, then it is not the case that yRx. 
 
-Because `A` is transitive, it is 
+ADD EXPLANATION HERE
 
-Because `Ai` is functional, if 
+- (D-5) Suppose `B` is transitive and `A` is functional. Because `A` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `A` is asymmetric, if xRy, then it is not the case that yRx. 
 
-- (D-4) Suppose `A` is transitive and `Bi` is functional. 
+ADD EXPLANATION HERE
 
-Because `A` is transitive,
+- (D-6) Suppose `B` is both transitive and functional. Because `B` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `B` is asymmetric, if xRy, then it is not the case that yRx. 
 
-Because `Bi` is functional,
+ADD EXPLANATION HERE
 
-- (D-5) Suppose `B` is transitive and `A` is functional. 
+- (D-7) Suppose `B` is transitive and `Ai` is functional. Because `B` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Ai` is asymmetric, if xRy, then it is not the case that yRx. 
 
-Because `A` is transitive,  
+ADD EXPLANATION HERE
 
-Because `A` is functional,
+- (D-8) Suppose `B` is transitive and its inverse , `Bi`, is functional. Because `B` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Bi` is asymmetric, if xRy, then it is not the case that yRx. 
 
-- (D-6) Suppose `B` is both transitive and functional. 
+ADD EXPLANATION HERE
 
-Because `B` is transitive, 
+- (D-9) Suppose `Ai` is transitive and its inverse , `A`, is functional. Because `Ai` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `A` is asymmetric, if xRy, then it is not the case that yRx. 
 
-Because `B` is functional, 
+ADD EXPLANATION HERE
 
-- (D-7) Suppose `B` is transitive and `Ai` is functional. 
+- (D-10) Suppose `Ai` is transitive and `B` is functional. Because `Ai` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `B` is asymmetric, if xRy, then it is not the case that yRx. 
 
-Because `B` is transitive,  
+ADD EXPLANATION HERE
 
-Because `Ai` is functional,
+- (D-11) Suppose `Ai` is both transitive and functional. Because `Ai` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Ai` is asymmetric, if xRy, then it is not the case that yRx. 
 
-- (D-8) Suppose `B` is transitive and its inverse , `Bi`, is functional. 
+ADD EXPLANATION HERE
 
-Because `B` is transitive,  
+- (D-12) Suppose `Ai` is transitive and `Bi` is functional. Because `Ai` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Bi` is asymmetric, if xRy, then it is not the case that yRx. 
 
-Because `Bi` is functional,
+ADD EXPLANATION HERE
 
-- (D-9) Suppose `Ai` is transitive and its inverse , `A`, is functional. 
+- (D-13) Suppose `Bi` is transitive and `A` is functional. Because `Bi` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `A` is asymmetric, if xRy, then it is not the case that yRx. 
 
-Because `Ai` is transitive,  
+ADD EXPLANATION HERE
 
-Because `A` is functional, 
+- (D-14) Suppose `Bi` is transitive and its inverse , `B`, is functional. Because `Bi` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `B` is asymmetric, if xRy, then it is not the case that yRx. 
 
-- (D-10) Suppose `Ai` is transitive and `B` is functional. 
+ADD EXPLANATION HERE
 
-Because `Ai` is transitive, 
+- (D-15) Suppose `Bi` is transitive and `Ai` is functional. Because `Bi` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Ai` is asymmetric, if xRy, then it is not the case that yRx. 
 
-Because `B` is functional, 
+ADD EXPLANATION HERE
 
-- (D-11) Suppose `Ai` is both transitive and functional. 
+- (D-16) Suppose `Bi` is both transitive and functional. Because `Bi` is transitive, if  x`R`y and y`R`z, then x`R`z. Because `Bi` is asymmetric, if xRy, then it is not the case that yRx. 
 
-Because `Ai` is transitive,  
-
-Because `Ai` is functional, 
-
-- (D-12) Suppose `Ai` is transitive and `Bi` is functional. 
-
-Because `Ai` is transitive, 
-
-Because `Bi` is functional, 
-
-- (D-13) Suppose `Bi` is transitive and `A` is functional. 
-
-Because `Bi` is transitive, 
-
-Because `A` is functional, 
-
-- (D-14) Suppose `Bi` is transitive and its inverse , `B`, is functional. 
-
-Because `Bi` is transitive,
-
-Because `B` is functional,  
-
-- (D-15) Suppose `Bi` is transitive and `Ai` is functional. 
-
-Because `Bi` is transitive,
-
-Because `Ai` is functional, 
-
-- (D-16) Suppose `Bi` is both transitive and functional. 
-
-Because `Bi` is transitive, 
-
-Because `Bi` is functional, 
-
-
-#### (E) Transitive and Asymmetric
-
-- (E-1) Suppose `A` is both transitive and asymmetric. 
-
-Because `A` is transitive, it is 
-
-Because `A` is asymmetric, if  
-
-- (E-2) Suppose `A` is transitive and `B` is functional. 
-
-Because `A` is transitive, 
-
-Because `B` is asymmetric, if  
-
-- (E-3) Suppose `A` is transitive and its inverse , `Ai`, is functional. 
-
-Because `A` is transitive, it is 
-
-Because `Ai` is asymmetric, if 
-
-- (E-4) Suppose `A` is transitive and `Bi` is functional. 
-
-Because `A` is transitive,
-
-Because `Bi` is asymmetric,
-
-- (E-5) Suppose `B` is transitive and `A` is functional. 
-
-Because `A` is transitive,  
-
-Because `A` is asymmetric,
-
-- (E-6) Suppose `B` is both transitive and functional. 
-
-Because `B` is transitive, 
-
-Because `B` is asymmetric, 
-
-- (E-7) Suppose `B` is transitive and `Ai` is functional. 
-
-Because `B` is transitive,  
-
-Because `Ai` is asymmetric,
-
-- (E-8) Suppose `B` is transitive and its inverse , `Bi`, is functional. 
-
-Because `B` is transitive,  
-
-Because `Bi` is asymmetric,
-
-- (E-9) Suppose `Ai` is transitive and its inverse , `A`, is functional. 
-
-Because `Ai` is transitive,  
-
-Because `A` is asymmetric, 
-
-- (E-10) Suppose `Ai` is transitive and `B` is functional. 
-
-Because `Ai` is transitive, 
-
-Because `B` is asymmetric, 
-
-- (E-11) Suppose `Ai` is both transitive and functional. 
-
-Because `Ai` is transitive,  
-
-Because `Ai` is asymmetric, 
-
-- (E-12) Suppose `Ai` is transitive and `Bi` is functional. 
-
-Because `Ai` is transitive, 
-
-Because `Bi` is asymmetric, 
-
-- (E-13) Suppose `Bi` is transitive and `A` is functional. 
-
-Because `Bi` is transitive, 
-
-Because `A` is asymmetric, 
-
-- (E-14) Suppose `Bi` is transitive and its inverse , `B`, is functional. 
-
-Because `Bi` is transitive,
-
-Because `B` is asymmetric,  
-
-- (E-15) Suppose `Bi` is transitive and `Ai` is functional. 
-
-Because `Bi` is transitive,
-
-Because `Ai` is asymmetric, 
-
-- (E-16) Suppose `Bi` is both transitive and functional. 
-
-Because `Bi` is transitive, 
-
-Because `Bi` is asymmetric, 
+ADD EXPLANATION HERE
