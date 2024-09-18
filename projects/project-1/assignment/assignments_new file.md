@@ -2,7 +2,7 @@
   <h1>Assignment 1</h1>
 </header>
 
-<p>Jisoo Seo</p>
+<p><b>Jisoo Seo</b></p>
 
 <p>The purpose of the assignment is to explain the two kinds of errors that occur when an object property R is attributed different pairs of role constraints. 
   This is summarized in the table 1 below.</p>
@@ -18,7 +18,7 @@
 | **Irref.**   | OK     | OK      | X<sup>NS</sup>    | OK    | OK     | X<sup>UNSAT</sup>| -      |
 
 <h2>Error type 1: X<sup>NS</sup></h2>
-<p>This error occurs when Protege reasoner can not decide which logical model to follow.</p>
+<p>This error occurs when Protege reasoner can not decide which logical model to follow. "NS" stands for "not simple."</p>
 
 1. Transivity/Functionality: R can't both be contrainted by both transivity and functionality. Because of transivity when we suppose xRy and yRz, then xRz. This creates a multiple relation.
 However, funtionality restricts an individual to being related to exactly one individual via the property. So, if xPy, then x cannot be related to any other individual via  P.
@@ -31,12 +31,12 @@ However, inverse funtionality restricts an individual to being related to exactl
 <h2>Error type 2: X<sup>UNSAT</sup></h2>
 
 <p>This error occurs when the object property R is constrained in a way that nothing satisfies R. In other words, when the two role constraints are logically contradictory, 
-  no instance can satisfy the contradiction, thus the error.</p>
+  no instance can satisfy the contradiction, thus the error. "UNSAT" stands for "unsatisfiable."</p>
 
 1. Symmetry/Asymmetry: R can't both be contrainted by symmetry and asymmetry. This is contradictoty. Because of symmetry, if xRy, then yRx. However, because of asymmetry, it is not the case that yRx. 
     Therefore, R can't be constrained by both symmetry and asymmetry.
 
-2. Refelxivity/Aymmetry: R can't both be constrained by reflexive and asymmetry. This is contradictoty. Because of reflexivity, xRx. However, because of asymmetry, it is not the case that xRx. 
+2. Refelxivity/Asymmetry: R can't both be constrained by reflexive and asymmetry. This is contradictoty. Because of reflexivity, xRx. However, because of asymmetry, it is not the case that xRx. 
     Therefore, R can't be constrained by both reflexive and asymmetry.
 
 3. Refelxivity/Irrflexivity: R can't both be constrained by reflexive and irreflextivity. This is contradictoty. Because of reflexivity, xRx. However, because of irreflexivity, it is not the case that xRx. 
@@ -46,13 +46,13 @@ However, inverse funtionality restricts an individual to being related to exactl
   <h1>Assignment 2</h1>
 </header>
 
-<p>Jisoo Seo, Giacomo De Colle, Elena Militivi, Sean Kindya</p>
+<p><b>Jisoo Seo, Giacomo De Colle, Elena Militivi, Sean Kindya</b></p>
 
 <p>The purpose of the assignment is to explain the errors that occur when different pairs of role constraints are attributed to different object properties that bear 
-either SubObjectiveProperty and/or Inverse relation.</p>
+either Sub Property and/or Inverse relation.</p>
 
 <p>For this assignment, we created tables that represent the two role constraints and object properties A,B, Ai, and Bi where B is a subproperty of A and Ai has an inverse relation to A.
-I have only added tables that have errors in them and those that are not redundant.</p>
+I have only added tables that have errors in them and are not redundant.</p>
 
 <header>
   <h2>Functional, x</h2>
