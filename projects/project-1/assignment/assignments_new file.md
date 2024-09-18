@@ -814,7 +814,7 @@ However, because of asymmetry, if xBiy, then it is not the case that yBix.
 <a id="orgceec1a2"></a>
 
 <header>
-  <h3>Reflexivity/Irreflexivity</h3>
+  <h3>Reflexivity/Irreflexivity (Giacomo)</h3>
 </header>
 
 - For A/A, see Exercise 1
