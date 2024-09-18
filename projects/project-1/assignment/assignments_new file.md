@@ -203,21 +203,21 @@ I have only added tables that have errors in them and are not redundant.</p>
 
 - <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
 
-- <b>A/Ai</b>: suppose that A is transitive and Ai is inverse functional. This implies that A is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that A is transitive and Ai is inverse functional.
+- <b>A/Ai</b>: suppose that A is transitive and Ai is inverse functional. This implies that A is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that A is transitive and Ai is inverse functional.
 
-- <b>Ai/A</b>: suppose that Ai is transitive and A is inverse functional. This implies that Ai is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Ai is transitive and A is inverse functional.
+- <b>Ai/A</b>: suppose that Ai is transitive and A is inverse functional. This implies that Ai is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that Ai is transitive and A is inverse functional.
 
-- <b>B/A</b>: suppose that B is transitive and A is inverse functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and A is inverse functional.
+- <b>B/A</b>: suppose that B is transitive and A is inverse functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that B is transitive and A is inverse functional.
 
-- <b>B/Ai</b>: suppose that B is transitive and Ai is inverse functional. This implies that A is functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and Ai is inverse functional.
+- <b>B/Ai</b>: suppose that B is transitive and Ai is inverse functional. This implies that A is functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that B is transitive and Ai is inverse functional.
     
-- <b>B/Bi</b>: suppose that B is transitive and Bi is inverse functional. This implies that B is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that B is transitive and Bi is inverse functional.
+- <b>B/Bi</b>: suppose that B is transitive and Bi is inverse functional. This implies that B is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that B is transitive and Bi is inverse functional.
 
-- <b>Bi/A</b>: suppose that Bi is transitive and A is inverse functional. This implies that Ai is functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and A is inverse functional.
+- <b>Bi/A</b>: suppose that Bi is transitive and A is inverse functional. This implies that Ai is functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a complex property chain. Therefore, it does not hold that Bi is transitive and A is inverse functional.
     
-- <b>Bi/Ai</b>: suppose that Bi is transitive and Ai is inverse functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and Ai is inverse functional.
+- <b>Bi/Ai</b>: suppose that Bi is transitive and Ai is inverse functional. Since Bi is a subproperty of Ai, any instance of Bi should be that of Ai. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a complex property chain. Therefore, it does not hold that Bi is transitive and Ai is inverse functional.
 
-- <b>Bi/B</b>: suppose that Bi is transitive and B is inverse functional. This implies that Bi is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a multiple relation. Therefore, it does not hold that Bi is transitive and B is inverse functional. 
+- <b>Bi/B</b>: suppose that Bi is transitive and B is inverse functional. This implies that Bi is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that Bi is transitive and B is inverse functional. 
 
 
 <header>
@@ -606,28 +606,29 @@ same as A/A
 
 - <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
 
-- <b>A/Ai</b>: suppose that A is asymmetric and Ai is reflexive. By reflexivity, xAix. Since A is inverse Ai, xAx also holds.
-However, because of asymmetricity, xAx should not hold.   
+- <b>A/Ai</b>: Suppose that A is asymmetric and Ai is reflexive. By reflexivity, xAix. Since A is inverse Ai, xAx also holds.
+However, because of asymmetry, xAx should not hold.   
 
-- <b>A/B</b>: suppose that A is asymmetric and B is reflexive. By reflexivity, xBx. However, since B is a subproperty of A meaning that all the instances of B have to be a part of
-instances of A, the same problem that occured with A/A occurs. Therefore, it is not the case that A is asymmetric and B is reflexive.
+- <b>A/B</b>: Suppose that A is asymmetric and B is reflexive. By reflexivity, xBx. However, since B is a subproperty of A meaning that all the instances of B have to be a part of
+instances of A, the same problem that occured with A/A occurs. In other words, because of asymmetry, xAx should not hold. Therefore, it is not the case that A is asymmetric and B is reflexive.
 
-- <b>A/Bi</b>: suppose that A is asymmetric and Bi is reflexive. By reflexivity, xBix. And since Bi is a subproperty of Ai meaning that all the instances of Bi have to be a part of
-instances of Ai, the same problem that occured with A/Ai occurs. Therefore, it is not the case that A is asymmetric and Bi is reflexive.
+- <b>A/Bi</b>: Suppose that A is asymmetric and Bi is reflexive. By reflexivity, xBix. And since Bi is a subproperty of Ai meaning that all the instances of Bi have to be a part of
+instances of Ai, the same problem that occured with A/Ai occurs. In other words, because of asymmetry, xAx should not hold. Therefore, it is not the case that A is asymmetric and Bi is reflexive.
 
-- <b>Ai/A</b>: suppose that Ai is asymmetric and A is reflexive. By reflexivity, xAx. Since A is inverse Ai, xAix also holds.
-However, because of asymmetricity, xAix should not hold.
+- <b>Ai/A</b>: Suppose that Ai is asymmetric and A is reflexive. By reflexivity, xAx. Since A is inverse Ai, xAix also holds.
+However, because of asymmetry, xAix should not hold.
     
-- <b>Ai/B</b>: suppose that Ai is asymmetric and B is reflexive. By reflexivity, xBx. Since B is a subproperty of A that is inverse Ai, xAix should hold.
-However, because of asymmetricity, xAix should not hold.
+- <b>Ai/B</b>: Suppose that Ai is asymmetric and B is reflexive. By reflexivity, xBx. Since B is a subproperty of A that is inverse Ai, xAix should hold.
+However, because of asymmetry, xAix should not hold.
   
-- <b>Ai/Bi</b>: suppose that Ai is asymmetric and Bi is reflexive. The explanation for this error will be the same for A being asymmetric and B being reflexive.
+- <b>Ai/Bi</b>: Suppose that Ai is asymmetric and Bi is reflexive. By reflexivity, xBix. However, since Bi is a subproperty of Ai meaning that all the instances of Bi have to be a part of
+instances of Ai, the same problem that occured with A/A occurs. Therefore, it is not the case that Ai is asymmetric and Bi is reflexive.
     
-- <b>B/Bi</b>: suppose that B is asymmetric and Bi is reflexive. By reflexivity, xBix. Since Bi is inverse B, xBx also holds.
-However, because of asymmetricity, xBx does not hold. Therefore, it does not hold that B is asymmetric and Bi is reflexive.
+- <b>B/Bi</b>: Suppose that B is asymmetric and Bi is reflexive. By reflexivity, xBix. Since Bi is inverse B, xBx also holds.
+However, because of asymmetry, xBx does not hold. Therefore, it does not hold that B is asymmetric and Bi is reflexive.
 
-- <b>Bi/B</b>: suppose that Bi is asymmetric and B is reflexive. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
-However, because of asymmetricity, if xBiy, then it is not the case that yBix.  
+- <b>Bi/B</b>: Suppose that Bi is asymmetric and B is reflexive. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
+However, because of asymmetry, if xBiy, then it is not the case that yBix.  
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
   
