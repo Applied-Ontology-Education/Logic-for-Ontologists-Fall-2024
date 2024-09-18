@@ -77,7 +77,7 @@ I have only added tables that have errors in them and those that are not redunda
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">7</th>
+<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">Trans</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
@@ -144,7 +144,7 @@ I have only added tables that have errors in them and those that are not redunda
 
 <thead>
 <tr>
-<th scope="col" class="org-left">3</th>
+<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">Trans</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
@@ -247,7 +247,7 @@ I have only added tables that have errors in them and those that are not redunda
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">5</th>
+<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">Asymm</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
@@ -303,6 +303,29 @@ I have only added tables that have errors in them and those that are not redunda
 </tbody>
 </table>
 
+<header>
+  <h3>Transitive/Asymmetry</h3>
+</header>
+
+- <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
+
+- <b>A/Ai</b>: Suppose that A is transitive and Ai is asymmetric. Ai being the inverse of A, it is the case that the relation A holds between the opposite instances in the relation Ai. But this creates a complex role chain (see exercise 1).
+  
+- <b>Ai/A</b>: Suppose that Ai is transitive and A is asymmetric. A being the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+    
+- <b>B/A</b>: Suppose that B is transitive and A is asymmetric. B being a subproperty of A, xBy implies xAy. But this creates a complex role chain (see exercise 1).
+
+- <b>B/Ai</b>: Suppose that B is transitive and Ai is asymmetric. B being a subproperty of A, A should be transitive. However, it is the case that the relation A holds between the opposite instances in the relation Ai. But this creates a complex role chain (see exercise 1).  
+  
+- <b>B/Bi</b>: Suppose that B is transitive and Bi is asymmetric. Bi being  the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. But this creates a complex role chain (see exercise 1).
+
+- <b>Bi/A</b>: Suppose that Bi is transitive and A is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. Being B a subproperty of A, xBy implies xAy. But this creates a complex role chain (see exercise 1).
+
+- <b>Bi/Ai</b>: Suppose that Bi is transitive and Ai is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. Being B a subproperty of A, xBy implies xAy. Being A the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+
+- <b>Bi/B</b>: Suppose that Bi is transitive and B is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. But this creates a complex role chain (see exercise 1).
+
+
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 <colgroup>
@@ -320,7 +343,7 @@ I have only added tables that have errors in them and those that are not redunda
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">7</th>
+<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">Irr</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
@@ -404,7 +427,7 @@ I have only added tables that have errors in them and those that are not redunda
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">5</th>
+<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">Asymm</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
