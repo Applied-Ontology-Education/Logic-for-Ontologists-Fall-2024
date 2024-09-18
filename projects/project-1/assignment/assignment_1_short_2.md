@@ -100,6 +100,37 @@ Bi/Bi:
 same as A/A
 
 
+- Functionality/Transitivity (Elena)
+  
+![image](https://github.com/user-attachments/assets/5da454fa-a86b-4a11-8ed2-d1921b823846)
+
+
+  A/A produce a complex rule chain (see exercise 1)
+
+  Transitive A / Functional Ai: Given that Ai is the inverse of A, and yAix, this implies that xAy. Given that Ai is functional, A becomes inverse functional. This makes A both transitive and inverse functional, which creates a non-simple property according to exercise 1.
+
+  Transitive Ai / Functional A: Given that Ai is the inverse of A, and yAx, this implies that xAiy. Given that A is functional, Ai becomes inverse functional. This makes Ai both transitive and inverse functional, which creates a non-simple property according to exercise 1.
+
+  Ai/Ai same as A/A
+
+  Transitive B / Functional A: Given that A is a subproperty of B, and that xBy, this implies that xAy. Given that B is transitive, A becomes transitive. This makes A both functional and transitive, which creates a non-simple property according to exercise 1.
+
+  Transitive B / Functional Ai: Transitive B / Functional A: Given that A is a subproperty of B, and that xBy, this implies that xAy. Given that B is transitive, A becomes transitive. Given that Ai is inverse of A, this makes A inverse functional. This makes A both inverse functional and transitive, which creates a non-simple property according to exercise 1.
+
+  B/B same as A/A
+
+  Transitive B / Functional Bi: Given that Bi is the inverse of B, and yBix, this implies that xBy. Given that Bi is functional, B becomes inverse functional. This makes B both transitive and inverse functional, which creates a non-simple property according to exercise 1.
+
+  Transitive Bi / Functional A: Given that Bi is the inverse of B, and yBix, this implies that xBy. Given that A is a subproperty of B, and that xBy, this implies that xAy. Given that B is transitive, A becomes transitive. This makes A both functional and transitive, which creates a non-simple property according to exercise 1.
+
+  Transitive Bi / Functional Ai: Given that Ai is a subproperty of Bi, and that xBiy, this implies that xAiy. Given that Bi is transitive, Ai becomes transitive. This makes Ai both functional and transitive, which creates a non-simple property according to exercise 1.
+
+  Transitive Bi / Functional B: Given that Bi is the inverse of B, and yBix, this implies that xBy. Given that Bi is functional, B becomes inverse functional. This makes B both transitive and inverse functional, which creates a non-simple property according to exercise 1.
+
+ Bi/Bi same as A/A
+
+
+
 - Trans/Asymm (Giacomo)
 
 - <img width="639" alt="image" src="https://github.com/user-attachments/assets/f713b95b-ed69-413e-bc04-1580acf8bb98">
