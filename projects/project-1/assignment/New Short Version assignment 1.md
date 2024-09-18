@@ -219,3 +219,91 @@ If xBi​y implies yBx (inverse), and xBy implies xBz (transitivity), the combin
 14. Bi/Bi
 same as A/A
 
+ <header>
+  <h2>Inverse functional, x</h2>
+</header>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Trans</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">iFunct</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<header>
+  <h3>Inverse functional/Transitivity (Jisoo)</h3>
+</header>
+
+- <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
+
+- <b>A/Ai</b>: suppose that A is transitive and Ai is inverse functional. This implies that A is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that A is transitive and Ai is inverse functional.
+
+- <b>Ai/A</b>: suppose that Ai is transitive and A is inverse functional. This implies that Ai is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that Ai is transitive and A is inverse functional.
+
+- <b>B/A</b>: suppose that B is transitive and A is inverse functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that B is transitive and A is inverse functional.
+
+- <b>B/Ai</b>: suppose that B is transitive and Ai is inverse functional. This implies that A is functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that B is transitive and Ai is inverse functional.
+    
+- <b>B/Bi</b>: suppose that B is transitive and Bi is inverse functional. This implies that B is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that B is transitive and Bi is inverse functional.
+
+- <b>Bi/A</b>: suppose that Bi is transitive and A is inverse functional. This implies that Ai is functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a complex property chain. Therefore, it does not hold that Bi is transitive and A is inverse functional.
+    
+- <b>Bi/Ai</b>: suppose that Bi is transitive and Ai is inverse functional. Since Bi is a subproperty of Ai, any instance of Bi should be that of Ai. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a complex property chain. Therefore, it does not hold that Bi is transitive and Ai is inverse functional.
+
+- <b>Bi/B</b>: suppose that Bi is transitive and B is inverse functional. This implies that Bi is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that Bi is transitive and B is inverse functional. 
+
