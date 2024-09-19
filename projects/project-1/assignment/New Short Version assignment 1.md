@@ -1,4 +1,8 @@
-Part I
+<header>
+  <h1>Assignment 1</h1>
+</header>
+
+Part I - Elena Milivinti
 
 |        | Funct. | iFunct. | Trans. | Symm. | Asymm. | Ref. | Irref. |
 |--------|--------|---------|--------|-------|--------|------|--------|
@@ -50,11 +54,102 @@ Reflexitivy & Irreflexivity (UNSAT)
 Reflexivity requires every element to relate to itself, while irreflexivity prohibits self-relations entirely. 
 Therefore, a relation cannot be both reflexive and irreflexive simultaneously.
 
-Exercise 2, part 2. Explanations
+<header>
+  <h1>Assignment 2</h1>
+</header>
 
-- Symm/Asymm (Elena)
+<p><b>Jisoo Seo, Giacomo De Colle, Elena Milivinti, Sean Kindya</b></p>
 
-![image](https://github.com/user-attachments/assets/04f01e22-a5bc-4e12-bb6a-af93eb7274fa)
+<a id="orgd02ec3b"></a>
+
+<header>
+  <h2>Symmetry, x</h2>
+</header>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Asymm</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Symm</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">Ok</td>
+<td class="org-left">Ok</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">Ok</td>
+<td class="org-left">Ok</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<a id="org9d8084e"></a>
+
+<header>
+  <h3>Symmetry/Asymmetry</h3> (Elena)
+</header>
 
 - A/A:
 
@@ -123,9 +218,87 @@ Exercise 2, part 2. Explanations
 
   same as A/A
 
-- Ref/Irref (Giacomo)
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+  
+<colgroup>
+<col  class="org-left" />
 
-![image](https://github.com/user-attachments/assets/745b2fa1-7bbf-4f0e-bdea-fb27a40496c4)
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Irr</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Ref</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="orgceec1a2"></a>
+
+<header>
+  <h3>Reflexivity/Irreflexivity</h3> 
+</header>
+
+(Giacomo)
 
 - For A/A, see Exercise 1
   
@@ -148,6 +321,7 @@ Exercise 2, part 2. Explanations
 - For B/Bi, suppose that B is irreflexive and Bi is reflexive. By irreflexivity, it is not the case that xBx. By reflexivity, it is the case that xBix. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi, which in this case are both x. That is, xBx. But this contradicts the irreflexivity of B.
 
 -  For Bi/Bi, see Exercise 1
+  
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 <colgroup>
@@ -256,9 +430,90 @@ However, because of asymmetricity, xBx should not hold.
 However, because of asymmetricity, if xBiy, then it is not the case that yBix.   
 
 
-Functionality / Transitivity (Elena)
+<header>
+  <h2>Functional, x</h2>
+</header>
 
-![image](https://github.com/user-attachments/assets/94f987df-41cd-4d1c-b278-1c45ad5ba4a3)
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Trans</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Funct</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+</table>
+
+ <header>
+  <h3>Functionality/Transitivity </h>
+</header>
+
+(Elena)
 
 - A/A
 A property A that is both functional and transitive does not lead to a contradiction, but instead forms a non-simple (NS) chain. In such cases, while transitivity allows for a sequence of relations, functionality ensures that each element relates to only one other element in the chain. 
