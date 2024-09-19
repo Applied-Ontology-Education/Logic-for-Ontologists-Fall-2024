@@ -446,23 +446,21 @@ See exercise 1
 
 - <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
 
-- <b>A/Ai</b>: Suppose that A is transitive and Ai is irreflexive. This means that if xAy and yAx hold, xAx holds. It also means that xAix should hold. However, Ai is irreflextive so xAix doesn't hold. Therefore, it does not hold that A is transitive and Ai is irreflexive.
+- <b>A/Ai</b>: Suppose that A is transitive and Ai is irreflexive. Ai being the inverse of A, xAiy implies that yAx. In order to check irreflexivity of A, a reasoner has to loop over A each time it needs to also check for transitivity. This creates a complex role.
+  
+- <b>Ai/A</b>: Suppose that Ai is transitive and A is irreflexive. Ai being the inverse of A, xAiy implies that yAx. In order to check irreflexivity of A, a reasoner has to loop over A each time it needs to also check for transitivity. This creates a complex role.
 
-- <b>Ai/A</b>: Suppose that Ai is transitive and A is irreflexive. This means that if xAiy and yAix hold, xAix holds. It also means that xAx should hold. However, A is
-irreflextive so xAx doesn't hold. Therefore, it does not hold that Ai is transitive and A is irreflexive.
-
-- <b>B/A</b>: Suppose that B is transitive and A is irreflexive. This means that if xBy and yBx hold, xBx holds. It also means, since B is a subproperty of A, that all the instances of B should be part of instances of A. However, A is irreflextive so xAx doesn't hold. Therefore, it does not hold that B is transitive and A is irreflexive.
-
-- <b>B/Ai</b>: Suppose that B is transitive and Ai is irreflexive. This means that if xBy and yBx hold, xBx holds. It also means, since B is a subproperty of A, that all the instances of B should be part of instances of A. Since Ai is an inverse of A, xAix should hold. However, since Ai is irreflexive, it cannot hold. Therefore, it does not hold that B is transitive and A is irreflexive.
+- <b>B/A</b>: Suppose that B is transitive and A is irreflexive. B being a subclass of A implies that A is also transitive. As seen in ex 1, this creates a complex role.
+  
+- <b>B/Ai</b>: Suppose that B is transitive and Ai is irreflexive. B being a subclass of A implies that A is also transitive. Ai being the inverse of A, xAiy implies that yAx. In order to check for irreflexivy and transitivity of this relation, a reasoner loops over because of the presence of a complex role.
 
 - <b>B/Bi</b>: Suppose that B is transitive and Bi is irreflexive. This means that if xBy and yBx hold, xBx holds. It also means that xBix should hold. However, Bi is irreflextive so xBix doesn't hold. Therefore, it does not hold that B is transitive and Bi is irreflexive.
   
-- <b>Bi/A</b>: Suppose that Bi is transitive and A is irreflexive. This means that if xBiy and yBix hold, xBix holds. It also means that xBx should hold. However, since B is a subproperty of A, all the instances of B should be part of instances of A. However, since A is irreflexive, xAx doesn't hold. Therefore, it does not hold that Bi is transitive and A is irreflexive.
-    
-- <b>Bi/Ai</b>: suppose that Bi is transitive and Ai is irreflexive. This means that if xBiy and yBix hold, xBix holds. It also means, since Bi is a subproperty of Ai, that all the instances of Bi should be part of instances of Ai. However, Ai is irreflextive so xAix doesn't hold. Therefore, it does not hold that Bi is transitive and Ai is irreflexive.
+- <b>Bi/A</b>: SSuppose that B is transitive and Bi is irreflexive. Bi being the inverse of B, xBiy implies that yBx. In order to check irreflexivity of B, a reasoner has to loop over B each time it needs to also check for transitivity. This creates a complex role.
 
-- <b>Bi/B</b>: suppose that Bi is transitive and B is irreflexive. This means that if xBiy and yBix hold, xBix holds. It also means that xBx should hold. However, B is irreflextive so xBx doesn't hold. Therefore, it does not hold that Bi is transitive and B is irreflexive.
+- <b>Bi/Ai</b>: Suppose that Bi is transitive and Ai is irreflexive. Bi being a subclass of A implies that Ai is also transitive. As seen in ex 1, this creates a complex role.
 
+- <b>Bi/B</b>: Suppose that Bi is transitive and B is irreflexive. Bi being the inverse of B, xBiy implies that yBx. In order to check irreflexivity of B, a reasoner has to loop over B each time it needs to also check for transitivity. This creates a complex role.
 
 <a id="orgd02ec3b"></a>
 
