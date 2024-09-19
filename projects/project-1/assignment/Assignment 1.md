@@ -3133,9 +3133,96 @@ Giacomo, Jisoo, Elena, Sean
 
 Exercise 2, part 2. Explanations
 
-- Symm/Asymm
+<a id="orgd02ec3b"></a>
 
-![image](https://github.com/user-attachments/assets/04f01e22-a5bc-4e12-bb6a-af93eb7274fa)
+<header>
+  <h2>Symmetry, x</h2>
+</header>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Asymm</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Symm</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">Ok</td>
+<td class="org-left">Ok</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">Ok</td>
+<td class="org-left">Ok</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+<td class="org-left">x</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<a id="org9d8084e"></a>
+
+<header>
+  <h3>Symmetry/Asymmetry</h3> (Elena)
+</header>
 
 - A/A:
 
@@ -3204,9 +3291,87 @@ Exercise 2, part 2. Explanations
 
   same as A/A
 
-- Ref/Irref
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+  
+<colgroup>
+<col  class="org-left" />
 
-![image](https://github.com/user-attachments/assets/745b2fa1-7bbf-4f0e-bdea-fb27a40496c4)
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Irr</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Ref</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="orgceec1a2"></a>
+
+<header>
+  <h3>Reflexivity/Irreflexivity</h3> 
+</header>
+
+(Giacomo)
 
 - For A/A, see Exercise 1
   
@@ -3229,6 +3394,330 @@ Exercise 2, part 2. Explanations
 - For B/Bi, suppose that B is irreflexive and Bi is reflexive. By irreflexivity, it is not the case that xBx. By reflexivity, it is the case that xBix. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi, which in this case are both x. That is, xBx. But this contradicts the irreflexivity of B.
 
 -  For Bi/Bi, see Exercise 1
+  
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Asymm</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Ref</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">Ok</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">Ok</td>
+<td class="org-left">Ok</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<header>
+  <h3>Reflexivity/Asymmetry</h3> (Jisoo)
+</header>
+
+- <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
+
+- <b>A/Ai</b>: suppose that A is reflexive and Ai is asymmetric. By reflexivity, xAx. Since Ai is inverse A, xAix also holds.
+However, because of asymmetricity, xAix should not hold.   
+
+- <b>A/B</b>: suppose that A is reflexive and B is asymmetric. By reflexivity, xAx. However, since B is a subproperty of A meaning that all the instances of B have to be a part of
+instances of A, the same problem that occured with A/A occurs. Therefore, it is not the case that A is reflexive and B is asymmetric.
+
+- <b>A/Bi</b>: suppose that A is reflexive and Bi is asymmetric. By reflexivity, xAx. And since B is a subproperty of A xBx should hold. Since Bi is inverse B, xBix also holds.
+However, because of asymmetricity, xBix should not hold.   
+
+- <b>Ai/A</b>: suppose that Ai is reflexive and A is asymmetric. By reflexivity, xAix. Since A is inverse Ai, xAix also holds.
+However, because of asymmetricity, xAx should not hold.
+    
+- <b>Ai/B</b>: suppose that Ai is reflexive and B is asymmetric. By reflexivity, xAix. Since B is a subproperty of A that is inverse Ai, xBx should hold.
+However, because of asymmetricity, xBx should not hold.
+  
+- <b>Ai/Bi</b>: suppose that Ai is reflexive and Bi is asymmetric. The explanation for this error will be the same for A being refelxive and B being asymmetric.
+    
+- <b>B/Bi</b>: suppose that B is reflexive and Bi is asymmetric. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
+However, because of asymmetricity, if xBiy, then it is not the case that yBix.   
+
+
+<header>
+  <h2>Functional, x</h2>
+</header>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Trans</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Funct</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+</table>
+
+ <header>
+  <h3>Functionality/Transitivity </h>
+</header>
+
+(Elena)
+
+- A/A
+A property A that is both functional and transitive does not lead to a contradiction, but instead forms a non-simple (NS) chain. In such cases, while transitivity allows for a sequence of relations, functionality ensures that each element relates to only one other element in the chain. 
+
+- Transitive A / Functional Ai
+Given that Ai​ is the inverse of A, and if yAi​x, this implies that xAy.
+Since Ai is functional, meaning each element has exactly one predecessor, A becomes inverse functional. This creates a scenario where A is both inverse functional and functional. As a result, the interaction between A and Ai forms a non-simple property chain, as explored in exercise 1.
+
+- Transitive Ai / Functional A
+IF Ai is transitive xAi​y (inverse relation) implies yAx, and for the transitivity of A yAz implies xAz.
+Here there is no direct contradiction between transitivity and functionality.
+This is because, in this case, y=zy=z, meaning transitivity holds without violating functionality.
+Instead of creating a contradiction, these properties form a non-simple (NS) chain, where the functional constraint remains valid, but the relationship chain is more complex.
+
+- Ai/Ai
+same as A/A
+
+- Transitive B / Functional A
+If xBy (where B is a subproperty of A) implies xAy, and yAz holds, then by transitivity, xAz should hold as well. However, since B inherits functionality from A, the resulting chain where x relates to both y and z violates the functional constraint. This doesn’t create a direct contradiction, but it leads to a non-simple (NS) property chain, as explained in Exercise 1.
+
+- Transitive B / Functional Ai
+If xBy (where B is a subproperty of A) implies xAy, and xAiy implies yAix, this creates an inverse functional relationship for Ai.
+Instead of generating a direct conflict, this results in a complex property chain where the transitivity of B leads to an inverse relationship, making Ai inverse functional. This creates an extended, non-simple chain rather than a contradiction.
+
+- B/B
+same as A/A
+
+- Transitive B / Functional Bi
+The combination of B (transitive) and Bi (functional inverse) creates a complex property chain because transitivity encourages multiple relationships, while inverse functionality restricts them to one. This interaction doesn't cause a contradiction but leads to a complex property chain.
+
+- Transitive Bi / Functional A
+If xBiy implies yAx (inverse), and xAy holds (transitivity), this doesn't lead to a contradiction. Rather, it forms a non-simple property chain where Bi's functionality interacts with the transitivity of A. Even though functionality suggests y can only relate to one instance, the transitivity still holds within the extended property structure.
+
+- Transitive Bi / Functional Ai
+The combination of Bi (functional inverse) and Ai (transitive inverse) forms a complex property chain because Bi limits relationships to one instance, while Ai's transitivity suggests multiple connections. This doesn't create a contradiction but a complex property chain.
+
+- Transitive Bi / Functional B
+If xBiy implies yBx (inverse), and xBy implies xBz (transitivity), the interaction between B's transitivity and Bi's inverse functionality doesn't cause a contradiction. Rather, it leads to a complex chain where y relates to multiple instances via different paths, preserving the consistency of the property relationships.
+
+
+- Bi/Bi
+same as A/A
+
+ <header>
+  <h2>Inverse functional, x</h2>
+</header>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Trans</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">iFunct</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+<header>
+  <h3>Inverse functional/Transitivity (Jisoo)</h3>
+</header>
+
+- <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
+
+- <b>A/Ai</b>: suppose that A is transitive and Ai is inverse functional. This implies that A is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that A is transitive and Ai is inverse functional.
+
+- <b>Ai/A</b>: suppose that Ai is transitive and A is inverse functional. This implies that Ai is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that Ai is transitive and A is inverse functional.
+
+- <b>B/A</b>: suppose that B is transitive and A is inverse functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that B is transitive and A is inverse functional.
+
+- <b>B/Ai</b>: suppose that B is transitive and Ai is inverse functional. This implies that A is functional. Since B is a subproperty of A, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that B is transitive and Ai is inverse functional.
+    
+- <b>B/Bi</b>: suppose that B is transitive and Bi is inverse functional. This implies that B is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that B is transitive and Bi is inverse functional.
+
+- <b>Bi/A</b>: suppose that Bi is transitive and A is inverse functional. This implies that Ai is functional. Since Bi is a subproperty of Ai, any instance of B should be that of A. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a complex property chain. Therefore, it does not hold that Bi is transitive and A is inverse functional.
+    
+- <b>Bi/Ai</b>: suppose that Bi is transitive and Ai is inverse functional. Since Bi is a subproperty of Ai, any instance of Bi should be that of Ai. However, according to Exercise 1, an object property can't both be transitive and inverse functional because it creates a complex property chain. Therefore, it does not hold that Bi is transitive and Ai is inverse functional.
+
+- <b>Bi/B</b>: suppose that Bi is transitive and B is inverse functional. This implies that Bi is functional. However, according to Exercise 1, an object property can't both be transitive and functional because it creates a complex property chain. Therefore, it does not hold that Bi is transitive and B is inverse functional. 
+
 
 <header>
   <h2>Reflexive, x</h2>
@@ -3316,72 +3805,139 @@ Exercise 2, part 2. Explanations
 </table>
 
 <header>
-  <h3>Reflexivity/Asymmetry</h3>
+  <h3>Reflexivity/Asymmetry (Jisoo)</h3>
 </header>
 
 - <b>A/A, Ai/Ai, B/B, Bi/Bi</b>: see Exercise 1
 
-- <b>A/Ai</b>: suppose that A is reflexive and Ai is asymmetric. By reflexivity, xAx. Since Ai is inverse A, xAix also holds.
-However, because of asymmetricity, xAix should not hold.   
+- <b>A/Ai</b>: Suppose that A is asymmetric and Ai is reflexive. By reflexivity, xAix. Since A is inverse Ai, xAx also holds.
+However, because of asymmetry, xAx should not hold.   
 
-- <b>A/B</b>: suppose that A is reflexive and B is asymmetric. By reflexivity, xAx. However, since B is a subproperty of A meaning that all the instances of B have to be a part of
-instances of A, the same problem that occured with A/A occurs. Therefore, it is not the case that A is reflexive and B is asymmetric.
+- <b>A/B</b>: Suppose that A is asymmetric and B is reflexive. By reflexivity, xBx. However, since B is a subproperty of A meaning that all the instances of B have to be a part of
+instances of A, the same problem that occured with A/A occurs. In other words, because of asymmetry, xAx should not hold. Therefore, it is not the case that A is asymmetric and B is reflexive.
 
-- <b>A/Bi</b>: suppose that A is reflexive and Bi is asymmetric. By reflexivity, xAx. And since B is a subproperty of A xBx should hold. Since Bi is inverse B, xBix also holds.
-However, because of asymmetricity, xBix should not hold.   
+- <b>A/Bi</b>: Suppose that A is asymmetric and Bi is reflexive. By reflexivity, xBix. And since Bi is a subproperty of Ai meaning that all the instances of Bi have to be a part of
+instances of Ai, the same problem that occured with A/Ai occurs. In other words, because of asymmetry, xAx should not hold. Therefore, it is not the case that A is asymmetric and Bi is reflexive.
 
-- <b>Ai/A</b>: suppose that Ai is reflexive and A is asymmetric. By reflexivity, xAix. Since A is inverse Ai, xAix also holds.
-However, because of asymmetricity, xAx should not hold.
+- <b>Ai/A</b>: Suppose that Ai is asymmetric and A is reflexive. By reflexivity, xAx. Since A is inverse Ai, xAix also holds.
+However, because of asymmetry, xAix should not hold.
     
-- <b>Ai/B</b>: suppose that Ai is reflexive and B is asymmetric. By reflexivity, xAix. Since B is a subproperty of A that is inverse Ai, xBx should hold.
-However, because of asymmetricity, xBx should not hold.
+- <b>Ai/B</b>: Suppose that Ai is asymmetric and B is reflexive. By reflexivity, xBx. Since B is a subproperty of A that is inverse Ai, xAix should hold.
+However, because of asymmetry, xAix should not hold.
   
-- <b>Ai/Bi</b>: suppose that Ai is reflexive and Bi is asymmetric. The explanation for this error will be the same for A being refelxive and B being asymmetric.
+- <b>Ai/Bi</b>: Suppose that Ai is asymmetric and Bi is reflexive. By reflexivity, xBix. However, since Bi is a subproperty of Ai meaning that all the instances of Bi have to be a part of
+instances of Ai, the same problem that occured with A/A occurs. Therefore, it is not the case that Ai is asymmetric and Bi is reflexive.
     
-- <b>B/Bi</b>: suppose that B is reflexive and Bi is asymmetric. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
-However, because of asymmetricity, if xBiy, then it is not the case that yBix.   
+- <b>B/Bi</b>: Suppose that B is asymmetric and Bi is reflexive. By reflexivity, xBix. Since Bi is inverse B, xBx also holds.
+However, because of asymmetry, xBx does not hold. Therefore, it does not hold that B is asymmetric and Bi is reflexive.
 
+- <b>Bi/B</b>: Suppose that Bi is asymmetric and B is reflexive. By reflexivity, xBx. Since Bi is inverse B, xBix also holds.
+However, because of asymmetry, if xBiy, then it is not the case that yBix.
 
+<header>
+  <h2>Transitive, x</h2>
+</header>
 
-Functionality / Transitivity
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
-![image](https://github.com/user-attachments/assets/94f987df-41cd-4d1c-b278-1c45ad5ba4a3)
+<colgroup>
+<col  class="org-left" />
 
-1. A/A
-If xAy and yAz (transitivity), then xAz must hold.
-However, if A is functional, x can only have one y, leading to a conflict because xAz contradicts functionality (X).
+<col  class="org-left" />
 
-3. Transitive A / Functional Ai
-If xAy implies yAx (inverse of A as Ai), and xAi​z implies zAi​y, the transitive relationship between A and Ai creates a conflict since A is functional, and x cannot relate to multiple y's (X).
+<col  class="org-left" />
 
-4. Transitive Ai / Functional A
-If xAi​y implies yAx (inverse relationship), and yAz implies xAz (transitivity), functionality is violated because x can only have one relationship, but transitivity implies multiple connections for x (X).
+<col  class="org-left" />
 
-5. Ai/Ai
-same as A/A
+<col  class="org-left" />
 
-6. Transitive B / Functional A
-If xBy (B is a subproperty of A) implies xAy, and yAz holds, then xAz should hold (transitivity).
-However, since Bi nherits functionality from A, xAz contradicts the functional nature of A, creating a conflict (X).
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Asymm</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Trans</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">Ai</td>
+<td class="org-left">B</td>
+<td class="org-left">Bi</td>
+</tr>
 
-8. Transitive B / Functional Ai
-If xBy implies xAy, and xAi​z implies zAi​y, the inverse relationship causes a conflict because B inherits transitivity and functionality from A, while Ai creates an inverse that doesn't align with these constraints (X).
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">A</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+</tr>
 
-9. B/B
-same as A/A
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ai</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">OK</td>
+<td class="org-left">OK</td>
+</tr>
 
-10. Transitive B / Functional Bi
-If xBy implies yBi​x (inverse), and yBz implies xBz, the combination of B and its inverse Bi creates a conflict because the inverse relationship breaks the functionality of B, as y would relate to multiple instances (X).
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">B</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
 
-11. Transitive Bi / Functional A
-If xBi​y implies yAx (inverse), and xAy holds (transitivity), this creates a conflict because Bi is functional, and y can only relate to one instance, but transitivity suggests multiple relations (X).
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Bi</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+</table>
 
-12. Transitive Bi / Functional Ai
-If xBi​y implies yAx, and yAi​z implies xAi​z (transitivity), functionality is violated because y can only relate to one instance, but transitivity requires multiple relationships (X).
+ <header>
+  <h3>Transitivity/Aysmmetry (Giacomo)</h3>
+</header>
 
-13. Transitive Bi / Functional B
-If xBi​y implies yBx (inverse), and xBy implies xBz (transitivity), the combination creates a conflict because B's transitivity contradicts Bi's functionality, as y can only relate to one instance (X).
+A/A:
+See exercise 1
 
-14. Bi/Bi
-same as A/A
+- For A/Ai, suppose that A is transitive and Ai is asymmetric. Ai being the inverse of A, it is the case that the relation A holds between the opposite instances in the relation Ai. But this creates a complex role chain (see exercise 1).
+  
+- For Ai/A, suppose that Ai is transitive and A is asymmetric. A being the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+  
+- For Ai/Ai, see Exercise 1
 
+- For A/A, see Exercise 1
+  
+- For B/A, suppose that B is transitive and A is asymmetric. B being a subproperty of A, xBy implies xAy. But this creates a complex role chain (see exercise 1).
+  
+-  For B/B, see Exercise 1
+
+- For B/Bi, suppose that B is transitive and Bi is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. But this creates a complex role chain (see exercise 1).
+
+- For Bi/A, suppose that Bi is transitive and A is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. Being B a subproperty of A, xBy implies xAy. But this creates a complex role chain (see exercise 1).
+
+- For Bi/Ai, suppose that Bi is transitive and Ai is asymmetric. Being Bi the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. B being a subproperty of A, xBy implies xAy. A being the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+
+-  For Bi/Bi, see Exercise 1
+
+- For B/Ai, suppose that B is transitive and Ai is asymmetric. B being a subproperty of A, xBy implies xAy. Being A the inverse of Ai, it is the case that the relation Ai holds between the opposite instances in the relation A. But this creates a complex role chain (see exercise 1).
+
+- For Bi/B, suppose that Bi is transitive and B is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. But this creates a complex role chain (see exercise 1).
