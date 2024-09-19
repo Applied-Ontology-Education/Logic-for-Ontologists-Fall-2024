@@ -1,12 +1,4 @@
-,,Rows,,,,,,,,Table 1,,,,,,,
-Table 2,,Funct,Ifunct,Trans,Symm,Asymm,Ref,Irref,,,Funct.,iFunct.,Trans.,Symm.,Asymm.,Ref.,Irref.
-Columns,Funct,1,1,1,1,1,X,X,,Funct.,-,OK,XNS,OK,OK,OK,OK
-,iFunct,2,2,2,2,2,X,X,,iFunct.,OK,-,XNS,OK,OK,OK,OK
-,Trans,EM,JS,3,3,3,X,X,,Trans.,XNS,XNS,-,OK,XNS,OK,XNS
-,Symm,4,4,4,4,4,X,X,,Symm.,OK,OK,OK,-,XUNSAT,OK,OK
-,Asymm,5,5,GDC,EM,5,X,X,,Asymm.,OK,OK,XNS,XUNSAT,-,XUNSAT,OK
-,Ref,6,6,6,6,JS,,X,,Ref.,OK,OK,OK,OK,XUNSAT,-,XUNSAT
-,Irref,7,7,JS,7,7,GDC,7,,Irref.,OK,OK,XNS,OK,OK,XUNSAT,-
+
 ,,,,,,,,,,,,,,,,,
 Funct,1,Funct,,,,,,,,,,,,,,,
 ,Funct,,A,Ai,B,Bi,,,,,,,,,,,
