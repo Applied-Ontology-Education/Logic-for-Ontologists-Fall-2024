@@ -1,0 +1,23 @@
+@prefix dev: <https://buffalo.edu/lfocourse/assignment1p2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dev:reflexive a owl:ReflexiveProperty ;
+    rdfs:label "reflexive"@en ;
+    owl:inverseOf dev:functional .
+
+dev:x a dev:TestThing ;
+    rdfs:label "x"@en .
+
+dev:y a dev:TestThing ;
+    rdfs:label "y"@en .
+
+dev:z a dev:TestThing ;
+    rdfs:label "z"@en .
+
+dev:functional a owl:FunctionalProperty ;
+    rdfs:label "functional"@en .
+
+dev:TestThing a owl:Class ;
+    rdfs:label "Test Thing"@en .
+
