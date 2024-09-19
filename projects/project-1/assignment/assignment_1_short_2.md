@@ -36,7 +36,7 @@ Exercise 2
 
 Exercise 2, part 2. Explanations
 
-- Ref/Irref (Giacomo)
+- Ref/Irref 
 
 ![image](https://github.com/user-attachments/assets/745b2fa1-7bbf-4f0e-bdea-fb27a40496c4)
 
@@ -65,7 +65,7 @@ Exercise 2, part 2. Explanations
 -  For Bi/Bi, see Exercise 1
   
 
-- Symm/Asymm (Elena)
+- Symm/Asymm 
 
 ![image](https://github.com/user-attachments/assets/04f01e22-a5bc-4e12-bb6a-af93eb7274fa)
 
@@ -100,7 +100,7 @@ Bi/Bi:
 same as A/A
 
 
-- Functionality/Transitivity (Elena)
+- Functionality/Transitivity 
   
 ![image](https://github.com/user-attachments/assets/5da454fa-a86b-4a11-8ed2-d1921b823846)
 
@@ -130,8 +130,7 @@ same as A/A
  Bi/Bi same as A/A
 
 
-
-- Trans/Asymm (Giacomo)
+- Trans/Asymm 
 
 - <img width="639" alt="image" src="https://github.com/user-attachments/assets/f713b95b-ed69-413e-bc04-1580acf8bb98">
 
@@ -163,7 +162,7 @@ See exercise 1
 - For Bi/B, suppose that Bi is transitive and B is asymmetric. Bi being the inverse of B, it is the case that the relation B holds between the opposite instances in the relation Bi. But this creates a complex role (see exercise 1).
 
 
-- Reflexivity/Asymmetry (Jisoo)
+- Reflexivity/Asymmetry 
 
 <img width="643" alt="image" src="https://github.com/user-attachments/assets/cf5ae51e-1d23-4001-a15a-aa67e25e137c">
 
@@ -187,7 +186,7 @@ See exercise 1
 - Bi/B: Suppose that Bi is asymmetric and B is reflexive. By reflexivity, xBx. Since Bi is inverse B, xBix also holds. However, because of asymmetry, if xBiy, then it is not the case that yBix.
 
 
-Inverse Functional/Transitive (Jisoo)
+Inverse Functional/Transitive 
 
 ![image](https://github.com/user-attachments/assets/1670e82a-f623-4396-9c20-84bef8d20f90)
 
@@ -231,6 +230,4 @@ Transitive-Irreflexive
   Bi/Ai: Suppose that Bi is transitive and Ai is irreflexive. Bi being a subclass of A implies that Ai is also transitive. As seen in ex 1, this creates a complex role.
   
   Bi/B: Suppose that Bi is transitive and B is irreflexive. Bi being the inverse of B, xBiy implies that yBx. In order to check irreflexivity of B, a reasoner has to loop over B each time it needs to also check for transitivity. This creates a complex role.
-
-
 
