@@ -1,4 +1,8 @@
-Assignment Part I
+<header>
+  <h1>Assignment 1</h1>
+</header>
+
+Part I - Elena Milivinti
 
 |        | Funct. | iFunct. | Trans. | Symm. | Asymm. | Ref. | Irref. |
 |--------|--------|---------|--------|-------|--------|------|--------|
@@ -10,23 +14,46 @@ Assignment Part I
 | **Ref.**     | OK     | OK      | OK     | OK    | X<sup>UNSAT</sup> | -    | X<sup>UNSAT</sup> |
 | **Irref.**   | OK     | OK      | X<sup>NS</sup>    | OK    | OK     | X<sup>UNSAT</sup>| -      |
 
-Transitivity & Functionality
+Notation Key:
+
+X<sup>NS</sup> stands for or "Not Satisfiable". It indicates that the property in the row is not satisfied or cannot coexist with the property in the column. 
+For example, if the cell for Transitivity and Functionality shows X<sup>NS</sup>, it means that a relation cannot be both transitive and functional simultaneously.
+
+X<sup>UNSAT</sup> stands for "Unsatisfiable." It signifies that the properties in question cannot coexist or are contradictory. 
+For instance, if the cell for Symmetry and Asymmetry shows X<sup>UNSAT</sup>, it indicates that no relation can be both symmetric and asymmetric at the same time.
+
+Transitivity & Functionality (NS)
 If R is functional, it means that each element can only be related to one other element. So if xRy, x cannot be related to any other element, like z.
 If R is transitive, it allows for more relationships. For example, if xRy and yRz, then xRy. But this creates a problem: if R is also functional, then x can only be related to one element, and having x related to both y and z would violate the functional rule. 
 
-Transitivity & Inverse Functionality
+Transitivity & Inverse Functionality (NS)
 Transitivity means that if xRy and yRz, then xRz 
 Inverse functionality means that if x and z are both related to y, then x and z must be the same object. 
 xRy and yRz implies x=z
 These two properties cannot coexist because transitivity implies distinct relationships, while inverse functionality requires the related objects to be identical, leading to a contradiction.
 
-Transitivity & Asymmetry
-A relation R cannot be both transitive and asymmetric. Asymmetry means if xRy, then y cannot be related to x, forbidding reciprocal relationships. Transitivity, however, means that if xRy and yRz then xRz. This can lead to contradiction with asymmetry, as asymmetry prohibits such reverse or reciprocal links, making the two properties incompatible.
+Transitivity & Asymmetry (NS)
+A relation R cannot be both transitive and asymmetric. Asymmetry means if xRy, then y cannot be related to x, forbidding reciprocal relationships. 
+Transitivity, however, means that if xRy and yRz then xRz. This can lead to contradiction with asymmetry, as asymmetry prohibits such reverse or reciprocal links, making the two properties incompatible.
 
-Transitivity & Irreflexivity
-A relation R cannot be both transitive and irreflexive. Irreflexivity means no element can be related to itself, so it is not possible that xRx. However, transitivity can lead to self-relations: if xRy and yRx, then xRx, which violates irreflexivity. This makes the two properties incompatible.
-Reflexivity & Asymmetry
-Reflexivity requires that every element be related to itself, meaning xRx. Asymmetry, however, forbids any element from being related to itself, so xRx cannot be in the relation. Therefore, a relation cannot satisfy both properties simultaneously.
+Transitivity & Irreflexivity (NS)
+A relation R cannot be both transitive and irreflexive. 
+Irreflexivity means no element can be related to itself, so it is not possible that xRx. 
+However, transitivity can lead to self-relations: if xRy and yRx, then xRx, which violates irreflexivity. 
+This makes the two properties incompatible.
+
+Reflexivity & Asymmetry (UNSAT)
+Reflexivity requires that every element be related to itself, meaning xRx. 
+Asymmetry, however, forbids any element from being related to itself, so xRx cannot be in the relation. 
+Therefore, a relation cannot satisfy both properties simultaneously.
+
+Asymmetry & Symmetry (UNSAT)
+explanation provided by JB
+
+Reflexitivy & Irreflexivity (UNSAT)
+Reflexivity requires every element to relate to itself, while irreflexivity prohibits self-relations entirely. 
+Therefore, a relation cannot be both reflexive and irreflexive simultaneously.
+
 
 Part II
 
