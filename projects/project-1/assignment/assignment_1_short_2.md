@@ -210,22 +210,25 @@ Bi/B: suppose that Bi is transitive and B is inverse functional. This implies th
 
 
 
-Transitive-Irreflexive (Jisoo)
-    A/A, Ai/Ai, B/B, Bi/Bi: see Exercise 1
+Transitive-Irreflexive 
 
-  A/Ai: 
+![image](https://github.com/user-attachments/assets/97d1d056-1c8d-4393-92ad-f05ac96eaaba)
+
+  A/A, Ai/Ai, B/B, Bi/Bi: see Exercise 1
+
+  A/Ai: Suppose that A is transitive and Ai is irreflexive. Ai being the inverse of A, xAiy implies that yAx. In order to check irreflexivity of A, a reasoner has to loop over A each time it needs to also check for transitivity. This creates a complex rule chain.
   
-  Ai/A: 
+  Ai/A: Suppose that Ai is transitive and A is irreflexive. Ai being the inverse of A, xAiy implies that yAx. In order to check irreflexivity of A, a reasoner has to loop over A each time it needs to also check for transitivity. This creates a complex rule chain.
 
-  B/A:
+  B/A: Suppose that B is transitive and A is irreflexive. B being a subclass of A implies that A is also transitive. As seen in ex 1, this creates a complex rule chain.
 
-  B/Ai:
+  B/Ai: Suppose that B is transitive and Ai is irreflexive. B being a subclass of A implies that A is also transitive. Ai being the inverse of A, xAiy implies that yAx. In order to check for irreflexivy and transitivity of this relation, a reasoner loops over because of the presence of a complex rule chain.
 
-  B/Bi: 
+  B/Bi: Suppose that B is transitive and Bi is irreflexive. Bi being the inverse of B, xBiy implies that yBx. In order to check irreflexivity of B, a reasoner has to loop over B each time it needs to also check for transitivity. This creates a complex rule chain.
 
-  Bi/A: 
+  Bi/A: Suppose that Bi is transitive and A is irreflexive. Bi being the inverse of B, xBiy implies that yBx. B being a subclass of A implies yAx. In order to check irreflexivity of A, a reasoner has to loop over A each time it needs to also check for transitivity. This creates a complex rule chain.
 
-  Bi/Ai: 
+  Bi/Ai: Suppose that Bi is transitive and Ai is irreflexive. Bi being a subclass of A implies that Ai is also transitive. As seen in ex 1, this creates a complex rule chain.
   
-  Bi/B: 
+  Bi/B: Suppose that Bi is transitive and B is irreflexive. Bi being the inverse of B, xBiy implies that yBx. In order to check irreflexivity of B, a reasoner has to loop over B each time it needs to also check for transitivity. This creates a complex rule chain.
 
