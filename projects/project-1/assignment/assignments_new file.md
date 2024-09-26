@@ -456,7 +456,7 @@ See exercise 1
 
 - <b>B/Bi</b>: Suppose that B is transitive and Bi is irreflexive. This means that if xBy and yBx hold, xBx holds. It also means that xBix should hold. However, Bi is irreflextive so xBix doesn't hold. Therefore, it does not hold that B is transitive and Bi is irreflexive.
   
-- <b>Bi/A</b>: SSuppose that B is transitive and Bi is irreflexive. Bi being the inverse of B, xBiy implies that yBx. In order to check irreflexivity of B, a reasoner has to loop over B each time it needs to also check for transitivity. This creates a complex role.
+- <b>Bi/A</b>: Suppose that B is transitive and Bi is irreflexive. Bi being the inverse of B, xBiy implies that yBx. In order to check irreflexivity of B, a reasoner has to loop over B each time it needs to also check for transitivity. This creates a complex role.
 
 - <b>Bi/Ai</b>: Suppose that Bi is transitive and Ai is irreflexive. Bi being a subclass of A implies that Ai is also transitive. As seen in ex 1, this creates a complex role.
 
