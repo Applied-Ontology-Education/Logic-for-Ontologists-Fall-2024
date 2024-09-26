@@ -148,7 +148,7 @@ ADD EXPLANATION HERE
 
 - (A-9) Suppose `Ai` is irreflexive and its inverse , `A`, is transitive. Because `Ai` is irreflexive, it is not the case for any `x` that `<x,x>` is in `Ai`. Because `A` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
-ADD EXPLANATION HERE
+ADD EXPLANATION HERE - 
 
 - (A-10) Suppose `Ai` is irreflexive and `B` is transitive. Because `Ai` is irreflexive, it is not the case for any `x` that `<x,x>` is in `Ai`. Because `B` is transitive, if `<x,y>` and `<y,z>`, then `<x,z>`. 
 
