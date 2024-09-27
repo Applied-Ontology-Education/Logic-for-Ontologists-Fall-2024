@@ -1,0 +1,25 @@
+@prefix dev: <https://buffalo.edu/lfocourse/assignment1p2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dev:functionaltestprop a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "functional test prop"@en ;
+    rdfs:subPropertyOf dev:asymmetrictestprop .
+
+dev:x a dev:TestThing ;
+    rdfs:label "x"@en .
+
+dev:y a dev:TestThing ;
+    rdfs:label "y"@en .
+
+dev:z a dev:TestThing ;
+    rdfs:label "z"@en .
+
+dev:asymmetrictestprop a owl:AsymmetricProperty,
+        owl:ObjectProperty ;
+    rdfs:label "asymmetric test prop"@en .
+
+dev:TestThing a owl:Class ;
+    rdfs:label "Test Thing"@en .
+
