@@ -2,7 +2,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-dev:irreflexivetestprop a owl:IrreflexiveProperty ;
+dev:irreflexivetestprop a owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
     rdfs:label "irreflexive test prop"@en ;
     owl:inverseOf dev:asymmetrictestprop .
 
@@ -15,7 +16,8 @@ dev:y a dev:TestThing ;
 dev:z a dev:TestThing ;
     rdfs:label "z"@en .
 
-dev:asymmetrictestprop a owl:AsymmetricProperty ;
+dev:asymmetrictestprop a owl:AsymmetricProperty,
+        owl:ObjectProperty ;
     rdfs:label "asymmetric test prop"@en .
 
 dev:TestThing a owl:Class ;

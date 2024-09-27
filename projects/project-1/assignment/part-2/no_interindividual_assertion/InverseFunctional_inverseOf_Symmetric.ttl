@@ -2,7 +2,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-dev:symmetrictestprop a owl:SymmetricProperty ;
+dev:symmetrictestprop a owl:ObjectProperty,
+        owl:SymmetricProperty ;
     rdfs:label "symmetric test prop"@en ;
     owl:inverseOf dev:inversefunctionaltestprop .
 
@@ -15,7 +16,8 @@ dev:y a dev:TestThing ;
 dev:z a dev:TestThing ;
     rdfs:label "z"@en .
 
-dev:inversefunctionaltestprop a owl:InverseFunctionalProperty ;
+dev:inversefunctionaltestprop a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
     rdfs:label "inversefunctional test prop"@en .
 
 dev:TestThing a owl:Class ;

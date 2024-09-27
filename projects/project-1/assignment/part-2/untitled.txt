@@ -1,1 +1,0 @@
-Suppose B owl:subPropertyOf A, A is {constraint_1} and B is {constraint_2}.
