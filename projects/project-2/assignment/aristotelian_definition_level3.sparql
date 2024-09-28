@@ -9,7 +9,7 @@
 PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/> 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
 
-SELECT ?subject ?parentClass ?definition ?subjectLabel
+SELECT ?subject ?parentClass ?definition ?subjectLabel ?error
 WHERE {
     ?subject cco:definition ?definition .
     ?subject rdfs:subClassOf ?parentClass .
@@ -17,4 +17,5 @@ WHERE {
     ?subject rdfs:label ?subjectLabel .
     
    FILTER NOT (REGEX(LCASE(STR(?definition)), CONCAT(LCASE(STR(?parentClassLabel)), " (that|who|where|inhering)")))
+ BIND (concat("WARNING: Possible non-Aristotelian definition format for the following definition ", str(?definition)) AS ?error)
   }
