@@ -1,0 +1,16 @@
+#Check whether a class has more than on parent class
+#suggested difficulty level 5 (5 points)
+
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?subject ?parentClass ?error
+WHERE {
+    ?subject rdfs:subClassOf ?parentClass .
+FILTER (!ISBLANK (?class)) .
+FILTER regex(str(?class), "http://www.ontologyrepository.com/CommonCoreOntologies/")
+BIND (concat("ERROR: There is double inheritance for class ", str(?class)) AS ?error)
+}
+
+GROUP BY ?subject ?parentClass
+HAVING (COUNT(?parentClass) > 1)
