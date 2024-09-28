@@ -16,7 +16,7 @@ So (x) also relates to (z) by virture of object-property 1.
 x --> y, y --> z Therefore x --> z
 
 When running a reasoner the combination of these becomes undecideable because a functional property must only be only be obtained between one individual and another,
-however, if it is applied transitively it whill carry over to subsequent pairs who are also connected by this same object property.
+however, if it is applied transitively it will carry over to subsequent pairs who are also connected by this same object property.
 
 
 2.) INVERSE-FUNCTIONALITY AND TRANSITIVITY BECOMES UNDECIDEABLE
@@ -24,7 +24,7 @@ however, if it is applied transitively it whill carry over to subsequent pairs w
 Inverse functionality provides that each individual paired with another with this relation can have at most one incoming connection of said object property.
 Ex: Inverse_Functional_Property "father of";
     Father_of (Joey, Richard)      = "Joey is father_of Richard"
---> This means that the instance, Richard, can only be inverse-fucntionally related to Joey and no other instance because any person can only have one father.
+--> This means that the instance, Richard, can only be inverse-functionally related to Joey and no other instance because any person can only have one father.
 --> Conversely the object-property "father_of" may be obtained between Joey and other instances, who will only have this relation which Joey. 
 
 Transitive object-property goes according to the following:
@@ -32,7 +32,7 @@ Transitive object-property goes according to the following:
 So (x) also relates to (z) by virture of object-property 1.
 x --> y, y --> z Therefore x --> z
 
-When running a reasoner the combination of these becomes undecideable because a functional property must only be only be obtained between one individual and another,
+When running a reasoner the combination of these becomes undecideable because an inverse functional property holds that an object can be connected to at most one other object through such a property relation,
 however, if it is applied transitively it whill carry over to subsequent pairs who are also connected by this same object property.
 
 
@@ -48,8 +48,7 @@ Ex: Asymmetric_Object_Property (Parent_of)
     Object_Property_Assertion (parent_of, Vivian, Chris)  = "Vivian is a parent of Chris"
     It holds that Chris CANNOT be a parent of Vivian. 
 
-The joint of these leads to unsatisfiability because an object property cannot relate mutually between instances while also only applying one direction between one to the other.
-Thus, the result will always be false because both cannot be achieved simulataneously. 
+The joint of these leads to unsatisfiability because Symmetry holds that if xRy then yRx, however, Asymmetry holds that if xRy then ~ yRx. Thus the logical contradiction which will return false. 
 
 
 4.) A-SYMMETRY + TRANSITIVITY = UNDECIDEABLE
@@ -88,7 +87,7 @@ Irreflexive Property assertion: brother_of
     z is brother of x
 Therefore, x is brother to itself. 
 
-This leads to a contradiction because x cannot be brother to itself by virtue of irreflexivity. 
+By transitivity, xRy and yRz then xRz. This could lead to xRx which violates irreflexivity (~xRx) thus leading to undecideability.  
 
 
 
@@ -101,7 +100,7 @@ Ex: Asymmetric_Object_Property (Parent_of)
 
 Reflexivity holds that an instance can relate to itself by some object property, (aRa) where a is some instance. 
 
-If (x) relates to some (y) and why, in turn, this (y) is able to point back to (x) by virtue of (x)'s reflexivity then this would lead to a contradiction. 
+By Reflexivity xRx holds. By Asymmetry, xRy then yRx cannot hold. Reflexivity calls for self-relations (xRx) which Asymmetry does not allow, thus the contradiction.    
 
 
 7.) REFLEXIVE + IRREFLEVITY = UNSATISFIABLE
@@ -110,5 +109,4 @@ Irreflexive hold that no individual can be connected by such an object property 
 
 Reflexivity holds that an instance can relate to itself by some object property, (aRa) where a is some instance.
 
-If some instance (x) has object property that relates to itself concatenated with another that is mutually exclusive of itself then this will 
-lead to a contradiction as both conditions cannot be satisfied at once.
+By reflexivity all instances of x must relate xRx. However irreflexivity prohibity xRx. So, there is a contradiction. 
