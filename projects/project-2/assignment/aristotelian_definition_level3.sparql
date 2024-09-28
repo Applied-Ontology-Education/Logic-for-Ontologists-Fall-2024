@@ -16,5 +16,5 @@ WHERE {
     ?parentClass rdfs:label ?parentClassLabel .
     ?subject rdfs:label ?subjectLabel .
     
-   FILTER(REGEX(LCASE(STR(?definition)), CONCAT(LCASE(STR(?parentClassLabel)), " (that|who|where|inhering)")))
+   FILTER NOT (REGEX(LCASE(STR(?definition)), CONCAT(LCASE(STR(?parentClassLabel)), " (that|who|where|inhering)")))
   }
