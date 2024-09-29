@@ -257,3 +257,42 @@ WHERE {
 }
 
 ```
+**Title: Detect Ellipses**
+
+Constraint Description: This query will return a list of terms (both classes and properties) whose labels contain ellipses. You can use this to identify and review any such labels that may be incorrectly or ambiguously defined in the ontology.
+
+Severity: Warning
+
+```sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?term ?label ?warning
+WHERE {
+  {
+    # Extract all classes with labels
+    ?term a <http://www.w3.org/2002/07/owl#Class> .
+  }
+  UNION
+  {
+    # Extract all object properties with labels
+    ?term a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+  }
+  UNION
+  {
+    # Extract all datatype properties with labels
+    ?term a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+  }
+
+  # Get the label of the term
+  ?term rdfs:label ?label .
+
+  # Filter for labels that contain ellipses (three dots)
+  FILTER(CONTAINS(?label, "..."))
+
+  # Bind a warning message for terms with ellipses in the label
+  BIND(CONCAT("WARNING: The label '", ?label, "' contains ellipses.") AS ?warning)
+}
+
+```
