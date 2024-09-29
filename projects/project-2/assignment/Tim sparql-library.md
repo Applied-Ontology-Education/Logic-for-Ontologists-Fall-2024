@@ -86,3 +86,32 @@ WHERE {
   # Bind a warning message if the label matches the regex
   BIND (concat("WARNING: The term ", str(?term), " has a label that looks like an acronym: ", ?label) AS ?warning)
 }
+```
+**Title: Axiom Type and Anonymous Class**
+Constraint Description: (Principle of Single Inheritance) SPARQL query to check an ontology for the use of subclass or equivalent class axioms whereby a class is defined to be a subclass or equivalent class of an anonymous class
+Severity: Warning
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?class ?axiomType ?anonymousClass ?warning
+WHERE {
+  {
+    # Subclass axiom where the superclass is anonymous (blank node)
+    ?class rdfs:subClassOf ?anonymousClass .
+    FILTER(isBlank(?anonymousClass))  # Check if the superclass is anonymous
+    BIND("subClassOf" AS ?axiomType)
+  }
+  UNION
+  {
+    # Equivalent class axiom where the equivalent class is anonymous (blank node)
+    ?class owl:equivalentClass ?anonymousClass .
+    FILTER(isBlank(?anonymousClass))  # Check if the equivalent class is anonymous
+    BIND("equivalentClass" AS ?axiomType)
+  }
+
+  # Bind a warning message when an anonymous class is found
+  BIND(concat("WARNING: The class ", str(?class), " has an anonymous ", ?axiomType, " axiom.") AS ?warning)
+}
+```
