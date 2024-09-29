@@ -296,3 +296,30 @@ WHERE {
 }
 
 ```
+
+**Title: IRI Subject Validation and Annotation Check**
+
+Constraint Description: This SPARQL query checks if a specific IRI is the subject of any triple in an RDF dataset or ontology. It also checks how a specific IRI is used and whether it has appropriate annotations, the query ensures that the data is well-structured, properly annotated, and used according to the design principles of the ontology
+
+Severity: Error. 
+
+```sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?predicate ?object ?annotationProperty ?annotationValue ?error
+WHERE {
+  # Check if the IRI is the subject of a triple
+  <http://example.org/yourIRI> ?predicate ?object .
+
+  # Check for annotations on the IRI
+  OPTIONAL {
+    <http://example.org/yourIRI> ?annotationProperty ?annotationValue .
+    FILTER(?annotationProperty IN (rdfs:label, rdfs:comment, owl:versionInfo))
+  }
+  
+  # Bind an error message
+  BIND(CONCAT("ERROR: The IRI <http://example.org/yourIRI> is the subject of a triple with predicate '", STR(?predicate), "' and object '", STR(?object), "'.") AS ?error)
+}
+```
