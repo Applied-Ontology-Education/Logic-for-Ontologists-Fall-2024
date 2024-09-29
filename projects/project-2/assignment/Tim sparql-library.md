@@ -51,3 +51,38 @@ A few tips for developing effective SPARQL queries for the Common Core Ontologie
 When creating queries, start with simple quality control checks and build complexity through practice. Feel free to leverage generative AI for this project. Also, feel free to collaborate with peers. 
 
 Be sure to test your queries. You may do this in Protege or in the [SPARQL playground](https://atomgraph.github.io/SPARQL-Playground/). 
+
+**Title: SPARQL Query to Identify Acronyms**
+Constraint Description: This SPARQL query is designed to identify terms in an ontology (either classes or properties) that have labels resembling acronyms.
+Severity: Warning
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?term ?label ?warning
+WHERE {
+  # Extract all terms (classes and properties) with labels
+  {
+    ?term a owl:Class .
+  }
+  UNION
+  {
+    ?term a owl:ObjectProperty .
+  }
+  UNION
+  {
+    ?term a owl:DatatypeProperty .
+  }
+
+  # Get the label of the term
+  ?term rdfs:label ?label .
+
+  # Check for labels that look like acronyms (upper case and short)
+  FILTER(
+    REGEX(?label, "^[A-Z0-9-\\.]{2,6}$", "i")
+  )
+
+  # Bind a warning message if the label matches the regex
+  BIND (concat("WARNING: The term ", str(?term), " has a label that looks like an acronym: ", ?label) AS ?warning)
+}
