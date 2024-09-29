@@ -53,7 +53,9 @@ When creating queries, start with simple quality control checks and build comple
 Be sure to test your queries. You may do this in Protege or in the [SPARQL playground](https://atomgraph.github.io/SPARQL-Playground/). 
 
 **Title: SPARQL Query to Identify Acronyms**
+
 Constraint Description: This SPARQL query is designed to identify terms in an ontology (either classes or properties) that have labels resembling acronyms.
+
 Severity: Warning
 
 ```sparql
@@ -88,7 +90,9 @@ WHERE {
 }
 ```
 **Title: Axiom Type and Anonymous Class**
+
 Constraint Description: (Principle of Single Inheritance) SPARQL query to check an ontology for the use of subclass or equivalent class axioms whereby a class is defined to be a subclass or equivalent class of an anonymous class
+
 Severity: Warning
 
 ```sparql
@@ -113,5 +117,44 @@ WHERE {
 
   # Bind a warning message when an anonymous class is found
   BIND(concat("WARNING: The class ", str(?class), " has an anonymous ", ?axiomType, " axiom.") AS ?warning)
+}
+```
+
+**Title: Reused Term, Axiom type and Axiom Detail**
+
+Constraint Description: (Preservation of Meaning of Higher-Level Ontology Terms) SPARQL query that checks whether an ontology reuses a term from a higher-level ontology and adds new content to it through the addition of an axiom.
+
+Severity: Error.
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?reusedTerm ?axiomType ?axiomDetail ?error
+WHERE {
+  # 1. Identify terms that are reused from another ontology (by detecting external namespaces)
+  ?reusedTerm a owl:Class .
+  FILTER(STRSTARTS(STR(?reusedTerm), "http://higher-level-ontology-namespace.org/")) # Replace with actual namespace
+
+  # 2. Check if the reused term is extended in the current ontology with a subclass axiom
+  {
+    ?reusedTerm rdfs:subClassOf ?axiomDetail .
+    BIND("subClassOf" AS ?axiomType)
+  }
+  UNION
+  # 3. Check if the reused term is extended with an equivalent class axiom
+  {
+    ?reusedTerm owl:equivalentClass ?axiomDetail .
+    BIND("equivalentClass" AS ?axiomType)
+  }
+  UNION
+  # 4. Check if additional restrictions are added to the reused term
+  {
+    ?reusedTerm rdfs:subClassOf [ owl:onProperty ?property ; owl:someValuesFrom ?axiomDetail ] .
+    BIND(CONCAT("Restriction on property: ", STR(?property)) AS ?axiomType)
+  }
+  
+  # BIND an error message for reused terms
+  BIND(CONCAT("ERROR: The reused term ", STR(?reusedTerm), " is extended with a ", ?axiomType, " axiom.") AS ?error)
 }
 ```
