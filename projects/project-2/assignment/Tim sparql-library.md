@@ -158,3 +158,41 @@ WHERE {
   BIND(CONCAT("ERROR: The reused term ", STR(?reusedTerm), " is extended with a ", ?axiomType, " axiom.") AS ?error)
 }
 ```
+**Title: Checking for Plurals**
+
+Constraint Description: All terms in your ontology should be nouns and noun-phrases that are singular in number. This query allows a user to identify ontology terms that potentially have plural labels, which might not follow ontology design conventions.
+
+Severity: Warning.
+
+```sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?term ?label ?warning
+WHERE {
+  # Extract all classes and properties
+  {
+    ?term a owl:Class .
+  }
+  UNION
+  {
+    ?term a owl:ObjectProperty .
+  }
+  UNION
+  {
+    ?term a owl:DatatypeProperty .
+  }
+  
+  # Get the label of the term
+  ?term rdfs:label ?label .
+
+  # Filter for terms that have labels potentially indicating plurals
+  FILTER(
+    REGEX(?label, "(s|es|ies)$", "i")
+  )
+
+  # Bind a warning message for terms with plural-like labels
+  BIND(CONCAT("WARNING: The term '", ?label, "' appears to be plural.") AS ?warning)
+}
+```
