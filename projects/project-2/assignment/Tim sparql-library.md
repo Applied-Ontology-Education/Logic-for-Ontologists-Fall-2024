@@ -196,3 +196,64 @@ WHERE {
   BIND(CONCAT("WARNING: The term '", ?label, "' appears to be plural.") AS ?warning)
 }
 ```
+**Title: Query to Detect Negative Terms**
+
+Constraint Description: This query will return all terms in the ontology that have labels containing one of the negative terms listed. This can help identify terms that may introduce negation or exclusion concepts, which might require further review depending on the ontology's modeling approach. This query helps you identify negative terms in your ontology and, at the same time, generates warnings if there are ontology elements that have identical labels.
+
+Severity: Warning.
+
+```sparql
+
+PPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?element ?element2 ?label1 ?label2 ?error
+WHERE {
+  {
+    # Extract all classes with labels
+    ?element a owl:Class .
+  }
+  UNION
+  {
+    # Extract all object properties with labels
+    ?element a owl:ObjectProperty .
+  }
+  UNION
+  {
+    # Extract all datatype properties with labels
+    ?element a owl:DatatypeProperty .
+  }
+
+  # Get the label of the first element
+  ?element rdfs:label ?label1 .
+
+  # Detect negative terms in the first element's label
+  FILTER(REGEX(?label1, "(?i)\\b(not|non|no|without|absent|null|empty|void|false)\\b"))
+
+  # Find other elements with the same label
+  {
+    ?element2 a owl:Class .
+  }
+  UNION
+  {
+    ?element2 a owl:ObjectProperty .
+  }
+  UNION
+  {
+    ?element2 a owl:DatatypeProperty .
+  }
+
+  # Get the label of the second element
+  ?element2 rdfs:label ?label2 .
+
+  # Check for duplicate labels
+  FILTER(?label1 = ?label2)
+
+  # Avoid self-matching (make sure we don't compare the same element)
+  FILTER(?element != ?element2)
+
+  # Bind an error message for duplicate negative terms
+  BIND(CONCAT("ERROR: The terms ", STR(?element), " and ", STR(?element2), " have the same label: '", ?label1, "'") AS ?error)
+}
+
+```
