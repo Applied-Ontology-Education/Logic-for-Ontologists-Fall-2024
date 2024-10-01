@@ -58,6 +58,8 @@ Constraint Description: This SPARQL query is designed to identify terms in an on
 
 Severity: Warning
 
+Level: 4
+
 ```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -95,6 +97,8 @@ Constraint Description: (Principle of Single Inheritance) SPARQL query to check 
 
 Severity: Warning
 
+Level: 5
+
 ```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -125,6 +129,8 @@ WHERE {
 Constraint Description: (Preservation of Meaning of Higher-Level Ontology Terms) SPARQL query that checks whether an ontology reuses a term from a higher-level ontology and adds new content to it through the addition of an axiom.
 
 Severity: Error.
+
+Level: 2
 
 ```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -164,6 +170,8 @@ Constraint Description: All terms in your ontology should be nouns and noun-phra
 
 Severity: Warning.
 
+Level: 4
+
 ```sparql
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -201,6 +209,8 @@ WHERE {
 Constraint Description: This query will return all terms in the ontology that have labels containing one of the negative terms listed. This can help identify terms that may introduce negation or exclusion concepts, which might require further review depending on the ontology's modeling approach. This query helps you identify negative terms in your ontology and, at the same time, generates warnings if there are ontology elements that have identical labels.
 
 Severity: Warning.
+
+Level: 3
 
 ```sparql
 
@@ -263,6 +273,8 @@ Constraint Description: This query will return a list of terms (both classes and
 
 Severity: Warning
 
+Level: 4
+
 ```sparql
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -302,6 +314,8 @@ WHERE {
 Constraint Description: This SPARQL query checks if a specific IRI is the subject of any triple in an RDF dataset or ontology. It also checks how a specific IRI is used and whether it has appropriate annotations, the query ensures that the data is well-structured, properly annotated, and used according to the design principles of the ontology
 
 Severity: Error. 
+
+Level: 8
 
 ```sparql
 
