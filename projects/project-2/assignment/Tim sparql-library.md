@@ -337,3 +337,34 @@ WHERE {
   BIND(CONCAT("ERROR: The IRI <http://example.org/yourIRI> is the subject of a triple with predicate '", STR(?predicate), "' and object '", STR(?object), "'.") AS ?error)
 }
 ```
+
+ **Title: Abbreviation Check**
+ 
+ Constraint Description: This query is designed to find entities that have an git statu and retrieve a name (label) for those entities if available. 
+ 
+ Severity: Warning. 
+ 
+ Level: 5
+ 
+ ```sparql
+ 
+ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+ PREFIX owl: <http://www.w3.org/2002/07/owl#>
+ 
+ SELECT ?entity ?entityName ?abbreviation ?warning
+ WHERE {
+   # Find entities with abbreviations
+   ?entity rdfs:comment ?abbreviation .
+   
+   # Optionally get the label (name) of the entity
+   OPTIONAL { ?entity rdfs:label ?entityName . }
+   
+   # Bind a warning message if an abbreviation is found
+   BIND(
+     CONCAT("WARNING: The entity ", STR(?entity), " has an abbreviation: '", ?abbreviation, "'.") AS ?warning
+   )
+ }
+ ORDER BY ?entityName
+ 
+ ```
+ 
