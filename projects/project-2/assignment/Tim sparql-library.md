@@ -368,3 +368,23 @@ WHERE {
  
  ```
  
+ **Title: Check for Properties without Specified Ranges**
+ 
+ Constraint Description: The purpose of the query is to identify properties in an ontology or dataset that do not have a specified rdfs:range, and to generate a warning message for each such property.
+ Severity: Warning
+
+ Level: 3
+ 
+ ```sparql
+
+ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+ SELECT ?property ?error
+ WHERE {
+   ?property a rdf:Property .
+   FILTER NOT EXISTS { ?property rdfs:range ?range }
+   BIND (concat("WARNING: The property ", str(?property), " does not have a specified range.") AS ?error)
+ }
+
+ ```
+ 
