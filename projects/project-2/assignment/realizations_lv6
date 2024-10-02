@@ -7,7 +7,7 @@ PREFIX obo: <http://purl.obolibrary.org/obo/>
 
 SELECT ?subclass (CONCAT("Error: Realizable entity ", STR(?subclass), " doesn't have a process realizing it.") AS ?errorMessage)
 WHERE {
-    ?subclass rdfs:subClassOf obo:BFO_0000017 .
+    ?subclass rdfs:subClassOf+ obo:BFO_0000017 .
 
     FILTER NOT EXISTS {
         ?subclass obo:BFO_0000054 ?object .
