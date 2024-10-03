@@ -1,4 +1,5 @@
 # checking whether all GDCs are generically depending on something
+#There is probably a conceptual mistake here, since this should be axioms and not direct connections between classes
 # lv 6
 
 
