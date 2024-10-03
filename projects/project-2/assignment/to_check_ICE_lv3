@@ -1,0 +1,42 @@
+#Checks whether all ICEs have both an IQE and a IBE.
+#There is probably a conceptual mistake here, since this should be axioms and not direct connections between classes
+#Lev 3
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/>
+
+SELECT ?contentEntity ?warningMessage
+WHERE {
+    # Find all subclasses of InformationContentEntity
+    ?contentEntity rdfs:subClassOf+ cco:InformationContentEntity .
+
+    # Catch entities that do not satisfy the pattern
+    FILTER NOT EXISTS {
+        # Ensure contentEntity is connected through BFO_0000084 to a bearingEntity
+        ?contentEntity obo:BFO_0000084 ?bearingEntity .
+        
+        # Ensure bearingEntity is a subclass of InformationBearingEntity
+        ?bearingEntity rdfs:subClassOf* cco:InformationBearingEntity .
+        
+        # Ensure bearingEntity is connected to a qualityEntity through BFO_0000195
+        ?bearingEntity obo:BFO_0000195 ?qualityEntity .
+        
+        # Ensure qualityEntity is a subclass of InformationQualityEntity
+        ?qualityEntity rdfs:subClassOf* cco:InformationQualityEntity .
+        
+        # Ensure bearingEntity is connected back to the contentEntity through BFO_0000059
+        ?bearingEntity obo:BFO_0000059 ?contentEntity .
+    }
+
+    # Create a warning message
+    BIND(CONCAT("Warning: Content entity ", STR(?contentEntity), " does not follow the required pattern.") AS ?warningMessage)
+}
+
