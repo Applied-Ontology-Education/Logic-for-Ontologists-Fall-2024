@@ -1,0 +1,241 @@
+Assignment: SPARQL Queries for Ontology Evaluation
+
+This assignment outlines a series of SPARQL queries designed for evaluating and analyzing ontology structure and quality. 
+Each query addresses specific aspects of ontology evaluation, identifying potential issues or improvements necessary to enhance clarity and consistency.
+
+Detect Properties Without Domain or Range (level 8 - 0 points)
+Identifying Disjoint Classes with Common Instances (level 7 - 2 points)
+Detecting Unused Object Properties (level 7 - 2 points)
+Finding Classes with Conflicting Disjointness and Subclass Relationships (level 6 - 3 points)
+Identifying Classes with Different Labeling Standards (level 6 - 3 points)
+Identifying Potentially Overspecified Class Definitions (level 5 - 5 points)
+Detecting Equivalent Properties with Different Ranges  (level 5 - 5 points)
+Analyzing Class Hierarchies for Inconsistent Type Definitions (level 5 - 5 points)
+Detecting Potentially Misplaced Inverse Object Properties (level 5 - 5 points)
+Identifying Classes with No Properties (Level 4 - 10 points)
+Identifying Classes Without Labels (Level 4 - 10 points)
+Query to Detect Missing Annotations (Labels or Comments) Level 4 - 10 points
+Detecting Properties Shared Across Multiple CCO Classes Level 3 - 20 points
+Detecting Inconsistent Property Ranges Across Subclass Hierarchies Level 3 - 20 points
+
+1. Detect Classes Without Any Instances (Level 8 - 0 points)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?class
+WHERE {
+  ?class a rdfs:Class .
+  FILTER NOT EXISTS {
+    ?instance a ?class .
+  }
+}
+
+Purpose: ​This query retrieves all classes that do not have any instances associated with them.​ 
+It uses FILTER NOT EXISTS to ensure that only classes without any defined instances are selected,helping to identify potentially unused or unnecessary classes in the ontology.
+
+2. Identifying Disjoint Classes with Common Instances
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?class1 ?class2 ?instance
+WHERE {
+  ?instance a ?class1 .
+  ?instance a ?class2 .
+  ?class1 owl:disjointWith ?class2 .
+}
+
+The primary intention of this query is to identify pairs of classes that are designated as disjoint but have instances that belong to both classes.​ 
+This situation indicates a potential inconsistency within the ontology since disjoint classes should not share any instances.
+
+Running this query enables to detect potential issues in the class hierarchy and relationships, ensuring the integrity of the ontology is maintained. 
+
+3. Detecting Unused Object Properties (level 7 - 2 points)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?property
+WHERE {
+  ?property a owl:ObjectProperty .
+  FILTER NOT EXISTS {
+    ?subject ?property ?object .
+  }
+}
+
+​The aim of this query is to identify object properties within the ontology that are defined but not utilized in any instances.​ 
+Detecting such unused properties helps maintain a clean and efficient ontology by identifying potentially redundant definitions.
+
+4. Finding Classes with Conflicting Disjointness and Subclass Relationships
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?class1 ?class2
+WHERE {
+  ?class1 owl:disjointWith ?class2 .
+  ?class1 rdfs:subClassOf ?commonSuperclass .
+  ?class2 rdfs:subClassOf ?commonSuperclass .
+}
+
+The goal of this query is to identify classes that are marked as disjoint but are simultaneously defined as subclasses of a common superclass.​ 
+This situation presents a logical inconsistency within the ontology, as disjoint classes should not share any common subclasses.
+
+5. Identifying Classes with Different Labeling Standards
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?class ?label1 ?label2
+WHERE {
+  ?class a owl:Class .
+  ?class rdfs:label ?label1 .
+  ?otherClass a owl:Class .
+  ?otherClass rdfs:label ?label2 .
+  FILTER(?class != ?otherClass) 
+  FILTER(?label1 != ?label2)
+}
+
+The goal of this query is to find classes within an ontology that are associated with different labeling standards.​ 
+This can be important for identifying inconsistencies in how classes are labeled or described, which can help improve the quality and usability of the ontology.
+
+6. Identifying Potentially Overspecified Class Definitions
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?class ?property1 ?property2 ?definition1 ?definition2
+WHERE {
+  ?class a owl:Class .
+  ?class ?property1 ?definition1 .
+  ?class ?property2 ?definition2 .
+  FILTER(?property1 != ?property2) 
+}
+
+The aim of this query is to identify classes within an ontology that may have overspecified definitions.​ 
+This occurs when a class is defined with multiple properties that provide overlapping or redundant constraints, potentially leading to confusion or misinterpretation of the class's intent.
+
+7. Detecting Equivalent Properties with Different Ranges
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?property1 ?property2 ?range1 ?range2
+WHERE {
+  ?property1 a owl:ObjectProperty .
+  ?property2 a owl:ObjectProperty .
+  ?property1 owl:equivalentProperty ?property2 .
+  ?property1 rdfs:range ?range1 .
+  ?property2 rdfs:range ?range2 .
+  FILTER(?range1 != ?range2)
+}
+
+The goal of this query is to identify pairs of object properties that are defined as equivalent but have different specified ranges.​ 
+This discrepancy can indicate potential issues in the ontology's design, as equivalent properties should maintain consistent range definitions to ensure accurate data interpretation.
+
+8. Analyzing Class Hierarchies for Inconsistent Type Definitions
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?class ?type1 ?type2
+WHERE {
+  ?class a ?type1 .
+  ?class a ?type2 .
+  FILTER(?type1 != ?type2)
+  FILTER(?type1 != rdfs:Class && ?type2 != rdfs:Class)
+}
+
+The primary objective of this query is to identify classes assigned multiple types in an ontology that differ from each other.​ 
+Inconsistent type definitions can create ambiguity regarding the intended semantics of the classes and lead to erroneous interpretations in data retrieval and reasoning.
+
+9. Detecting Potentially Misplaced Inverse Object Properties (Level 5 - 5 points)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?property1 ?property2
+WHERE {
+  ?property1 a owl:ObjectProperty .
+  ?property2 a owl:ObjectProperty .
+  ?property1 owl:inverseOf ?property2 .
+  FILTER NOT EXISTS {
+    ?instance1 ?property1 ?instance2 .
+    ?instance2 ?property2 ?instance1 .
+  }
+}
+
+This query object properties defined as inverses within the ontology without corresponding instances illustrating those relationships. 
+This lack of practical implementation can signify potential design flaws within the ontology framework.
+
+10. Identifying Classes with No Properties (Level 4 - 10 points)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?class
+WHERE {
+  ?class a rdfs:Class .
+  FILTER NOT EXISTS {
+    ?class ?property ?value .
+    FILTER(?property != rdf:type)
+  }
+}
+
+This query identifies classes within the ontology that lack properties, aside from their classification as types. 
+Classes devoid of properties may fail to provide relevant information about their instances, rendering them ineffective in conveying knowledge.
+
+11. Identifying Classes Without Labels (Level 4 - 10 points)
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?class
+WHERE {
+  ?class a rdfs:Class .
+  FILTER NOT EXISTS { ?class rdfs:label ?label }
+}
+
+This query seeks to surface classes that lack human-readable labels. 
+Labels are vital for enabling users to understand the ontology’s structure, and their absence may hamper usability.
+
+12. Detecting Missing Annotations (Labels or Comments) (Level 4 - 10 points)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?element
+WHERE {
+  ?element a ?type .
+  FILTER(?type IN (rdf:Property, rdfs:Class, owl:ObjectProperty, owl:DatatypeProperty))
+  FILTER NOT EXISTS { ?element rdfs:label ?label }
+  FILTER NOT EXISTS { ?element rdfs:comment ?comment }
+}
+
+This query identifies ontology elements missing critical annotations, such as labels or comments. 
+These annotations provide context and clarify the purpose of each element, which is essential for effective ontology utilization.
+
+13. Detecting Properties Shared Across Multiple Classes (Level 3 - 20 points)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?property ?class1 ?class2
+WHERE {
+  ?property a rdf:Property .
+  ?instance1 a ?class1 .
+  ?instance1 ?property ?value .
+  ?instance2 a ?class2 .
+  ?instance2 ?property ?value .
+  FILTER(?class1 != ?class2)
+}
+
+This query evaluates properties employed by instances of multiple classes, revealing shared relations that could indicate a broader conceptualization within the ontology.
+
+14. Detecting Inconsistent Property Ranges Across Subclass Hierarchies (Level 3 - 20 points)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?property ?class1 ?range1 ?class2 ?range2
+WHERE {
+  ?property a rdf:Property .
+  ?class1 ?property ?value1 .
+  ?value1 a ?range1 .
+  ?class2 rdfs:subClassOf ?class1 .
+  ?class2 ?property ?value2 .
+  ?value2 a ?range2 .
+  FILTER(?range1 != ?range2)
+}
+
+This query examines property ranges within hierarchies, identifying inconsistencies that may result from subclassing. 
+Ensuring consistent property ranges is essential for maintaining logical integrity within the ontology.
+
