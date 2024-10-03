@@ -9,12 +9,12 @@ PREFIX obo: <http://purl.obolibrary.org/obo/>
 
 SELECT ?GDC (CONCAT("Warning: Generically Dependent Entity ", STR(?label), " doesn't generically depend on some entity.") AS ?warningMessage)
 WHERE {
+    #get all the subclasses of GDC
     ?GDC rdfs:subClassOf+ obo:BFO_0000031 .
+    ?GDC rdfs:label ?label .
 
+    # check whether it doesn't generically depend on something
     FILTER NOT EXISTS {
         ?GDC obo:BFO_0000084 ?y .
-    }
-    OPTIONAL {
-        ?GDC rdfs:label ?label .
     }
 }
