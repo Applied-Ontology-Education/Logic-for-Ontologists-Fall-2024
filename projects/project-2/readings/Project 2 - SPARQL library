@@ -20,6 +20,10 @@ Detecting Inconsistent Property Ranges Across Subclass Hierarchies Level 3 - 20 
 
 1. Detect Classes Without Any Instances (Level 8 - 0 points)
 
+Title: Empty Class Detection
+Constraint Description: Identifies classes that have no instances associated with them.
+Severity: Warning
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?class
@@ -34,6 +38,10 @@ Purpose: ​This query retrieves all classes that do not have any instances asso
 It uses FILTER NOT EXISTS to ensure that only classes without any defined instances are selected,helping to identify potentially unused or unnecessary classes in the ontology.
 
 2. Identifying Disjoint Classes with Common Instances
+
+Title: Disjoint Class Violation
+Constraint Description: Detects instances that belong to classes declared as disjoint.
+Severity: Error
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -51,6 +59,10 @@ Running this query enables to detect potential issues in the class hierarchy and
 
 3. Detecting Unused Object Properties (level 7 - 2 points)
 
+Title: Unused Object Property Detection
+Constraint Description: Identifies object properties that are defined but not used in any instances.
+Severity: Warning
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 SELECT ?property
@@ -66,6 +78,10 @@ Detecting such unused properties helps maintain a clean and efficient ontology b
 
 4. Finding Classes with Conflicting Disjointness and Subclass Relationships
 
+Title: Disjoint Subclass Conflict
+Constraint Description: Identifies classes that are marked as disjoint but share a common superclass.
+Severity: Error
+
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?class1 ?class2
@@ -79,6 +95,10 @@ The goal of this query is to identify classes that are marked as disjoint but ar
 This situation presents a logical inconsistency within the ontology, as disjoint classes should not share any common subclasses.
 
 5. Identifying Classes with Different Labeling Standards
+
+Title: Inconsistent Class Labeling
+Constraint Description: Detects classes with different labeling standards.
+Severity: Warning
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -97,6 +117,10 @@ This can be important for identifying inconsistencies in how classes are labeled
 
 6. Identifying Potentially Overspecified Class Definitions
 
+Title: Overspecified Class Detection
+Constraint Description: Identifies classes with potentially redundant or overlapping property definitions.
+Severity: Warning
+
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?class ?property1 ?property2 ?definition1 ?definition2
@@ -111,6 +135,10 @@ The aim of this query is to identify classes within an ontology that may have ov
 This occurs when a class is defined with multiple properties that provide overlapping or redundant constraints, potentially leading to confusion or misinterpretation of the class's intent.
 
 7. Detecting Equivalent Properties with Different Ranges
+
+Title: Inconsistent Equivalent Property Ranges
+Constraint Description: Identifies equivalent properties with different range specifications.
+Severity: Error
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -129,6 +157,10 @@ This discrepancy can indicate potential issues in the ontology's design, as equi
 
 8. Analyzing Class Hierarchies for Inconsistent Type Definitions
 
+Title: Inconsistent Class Type Definition
+Constraint Description: Detects classes assigned multiple, different types.
+Severity: Error
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -144,6 +176,10 @@ The primary objective of this query is to identify classes assigned multiple typ
 Inconsistent type definitions can create ambiguity regarding the intended semantics of the classes and lead to erroneous interpretations in data retrieval and reasoning.
 
 9. Detecting Potentially Misplaced Inverse Object Properties (Level 5 - 5 points)
+
+Title: Unused Inverse Property Detection
+Constraint Description: Identifies inverse object properties without corresponding instance relationships.
+Severity: Warning
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -163,6 +199,10 @@ This lack of practical implementation can signify potential design flaws within 
 
 10. Identifying Classes with No Properties (Level 4 - 10 points)
 
+Title: Empty Class Property Detection
+Constraint Description: Detects classes that have no properties defined.
+Severity: Warning
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?class
@@ -179,6 +219,10 @@ Classes devoid of properties may fail to provide relevant information about thei
 
 11. Identifying Classes Without Labels (Level 4 - 10 points)
 
+Title: Missing Class Label Detection
+Constraint Description: Identifies classes that lack human-readable labels.
+Severity: Warning
+
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?class
 WHERE {
@@ -190,6 +234,10 @@ This query seeks to surface classes that lack human-readable labels.
 Labels are vital for enabling users to understand the ontology’s structure, and their absence may hamper usability.
 
 12. Detecting Missing Annotations (Labels or Comments) (Level 4 - 10 points)
+
+Title: Missing Annotation Detection
+Constraint Description: Identifies ontology elements missing both labels and comments.
+Severity: Warning
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -206,6 +254,10 @@ These annotations provide context and clarify the purpose of each element, which
 
 13. Detecting Properties Shared Across Multiple Classes (Level 3 - 20 points)
 
+Title: Shared Property Analysis
+Constraint Description: Identifies properties used by instances of multiple classes.
+Severity: Warning
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?property ?class1 ?class2
@@ -221,6 +273,10 @@ WHERE {
 This query evaluates properties employed by instances of multiple classes, revealing shared relations that could indicate a broader conceptualization within the ontology.
 
 14. Detecting Inconsistent Property Ranges Across Subclass Hierarchies (Level 3 - 20 points)
+
+Title: Inconsistent Subclass Property Range
+Constraint Description: Detects inconsistencies in property ranges within class hierarchies.
+Severity: Error
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
