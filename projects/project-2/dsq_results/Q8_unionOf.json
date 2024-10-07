@@ -1,7 +1,7 @@
 {
   "query": "\nSELECT DISTINCT *\nWHERE  {\n    \n    ## TODO Capture the interesecting classes with SPARQL\n    ?a owl:unionOf ?b .\n    ?b rdf:first ?bf.\n    ?a ?pa ?oa.\n    #?oa ?poa ?ooa.\n    ?oa rdf:first ?oa_first.\n    ?oa rdf:rest ?oa_rest.\n    ?oa_rest ?oa_rest_p ?oa_rest_o . \n    ?oa_rest_o ?oa_rest_o_p ?oa_rest_o_o . \n    \n\n} \n",
   "data_returned": {
-    "query_duration_ms": 13.53,
+    "query_duration_ms": 29.73,
     "data": [
       {
         "oa": "n8607772dbe1748df9d1bc82b6f114c47b6",
