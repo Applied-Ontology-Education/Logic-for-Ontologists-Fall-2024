@@ -1,15 +1,16 @@
 # Checking whether the object property has an inverse property or is the inverse property of a property.
+# This assumes we want to have inverses for all object properties
 # Level 4
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?property ?propertyLabel
+SELECT ?property ?propertyLabel ?error
 WHERE {
     # Find all object properties
     ?property a owl:ObjectProperty .
 
-    # Check if the property does NOT have an inverse
+    # Check if the property does NOT have an inverse or is not the inverse of something else
     FILTER (!ISBLANK (?property)) .
     FILTER NOT EXISTS {
         ?inverseproperty owl:inverseOf ?property .
@@ -18,10 +19,9 @@ WHERE {
         ?property owl:inverseOf ?inverseproperty .
     }
     # Optional: get the label of the property
-    OPTIONAL {
-        ?property rdfs:label ?propertyLabel .
-    }
-  FILTER (!ISBLANK (?property)) .
+
+    ?property rdfs:label ?propertyLabel .
+    
   FILTER regex(str(?property), "http://www.ontologyrepository.com/CommonCoreOntologies/")
   BIND (concat("ERROR: There is no inverse property for the CCO property: ", str(?class)) AS ?error)
 }
