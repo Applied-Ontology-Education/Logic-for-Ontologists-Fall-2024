@@ -1,0 +1,40 @@
+# Project 1 – OWL Cheat Sheet
+
+### Suppose R is both functional and transitive.
+- Suppose R is both functional and transitive. Then by functionality, for any \( y \) and \( z \), if \( xRy \), it follows that \( xRy \) are the same. However, by transitivity, if \( xRy \) and \( yRz \), then \( xRz \). Hence, R cannot be both functional and transitive.
+
+### Suppose R is both inverse functional and transitive.
+- Suppose R is both inverse functional and transitive. Then by inverse functionality, if \( xRy \) and \( zRy \), then \( x = z \). However, by transitivity, if \( xRy \) and \( yRz \), then \( xRz \). Hence, R cannot be both inverse functional and transitive.
+
+### Suppose R is both transitive and functional.
+- Suppose R is both transitive and functional. Then by transitivity, if \( xRy \) and \( yRz \), then \( xRz \). However, by functionality, if \( xRy \) and \( xRz \), then \( y = z \). Hence, R cannot be both transitive and functional.
+
+### Suppose R is both transitive and asymmetric.
+- Suppose R is both transitive and asymmetric. Then by transitivity, if \( xRy \) and \( yRz \), then \( xRz \). However, by asymmetry, \( xRy \) implies that \( yRx \) cannot hold. Hence, R cannot be both transitive and asymmetric.
+
+### Suppose R is both transitive and inverse functional.
+- Suppose R is both transitive and inverse functional. Then by transitivity, if \( xRy \) and \( yRz \), then \( xRz \). However, by inverse functionality, if \( xRy \) and \( zRy \), then \( x = z \). Hence, R cannot be both transitive and inverse functional.
+
+### Suppose R is both symmetric and asymmetric.
+- Suppose R is both symmetric and asymmetric. Then by symmetry, if \( xRy \), then \( yRx \). However, by asymmetry, if \( xRy \), then \( yRx \) must not hold. Hence, R cannot be both symmetric and asymmetric.
+
+### Suppose R is both asymmetric and transitive.
+- Suppose R is both asymmetric and transitive. Then by asymmetry, if \( xRy \), then \( yRx \) must not hold. However, by transitivity, if \( xRy \) and \( yRz \), then \( xRz \). Hence, R cannot be both asymmetric and transitive.
+
+### Suppose R is both asymmetric and symmetric.
+- Suppose R is both asymmetric and symmetric. Then by asymmetry, if \( xRy \), then \( yRx \) must not hold. However, by symmetry, if \( xRy \), then \( yRx \). Hence, R cannot be both asymmetric and symmetric.
+
+### Suppose R is both asymmetric and reflexive.
+- Suppose R is both asymmetric and reflexive. Then by asymmetry, if \( xRy \), then \( yRx \) must not hold. However, by reflexivity, for any \( x \), \( xRx \) must hold. Hence, R cannot be both reflexive and asymmetric.
+
+### Suppose R is both reflexive and asymmetric.
+- Suppose R is both reflexive and asymmetric. Then by reflexivity, for any \( x \), \( xRx \) must hold. However, by asymmetry, if \( xRy \), then \( yRx \) must not hold. Hence, R cannot be both reflexive and asymmetric.
+
+### Suppose R is both reflexive and irreflexive.
+- Suppose R is both reflexive and irreflexive. Then by reflexivity, for any \( x \), \( xRx \) must hold. However, by irreflexivity, \( xRx \) must not hold. Hence, R cannot be both reflexive and irreflexive.
+
+### Suppose R is both irreflexive and transitive.
+- Suppose R is both irreflexive and transitive. Then by irreflexivity, for any \( x \), \( xRx \) must not hold. However, by transitivity, if \( xRy \) and \( yRz \), then \( xRz \). Hence, R cannot be both irreflexive and transitive.
+
+### Suppose R is both irreflexive and reflexive.
+- Suppose R is both irreflexive and reflexive. Then by irreflexivity, \( xRx \) must not hold. However, by reflexivity, for any \( x \), \( xRx \) must hold. Hence, R cannot be both irreflexive and reflexive.
