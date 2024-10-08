@@ -16,6 +16,7 @@ WHERE {
     ?parentClass rdfs:label ?parentClassLabel .
     ?subject rdfs:label ?subjectLabel .
     
+   FILTER (!ISBLANK (?subject)) .
    FILTER NOT (REGEX(LCASE(STR(?definition)), CONCAT(LCASE(STR(?parentClassLabel)), " (that|who|where|inhering)")))
  BIND (concat("WARNING: Possible non-Aristotelian definition format for the following definition ", str(?definition)) AS ?error)
   }
