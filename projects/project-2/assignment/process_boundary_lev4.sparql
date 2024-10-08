@@ -10,6 +10,9 @@ SELECT ?entity ?warningMessage
 WHERE {
     # Find all classes or subclasses of BFO_0000035
     ?entity rdfs:subClassOf+ obo:BFO_0000035 .
+    
+    # Ensure the target class is a subclass of zero-dimensional temporal region
+    ?targetClass rdfs:subClassOf* obo:BFO_0000148 .
 
     # Check if they do NOT have the axiom connecting them through "occupies temporal region" to a subclass of zero-dimensional temporal region
     FILTER NOT EXISTS {
@@ -18,9 +21,6 @@ WHERE {
             owl:onProperty obo:BFO_0000199 ;
             owl:someValuesFrom ?targetClass
         ] .
-
-        # Ensure the target class is a subclass of zero-dimensional temporal region
-        ?targetClass rdfs:subClassOf* obo:BFO_0000148 .
     }
 
     # Create a warning message
