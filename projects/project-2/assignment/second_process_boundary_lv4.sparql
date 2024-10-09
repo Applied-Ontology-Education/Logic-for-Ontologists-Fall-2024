@@ -1,0 +1,32 @@
+# checks that only process boundaries are axiomatized as occupying zero-dimensional temporal regions
+# lev 4
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?subclass ?warningMessage
+WHERE {
+    # Find all entities that have an axiom connecting them through "occupies temporal region" to a subclass of zero-dimensional temporal region
+    ?subclass rdfs:subClassOf [
+        rdf:type owl:Restriction ;
+        owl:onProperty obo:BFO_0000199 ;
+        owl:someValuesFrom ?targetClass
+    ] .
+    FILTER (!ISBLANK(?subclass)) .
+    # Ensure the target class is a subclass of zero dimensional temporal region
+    ?targetClass rdfs:subClassOf* obo:BFO_0000148 .
+
+    # Check if the entity is NOT a subclass of process boundary
+    FILTER NOT EXISTS {
+        ?subclass rdfs:subClassOf+ obo:BFO_0000035 .
+    }
+
+    # Create a warning message
+    OPTIONAL {
+        ?subclass rdfs:label ?label .
+    }
+    BIND(CONCAT("Warning: Class ", STR(?label), " is connected to a zero-dimensional temporal region but is not a subclass of process boundary (BFO_0000035).") AS ?warningMessage)
+}
