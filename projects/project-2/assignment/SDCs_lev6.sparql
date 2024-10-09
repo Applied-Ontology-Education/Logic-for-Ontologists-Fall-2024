@@ -11,8 +11,12 @@ WHERE {
     ?SDC rdfs:subClassOf+ obo:BFO_0000020 .
 
     FILTER NOT EXISTS {
-        ?SDC obo:BFO_0000195 ?y .
-    }
+            ?subclass rdfs:subClassOf [
+            rdf:type owl:Restriction ;
+            owl:onProperty obo:BFO_0000195 ;
+            owl:someValuesFrom ?targetClass 
+        ].
+      
     OPTIONAL {
         ?SDC rdfs:label ?label .
     }
