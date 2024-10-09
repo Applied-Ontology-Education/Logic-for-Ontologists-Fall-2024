@@ -9,6 +9,7 @@ PREFIX obo: <http://purl.obolibrary.org/obo/>
 SELECT ?SDC (CONCAT("Warning: Specifically Dependent Entity ", STR(?label), " doesn't specifically depend on some entity.") AS ?warningMessage)
 WHERE {
     ?SDC rdfs:subClassOf+ obo:BFO_0000020 .
+    FILTER (!ISBLANK(?SDC)) .
 
     FILTER NOT EXISTS {
             ?subclass rdfs:subClassOf [
