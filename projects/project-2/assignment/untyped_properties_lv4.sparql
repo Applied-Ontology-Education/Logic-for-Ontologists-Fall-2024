@@ -10,7 +10,7 @@ SELECT DISTINCT ?predicate ?label
 WHERE {
     # Find all resources used as predicates
     ?subject ?predicate ?object .
-
+    FILTER (!ISBLANK(?subject)) .
     # Ensure the predicate is NOT typed as an ObjectProperty, DatatypeProperty, or AnnotationProperty
     FILTER NOT EXISTS {
         ?predicate a owl:ObjectProperty .
