@@ -17,23 +17,35 @@ SELECT ?contentEntity ?warningMessage
 WHERE {
     # Find all subclasses of InformationContentEntity
     ?contentEntity rdfs:subClassOf+ cco:InformationContentEntity .
-
+    FILTER (!ISBLANK(?contentEntity)) .
     # Catch entities that do not satisfy the pattern
     FILTER NOT EXISTS {
         # Ensure contentEntity is connected through BFO_0000084 to a bearingEntity
-        ?contentEntity obo:BFO_0000084 ?bearingEntity .
+        ?subclass rdfs:subClassOf [
+            rdf:type owl:Restriction ;
+            owl:onProperty obo:BFO_0000084 ;
+            owl:someValuesFrom ?bearingEntity 
+        ].
         
         # Ensure bearingEntity is a subclass of InformationBearingEntity
         ?bearingEntity rdfs:subClassOf* cco:InformationBearingEntity .
         
         # Ensure bearingEntity is connected to a qualityEntity through BFO_0000195
-        ?bearingEntity obo:BFO_0000195 ?qualityEntity .
+        ?bearingEntity rdfs:subClassOf [
+            rdf:type owl:Restriction ;
+            owl:onProperty obo:BFO_0000195 ;
+            owl:someValuesFrom ?qualityEntity 
+        ].        
         
         # Ensure qualityEntity is a subclass of InformationQualityEntity
         ?qualityEntity rdfs:subClassOf* cco:InformationQualityEntity .
         
         # Ensure bearingEntity is connected back to the contentEntity through BFO_0000059
-        ?bearingEntity obo:BFO_0000059 ?contentEntity .
+        ?bearingEntity rdfs:subClassOf [
+            rdf:type owl:Restriction ;
+            owl:onProperty obo:BFO_0000059 ;
+            owl:someValuesFrom ?contentEntity 
+        ].    
     }
 
     # Create a warning message
