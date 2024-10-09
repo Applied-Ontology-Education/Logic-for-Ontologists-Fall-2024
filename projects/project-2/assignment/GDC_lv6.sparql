@@ -12,9 +12,13 @@ WHERE {
     #get all the subclasses of GDC
     ?GDC rdfs:subClassOf+ obo:BFO_0000031 .
     ?GDC rdfs:label ?label .
-
+    FILTER (!ISBLANK(?GDC)) .
+    
     # check whether it doesn't generically depend on something
     FILTER NOT EXISTS {
-        ?GDC obo:BFO_0000084 ?y .
-    }
+        ?GDC rdfs:subClassOf [
+            rdf:type owl:Restriction ;
+            owl:onProperty obo:BFO_0000084 ;
+            owl:someValuesFrom ?targetClass 
+        ].
 }
