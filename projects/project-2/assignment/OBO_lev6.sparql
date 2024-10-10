@@ -1,4 +1,5 @@
-# Checks that no common OBO Foundry properties are used 
+# Checks that no OBO Foundry properties are used 
+# This includes a list of common IAO annotation properties which should not be used in CCO
 # Level 5
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
