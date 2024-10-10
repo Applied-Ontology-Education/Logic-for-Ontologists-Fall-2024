@@ -17,7 +17,7 @@ WHERE {
             owl:onProperty obo:BFO_0000195 ;
             owl:someValuesFrom ?targetClass 
         ].
-      
+       }
     OPTIONAL {
         ?SDC rdfs:label ?label .
     }
