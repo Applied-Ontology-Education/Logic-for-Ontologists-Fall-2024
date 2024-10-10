@@ -1,6 +1,6 @@
 # Checking whether the object property has an inverse property or is the inverse property of a property.
 # This assumes we want to have inverses for all object properties
-# Level 4
+# Level 3
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
