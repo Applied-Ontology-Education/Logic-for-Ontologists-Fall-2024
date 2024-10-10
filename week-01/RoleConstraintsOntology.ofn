@@ -1,0 +1,122 @@
+Prefix(:=<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21>
+
+Declaration(Class(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Parent>))
+Declaration(Class(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Person>))
+Declaration(Class(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Sibling>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#A>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Ai>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#B>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Bi>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R2>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R3>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R4>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R5>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R6>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R7>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R8>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R9>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasChild>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasParent>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasRelation>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#isSiblingOf>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Alice>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Bob>))
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#A> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#A>)
+
+InverseObjectProperties(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#A> <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Ai>)
+IrreflexiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#A>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Ai> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Ai>)
+
+AsymmetricObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Ai>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#B> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#B>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#B> <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#A>)
+InverseObjectProperties(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#B> <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Bi>)
+AsymmetricObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#B>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R2> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R2>)
+
+TransitiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R2>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R3> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R3>)
+
+AsymmetricObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R3>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R4> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R4>)
+
+SymmetricObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R4>)
+TransitiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R4>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R5> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R5>)
+
+TransitiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R5>)
+ReflexiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R5>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R6> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R6>)
+
+ReflexiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R6>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R7> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R7>)
+
+AsymmetricObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R7>)
+IrreflexiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R7>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R8> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R8>)
+
+SymmetricObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R8>)
+IrreflexiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R8>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R9> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R9>)
+
+TransitiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R9>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasChild> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasChild>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasChild> <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasParent>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasParent> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasParent>)
+
+IrreflexiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasParent>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasRelation> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasRelation>)
+
+FunctionalObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasRelation>)
+InverseFunctionalObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#hasRelation>)
+
+# Object Property: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#isSiblingOf> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#isSiblingOf>)
+
+SymmetricObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#isSiblingOf>)
+IrreflexiveObjectProperty(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#isSiblingOf>)
+
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Alice> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Alice>)
+
+ClassAssertion(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Person> <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Alice>)
+
+# Individual: <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Bob> (<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Bob>)
+
+ClassAssertion(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Person> <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Bob>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R3> <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Bob> <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Alice>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#R8> <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Bob> <http://www.semanticweb.org/jonmc/ontologies/2024/8/untitled-ontology-21#Alice>)
+
+
+)
