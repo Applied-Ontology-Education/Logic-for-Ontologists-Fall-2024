@@ -21,4 +21,5 @@ WHERE {
             owl:onProperty obo:BFO_0000084 ;
             owl:someValuesFrom ?targetClass 
         ].
+ }
 }
