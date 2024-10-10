@@ -4,7 +4,7 @@
 # Get the label of the parent class
 # Get the label of the subject 
 # Check whether the name of the parent class label appears in the definition, followed by that, who, where or inhering.
-# Suggested difficulty is level 3 (20 points)
+# Suggested difficulty is level 4 
 
 PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/> 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
