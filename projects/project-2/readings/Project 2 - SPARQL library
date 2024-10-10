@@ -21,23 +21,28 @@ Detecting Inconsistent Property Ranges Across Subclass Hierarchies Level 3 - 20 
 1. Detect Classes Without Any Instances (Level 8 - 0 points)
 
 Title: Empty Class Detection
-Constraint Description: Identifies classes that have no instances associated with them.
+Constraint Description: Identifies classes that have no instances associated with them and outputs the count of such classes.
 Severity: Warning
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?class
+
+SELECT DISTINCT ?class (COUNT(?instance) AS ?instanceCount)
 WHERE {
   ?class a rdfs:Class .
-  FILTER NOT EXISTS {
+  
+  # Filter out instances of the class to identify empty classes
+  OPTIONAL {
     ?instance a ?class .
   }
-}
+} 
+GROUP BY ?class 
+HAVING (COUNT(?instance) = 0)
 
 Purpose: ​This query retrieves all classes that do not have any instances associated with them.​ 
 It uses FILTER NOT EXISTS to ensure that only classes without any defined instances are selected,helping to identify potentially unused or unnecessary classes in the ontology.
 
-2. Identifying Disjoint Classes with Common Instances
+2. Identifying Disjoint Classes with Common Instances (level 7 - 2 points)
 
 Title: Disjoint Class Violation
 Constraint Description: Detects instances that belong to classes declared as disjoint.
@@ -76,7 +81,7 @@ WHERE {
 ​The aim of this query is to identify object properties within the ontology that are defined but not utilized in any instances.​ 
 Detecting such unused properties helps maintain a clean and efficient ontology by identifying potentially redundant definitions.
 
-4. Finding Classes with Conflicting Disjointness and Subclass Relationships
+4. Finding Classes with Conflicting Disjointness and Subclass Relationships (level 6 - 3 points)
 
 Title: Disjoint Subclass Conflict
 Constraint Description: Identifies classes that are marked as disjoint but share a common superclass.
@@ -94,47 +99,52 @@ WHERE {
 The goal of this query is to identify classes that are marked as disjoint but are simultaneously defined as subclasses of a common superclass.​ 
 This situation presents a logical inconsistency within the ontology, as disjoint classes should not share any common subclasses.
 
-5. Identifying Classes with Different Labeling Standards
+5. Identifying Classes with Different Labeling Standards (level 6 - 3 points)
 
 Title: Inconsistent Class Labeling
 Constraint Description: Detects classes with different labeling standards.
 Severity: Warning
 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
-SELECT ?class ?label1 ?label2
+
+SELECT ?class1 ?class2 ?commonSuperclass
 WHERE {
-  ?class a owl:Class .
-  ?class rdfs:label ?label1 .
-  ?otherClass a owl:Class .
-  ?otherClass rdfs:label ?label2 .
-  FILTER(?class != ?otherClass) 
-  FILTER(?label1 != ?label2)
+  # Find two disjoint classes
+  ?class1 owl:disjointWith ?class2 .
+  
+  # Identify their common superclass
+  ?class1 rdfs:subClassOf ?commonSuperclass .
+  ?class2 rdfs:subClassOf ?commonSuperclass .
 }
 
 The goal of this query is to find classes within an ontology that are associated with different labeling standards.​ 
 This can be important for identifying inconsistencies in how classes are labeled or described, which can help improve the quality and usability of the ontology.
 
-6. Identifying Potentially Overspecified Class Definitions
+6. Title: Identifying Classes with Multiple Definitions in CCO (level 5 - 5 points)
 
-Title: Overspecified Class Detection
-Constraint Description: Identifies classes with potentially redundant or overlapping property definitions.
-Severity: Warning
+This query retrieves classes within the Common Core Ontology (CCO) that have two or more different definitions, indicating potential redundancies or overlaps in property definitions.
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?class ?property1 ?property2 ?definition1 ?definition2
+
+SELECT ?class ?property1 ?definition1 ?property2 ?definition2
 WHERE {
+  # Selecting all classes in CCO
   ?class a owl:Class .
+
+  # Retrieve the first property-definition pair for the class
   ?class ?property1 ?definition1 .
+
+  # Retrieve a second, different property-definition pair for the same class
   ?class ?property2 ?definition2 .
-  FILTER(?property1 != ?property2) 
+
+  # Ensure that the two properties are not the same
+  FILTER(?property1 != ?property2)
 }
 
-The aim of this query is to identify classes within an ontology that may have overspecified definitions.​ 
-This occurs when a class is defined with multiple properties that provide overlapping or redundant constraints, potentially leading to confusion or misinterpretation of the class's intent.
-
-7. Detecting Equivalent Properties with Different Ranges
+7. Detecting Equivalent Properties with Different Ranges (level 5 - 5 points)
 
 Title: Inconsistent Equivalent Property Ranges
 Constraint Description: Identifies equivalent properties with different range specifications.
@@ -155,7 +165,7 @@ WHERE {
 The goal of this query is to identify pairs of object properties that are defined as equivalent but have different specified ranges.​ 
 This discrepancy can indicate potential issues in the ontology's design, as equivalent properties should maintain consistent range definitions to ensure accurate data interpretation.
 
-8. Analyzing Class Hierarchies for Inconsistent Type Definitions
+8. Analyzing Class Hierarchies for Inconsistent Type Definitions (level 5 - 5 points)
 
 Title: Inconsistent Class Type Definition
 Constraint Description: Detects classes assigned multiple, different types.
@@ -197,25 +207,35 @@ WHERE {
 This query object properties defined as inverses within the ontology without corresponding instances illustrating those relationships. 
 This lack of practical implementation can signify potential design flaws within the ontology framework.
 
-10. Identifying Classes with No Properties (Level 4 - 10 points)
+10. Identifying Classes with Multiple Sub-properties in CCO (Level 4 - 10 points)
 
-Title: Empty Class Property Detection
-Constraint Description: Detects classes that have no properties defined.
-Severity: Warning
+Title: Identifying Classes with Multiple Sub-properties in CCO
+Query Description: This query retrieves classes in the Common Core Ontology (CCO) that have multiple sub-properties. 
+It ensures that these properties are distinct and belong to a specific domain, highlighting potential complexities in class definitions.
 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?class
-WHERE {
-  ?class a rdfs:Class .
-  FILTER NOT EXISTS {
-    ?class ?property ?value .
-    FILTER(?property != rdf:type)
-  }
-}
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-This query identifies classes within the ontology that lack properties, aside from their classification as types. 
-Classes devoid of properties may fail to provide relevant information about their instances, rendering them ineffective in conveying knowledge.
+SELECT ?class ?property1 ?property2
+WHERE {
+  # Selecting all classes in CCO
+  ?class a owl:Class .
+
+  # Retrieve the first sub-property of the class
+  ?property1 rdfs:subPropertyOf ?class .
+  
+  # Retrieve a second distinct sub-property of the same class
+  ?property2 rdfs:subPropertyOf ?class .
+
+  # Ensure that the two properties are distinct and belong to a specific domain
+  FILTER(?property1 != ?property2)
+
+  # Optional: Filtering based on specific characteristics of properties (e.g., a given domain)
+  # Here we can filter for properties that are defined within a certain namespace, which could indicate a type or category
+  FILTER(CONTAINS(STR(?property1), "http://example.org/specific")) 
+  FILTER(CONTAINS(STR(?property2), "http://example.org/specific")) 
+}
 
 11. Identifying Classes Without Labels (Level 4 - 10 points)
 
