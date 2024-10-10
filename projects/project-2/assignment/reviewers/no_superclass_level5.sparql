@@ -1,0 +1,22 @@
+# checks if there are classes outside the BFO hierarchy
+#difficulty level 5 (5 points)
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT ?class ?label ?error
+WHERE {
+    # Find all classes in the ontology
+    ?class a owl:Class .
+    FILTER(?class != obo:BFO_0000001)
+    FILTER NOT EXISTS {
+        ?class rdfs:subClassOf ?superclass .
+    }
+    OPTIONAL {
+        ?class rdfs:label ?label .
+    }
+  FILTER (!ISBLANK (?class)) .
+  FILTER regex(str(?class), "http://www.ontologyrepository.com/CommonCoreOntologies/")
+  BIND (concat("ERROR: There is a class which is not in the BFO hierarchy ", str(?class)) AS ?error)
+}

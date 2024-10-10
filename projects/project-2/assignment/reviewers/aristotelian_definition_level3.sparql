@@ -1,0 +1,29 @@
+
+# Find subjects with definitions
+# Get the parent class of the subject
+# Get the label of the parent class
+# Get the label of the subject 
+# Check whether the name of the parent class label appears in the definition, followed by that, who, where or inhering.
+# Suggested difficulty is level 3 (20 points)
+
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+
+SELECT ?subject ?parentClass ?definition ?subjectLabel ?error
+WHERE {
+    ?subject cco:definition ?definition .
+    ?subject rdfs:subClassOf ?parentClass .
+    ?parentClass rdfs:label ?parentClassLabel .
+    ?subject rdfs:label ?subjectLabel .
+    
+    # Ensure subject is not blank
+    FILTER (!ISBLANK(?subject)) .
+    
+    # Filter for non-Aristotelian definitions (that don't match the parent class label patterns)
+    FILTER NOT EXISTS {
+        FILTER(REGEX(LCASE(STR(?definition)), CONCAT(LCASE(STR(?parentClassLabel)), " (that|who|where|inhering)")))
+    } .
+    
+    # Create the error message
+    BIND (concat("WARNING: Possible non-Aristotelian definition format for the following definition: ", str(?definition)) AS ?error)
+}

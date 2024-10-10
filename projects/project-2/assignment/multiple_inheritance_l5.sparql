@@ -1,0 +1,21 @@
+#Check whether a class has more than on parent class
+#suggested difficulty level 5 (5 points)
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?subject ?error
+WHERE {
+    ?subject rdfs:subClassOf ?parentClass .
+
+    # Ensure that the subject is not blank
+    FILTER (!ISBLANK(?subject)) .
+    FILTER (!ISBLANK(?parentClass)) .
+
+    # Filter for classes within the CCO namespace
+    FILTER regex(str(?subject), "http://www.ontologyrepository.com/CommonCoreOntologies/")
+    
+    # Create an error message
+    BIND (concat("ERROR: Class ", str(?subject), " has multiple parent classes: ", str(?parentClass)) AS ?error)
+}
+GROUP BY ?subject
+HAVING (COUNT(?parentClass) > 1)

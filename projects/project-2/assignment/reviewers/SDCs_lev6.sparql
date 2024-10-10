@@ -1,0 +1,24 @@
+# Checking whether all SDCs are depending on some entity
+#There is probably a conceptual mistake here, since this should be axioms and not direct connections between classes
+# lev 6
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT ?SDC (CONCAT("Warning: Specifically Dependent Entity ", STR(?label), " doesn't specifically depend on some entity.") AS ?warningMessage)
+WHERE {
+    ?SDC rdfs:subClassOf+ obo:BFO_0000020 .
+    FILTER (!ISBLANK(?SDC)) .
+
+    FILTER NOT EXISTS {
+            ?subclass rdfs:subClassOf [
+            rdf:type owl:Restriction ;
+            owl:onProperty obo:BFO_0000195 ;
+            owl:someValuesFrom ?targetClass 
+        ].
+      
+    OPTIONAL {
+        ?SDC rdfs:label ?label .
+    }
+}
