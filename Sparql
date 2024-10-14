@@ -1,0 +1,105 @@
+Misuse of transitive properties: Query has inputs for given instances where transitive property is used to relate two instances indirectly but not directly. This prevents error in the reasoners, might be most helpful with HermiT, Pellet, and Fact++. Query allows for instances to be inputed, which can help identify human error in making sure all applicable instances have been labeled trasnitive or not. (lvl. 4)
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology#>
+SELECT DISTINCT ?transitiveProperty ?instance1 ?instance2 ?instance3 ?error WHERE {
+    ?transitiveProperty rdf:type owl:TransitiveProperty .
+    ?instance1 ?transitiveProperty ?instance2 .
+    ?instance2 ?transitiveProperty ?instance3 .
+    FILTER NOT EXISTS { ?instance1 ?transitiveProperty ?instance3 }
+    BIND (concat("ERROR: Misuse of transitive property ", str(?transitiveProperty), " detected: ", str(?instance1), " -> ", str(?instance2), " -> ", str(?instance3), " without direct relation to ", str(?instance3)) AS ?error)
+}
+Defining wrong symmetric relationships: query has instance inputs to plug in instances where symmetry is used and will show error if “insanceA? relates to instanceB?” but “instanceB? does not relate to instanceA?” Similar to previous but checks symmetry (lvl. 4)
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology#>
+SELECT DISTINCT ?symmetricProperty ?instanceA ?instanceB ?error WHERE {
+    ?symmetricProperty rdf:type owl:SymmetricProperty .
+    ?instanceA ?symmetricProperty ?instanceB .
+    FILTER NOT EXISTS { ?instanceB ?symmetricProperty ?instanceA }
+    BIND (concat("ERROR: Symmetrical property ", str(?symmetricProperty), " is misused: ", str(?instanceA), " is related to ", str(?instanceB), " but not vice versa.") AS ?error)
+}
+Missing annotations: query pulls all classes without annotations. Helps to identify all classes without annotations.
+(lvl 8)
+SELECT ?class
+WHERE {
+  ?class a owl:Class .
+  FILTER NOT EXISTS { ?class rdfs:label ?label }
+  FILTER NOT EXISTS { ?class rdfs:comment ?comment }
+  FILTER NOT EXISTS { ?class skos:definition ?definition }
+  FILTER NOT EXISTS { ?class ?annotationProperty ?annotationValue .
+                     ?annotationProperty a owl:AnnotationProperty }
+}
+-Missing domain or range in properties: pulls all instances of properties without domains and ranges. (lvl.2)
+SELECT ?property ?propertyType (IF(BOUND(?domain), "Has Domain", "Missing Domain") AS ?domainStatus) 
+                                (IF(BOUND(?range), "Has Range", "Missing Range") AS ?rangeStatus)
+WHERE {
+  # Find object or data properties
+  ?property a rdf:Property .
+  OPTIONAL { ?property rdfs:domain ?domain . }
+  OPTIONAL { ?property rdfs:range ?range . }
+  # Check if the property is an object property or data property
+  OPTIONAL { ?property a owl:ObjectProperty . BIND("ObjectProperty" AS ?propertyType) }
+  OPTIONAL { ?property a owl:DatatypeProperty . BIND("DatatypeProperty" AS ?propertyType) }
+  # Exclude deprecated properties
+  FILTER NOT EXISTS { ?property owl:deprecated true }
+  # Either domain or range must be missing for the property to be included in the results
+  FILTER ( !BOUND(?domain) || !BOUND(?range) )
+}
+ORDER BY ?property ?propertyType
+-Redundant object properties: finds object properties with same range and domain. This can help identify identical ranges and domains to compare. (lvl 3)
+SELECT ?property1 ?property2 ?domain ?range
+WHERE {
+  # Find two different object properties
+  ?property1 a owl:ObjectProperty .
+  ?property2 a owl:ObjectProperty .
+  FILTER (?property1 != ?property2)  # Ensure they are not the same property
+  # Get their domain and range
+  ?property1 rdfs:domain ?domain .
+  ?property1 rdfs:range ?range .
+  ?property2 rdfs:domain ?domain .
+  ?property2 rdfs:range ?range .
+  # Exclude deprecated properties
+  FILTER NOT EXISTS { ?property1 owl:deprecated true }
+  FILTER NOT EXISTS { ?property2 owl:deprecated true }
+}
+ORDER BY ?domain ?range ?property1 ?property2
+-Inconsistent property ranges: identifies properties that have different ranges when used with subclasses of a given class. (lvl3)
+SELECT ?property ?superclass ?subclass1 ?subclass2 ?range1 ?range2
+WHERE {
+  # Identify a property and its associated domain (a superclass)
+  ?property a rdf:Property .
+  ?property rdfs:domain ?superclass .
+  # Find two different subclasses of the superclass
+  ?subclass1 rdfs:subClassOf ?superclass .
+  ?subclass2 rdfs:subClassOf ?superclass .
+  FILTER (?subclass1 != ?subclass2)
+  # Find ranges associated with the property for each subclass
+  ?subclass1 rdfs:subClassOf ?superclass .
+  ?subclass2 rdfs:subClassOf ?superclass .
+  
+  ?subclass1 ?property ?range1 .
+  ?subclass2 ?property ?range2 .
+  # Ensure the ranges are different for the two subclasses
+  FILTER (?range1 != ?range2)
+  # Optional: Exclude deprecated properties
+  FILTER NOT EXISTS { ?property owl:deprecated true }
+}
+ORDER BY ?property ?superclass ?subclass1 ?subclass2
+Duplicate names: Finds if there are two instances that refer to the same thing (lvl7)
+SELECT ?label (GROUP_CONCAT(?instance; separator=", ") AS ?instances)
+WHERE {
+  ?instance rdfs:label ?label .
+}
+GROUP BY ?label
+HAVING (COUNT(?instance) > 1)
+ORDER BY ?label
+Query that may be able to find code that are located in annotations, this can potentially find malicious code. Query seeks to immitate syntax. (lvl 6)
+SELECT ?annotationProperty ?instance ?annotation
+WHERE {
+  ?instance ?annotationProperty ?annotation .
+  
+  # Look for common code-like patterns
+  FILTER regex(?annotation, "^(\\s*\\w+\\s*\\(|\\{.*\\}|\\[.*\\]|;|\\b(if|for|function|return)\\b)", "i")
