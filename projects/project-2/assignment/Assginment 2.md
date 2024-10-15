@@ -2,7 +2,6 @@
   <h1>Project 2: The SPARQL Library of Common Core Ontologies</h1>
 </header>
 
-
 1. Detecting Cycles in the Hierarchy: This query can help identify problematic cyclic subclass relationships in an ontology, which often signal modeling errors or unintended structures. 
 (level 6 - 3 pts)
 
