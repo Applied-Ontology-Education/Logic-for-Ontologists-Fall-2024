@@ -4,7 +4,7 @@ The goal of this project is to complete OWL documentation concerning logical com
 
 I will remind you that my goal in this exercise is to produce a publishable paper on this topic by the end of the project; I aim to include anyone on the paper as an author who completes the project. The content of this paper will be a great benefit to the ontology engineering community, so it is important to have this work presented to the broader public sooner rather than later. 
 
-## Assignment Part 1
+## Assignment Part 1.2
 
 ### OWL2 DL Direct Semantics Role Constraints
 
