@@ -1,5 +1,5 @@
 \\\\\\\
-
+wef
 # Logic for Ontologists Fall 2024
 
 ## Slack Channel
