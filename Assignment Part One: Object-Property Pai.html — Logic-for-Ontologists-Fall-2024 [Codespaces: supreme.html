@@ -4,109 +4,72 @@ Assignment Part One: Object-Property Pair contradictions.
 FOR UNSATISFIABILITY AND INCONSISTENCY RESULTS
 STEMMING FROM ROLE CONSTRAINT PAIRS."
 
+
 1.) FUNCTIONAL COMBINED WITH TRANSITIVE BECOMES UNDECIDEABLE
 
-Functional object property denotes cardinality of (1) such relationship between 2 instances.
-For example, John (x) is connected to Steve (y) by object-property "has father" is unique.
-That is, Steve (y) can only bear the object-property relationship "has_father" with one other individual, namely, John (x).
+According to functional object property, if xRy and xRz then y = z 
 
-Transitive object-property goes according to the following:
-(x) relates to (y) by object-property 1 and (y) related to (z) by same object-property 1, 
-So (x) also relates to (z) by virture of object-property 1.
-x --> y, y --> z Therefore x --> z
+By transitive, if xRy, yRz, then xRz where x,y and z are distinct.
 
-When running a reasoner the combination of these becomes undecideable because a functional property must only be only be obtained between one individual and another,
-however, if it is applied transitively it will carry over to subsequent pairs who are also connected by this same object property.
+xRy and xRz cannot hold simultaneously because this violates cardinality of functional object properties. 
+
 
 
 2.) INVERSE-FUNCTIONALITY AND TRANSITIVITY BECOMES UNDECIDEABLE
 
-Inverse functionality provides that each individual paired with another with this relation can have at most one incoming connection of said object property.
-Ex: Inverse_Functional_Property "father of";
-    Father_of (Joey, Richard)      = "Joey is father_of Richard"
---> This means that the instance, Richard, can only be inverse-functionally related to Joey and no other instance because any person can only have one father.
---> Conversely the object-property "father_of" may be obtained between Joey and other instances, who will only have this relation which Joey. 
+By inverse object property, if xRy and zRy then x = z. 
 
-Transitive object-property goes according to the following:
-(x) relates to (y) by object-property 1 and (y) related to (z) by same object-property 1, 
-So (x) also relates to (z) by virture of object-property 1.
-x --> y, y --> z Therefore x --> z
+By transitive, if zRx and xRy then zRy, where x,y and z are distinct.
 
-When running a reasoner the combination of these becomes undecideable because an inverse functional property holds that an object can be connected to at most one other object through such a property relation,
-however, if it is applied transitively it whill carry over to subsequent pairs who are also connected by this same object property.
+zRy and xRy cannot hold simultaneously because only one instance can relate to y by virtue of cardinality. 
+
 
 
 3.) SYMMETRY + A-SYMMETRY = UNSATISFIABLE 
 
-Symmetry declares that if (x) is related to (y) by object_property_1, then (y) is related to (x) by virtue of same object_property_1
-Ex: Symmtric_Object_Property (sister)
-    Object_Property_Assertion (sister, Mary, Jen)  = "Mary is sister of Jen"
-    It follows that "Jen is sister of Mary" because the relation is symmetrically held between both instances. 
+By Symmetry, if xRy then yRx
 
-Asymmetry provides that if (x) is related to (y) by object_property_3 then (y) CANNOT relate to (x) by object_property_3
-Ex: Asymmetric_Object_Property (Parent_of)
-    Object_Property_Assertion (parent_of, Vivian, Chris)  = "Vivian is a parent of Chris"
-    It holds that Chris CANNOT be a parent of Vivian. 
+By Asymmetry, if xRy, then ~(yRx)
 
-The joint of these leads to unsatisfiability because Symmetry holds that if xRy then yRx, however, Asymmetry holds that if xRy then ~ yRx. Thus the logical contradiction which will return false. 
+These statements will always contradict each other. 
+
 
 
 4.) A-SYMMETRY + TRANSITIVITY = UNDECIDEABLE
 
-Asymmetry provides that if (x) is related to (y) by object_property_3 then (y) CANNOT relate to (x) by object_property_3
-Ex: Asymmetric_Object_Property (Parent_of)
-    Object_Property_Assertion (parent_of, Vivian, Chris)  = "Vivian is a parent of Chris"
-    It holds that Chris CANNOT be a parent of Vivian. 
- 
-Transitive object-property goes according to the following:
-(x) relates to (y) by object-property 1 and (y) related to (z) by same object-property 1, 
-So (x) also relates to (z) by virture of object-property 1.
-x --> y, y --> z Therefore x --> z
+By asymmetry if xRy then ~(yRx)
 
-If there is an object property that holds as both asymmetrical and transitive, it is possible that an instance (y) could relate to (x) as both bearer and recipient
-of some object property if this object property is shared between other instances and (x). Thus the reasoner could not decide between whom it holds. 
+By transitive, if xRy, yRz, and zRx then yRx.
+
+yRx and ~(yRx) cannot hold at once. 
 
 
 
 5.) TRANSITIVE + IRREFLEXIVE = UNDECIDEABLE
 
-Transitive object-property goes according to the following:
-(x) relates to (y) by object-property 1 and (y) related to (z) by same object-property 1, 
-So (x) also relates to (z) by virture of object-property 1.
-x --> y, y --> z Therefore x --> z
+By irreflexive, ~(xRx).
 
-Irreflexive hold that no individual can be connected by such an object property to itself.
+By transitive, if xRy and yRx then xRx. 
 
-Syllogism: 
-
-Transitive Property Assertion: brother_of
-Irreflexive Property assertion: brother_of 
-
-    x is brother of y
-    y is brother of z
-    z is brother of x
-Therefore, x is brother to itself. 
-
-By transitivity, xRy and yRz then xRz. This could lead to xRx which violates irreflexivity (~xRx) thus leading to undecideability.  
+Since some symmetrical statements paired with a transitive expression become reflexive, this violates the conditions of irreflexive object property. 
 
 
 
 6.) ASYMMETRICAL + REFLEXIVE = UNSATISFIABLE
 
-Asymmetry provides that if (x) is related to (y) by object_property_3 then (y) CANNOT relate to (x) by object_property_3
-Ex: Asymmetric_Object_Property (Parent_of)
-    Object_Property_Assertion (parent_of, Vivian, Chris)  = "Vivian is a parent of Chris"
-    It holds that Chris CANNOT be a parent of Vivian. 
+By Asymmetry if xRy then ~(yRx). 
 
-Reflexivity holds that an instance can relate to itself by some object property, (aRa) where a is some instance. 
+By reflexive, xRx.
 
-By Reflexivity xRx holds. By Asymmetry, xRy then yRx cannot hold. Reflexivity calls for self-relations (xRx) which Asymmetry does not allow, thus the contradiction.    
+Although symmetry refers to two separate statements, a reflexive statement is inherently symmetric to itself which violates asymmetry. 
+
+
 
 
 7.) REFLEXIVE + IRREFLEVITY = UNSATISFIABLE
 
-Irreflexive hold that no individual can be connected by such an object property to itself.
+By reflexive, xRx
 
-Reflexivity holds that an instance can relate to itself by some object property, (aRa) where a is some instance.
+By irreflexive, ~(xRx)
 
-By reflexivity all instances of x must relate xRx. However irreflexivity prohibity xRx. So, there is a contradiction. 
+These statements cannot together will result in a contradiction. 
