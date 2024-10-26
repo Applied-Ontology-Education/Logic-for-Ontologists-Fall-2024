@@ -393,11 +393,6 @@ Old Gold Smoker who Owns Snails""" .
                                                                        rdfs:label "Specifically Dependent Continuant"@en .
 
 
-###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000046
-<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000046> rdf:type owl:Class ;
-                                                                       rdfs:label "Act of Smoking"@en .
-
-
 ###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000047
 <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000047> rdf:type owl:Class ;
                                                                        rdfs:label "Stasis of Habitation"@en .
