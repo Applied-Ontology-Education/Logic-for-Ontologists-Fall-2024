@@ -41,6 +41,6 @@ We will discuss the details of these rules in more depth in class, with a partic
 
 ## Assignment 
 
-To complete this project, you are required to attend class and play the game under what we will call "BFO Rules", "DOLCE Rules", and "BORO Rules". For each, you will be expected to bth play the game and complete a short survey provided by the game developers. 
+To complete this project, you are required to attend class and play the game. You will be expected to play the game and complete a short survey provided by the game developers. 
 
-For those attending online, you may complete this project by either attending remotely during class time, in which I will guide you through play in a breakout room over zoom. If you are unable to make it to any live sessions, then you may complete this project by recording you and a group of students from class playing the game. Again, to complete the assignment you must also complete a survey which will help the game developers refine this very intersting project. 
+For those attending online, you may complete this project by either attending remotely during class time, in which I will guide you through play with the group. If you are unable to make it to any live sessions, then you may complete this project by recording you and a group of students from class playing the game. Again, to complete the assignment you must also complete a survey which will help the game developers refine this very intersting project. 
