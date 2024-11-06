@@ -1,0 +1,731 @@
+@prefix : <http://www.semanticweb.org/johngugliotti/ontologies/2024/9/untitled-ontology-182/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/johngugliotti/ontologies/2024/9/untitled-ontology-182/> .
+
+<http://www.semanticweb.org/johngugliotti/ontologies/2024/9/untitled-ontology-182> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/color_of
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/color_of> rdf:type owl:ObjectProperty ;
+                                                                        owl:inverseOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_color> ;
+                                                                        rdf:type owl:InverseFunctionalProperty ;
+                                                                        rdfs:range <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/drinks
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/drinks> rdf:type owl:ObjectProperty ;
+                                                                      rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                      owl:inverseOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/drunk_by> ;
+                                                                      rdf:type owl:FunctionalProperty ;
+                                                                      rdfs:domain <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> ;
+                                                                      rdfs:range <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Beverage> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/drunk_by
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/drunk_by> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                        rdf:type owl:InverseFunctionalProperty .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_color
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_color> rdf:type owl:ObjectProperty ,
+                                                                                  owl:FunctionalProperty .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality> rdf:type owl:ObjectProperty ;
+                                                                               owl:inverseOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/nationality_of> ;
+                                                                               rdf:type owl:FunctionalProperty ;
+                                                                               rdfs:domain <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> ;
+                                                                               rdfs:range <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Nationality> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_resident
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_resident> rdf:type owl:ObjectProperty ;
+                                                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                            owl:inverseOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in> ;
+                                                                            rdf:type owl:InverseFunctionalProperty ;
+                                                                            rdfs:domain <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> ;
+                                                                            rdfs:range <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/immediately_adjacent_to
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/immediately_adjacent_to> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                       rdf:type owl:SymmetricProperty ;
+                                                                                       rdfs:domain <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> ;
+                                                                                       rdfs:range <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/left_of
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/left_of> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                       owl:inverseOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/right_of> ;
+                                                                       rdf:type owl:TransitiveProperty ;
+                                                                       rdfs:domain <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> ;
+                                                                       rdfs:range <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/nationality_of
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/nationality_of> rdf:type owl:ObjectProperty ,
+                                                                                       owl:InverseFunctionalProperty .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/owned_by
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/owned_by> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                        owl:inverseOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/owns> ;
+                                                                        rdf:type owl:InverseFunctionalProperty .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/owns
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/owns> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                    rdf:type owl:FunctionalProperty ;
+                                                                    rdfs:domain <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> ;
+                                                                    rdfs:range <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Animal> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                          rdf:type owl:FunctionalProperty .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/right_of
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/right_of> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                        rdf:type owl:TransitiveProperty .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/smoked_by
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/smoked_by> rdf:type owl:ObjectProperty ;
+                                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                         owl:inverseOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/smokes> ;
+                                                                         rdf:type owl:InverseFunctionalProperty ;
+                                                                         rdfs:domain <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Smokable> ;
+                                                                         rdfs:range <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/smokes
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/smokes> rdf:type owl:ObjectProperty ;
+                                                                      rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                      rdf:type owl:FunctionalProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Animal
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Animal> rdf:type owl:Class .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Beverage
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Beverage> rdf:type owl:Class .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Chesterfield_Smoker
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Chesterfield_Smoker> rdf:type owl:Class ;
+                                                                                   owl:equivalentClass [ owl:intersectionOf ( [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person>
+                                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                                       owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in> ;
+                                                                                                                                                       owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                   owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/immediately_adjacent_to> ;
+                                                                                                                                                                                                   owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                                                               owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_resident> ;
+                                                                                                                                                                                                                                               owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person>
+                                                                                                                                                                                                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                                                                                                           owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/owns> ;
+                                                                                                                                                                                                                                                                                           owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Fox>
+                                                                                                                                                                                                                                                                                         ]
+                                                                                                                                                                                                                                                                                       ) ;
+                                                                                                                                                                                                                                                                    rdf:type owl:Class
+                                                                                                                                                                                                                                                                  ]
+                                                                                                                                                                                                                                             ]
+                                                                                                                                                                                                                                           ) ;
+                                                                                                                                                                                                                        rdf:type owl:Class
+                                                                                                                                                                                                                      ]
+                                                                                                                                                                                                 ]
+                                                                                                                                                                                               ) ;
+                                                                                                                                                                            rdf:type owl:Class
+                                                                                                                                                                          ]
+                                                                                                                                                     ]
+                                                                                                                                                   ) ;
+                                                                                                                                rdf:type owl:Class
+                                                                                                                              ]
+                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/smokes> ;
+                                                                                                                                owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Chesterfield>
+                                                                                                                              ]
+                                                                                                                            ) ;
+                                                                                                         rdf:type owl:Class
+                                                                                                       ] ;
+                                                                                   rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                                   rdfs:label "11 Chesterfield" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/CoffeClass
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/CoffeClass> rdf:type owl:Class ;
+                                                                          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/drunk_by> ;
+                                                                                                owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person>
+                                                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                                                            owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in> ;
+                                                                                                                                            owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                                                                        owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_color> ;
+                                                                                                                                                                                        owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/green>
+                                                                                                                                                                                      ]
+                                                                                                                                                                                    ) ;
+                                                                                                                                                                 rdf:type owl:Class
+                                                                                                                                                               ]
+                                                                                                                                          ]
+                                                                                                                                        ) ;
+                                                                                                                     rdf:type owl:Class
+                                                                                                                   ]
+                                                                                              ] ;
+                                                                          rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                          rdfs:label "4 Coffee next to the green house" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Color
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Color> rdf:type owl:Class .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Englishman
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Englishman> rdf:type owl:Class ;
+                                                                          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/nationality_of> ;
+                                                                                                owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person>
+                                                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                                                            owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in> ;
+                                                                                                                                            owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                                                                        owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_color> ;
+                                                                                                                                                                                        owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/red>
+                                                                                                                                                                                      ]
+                                                                                                                                                                                    ) ;
+                                                                                                                                                                 rdf:type owl:Class
+                                                                                                                                                               ]
+                                                                                                                                          ]
+                                                                                                                                        ) ;
+                                                                                                                     rdf:type owl:Class
+                                                                                                                   ]
+                                                                                              ] ;
+                                                                          rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                          rdfs:label "2 Englishman" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Green
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Green> rdf:type owl:Class ;
+                                                                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                           owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/color_of> ;
+                                                                                           owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/left_of> ;
+                                                                                                                                       owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                                                                                   owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_color> ;
+                                                                                                                                                                                   owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/ivory>
+                                                                                                                                                                                 ]
+                                                                                                                                                                               ) ;
+                                                                                                                                                            rdf:type owl:Class
+                                                                                                                                                          ]
+                                                                                                                                     ]
+                                                                                                                                   ) ;
+                                                                                                                rdf:type owl:Class
+                                                                                                              ]
+                                                                                         ] ;
+                                                                     rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                     rdfs:label "5 Green house next to Ivory House" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/House
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_color> ;
+                                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                       owl:onClass <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Color>
+                                                                                     ] .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Japanesse_Parliament_Smoker
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Japanesse_Parliament_Smoker> rdf:type owl:Class ;
+                                                                                           owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                        owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality> ;
+                                                                                                                                        owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Japaneese>
+                                                                                                                                      ]
+                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                        owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/smokes> ;
+                                                                                                                                        owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Parliament>
+                                                                                                                                      ]
+                                                                                                                                    ) ;
+                                                                                                                 rdf:type owl:Class
+                                                                                                               ] ;
+                                                                                           rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                                           rdfs:label "14 Japaneese Parliament Smoker" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Kools_smoked_in_yellow_house
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Kools_smoked_in_yellow_house> rdf:type owl:Class ;
+                                                                                            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/smoked_by> ;
+                                                                                                                  owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person>
+                                                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                                                              owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in> ;
+                                                                                                                                                              owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                          owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_color> ;
+                                                                                                                                                                                                          owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/yellow>
+                                                                                                                                                                                                        ]
+                                                                                                                                                                                                      ) ;
+                                                                                                                                                                                   rdf:type owl:Class
+                                                                                                                                                                                 ]
+                                                                                                                                                            ]
+                                                                                                                                                          ) ;
+                                                                                                                                       rdf:type owl:Class
+                                                                                                                                     ]
+                                                                                                                ] ;
+                                                                                            rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                                            rdfs:label "8 Kools in Yellow house" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Kools_smoked_near_the_horse
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Kools_smoked_near_the_horse> rdf:type owl:Class ;
+                                                                                           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/smoked_by> ;
+                                                                                                                 owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person>
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in> ;
+                                                                                                                                                             owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                         owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/immediately_adjacent_to> ;
+                                                                                                                                                                                                         owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                                                                     owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_resident> ;
+                                                                                                                                                                                                                                                     owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person>
+                                                                                                                                                                                                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                                                                                                                 owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/owns> ;
+                                                                                                                                                                                                                                                                                                 owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Horse>
+                                                                                                                                                                                                                                                                                               ]
+                                                                                                                                                                                                                                                                                             ) ;
+                                                                                                                                                                                                                                                                          rdf:type owl:Class
+                                                                                                                                                                                                                                                                        ]
+                                                                                                                                                                                                                                                   ]
+                                                                                                                                                                                                                                                 ) ;
+                                                                                                                                                                                                                              rdf:type owl:Class
+                                                                                                                                                                                                                            ]
+                                                                                                                                                                                                       ]
+                                                                                                                                                                                                     ) ;
+                                                                                                                                                                                  rdf:type owl:Class
+                                                                                                                                                                                ]
+                                                                                                                                                           ]
+                                                                                                                                                         ) ;
+                                                                                                                                      rdf:type owl:Class
+                                                                                                                                    ]
+                                                                                                               ] ;
+                                                                                           rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                                           rdfs:label "12 Kools smoked near the horse" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/LuckStrike_smoker_juicer
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/LuckStrike_smoker_juicer> rdf:type owl:Class ;
+                                                                                        owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/drinks> ;
+                                                                                                                                     owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Orange_Juice>
+                                                                                                                                   ]
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/smokes> ;
+                                                                                                                                     owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Lucky_Strike>
+                                                                                                                                   ]
+                                                                                                                                 ) ;
+                                                                                                              rdf:type owl:Class
+                                                                                                            ] ;
+                                                                                        rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                                        rdfs:label "13 Lucky Strike Orange Juice" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Milk_House_in_middle_house
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Milk_House_in_middle_house> rdf:type owl:Class ;
+                                                                                          owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in> ;
+                                                                                                                                       owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                                                            owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/right_of> ;
+                                                                                                                                                            owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                                                                                 owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/right_of> ;
+                                                                                                                                                                                 owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                      owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_resident> ;
+                                                                                                                                                                                                      owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                                           owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality> ;
+                                                                                                                                                                                                                           owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Norwegian>
+                                                                                                                                                                                                                         ]
+                                                                                                                                                                                                    ]
+                                                                                                                                                                               ]
+                                                                                                                                                          ]
+                                                                                                                                     ]
+                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/drinks> ;
+                                                                                                                                       owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Milk>
+                                                                                                                                     ]
+                                                                                                                                   ) ;
+                                                                                                                rdf:type owl:Class
+                                                                                                              ] ;
+                                                                                          rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                                          rdfs:label "9-10 Milk drinker in middle house separated by first house by one house" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Nationality
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Nationality> rdf:type owl:Class .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Norwegian_lives_next_to_blue_house
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Norwegian_lives_next_to_blue_house> rdf:type owl:Class ;
+                                                                                                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                        owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in> ;
+                                                                                                                        owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                                    owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/immediately_adjacent_to> ;
+                                                                                                                                                                    owl:someValuesFrom [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                                owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_color> ;
+                                                                                                                                                                                                                owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/blue>
+                                                                                                                                                                                                              ]
+                                                                                                                                                                                                            ) ;
+                                                                                                                                                                                         rdf:type owl:Class
+                                                                                                                                                                                       ]
+                                                                                                                                                                  ]
+                                                                                                                                                                ) ;
+                                                                                                                                             rdf:type owl:Class
+                                                                                                                                           ]
+                                                                                                                      ] ;
+                                                                                                  rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                                                  rdfs:label "15 Norwegian next to Blue House" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> rdf:type owl:Class .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/OldGold_Smoker_Owns_Snails
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/OldGold_Smoker_Owns_Snails> rdf:type owl:Class ;
+                                                                                          owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/owns> ;
+                                                                                                                                       owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Snail>
+                                                                                                                                     ]
+                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/smokes> ;
+                                                                                                                                       owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Old_Gold>
+                                                                                                                                     ]
+                                                                                                                                   ) ;
+                                                                                                                rdf:type owl:Class
+                                                                                                              ] ;
+                                                                                          rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                                          rdfs:label "7 Old Gold Snail" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf owl:Thing ,
+                                                                                      [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                               owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/drinks> ;
+                                                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                               owl:onClass <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Beverage>
+                                                                                                             ]
+                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                               owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality> ;
+                                                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                               owl:onClass <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Nationality>
+                                                                                                             ]
+                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                               owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/owns> ;
+                                                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                               owl:onClass <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Animal>
+                                                                                                             ]
+                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                               owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/resides_in> ;
+                                                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                               owl:onClass <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                                                                                                             ]
+                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                               owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/smokes> ;
+                                                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                               owl:onClass <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Smokable>
+                                                                                                             ]
+                                                                                                           ) ;
+                                                                                        rdf:type owl:Class
+                                                                                      ] .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Smokable
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Smokable> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf owl:Thing .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Spaniard
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Spaniard> rdf:type owl:Class ;
+                                                                        owl:equivalentClass [ owl:intersectionOf ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person>
+                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                     owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/owns> ;
+                                                                                                                     owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Dog>
+                                                                                                                   ]
+                                                                                                                 ) ;
+                                                                                              rdf:type owl:Class
+                                                                                            ] ;
+                                                                        rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                        rdfs:label "3 Spaniard" .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Ukrainian_Drinks_Tea
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Ukrainian_Drinks_Tea> rdf:type owl:Class ;
+                                                                                    owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                 owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/drinks> ;
+                                                                                                                                 owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Tea>
+                                                                                                                               ]
+                                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                                 owl:onProperty <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality> ;
+                                                                                                                                 owl:hasValue <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Ukrainian>
+                                                                                                                               ]
+                                                                                                                             ) ;
+                                                                                                          rdf:type owl:Class
+                                                                                                        ] ;
+                                                                                    rdfs:subClassOf <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Observation> ;
+                                                                                    rdfs:label "5 Ukrainian" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Chesterfield
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Chesterfield> rdf:type owl:NamedIndividual ,
+                                                                                     <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Smokable> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Coffee
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Coffee> rdf:type owl:NamedIndividual ,
+                                                                               <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Beverage> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Dog
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Dog> rdf:type owl:NamedIndividual ,
+                                                                            <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Animal> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/English
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/English> rdf:type owl:NamedIndividual ,
+                                                                                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Nationality> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Fox
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Fox> rdf:type owl:NamedIndividual ,
+                                                                            <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Animal> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Horse
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Horse> rdf:type owl:NamedIndividual ,
+                                                                              <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Animal> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Japaneese
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Japaneese> rdf:type owl:NamedIndividual ,
+                                                                                  <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Nationality> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Kool
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Kool> rdf:type owl:NamedIndividual ,
+                                                                             <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Smokable> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Lucky_Strike
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Lucky_Strike> rdf:type owl:NamedIndividual ,
+                                                                                     <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Smokable> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Milk
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Milk> rdf:type owl:NamedIndividual ,
+                                                                             <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Beverage> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Norwegian
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Norwegian> rdf:type owl:NamedIndividual ,
+                                                                                  <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Nationality> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Old_Gold
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Old_Gold> rdf:type owl:NamedIndividual ,
+                                                                                 <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Smokable> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Orange_Juice
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Orange_Juice> rdf:type owl:NamedIndividual ,
+                                                                                     <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Beverage> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Parliament
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Parliament> rdf:type owl:NamedIndividual ,
+                                                                                   <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Smokable> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Snail
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Snail> rdf:type owl:NamedIndividual ,
+                                                                              <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Animal> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Spanish
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Spanish> rdf:type owl:NamedIndividual ,
+                                                                                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Nationality> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Tea
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Tea> rdf:type owl:NamedIndividual ,
+                                                                            <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Beverage> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Ukrainian
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Ukrainian> rdf:type owl:NamedIndividual ,
+                                                                                  <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Nationality> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/Zebra
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/Zebra> rdf:type owl:NamedIndividual ,
+                                                                              <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Animal> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/blue
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/blue> rdf:type owl:NamedIndividual ,
+                                                                             <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Color> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/green
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/green> rdf:type owl:NamedIndividual ,
+                                                                              <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Color> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-1
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-1> rdf:type owl:NamedIndividual ,
+                                                                                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> ;
+                                                                       <https://www.buffalo.edu/student-ontologies/2024/04/analytics/immediately_adjacent_to> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-2> ;
+                                                                       <https://www.buffalo.edu/student-ontologies/2024/04/analytics/left_of> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-2> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-2
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-2> rdf:type owl:NamedIndividual ,
+                                                                                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> ;
+                                                                       <https://www.buffalo.edu/student-ontologies/2024/04/analytics/immediately_adjacent_to> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-3> ;
+                                                                       <https://www.buffalo.edu/student-ontologies/2024/04/analytics/right_of> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-1> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-3
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-3> rdf:type owl:NamedIndividual ,
+                                                                                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> ;
+                                                                       <https://www.buffalo.edu/student-ontologies/2024/04/analytics/immediately_adjacent_to> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-4> ;
+                                                                       <https://www.buffalo.edu/student-ontologies/2024/04/analytics/left_of> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-4> ;
+                                                                       <https://www.buffalo.edu/student-ontologies/2024/04/analytics/right_of> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-2> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-4
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-4> rdf:type owl:NamedIndividual ,
+                                                                                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-5
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-5> rdf:type owl:NamedIndividual ;
+                                                                       <https://www.buffalo.edu/student-ontologies/2024/04/analytics/immediately_adjacent_to> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-4> ;
+                                                                       <https://www.buffalo.edu/student-ontologies/2024/04/analytics/right_of> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-4> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/ivory
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/ivory> rdf:type owl:NamedIndividual ,
+                                                                              <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Color> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-1
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-1> rdf:type owl:NamedIndividual ,
+                                                                                 <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> ;
+                                                                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/English> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-2
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-2> rdf:type owl:NamedIndividual ,
+                                                                                 <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> ;
+                                                                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Norwegian> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-3
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-3> rdf:type owl:NamedIndividual ,
+                                                                                 <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> ;
+                                                                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Japaneese> ;
+                                                                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/smokes> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Parliament> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-4
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-4> rdf:type owl:NamedIndividual ,
+                                                                                 <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> ;
+                                                                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Spanish> ;
+                                                                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/owns> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Dog> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-5
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-5> rdf:type owl:NamedIndividual ,
+                                                                                 <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person> ;
+                                                                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/drinks> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Tea> ;
+                                                                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/has_nationality> <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Ukrainian> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/red
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/red> rdf:type owl:NamedIndividual ,
+                                                                            <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Color> .
+
+
+###  https://www.buffalo.edu/student-ontologies/2024/04/analytics/yellow
+<https://www.buffalo.edu/student-ontologies/2024/04/analytics/yellow> rdf:type owl:NamedIndividual ,
+                                                                               <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Color> .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Animal>
+                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Beverage>
+                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Color>
+                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/House>
+                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Nationality>
+                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Person>
+                <https://www.buffalo.edu/student-ontologies/2024/04/analytics/Smokable>
+              )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-1>
+                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-2>
+                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-3>
+                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-4>
+                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/house-5>
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( <https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-1>
+                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-2>
+                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-3>
+                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-4>
+                        <https://www.buffalo.edu/student-ontologies/2024/04/analytics/person-5>
+                      )
+] .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
