@@ -1,3 +1,0 @@
-org.semanticweb.owlapi.io.OWLOntologyInputSourceException: java.io.FileNotFoundException: all_same_individuals/.ipynb_checkpoints (Is a directory)
-Use the -vvv option to show the stack trace.
-Use the --help option to see usage information.
