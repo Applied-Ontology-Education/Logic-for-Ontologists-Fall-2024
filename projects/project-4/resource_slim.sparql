@@ -1,0 +1,57 @@
+prefix cco: <http://www.ontologyrepository.com/CommonCoreOntologies/> 
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix obo: <http://purl.obolibrary.org/obo/bfo#> 
+
+SELECT * WHERE 
+{
+    {
+        SELECT *
+        {
+            ?resource_uri a owl:Class ; rdfs:label ?label. 
+            OPTIONAL {
+                ?resource_uri cco:definition ?def ; 
+            }
+            OPTIONAL {
+                ?resource_uri skos:definition ?def ; 
+            }    
+            BIND("AgentOntology" AS ?source)
+            BIND(owl:Class AS ?resource_type)
+        } 
+    }
+    UNION
+    {
+        SELECT *
+        {
+            ?resource_uri a owl:ObjectProperty ; rdfs:label ?label. 
+            OPTIONAL {
+                ?resource_uri cco:definition ?def ; 
+            }
+            OPTIONAL {
+                ?resource_uri skos:definition ?def ; 
+            }   
+            OPTIONAL {
+                ?resource_uri rdfs:range ?range ; 
+            }                       
+            BIND("AgentOntology" AS ?source)
+            BIND(owl:ObjectProperty AS ?resource_type)            
+        } 
+    }  
+    UNION
+    {
+        SELECT *
+        {
+            ?resource_uri a owl:DatatypeProperty ; rdfs:label ?label. 
+            OPTIONAL {
+                ?resource_uri cco:definition ?def ; 
+            }
+            OPTIONAL {
+                ?resource_uri skos:definition ?def ; 
+            }   
+            OPTIONAL {
+                ?resource_uri rdfs:range ?range ; 
+            }              
+            BIND("AgentOntology" AS ?source)
+            BIND(owl:DatatypeProperty AS ?resource_type) 
+        } 
+    }      
+}

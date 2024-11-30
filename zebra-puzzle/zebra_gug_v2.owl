@@ -1,0 +1,453 @@
+@prefix : <http://www.semanticweb.org/johngugliotti/ontologies/2024/9/untitled-ontology-179#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/johngugliotti/ontologies/2024/9/untitled-ontology-179> .
+
+<http://www.semanticweb.org/johngugliotti/ontologies/2024/9/untitled-ontology-179> rdf:type owl:Ontology ;
+                                                                                    rdfs:comment """Five houses
+Englishman lives in Red house
+
+
+Spaniard owns Dog
+
+
+Coffee is drunk in Green House
+Ukrainian Drinks Tea
+
+
+
+Green House Immediately to the right of Ivory House
+
+Old Gold Smoker who Owns Snails""" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000050
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000050> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:label "has_inhabitant"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000051
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000051> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                       owl:inverseOf <https://www.blackcape.io/ontologies/2024/04/analytics/has_owner> ;
+                                                                       rdfs:label "owner"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000052
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000052> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                       owl:inverseOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000063> ;
+                                                                       rdfs:label "consumer_of"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000053
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000053> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                       rdfs:label "in_facility"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000054
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000054> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                       rdfs:label "resides_in"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000059
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000059> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                       rdfs:label "nationality"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000063
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000063> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                       owl:inverseOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000063> ;
+                                                                       rdfs:label "has_consumer"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000064
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000064> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:label "has_resident"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000067
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000067> rdf:type owl:ObjectProperty ;
+                                                                       owl:inverseOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000081> ;
+                                                                       rdfs:label "consumed_in_location"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000075
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000075> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:label "has_position"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000076
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000076> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:label "position_of"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000077
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000077> rdf:type owl:ObjectProperty ,
+                                                                                owl:SymmetricProperty ;
+                                                                       rdfs:label "adjacent_to"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000078
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000078> rdf:type owl:ObjectProperty ,
+                                                                                owl:TransitiveProperty ;
+                                                                       rdfs:label "left_of (position lesser than)"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000079
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000079> rdf:type owl:ObjectProperty ,
+                                                                                owl:InverseFunctionalProperty ;
+                                                                       rdfs:label "right_of (position greater than)"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000081
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000081> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:label "location_of_consumption"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/color_of
+<https://www.blackcape.io/ontologies/2024/04/analytics/color_of> rdf:type owl:ObjectProperty ;
+                                                                 owl:inverseOf <https://www.blackcape.io/ontologies/2024/04/analytics/has_color> ;
+                                                                 rdfs:label "color_of"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/has_color
+<https://www.blackcape.io/ontologies/2024/04/analytics/has_color> rdf:type owl:ObjectProperty ,
+                                                                           owl:FunctionalProperty ;
+                                                                  rdfs:label "has_color"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/has_owner
+<https://www.blackcape.io/ontologies/2024/04/analytics/has_owner> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:label "has_owner"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000005
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000005> rdf:type owl:Class ;
+                                                                       rdfs:label "The Things"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000010
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000010> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000044> ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000064> ;
+                                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                         owl:onClass <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000011>
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/has_color> ;
+                                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                         owl:onClass <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000015>
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000077> ;
+                                                                                         owl:maxQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                                                                         owl:onClass <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000010>
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000078> ;
+                                                                                         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                         owl:onClass <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000010>
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000079> ;
+                                                                                         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                         owl:onClass <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000010>
+                                                                                       ] ;
+                                                                       rdfs:label "House"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000011
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000011> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000044> ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000051> ;
+                                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                         owl:onClass <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000033>
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000052> ;
+                                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                         owl:onClass <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000020>
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000052> ;
+                                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                         owl:onClass <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000024>
+                                                                                       ] ;
+                                                                       rdfs:label "Person"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000013
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000013> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000045> ;
+                                                                       rdfs:label "Nationality"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000015
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000015> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000045> ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/color_of> ;
+                                                                                         owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000010>
+                                                                                       ] ;
+                                                                       rdfs:label "Color"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000016
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000016> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000015> ;
+                                                                       rdfs:label "Red"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000017
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000017> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000033> ;
+                                                                       rdfs:label "Dog"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000018
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000018> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000024> ;
+                                                                       rdfs:label "Kool Cigarettes"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000019
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000019> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000024> ;
+                                                                       rdfs:label "Old Gold Cigarettes"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000020
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000020> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000044> ;
+                                                                       rdfs:label "Beverage"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000021
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000021> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000020> ;
+                                                                       rdfs:label "Tea"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000022
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000022> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000020> ;
+                                                                       rdfs:label "Milk"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000023
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000023> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000020> ;
+                                                                       rdfs:label "Coffee"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000024
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000024> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000044> ;
+                                                                       rdfs:label "Cigarettes"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000025
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000025> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000024> ;
+                                                                       rdfs:label "Chesterfield Cigarettes"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000026
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000026> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000024> ;
+                                                                       rdfs:label "Parlaiment Cigarettes"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000027
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000027> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000024> ;
+                                                                       rdfs:label "Luck Strike Cigarettes"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000028
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000028> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000015> ;
+                                                                       rdfs:label "Blue"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000029
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000029> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000013> ;
+                                                                       rdfs:label "English"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000030
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000030> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000013> ;
+                                                                       rdfs:label "Ukrainian"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000031
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000031> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000013> ;
+                                                                       rdfs:label "Spaniard"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000032
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000032> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000013> ;
+                                                                       rdfs:label "Norwegian"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000033
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000033> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000044> ;
+                                                                       rdfs:label "Animal"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000034
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000034> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000033> ;
+                                                                       rdfs:label "Horse"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000035
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000035> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000020> ;
+                                                                       rdfs:label "Orange Juice"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000036
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000036> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000013> ;
+                                                                       rdfs:label "Japaneese"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000037
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000037> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000033> ;
+                                                                       rdfs:label "Fox"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000038
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000038> rdf:type owl:Class ;
+                                                                       owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                             owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/color_of> ;
+                                                                                             owl:someValuesFrom [ owl:intersectionOf ( <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000010>
+                                                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                                                         owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000078> ;
+                                                                                                                                         owl:someValuesFrom [ owl:intersectionOf ( <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000010>
+                                                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                                                     owl:onProperty <https://www.blackcape.io/ontologies/2024/04/analytics/has_color> ;
+                                                                                                                                                                                     owl:someValuesFrom <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000039>
+                                                                                                                                                                                   ]
+                                                                                                                                                                                 ) ;
+                                                                                                                                                              rdf:type owl:Class
+                                                                                                                                                            ]
+                                                                                                                                       ]
+                                                                                                                                     ) ;
+                                                                                                                  rdf:type owl:Class
+                                                                                                                ]
+                                                                                           ] ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000015> ;
+                                                                       rdfs:label "Green"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000039
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000039> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000015> ;
+                                                                       rdfs:label "Ivory"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000040> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000033> ;
+                                                                       rdfs:label "Snail"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000042
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000042> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000015> ;
+                                                                       rdfs:label "Yellow"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000044
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000044> rdf:type owl:Class ;
+                                                                       rdfs:label "Independent Continuant"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000045
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000045> rdf:type owl:Class ;
+                                                                       rdfs:label "Specifically Dependent Continuant"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000047
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000047> rdf:type owl:Class ;
+                                                                       rdfs:label "Stasis of Habitation"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000048
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000048> rdf:type owl:Class ;
+                                                                       rdfs:label "Stasis of Ownership"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000055
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000055> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000045> ;
+                                                                       rdfs:label "ownership_role"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000068
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000068> rdf:type owl:Class ;
+                                                                       rdfs:label "House Position"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000069
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000069> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000068> ;
+                                                                       rdfs:label "Left-Most (First)"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000070
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000070> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000068> ;
+                                                                       rdfs:label "Middle (3rd)"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000071
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000071> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000068> ;
+                                                                       rdfs:label "Right-Most (5th)"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000072
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000072> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000068> ;
+                                                                       rdfs:label "Intermediate-Left (2nd)"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000073
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000073> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000068> ;
+                                                                       rdfs:label "Intermediate-Right (4th)"@en .
+
+
+###  https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000133
+<https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000133> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://www.blackcape.io/ontologies/2024/04/analytics/ANZO_SYS000033> ;
+                                                                       rdfs:label "Zebra"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
