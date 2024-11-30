@@ -1,0 +1,48 @@
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix cco: <http://www.ontologyrepository.com/CommonCoreOntologies/> .
+@prefix ccosh: <http://www.ontologyrepository.com/CommonCoreOntologies/shapes/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+ccosh:ActOfAppraisalShape
+	a sh:NodeShape ;
+	sh:targetClass cco:ActOfAppraisal ;    # Applies to all instances of ActOfAppraisal
+    rdfs:comment "SHACL constraint manually built from parsing the definition from CCO:  An Act of Measuring that involves evaluating, assessing, estimating, or judging the nature, value, importance, condition, or quality of something or someone."^^xsd:string ;
+
+
+	sh:property [                 
+		sh:path cco:occurs_on ; ## some temporal region - such as a day
+		sh:class obo:BFO_0000038 ;
+		sh:nodeKind sh:IRI ;
+	] ;    
+	sh:property [                 
+		sh:path cco:has_output ;
+		sh:class cco:MeasurementContentEntity ; ## Depending on the type of assessment - may need to be more specific
+		sh:nodeKind sh:IRI ;
+        sh:minCount 1 ;
+	] ;
+	sh:property [   ## object that is being appraised                
+		sh:path cco:has_input ;
+		sh:class obo:Entity ;
+		sh:nodeKind sh:IRI ;
+        sh:minCount 1 ;
+	] ; 
+	sh:property [                 
+		sh:path cco:has_participant ;
+		sh:class cco:Agent ;  ## create a particular Agent Class with a set of capabilities restrictions 
+		sh:nodeKind sh:IRI ;
+        sh:minCount 1 ;
+	] ;       
+	sh:property [    ## a datatype property for illustrative purposes        
+		sh:path cco:has_date_value ;           
+		sh:maxCount 1 ;
+		sh:datatype xsd:date ;
+		## sh:pattern "^\\d{3}-\\d{2}-\\d{4}$" ;  # optional regex for string patterns
+	] ;
+    sh:closed true ;
+	sh:ignoredProperties ( rdf:type ) .
+
+    
+    
