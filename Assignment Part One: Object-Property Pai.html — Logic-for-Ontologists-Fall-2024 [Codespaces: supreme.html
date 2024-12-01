@@ -1,0 +1,75 @@
+Assignment Part One: Object-Property Pair contradictions.
+
+"PROVIDE OWL-2 DIRECT SEMANTIC BASED EXPLANATIONS
+FOR UNSATISFIABILITY AND INCONSISTENCY RESULTS
+STEMMING FROM ROLE CONSTRAINT PAIRS."
+
+
+1.) FUNCTIONAL COMBINED WITH TRANSITIVE BECOMES UNDECIDEABLE
+
+According to functional object property, if xRy and xRz then y = z 
+
+By transitive, if xRy, yRz, then xRz where x,y and z are distinct.
+
+xRy and xRz cannot hold simultaneously because this violates cardinality of functional object properties. 
+
+
+
+2.) INVERSE-FUNCTIONALITY AND TRANSITIVITY BECOMES UNDECIDEABLE
+
+By inverse object property, if xRy and zRy then x = z. 
+
+By transitive, if zRx and xRy then zRy, where x,y and z are distinct.
+
+zRy and xRy cannot hold simultaneously because only one instance can relate to y by virtue of cardinality. 
+
+
+
+3.) SYMMETRY + A-SYMMETRY = UNSATISFIABLE 
+
+By Symmetry, if xRy then yRx
+
+By Asymmetry, if xRy, then ~(yRx)
+
+These statements will always contradict each other. 
+
+
+
+4.) A-SYMMETRY + TRANSITIVITY = UNDECIDEABLE
+
+By asymmetry if xRy then ~(yRx)
+
+By transitive, if xRy, yRz, and zRx then yRx.
+
+yRx and ~(yRx) cannot hold at once. 
+
+
+
+5.) TRANSITIVE + IRREFLEXIVE = UNDECIDEABLE
+
+By irreflexive, ~(xRx).
+
+By transitive, if xRy and yRx then xRx. 
+
+Since some symmetrical statements paired with a transitive expression become reflexive, this violates the conditions of irreflexive object property. 
+
+
+
+6.) ASYMMETRICAL + REFLEXIVE = UNSATISFIABLE
+
+By Asymmetry if xRy then ~(yRx). 
+
+By reflexive, xRx.
+
+Although symmetry refers to two separate statements, a reflexive statement is inherently symmetric to itself which violates asymmetry. 
+
+
+
+
+7.) REFLEXIVE + IRREFLEVITY = UNSATISFIABLE
+
+By reflexive, xRx
+
+By irreflexive, ~(xRx)
+
+These statements cannot together will result in a contradiction. 
