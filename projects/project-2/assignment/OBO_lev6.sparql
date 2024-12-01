@@ -1,0 +1,29 @@
+# Checks that no OBO Foundry properties are used 
+# This includes a list of common IAO annotation properties which should not be used in CCO
+# Level 5
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT DISTINCT ?subject ?predicate ?object
+WHERE {
+    ?subject ?predicate ?object .
+
+    FILTER (?predicate = obo:IAO_0000115 || 
+    ?predicate = obo:IAO_0000119 || 
+    ?predicate = obo:IAO_0000116 || 
+    ?predicate = obo:IAO_0000111 || 
+    ?predicate = obo:IAO_0000600 ||
+    ?predicate = obo:IAO_0010000 ||
+    ?predicate = obo:IAO_0000601 ||
+    ?predicate = obo:IAO_0000602 ||
+    ?predicate = obo:IAO_0000232
+    )
+
+    OPTIONAL {
+        ?predicate rdfs:label ?label .
+    }
+ BIND (CONCAT("Error: Property ", STR(?predicate), " is an OBO property.") AS ?errorMessage)
+
+}

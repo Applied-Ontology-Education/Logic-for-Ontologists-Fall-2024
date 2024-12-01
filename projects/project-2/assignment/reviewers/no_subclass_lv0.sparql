@@ -1,0 +1,21 @@
+#checking that classes are not subclasses of themselves
+# lv0
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?class ?warningMessage
+WHERE {
+    # Find all entities that have an axiom connecting them through BFO_0000199 to a subclass of BFO_0000148
+    ?classEntity a owl:Class
+             
+    FILTER (!ISBLANK(?classEntity)) .
+
+    ?classEntity rdfs:subClassOf ?classEntity.
+
+    # Create a warning message
+    ?classEntity rdfs:label ?label .
+    
+  BIND (CONCAT("Warning: Class ", STR(?label), " is a subclass of itself") AS ?warningMessage)
+}

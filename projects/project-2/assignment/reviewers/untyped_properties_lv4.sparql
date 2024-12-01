@@ -1,0 +1,35 @@
+# Checking whether cco resources are used as predicated without being declard as object, data or annotation properties
+# level 4
+
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/>
+
+SELECT DISTINCT ?predicate ?label
+WHERE {
+    # Find all resources used as predicates
+    ?subject ?predicate ?object .
+    FILTER (!ISBLANK(?subject)) .
+    # Ensure the predicate is NOT typed as an ObjectProperty, DatatypeProperty, or AnnotationProperty
+    FILTER NOT EXISTS {
+        ?predicate a owl:ObjectProperty .
+    }
+    FILTER NOT EXISTS {
+        ?predicate a owl:DatatypeProperty .
+    }
+    FILTER NOT EXISTS {
+        ?predicate a owl:AnnotationProperty .
+    }
+
+    # Ensure the predicate starts with the 'cco' prefix
+    FILTER STRSTARTS(STR(?predicate), STR(cco:))
+
+    # Bind an error message for untyped predicates
+    BIND("Error: Untyped cco property" AS ?errorMessage)
+
+    # Optional: get the label of the predicate if available
+    OPTIONAL {
+        ?predicate rdfs:label ?label .
+    }
+}
