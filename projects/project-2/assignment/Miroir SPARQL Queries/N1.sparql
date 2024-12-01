@@ -1,0 +1,13 @@
+# Title: 
+#    (descriptive title of the query)
+# Constraint Description: 
+#    (description of the query functionality)
+# Severity:
+#    (select "Warning" or "Error")
+
+
+
+
+
+
+# BIND (concat("WARNING: The following ontology elements have the same rdfs:label ", str(?element), " and ", str(?element2)) AS ?error)
