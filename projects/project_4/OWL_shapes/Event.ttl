@@ -1,0 +1,1368 @@
+@prefix cco: <https://www.commoncoreontologies.org/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+obo:BFO_0000144Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass obo:BFO_0000144 .
+
+cco:ont00000004Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000004 .
+
+cco:ont00000005Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000005 .
+
+cco:ont00000006Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000006 .
+
+cco:ont00000007Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000007 .
+
+cco:ont00000008Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000008 .
+
+cco:ont00000011Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000011 .
+
+cco:ont00000013Shape a sh:NodeShape ;
+    sh:property [ sh:class [ ] ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000057 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000013 .
+
+cco:ont00000016Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000016 .
+
+cco:ont00000024Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000024 .
+
+cco:ont00000027Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000027 .
+
+cco:ont00000033Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000033 .
+
+cco:ont00000035Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000035 .
+
+cco:ont00000037Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000037 .
+
+cco:ont00000051Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000051 .
+
+cco:ont00000065Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000065 .
+
+cco:ont00000078Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000078 .
+
+cco:ont00000079Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000079 .
+
+cco:ont00000083Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000083 .
+
+cco:ont00000099Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000752 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ],
+        [ sh:class cco:ont00000765 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000062 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000099 .
+
+cco:ont00000100Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000100 .
+
+cco:ont00000106Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000106 .
+
+cco:ont00000107Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000107 .
+
+cco:ont00000109Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000109 .
+
+cco:ont00000110Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000110 .
+
+cco:ont00000115Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000115 .
+
+cco:ont00000121Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000121 .
+
+cco:ont00000123Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000123 .
+
+cco:ont00000131Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000131 .
+
+cco:ont00000133Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000133 .
+
+cco:ont00000135Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000135 .
+
+cco:ont00000137Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000137 .
+
+cco:ont00000138Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000138 .
+
+cco:ont00000142Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000142 .
+
+cco:ont00000144Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000144 .
+
+cco:ont00000148Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000148 .
+
+cco:ont00000149Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000149 .
+
+cco:ont00000150Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000150 .
+
+cco:ont00000151Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000151 .
+
+cco:ont00000155Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000155 .
+
+cco:ont00000165Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000165 .
+
+cco:ont00000166Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000166 .
+
+cco:ont00000168Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000168 .
+
+cco:ont00000169Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000169 .
+
+cco:ont00000179Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000179 .
+
+cco:ont00000182Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000182 .
+
+cco:ont00000191Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000920 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001803 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000191 .
+
+cco:ont00000197Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000197 .
+
+cco:ont00000200Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000200 .
+
+cco:ont00000201Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000201 .
+
+cco:ont00000202Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000202 .
+
+cco:ont00000208Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000208 .
+
+cco:ont00000209Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000209 .
+
+cco:ont00000222Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000222 .
+
+cco:ont00000228Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000228 .
+
+cco:ont00000234Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000234 .
+
+cco:ont00000235Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000235 .
+
+cco:ont00000237Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000237 .
+
+cco:ont00000240Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000240 .
+
+cco:ont00000246Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000246 .
+
+cco:ont00000250Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000250 .
+
+cco:ont00000260Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000260 .
+
+cco:ont00000261Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000261 .
+
+cco:ont00000265Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000265 .
+
+cco:ont00000272Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000272 .
+
+cco:ont00000278Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000278 .
+
+cco:ont00000286Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000286 .
+
+cco:ont00000290Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000290 .
+
+cco:ont00000291Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000291 .
+
+cco:ont00000296Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000296 .
+
+cco:ont00000305Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000305 .
+
+cco:ont00000308Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000308 .
+
+cco:ont00000312Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000312 .
+
+cco:ont00000313Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000313 .
+
+cco:ont00000320Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000320 .
+
+cco:ont00000322Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000322 .
+
+cco:ont00000335Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000335 .
+
+cco:ont00000345Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000345 .
+
+cco:ont00000351Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000351 .
+
+cco:ont00000354Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000354 .
+
+cco:ont00000356Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000356 .
+
+cco:ont00000357Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000357 .
+
+cco:ont00000360Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000360 .
+
+cco:ont00000361Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000361 .
+
+cco:ont00000366Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000366 .
+
+cco:ont00000367Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000367 .
+
+cco:ont00000368Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000296 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000368 .
+
+cco:ont00000370Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000370 .
+
+cco:ont00000371Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000371 .
+
+cco:ont00000379Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000379 .
+
+cco:ont00000380Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000380 .
+
+cco:ont00000384Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000384 .
+
+cco:ont00000386Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000386 .
+
+cco:ont00000389Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000389 .
+
+cco:ont00000391Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000391 .
+
+cco:ont00000395Shape a sh:NodeShape ;
+    sh:property [ sh:class [ ] ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000057 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000395 .
+
+cco:ont00000396Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000396 .
+
+cco:ont00000401Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000401 .
+
+cco:ont00000402Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000402 .
+
+cco:ont00000414Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000414 .
+
+cco:ont00000416Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000416 .
+
+cco:ont00000418Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000418 .
+
+cco:ont00000430Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000430 .
+
+cco:ont00000433Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000433 .
+
+cco:ont00000438Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000438 .
+
+cco:ont00000449Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000449 .
+
+cco:ont00000455Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000455 .
+
+cco:ont00000462Shape a sh:NodeShape ;
+    sh:property [ sh:class [ ] ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000057 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000462 .
+
+cco:ont00000463Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000463 .
+
+cco:ont00000490Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000490 .
+
+cco:ont00000492Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000492 .
+
+cco:ont00000501Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000501 .
+
+cco:ont00000503Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000503 .
+
+cco:ont00000508Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000508 .
+
+cco:ont00000511Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000511 .
+
+cco:ont00000513Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000513 .
+
+cco:ont00000514Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000514 .
+
+cco:ont00000515Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000515 .
+
+cco:ont00000517Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000517 .
+
+cco:ont00000519Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000519 .
+
+cco:ont00000520Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000520 .
+
+cco:ont00000521Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000521 .
+
+cco:ont00000523Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000523 .
+
+cco:ont00000530Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000530 .
+
+cco:ont00000535Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000535 .
+
+cco:ont00000542Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000542 .
+
+cco:ont00000543Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000543 .
+
+cco:ont00000544Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000544 .
+
+cco:ont00000546Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000546 .
+
+cco:ont00000554Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000554 .
+
+cco:ont00000555Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000555 .
+
+cco:ont00000557Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000557 .
+
+cco:ont00000558Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000558 .
+
+cco:ont00000566Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000566 .
+
+cco:ont00000570Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000570 .
+
+cco:ont00000572Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000572 .
+
+cco:ont00000573Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000573 .
+
+cco:ont00000580Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000580 .
+
+cco:ont00000584Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000584 .
+
+cco:ont00000585Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000585 .
+
+cco:ont00000588Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000588 .
+
+cco:ont00000594Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000594 .
+
+cco:ont00000595Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000595 .
+
+cco:ont00000609Shape a sh:NodeShape ;
+    sh:property [ sh:class [ ] ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000057 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000609 .
+
+cco:ont00000610Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000610 .
+
+cco:ont00000611Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000611 .
+
+cco:ont00000612Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000612 .
+
+cco:ont00000613Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000613 .
+
+cco:ont00000615Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000615 .
+
+cco:ont00000621Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000621 .
+
+cco:ont00000622Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000622 .
+
+cco:ont00000636Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000636 .
+
+cco:ont00000642Shape a sh:NodeShape ;
+    sh:property [ sh:class [ ] ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000057 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000642 .
+
+cco:ont00000643Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000643 .
+
+cco:ont00000644Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000644 .
+
+cco:ont00000654Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000654 .
+
+cco:ont00000660Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000660 .
+
+cco:ont00000672Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000672 .
+
+cco:ont00000675Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00001227 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000675 .
+
+cco:ont00000676Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000676 .
+
+cco:ont00000684Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000684 .
+
+cco:ont00000687Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000687 .
+
+cco:ont00000712Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000763 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000712 .
+
+cco:ont00000725Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000725 .
+
+cco:ont00000726Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000726 .
+
+cco:ont00000732Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000732 .
+
+cco:ont00000739Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000739 .
+
+cco:ont00000741Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000741 .
+
+cco:ont00000744Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000744 .
+
+cco:ont00000750Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000750 .
+
+cco:ont00000752Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000752 .
+
+cco:ont00000753Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000753 .
+
+cco:ont00000754Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000754 .
+
+cco:ont00000760Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000760 .
+
+cco:ont00000763Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000763 .
+
+cco:ont00000765Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000765 .
+
+cco:ont00000769Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000769 .
+
+cco:ont00000772Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000772 .
+
+cco:ont00000773Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000773 .
+
+cco:ont00000783Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000950 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001819 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000783 .
+
+cco:ont00000786Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000786 .
+
+cco:ont00000789Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000763 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000789 .
+
+cco:ont00000812Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000812 .
+
+cco:ont00000819Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000819 .
+
+cco:ont00000820Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000820 .
+
+cco:ont00000821Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000821 .
+
+cco:ont00000822Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000822 .
+
+cco:ont00000824Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000824 .
+
+cco:ont00000830Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000830 .
+
+cco:ont00000834Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000834 .
+
+cco:ont00000836Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000836 .
+
+cco:ont00000839Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000839 .
+
+cco:ont00000842Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000842 .
+
+cco:ont00000847Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000847 .
+
+cco:ont00000850Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000850 .
+
+cco:ont00000854Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000854 .
+
+cco:ont00000855Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000065 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000132 ],
+        [ sh:class cco:ont00000065 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001819 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000855 .
+
+cco:ont00000859Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000859 .
+
+cco:ont00000862Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000862 .
+
+cco:ont00000863Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000863 .
+
+cco:ont00000865Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000865 .
+
+cco:ont00000866Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000866 .
+
+cco:ont00000875Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000875 .
+
+cco:ont00000876Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000876 .
+
+cco:ont00000879Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000879 .
+
+cco:ont00000883Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000883 .
+
+cco:ont00000884Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000884 .
+
+cco:ont00000889Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000558 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000889 .
+
+cco:ont00000890Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000890 .
+
+cco:ont00000895Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000895 .
+
+cco:ont00000902Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000902 .
+
+cco:ont00000908Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000908 .
+
+cco:ont00000910Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000910 .
+
+cco:ont00000920Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000920 .
+
+cco:ont00000922Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000922 .
+
+cco:ont00000924Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000924 .
+
+cco:ont00000925Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000925 .
+
+cco:ont00000926Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000926 .
+
+cco:ont00000927Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000927 .
+
+cco:ont00000935Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000935 .
+
+cco:ont00000936Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000936 .
+
+cco:ont00000948Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000948 .
+
+cco:ont00000949Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000949 .
+
+cco:ont00000950Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000950 .
+
+cco:ont00000951Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000514 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000951 .
+
+cco:ont00000953Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000953 .
+
+cco:ont00000955Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000955 .
+
+cco:ont00000960Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000960 .
+
+cco:ont00000964Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000964 .
+
+cco:ont00000970Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000970 .
+
+cco:ont00000971Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000971 .
+
+cco:ont00000977Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000977 .
+
+cco:ont00000978Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000978 .
+
+cco:ont00000981Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000981 .
+
+cco:ont00000982Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000982 .
+
+cco:ont00000983Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000983 .
+
+cco:ont00000989Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000989 .
+
+cco:ont00000999Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000999 .
+
+cco:ont00001021Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001021 .
+
+cco:ont00001028Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001028 .
+
+cco:ont00001031Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001031 .
+
+cco:ont00001032Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001032 .
+
+cco:ont00001039Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001039 .
+
+cco:ont00001047Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001047 .
+
+cco:ont00001048Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001048 .
+
+cco:ont00001053Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001053 .
+
+cco:ont00001056Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001056 .
+
+cco:ont00001057Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001057 .
+
+cco:ont00001066Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001066 .
+
+cco:ont00001068Shape a sh:NodeShape ;
+    sh:property [ sh:class [ ] ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000057 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001068 .
+
+cco:ont00001072Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001072 .
+
+cco:ont00001074Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001074 .
+
+cco:ont00001075Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001075 .
+
+cco:ont00001080Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001080 .
+
+cco:ont00001094Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001094 .
+
+cco:ont00001108Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001108 .
+
+cco:ont00001109Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001109 .
+
+cco:ont00001111Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001111 .
+
+cco:ont00001112Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001112 .
+
+cco:ont00001115Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001115 .
+
+cco:ont00001120Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001120 .
+
+cco:ont00001122Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001122 .
+
+cco:ont00001127Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001127 .
+
+cco:ont00001128Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001128 .
+
+cco:ont00001132Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001132 .
+
+cco:ont00001133Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001133 .
+
+cco:ont00001136Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001136 .
+
+cco:ont00001143Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001143 .
+
+cco:ont00001144Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001144 .
+
+cco:ont00001147Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001147 .
+
+cco:ont00001158Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001158 .
+
+cco:ont00001162Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001162 .
+
+cco:ont00001167Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001167 .
+
+cco:ont00001170Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001170 .
+
+cco:ont00001171Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001171 .
+
+cco:ont00001184Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001184 .
+
+cco:ont00001190Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001190 .
+
+cco:ont00001191Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001191 .
+
+cco:ont00001194Shape a sh:NodeShape ;
+    sh:property [ sh:class [ ] ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000057 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001194 .
+
+cco:ont00001196Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001196 .
+
+cco:ont00001208Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001208 .
+
+cco:ont00001213Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001213 .
+
+cco:ont00001214Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001214 .
+
+cco:ont00001215Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001215 .
+
+cco:ont00001219Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000763 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001219 .
+
+cco:ont00001226Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001226 .
+
+cco:ont00001227Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00001028 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001857 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001227 .
+
+cco:ont00001231Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001231 .
+
+cco:ont00001232Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001232 .
+
+cco:ont00001236Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000920 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001803 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001236 .
+
+cco:ont00001237Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001237 .
+
+cco:ont00001244Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001244 .
+
+cco:ont00001246Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000566 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001246 .
+
+cco:ont00001251Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001251 .
+
+cco:ont00001261Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001261 .
+
+cco:ont00001263Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001263 .
+
+cco:ont00001266Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001266 .
+
+cco:ont00001267Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001267 .
+
+cco:ont00001269Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001269 .
+
+cco:ont00001272Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001272 .
+
+cco:ont00001274Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001274 .
+
+cco:ont00001279Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001279 .
+
+cco:ont00001285Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001285 .
+
+cco:ont00001286Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001286 .
+
+cco:ont00001289Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001289 .
+
+cco:ont00001305Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001305 .
+
+cco:ont00001314Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001314 .
+
+cco:ont00001322Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001322 .
+
+cco:ont00001325Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001325 .
+
+cco:ont00001327Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001327 .
+
+cco:ont00001330Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000517 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ],
+        [ sh:class cco:ont00000345 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001777 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001330 .
+
+cco:ont00001332Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001332 .
+
+cco:ont00001334Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001334 .
+
+cco:ont00001336Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001336 .
+
+cco:ont00001337Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001337 .
+
+cco:ont00001338Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001338 .
+
+cco:ont00001339Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001339 .
+
+cco:ont00001347Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001347 .
+
+cco:ont00001356Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001356 .
+
+cco:ont00001359Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001359 .
+
+cco:ont00001374Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001374 .
+
+cco:ont00001376Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001376 .
+

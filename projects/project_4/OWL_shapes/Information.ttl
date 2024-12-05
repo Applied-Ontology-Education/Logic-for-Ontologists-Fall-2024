@@ -1,0 +1,668 @@
+@prefix cco: <https://www.commoncoreontologies.org/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cco:Ont00001765DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001765 .
+
+cco:Ont00001767DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001767 .
+
+cco:Ont00001767RangeShape a sh:NodeShape ;
+    sh:datatype xsd:dateTime ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001767 .
+
+cco:Ont00001768DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001768 .
+
+cco:Ont00001768RangeShape a sh:NodeShape ;
+    sh:datatype xsd:anyURI ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001768 .
+
+cco:Ont00001769DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001769 .
+
+cco:Ont00001769RangeShape a sh:NodeShape ;
+    sh:datatype xsd:decimal ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001769 .
+
+cco:Ont00001770DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001770 .
+
+cco:Ont00001770RangeShape a sh:NodeShape ;
+    sh:datatype xsd:double ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001770 .
+
+cco:Ont00001771DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001771 .
+
+cco:Ont00001772DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001772 .
+
+cco:Ont00001772RangeShape a sh:NodeShape ;
+    sh:datatype xsd:boolean ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001772 .
+
+cco:Ont00001773DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001773 .
+
+cco:Ont00001773RangeShape a sh:NodeShape ;
+    sh:datatype xsd:integer ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001773 .
+
+cco:Ont00001801RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000958 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001801 .
+
+cco:Ont00001808DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000958 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001808 .
+
+cco:Ont00001808RangeShape a sh:NodeShape ;
+    sh:class obo:BFO_0000001 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001808 .
+
+cco:Ont00001811DomainShape a sh:NodeShape ;
+    sh:class cco:ont00001010 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001811 .
+
+cco:Ont00001824DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001824 .
+
+cco:Ont00001824RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001824 .
+
+cco:Ont00001837DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000829 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001837 .
+
+cco:Ont00001837RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001837 .
+
+cco:Ont00001863DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001863 .
+
+cco:Ont00001863RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000120 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001863 .
+
+cco:Ont00001868DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000293 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001868 .
+
+cco:Ont00001873RangeShape a sh:NodeShape ;
+    sh:class cco:ont00001069 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001873 .
+
+cco:Ont00001877DomainShape a sh:NodeShape ;
+    sh:class cco:ont00001364 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001877 .
+
+cco:Ont00001879RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000686 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001879 .
+
+cco:Ont00001899DomainShape a sh:NodeShape ;
+    sh:class cco:ont00001175 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001899 .
+
+cco:Ont00001899RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001899 .
+
+cco:Ont00001900DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000469 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001900 .
+
+cco:Ont00001900RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001900 .
+
+cco:Ont00001904RangeShape a sh:NodeShape ;
+    sh:class cco:ont00001163 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001904 .
+
+cco:Ont00001908DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001908 .
+
+cco:Ont00001908RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000829 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001908 .
+
+cco:Ont00001912DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001912 .
+
+cco:Ont00001912RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000398 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001912 .
+
+cco:Ont00001913DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001913 .
+
+cco:Ont00001913RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000469 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001913 .
+
+cco:Ont00001914RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000293 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001914 .
+
+cco:Ont00001916DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000686 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001916 .
+
+cco:Ont00001917RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000853 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001917 .
+
+cco:Ont00001920RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000965 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001920 .
+
+cco:Ont00001938DomainShape a sh:NodeShape ;
+    sh:class cco:ont00001069 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001938 .
+
+cco:Ont00001942DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000965 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001942 .
+
+cco:Ont00001961DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000120 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001961 .
+
+cco:Ont00001961RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001961 .
+
+cco:Ont00001963RangeShape a sh:NodeShape ;
+    sh:class cco:ont00001010 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001963 .
+
+cco:Ont00001964RangeShape a sh:NodeShape ;
+    sh:class cco:ont00001364 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001964 .
+
+cco:Ont00001965RangeShape a sh:NodeShape ;
+    sh:class cco:ont00001022 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001965 .
+
+cco:Ont00001966DomainShape a sh:NodeShape ;
+    sh:class cco:ont00001163 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001966 .
+
+cco:Ont00001976DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001976 .
+
+cco:Ont00001976RangeShape a sh:NodeShape ;
+    sh:class cco:ont00001175 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001976 .
+
+cco:Ont00001982DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000853 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001982 .
+
+cco:Ont00001983DomainShape a sh:NodeShape ;
+    sh:class cco:ont00001022 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001983 .
+
+cco:Ont00001997DomainShape a sh:NodeShape ;
+    sh:class cco:ont00000398 ;
+    sh:severity sh:Warning ;
+    sh:targetSubjectsOf cco:ont00001997 .
+
+cco:Ont00001997RangeShape a sh:NodeShape ;
+    sh:class cco:ont00000253 ;
+    sh:severity sh:Warning ;
+    sh:targetObjectsOf cco:ont00001997 .
+
+cco:ont00000003Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000003 .
+
+cco:ont00000029Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000029 .
+
+cco:ont00000067Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000067 .
+
+cco:ont00000073Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000073 .
+
+cco:ont00000077Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000077 .
+
+cco:ont00000080Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000080 .
+
+cco:ont00000087Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000087 .
+
+cco:ont00000120Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000120 .
+
+cco:ont00000124Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000124 .
+
+cco:ont00000127Shape a sh:NodeShape ;
+    sh:property [ sh:class obo:BFO_0000001 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001980 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000127 .
+
+cco:ont00000146Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000146 .
+
+cco:ont00000154Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000154 .
+
+cco:ont00000164Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000164 .
+
+cco:ont00000186Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000186 .
+
+cco:ont00000203Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000203 .
+
+cco:ont00000223Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000223 .
+
+cco:ont00000253Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000253 .
+
+cco:ont00000263Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000263 .
+
+cco:ont00000275Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000275 .
+
+cco:ont00000276Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000276 .
+
+cco:ont00000293Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000293 .
+
+cco:ont00000314Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000253 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000197 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000314 .
+
+cco:ont00000359Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000359 .
+
+cco:ont00000369Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000369 .
+
+cco:ont00000390Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000390 .
+
+cco:ont00000398Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000398 .
+
+cco:ont00000399Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000399 .
+
+cco:ont00000406Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000406 .
+
+cco:ont00000419Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000419 .
+
+cco:ont00000469Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000469 .
+
+cco:ont00000496Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000496 .
+
+cco:ont00000498Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000498 .
+
+cco:ont00000529Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000529 .
+
+cco:ont00000539Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000539 .
+
+cco:ont00000540Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000540 .
+
+cco:ont00000589Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000589 .
+
+cco:ont00000592Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000592 .
+
+cco:ont00000604Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000604 .
+
+cco:ont00000605Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000605 .
+
+cco:ont00000626Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000626 .
+
+cco:ont00000630Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000630 .
+
+cco:ont00000649Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000649 .
+
+cco:ont00000653Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000653 .
+
+cco:ont00000669Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000669 .
+
+cco:ont00000683Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000683 .
+
+cco:ont00000686Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000686 .
+
+cco:ont00000692Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000692 .
+
+cco:ont00000729Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000729 .
+
+cco:ont00000731Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000731 .
+
+cco:ont00000735Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000735 .
+
+cco:ont00000745Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000745 .
+
+cco:ont00000749Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000498 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001916 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000749 .
+
+cco:ont00000800Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000800 .
+
+cco:ont00000827Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000827 .
+
+cco:ont00000829Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000829 .
+
+cco:ont00000833Shape a sh:NodeShape ;
+    sh:property [ sh:class cco:ont00000589 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000178 ],
+        [ sh:class cco:ont00000749 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path obo:BFO_0000178 ],
+        [ sh:class cco:ont00000359 ;
+            sh:minCount "1"^^xsd:nonNegativeInteger ;
+            sh:path cco:ont00001916 ] ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000833 .
+
+cco:ont00000845Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000845 .
+
+cco:ont00000853Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000853 .
+
+cco:ont00000891Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000891 .
+
+cco:ont00000894Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000894 .
+
+cco:ont00000896Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000896 .
+
+cco:ont00000915Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000915 .
+
+cco:ont00000916Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000916 .
+
+cco:ont00000923Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000923 .
+
+cco:ont00000958Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000958 .
+
+cco:ont00000965Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000965 .
+
+cco:ont00000973Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000973 .
+
+cco:ont00000990Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000990 .
+
+cco:ont00001010Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001010 .
+
+cco:ont00001014Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001014 .
+
+cco:ont00001022Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001022 .
+
+cco:ont00001041Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001041 .
+
+cco:ont00001069Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001069 .
+
+cco:ont00001101Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001101 .
+
+cco:ont00001146Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001146 .
+
+cco:ont00001149Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001149 .
+
+cco:ont00001163Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001163 .
+
+cco:ont00001175Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001175 .
+
+cco:ont00001176Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001176 .
+
+cco:ont00001205Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001205 .
+
+cco:ont00001235Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001235 .
+
+cco:ont00001238Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001238 .
+
+cco:ont00001256Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001256 .
+
+cco:ont00001309Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001309 .
+
+cco:ont00001328Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001328 .
+
+cco:ont00001331Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001331 .
+
+cco:ont00001340Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001340 .
+
+cco:ont00001351Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001351 .
+
+cco:ont00001352Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001352 .
+
+cco:ont00001364Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001364 .
+
