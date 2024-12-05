@@ -1,0 +1,3294 @@
+@prefix ns1: <https://www.commoncoreontologies.org/> .
+@prefix ns2: <http://purl.obolibrary.org/obo/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+<http://example.org/ns#Node2186> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2187> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2188> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2189> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2190> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2191> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2192> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2193> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2194> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2195> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2196> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2197> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2198> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2199> a ns1:ont00001348 ;
+    sh:description ns1:ont00001348Shape .
+
+<http://example.org/ns#Node2200> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2201> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2202> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2203> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2204> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2205> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2206> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2207> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2208> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2209> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2210> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2211> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2212> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2213> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944DomainShape .
+
+<http://example.org/ns#Node2214> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2215> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2216> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2217> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2218> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2219> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2220> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2221> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2222> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2223> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2224> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2225> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2226> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2227> a ns1:ont00000801 ;
+    sh:description ns1:ont00000801Shape .
+
+<http://example.org/ns#Node2228> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2229> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2230> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2231> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2232> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2233> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2234> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2235> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2236> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2237> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2238> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2239> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2240> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2241> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909RangeShape .
+
+<http://example.org/ns#Node2242> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2243> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2244> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2245> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2246> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2247> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2248> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2249> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2250> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2251> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2252> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2253> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2254> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2255> a ns1:ont00001016 ;
+    sh:description ns1:ont00001016Shape .
+
+<http://example.org/ns#Node2256> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "3QpsbQKYJugezH" .
+
+<http://example.org/ns#Node2257> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "aR19VgdW" .
+
+<http://example.org/ns#Node2258> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "APv7XgnJ99yFC" .
+
+<http://example.org/ns#Node2259> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "G3OirTH4" .
+
+<http://example.org/ns#Node2260> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "5lggP6zJ" .
+
+<http://example.org/ns#Node2261> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "9IBORoYGXnh0F" .
+
+<http://example.org/ns#Node2262> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "WmLsvG8U7" .
+
+<http://example.org/ns#Node2263> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "ZeKiBdLm" .
+
+<http://example.org/ns#Node2264> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "lno7oO14u056JIq" .
+
+<http://example.org/ns#Node2265> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "JyrWLXfuzBsP" .
+
+<http://example.org/ns#Node2266> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "XOp9bysxpnpuS" .
+
+<http://example.org/ns#Node2267> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "2nflWJH2g" .
+
+<http://example.org/ns#Node2268> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "PmcybIEKJI78gZ" .
+
+<http://example.org/ns#Node2269> a ns1:ont00000205 ;
+    sh:description ns1:ont00000205Shape ;
+    ns1:ont00001855 "oB4sld1bi" .
+
+<http://example.org/ns#Node2270> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2271> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2272> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2273> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2274> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2275> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2276> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2277> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2278> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2279> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2280> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2281> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2282> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2283> a ns1:ont00001259 ;
+    sh:description ns1:ont00001259Shape .
+
+<http://example.org/ns#Node2284> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2285> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2286> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2287> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2288> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2289> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2290> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2291> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2292> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2293> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2294> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2295> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2296> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2297> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931RangeShape .
+
+<http://example.org/ns#Node2298> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2299> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2300> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2301> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2302> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2303> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2304> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2305> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2306> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2307> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2308> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2309> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2310> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2311> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989DomainShape .
+
+<http://example.org/ns#Node2312> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2313> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2314> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2315> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2316> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2317> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2318> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2319> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2320> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2321> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2322> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2323> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2324> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2325> a ns1:ont00001197 ;
+    sh:description ns1:ont00001197Shape .
+
+<http://example.org/ns#Node2326> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2327> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2328> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2329> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2330> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2331> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2332> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2333> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2334> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2335> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2336> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2337> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2338> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2339> a ns1:ont00001035 ;
+    sh:description ns1:ont00001035Shape .
+
+<http://example.org/ns#Node2340> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2341> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2342> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2343> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2344> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2345> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2346> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2347> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2348> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2349> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2350> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2351> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2352> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2353> a ns1:ont00000218 ;
+    sh:description ns1:ont00000218Shape .
+
+<http://example.org/ns#Node2354> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2355> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2356> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2357> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2358> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2359> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2360> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2361> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2362> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2363> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2364> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2365> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2366> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2367> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838RangeShape .
+
+<http://example.org/ns#Node2368> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2369> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2370> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2371> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2372> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2373> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2374> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2375> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2376> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2377> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2378> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2379> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2380> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2381> a ns1:ont00000031 ;
+    sh:description ns1:ont00000031Shape .
+
+<http://example.org/ns#Node2382> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2383> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2384> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2385> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2386> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2387> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2388> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2389> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2390> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2391> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2392> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2393> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2394> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2395> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001989RangeShape .
+
+<http://example.org/ns#Node2396> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2397> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2398> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2399> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2400> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2401> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2402> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2403> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2404> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2405> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2406> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2407> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2408> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2409> a ns1:ont00000873 ;
+    sh:description ns1:ont00000873Shape .
+
+<http://example.org/ns#Node2410> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2411> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2412> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2413> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2414> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2415> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2416> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2417> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2418> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2419> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2420> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2421> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2422> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2423> a ns1:ont00000072 ;
+    sh:description ns1:ont00000072Shape .
+
+<http://example.org/ns#Node2424> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2425> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2426> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2427> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2428> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2429> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2430> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2431> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2432> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2433> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2434> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2435> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2436> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2437> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797RangeShape .
+
+<http://example.org/ns#Node2438> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2439> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2440> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2441> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2442> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2443> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2444> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2445> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2446> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2447> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2448> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2449> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2450> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2451> a ns1:ont00000755 ;
+    sh:description ns1:ont00000755Shape .
+
+<http://example.org/ns#Node2452> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2453> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2454> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2455> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2456> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2457> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2458> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2459> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2460> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2461> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2462> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2463> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2464> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2465> a ns1:ont00001040 ;
+    sh:description ns1:ont00001040Shape .
+
+<http://example.org/ns#Node2466> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2467> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2468> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2469> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2470> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2471> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2472> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2473> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2474> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2475> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2476> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2477> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2478> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2479> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001838DomainShape .
+
+<http://example.org/ns#Node2480> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2481> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2482> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2483> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2484> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2485> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2486> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2487> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2488> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2489> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2490> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2491> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2492> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2493> a ns1:ont00000472 ;
+    sh:description ns1:ont00000472Shape .
+
+<http://example.org/ns#Node2494> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2495> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2496> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2497> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2498> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2499> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2500> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2501> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2502> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2503> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2504> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2505> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2506> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2507> a ns1:ont00000817 ;
+    sh:description ns1:ont00000817Shape .
+
+<http://example.org/ns#Node2508> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2509> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2510> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2511> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2512> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2513> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2514> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2515> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2516> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2517> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2518> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2519> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2520> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2521> a ns1:ont00000297 ;
+    sh:description ns1:ont00000297Shape .
+
+<http://example.org/ns#Node2522> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2523> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2524> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2525> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2526> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2527> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2528> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2529> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2530> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2531> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2532> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2533> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2534> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2535> a ns1:ont00000722 ;
+    sh:description ns1:ont00000722Shape .
+
+<http://example.org/ns#Node2536> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2537> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2538> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2539> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2540> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2541> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2542> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2543> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2544> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2545> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2546> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2547> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2548> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2549> a ns1:ont00000365 ;
+    sh:description ns1:ont00000365Shape .
+
+<http://example.org/ns#Node2550> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2551> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2552> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2553> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2554> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2555> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2556> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2557> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2558> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2559> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2560> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2561> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2562> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2563> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827RangeShape .
+
+<http://example.org/ns#Node2564> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2565> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2566> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2567> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2568> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2569> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2570> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2571> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2572> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2573> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2574> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2575> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2576> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2577> a ns1:ont00000373 ;
+    sh:description ns1:ont00000373Shape .
+
+<http://example.org/ns#Node2578> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2579> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2580> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2581> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2582> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2583> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2584> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2585> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2586> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2587> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2588> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2589> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2590> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2591> a ns1:ont00000070 ;
+    sh:description ns1:ont00000070Shape .
+
+<http://example.org/ns#Node2592> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "ckq5CEIhM4dm" .
+
+<http://example.org/ns#Node2593> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "pZnxMHiJWPiFN" .
+
+<http://example.org/ns#Node2594> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "S1nzXc5gKE" .
+
+<http://example.org/ns#Node2595> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "hifa7tSoM8bIF4" .
+
+<http://example.org/ns#Node2596> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "7dtya4Cnnsvh7xs" .
+
+<http://example.org/ns#Node2597> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "7FlpPt46vF" .
+
+<http://example.org/ns#Node2598> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "4egPPcvw3P5" .
+
+<http://example.org/ns#Node2599> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "CLpN29JYDM" .
+
+<http://example.org/ns#Node2600> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "KkWF903IMO" .
+
+<http://example.org/ns#Node2601> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "SVhI80k1xYG" .
+
+<http://example.org/ns#Node2602> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "0pyioYan2JWy" .
+
+<http://example.org/ns#Node2603> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "xdBIUlOIZqyi" .
+
+<http://example.org/ns#Node2604> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "h7ZS8CCNb5yHd" .
+
+<http://example.org/ns#Node2605> a ns1:ont00000068 ;
+    sh:description ns1:ont00000068Shape ;
+    ns1:ont00001855 "BwYvvnadCl" .
+
+<http://example.org/ns#Node2606> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2607> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2608> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2609> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2610> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2611> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2612> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2613> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2614> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2615> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2616> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2617> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2618> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2619> a ns1:ont00000207 ;
+    sh:description ns1:ont00000207Shape .
+
+<http://example.org/ns#Node2620> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2621> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2622> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2623> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2624> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2625> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2626> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2627> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2628> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2629> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2630> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2631> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2632> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2633> a ns1:ont00000358 ;
+    sh:description ns1:ont00000358Shape .
+
+<http://example.org/ns#Node2634> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2635> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2636> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2637> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2638> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2639> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2640> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2641> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2642> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2643> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2644> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2645> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2646> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2647> a ns1:ont00000505 ;
+    sh:description ns1:ont00000505Shape .
+
+<http://example.org/ns#Node2648> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2649> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2650> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2651> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2652> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2653> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2654> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2655> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2656> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2657> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2658> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2659> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2660> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2661> a ns1:ont00000161 ;
+    sh:description ns1:ont00000161Shape .
+
+<http://example.org/ns#Node2662> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2663> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2664> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2665> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2666> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2667> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2668> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2669> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2670> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2671> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2672> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2673> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2674> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2675> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855RangeShape .
+
+<http://example.org/ns#Node2676> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2677> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2678> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2679> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2680> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2681> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2682> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2683> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2684> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2685> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2686> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2687> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2688> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2689> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796DomainShape .
+
+<http://example.org/ns#Node2690> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2691> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2692> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2693> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2694> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2695> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2696> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2697> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2698> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2699> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2700> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2701> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2702> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2703> a ns1:ont00000794 ;
+    sh:description ns1:ont00000794Shape .
+
+<http://example.org/ns#Node2704> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2705> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2706> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2707> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2708> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2709> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2710> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2711> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2712> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2713> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2714> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2715> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2716> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2717> a ns1:ont00000779 ;
+    sh:description ns1:ont00000779Shape .
+
+<http://example.org/ns#Node2718> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2719> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2720> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2721> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2722> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2723> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2724> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2725> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2726> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2727> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2728> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2729> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2730> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2731> sh:description ns1:Ont00001766RangeShape .
+
+<http://example.org/ns#Node2732> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "juiDJ6UYkDGLRAn" .
+
+<http://example.org/ns#Node2733> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "Jk2tzs9ig" .
+
+<http://example.org/ns#Node2734> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "DR3jlERHs" .
+
+<http://example.org/ns#Node2735> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "zz2E6x4gcyf2" .
+
+<http://example.org/ns#Node2736> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "Ke1OdYEVda0UlO1" .
+
+<http://example.org/ns#Node2737> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "PvaqNDyY5BGR" .
+
+<http://example.org/ns#Node2738> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "gCrIxFK8" .
+
+<http://example.org/ns#Node2739> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "9SYwjwt7tXpNlON" .
+
+<http://example.org/ns#Node2740> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "MQYv3KRHDqVF" .
+
+<http://example.org/ns#Node2741> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "7hBt1lxRI8qw4z" .
+
+<http://example.org/ns#Node2742> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "a5No06LDIH" .
+
+<http://example.org/ns#Node2743> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "gHPAUGLPSrC" .
+
+<http://example.org/ns#Node2744> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "mxMgEjDRRDEf" .
+
+<http://example.org/ns#Node2745> a ns1:ont00000170 ;
+    sh:description ns1:ont00000170Shape ;
+    ns1:ont00001944 "qPH6KtPH" .
+
+<http://example.org/ns#Node2746> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2747> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2748> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2749> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2750> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2751> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2752> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2753> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2754> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2755> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2756> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2757> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2758> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2759> a ns1:ont00000224 ;
+    sh:description ns1:ont00000224Shape .
+
+<http://example.org/ns#Node2760> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2761> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2762> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2763> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2764> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2765> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2766> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2767> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2768> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2769> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2770> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2771> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2772> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2773> a ns1:ont00000017 ;
+    sh:description ns1:ont00000017Shape .
+
+<http://example.org/ns#Node2774> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2775> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2776> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2777> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2778> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2779> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2780> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2781> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2782> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2783> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2784> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2785> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2786> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2787> a ns1:ont00000400 ;
+    sh:description ns1:ont00000400Shape .
+
+<http://example.org/ns#Node2788> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "3ypfC1GupXka" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2789> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "ATIjV7hc2caPT" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2790> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "d9Q0Tj6sRMQKjS" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2791> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "1388PU62iP8CpU" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2792> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "1Lto0Wb612jlarY" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2793> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "6KTTGbR75Vy" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2794> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "bSyMJEwhfbTrRwD" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2795> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "bvPmX38wv" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2796> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "UPk2t3kekK8b" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2797> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "n9WBBVAR" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2798> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "iLB9QxPk8qIpleS" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2799> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "rIrDNCf8k" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2800> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "dDVendyvX" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2801> a ns1:ont00000487 ;
+    ns2:BFO_0000124 "LtuLv8uDs" ;
+    sh:description ns1:ont00000487Shape .
+
+<http://example.org/ns#Node2802> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2803> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2804> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2805> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2806> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2807> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2808> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2809> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2810> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2811> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2812> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2813> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2814> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2815> a ns1:ont00000213 ;
+    sh:description ns1:ont00000213Shape .
+
+<http://example.org/ns#Node2816> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2817> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2818> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2819> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2820> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2821> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2822> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2823> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2824> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2825> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2826> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2827> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2828> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2829> a ns1:ont00000563 ;
+    sh:description ns1:ont00000563Shape .
+
+<http://example.org/ns#Node2830> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2831> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2832> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2833> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2834> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2835> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2836> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2837> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2838> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2839> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2840> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2841> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2842> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2843> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810RangeShape .
+
+<http://example.org/ns#Node2844> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2845> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2846> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2847> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2848> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2849> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2850> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2851> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2852> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2853> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2854> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2855> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2856> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2857> a ns1:ont00000251 ;
+    sh:description ns1:ont00000251Shape .
+
+<http://example.org/ns#Node2858> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2859> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2860> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2861> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2862> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2863> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2864> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2865> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2866> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2867> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2868> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2869> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2870> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2871> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001797DomainShape .
+
+<http://example.org/ns#Node2872> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2873> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2874> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2875> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2876> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2877> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2878> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2879> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2880> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2881> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2882> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2883> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2884> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2885> a ns1:ont00001341 ;
+    sh:description ns1:ont00001341Shape .
+
+<http://example.org/ns#Node2886> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2887> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2888> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2889> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2890> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2891> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2892> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2893> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2894> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2895> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2896> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2897> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2898> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2899> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791RangeShape .
+
+<http://example.org/ns#Node2900> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2901> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2902> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2903> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2904> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2905> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2906> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2907> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2908> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2909> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2910> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2911> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2912> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2913> a ns1:ont00001037 ;
+    sh:description ns1:ont00001037Shape .
+
+<http://example.org/ns#Node2914> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2915> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2916> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2917> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2918> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2919> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2920> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2921> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2922> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2923> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2924> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2925> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2926> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2927> a ns1:ont00001081 ;
+    sh:description ns1:ont00001081Shape .
+
+<http://example.org/ns#Node2928> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2929> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2930> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2931> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2932> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2933> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2934> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2935> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2936> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2937> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2938> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2939> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2940> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2941> sh:description ns1:Ont00001764RangeShape .
+
+<http://example.org/ns#Node2942> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2943> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2944> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2945> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2946> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2947> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2948> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2949> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2950> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2951> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2952> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2953> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2954> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2955> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001810DomainShape .
+
+<http://example.org/ns#Node2956> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2957> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2958> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2959> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2960> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2961> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2962> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2963> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2964> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2965> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2966> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2967> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2968> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2969> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001796RangeShape .
+
+<http://example.org/ns#Node2970> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2971> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2972> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2973> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2974> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2975> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2976> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2977> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2978> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2979> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2980> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2981> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2982> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2983> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001855DomainShape .
+
+<http://example.org/ns#Node2984> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2985> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2986> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2987> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2988> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2989> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2990> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2991> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2992> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2993> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2994> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2995> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2996> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2997> a ns1:ont00000393 ;
+    sh:description ns1:ont00000393Shape .
+
+<http://example.org/ns#Node2998> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node2999> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3000> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3001> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3002> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3003> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3004> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3005> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3006> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3007> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3008> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3009> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3010> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3011> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001944RangeShape .
+
+<http://example.org/ns#Node3012> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3013> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3014> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3015> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3016> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3017> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3018> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3019> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3020> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3021> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3022> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3023> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3024> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3025> a ns1:ont00000939 ;
+    sh:description ns1:ont00000939Shape .
+
+<http://example.org/ns#Node3026> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3027> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3028> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3029> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3030> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3031> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3032> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3033> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3034> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3035> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3036> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3037> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3038> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3039> a ns1:ont00000188 ;
+    sh:description ns1:ont00000188Shape .
+
+<http://example.org/ns#Node3040> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3041> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3042> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3043> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3044> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3045> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3046> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3047> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3048> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3049> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3050> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3051> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3052> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3053> a ns1:ont00000387 ;
+    sh:description ns1:ont00000387Shape .
+
+<http://example.org/ns#Node3054> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3055> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3056> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3057> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3058> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3059> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3060> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3061> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3062> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3063> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3064> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3065> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3066> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3067> a ns1:ont00000574 ;
+    sh:description ns1:ont00000574Shape .
+
+<http://example.org/ns#Node3068> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3069> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3070> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3071> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3072> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3073> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3074> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3075> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3076> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3077> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3078> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3079> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3080> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3081> a ns1:ont00000221 ;
+    sh:description ns1:ont00000221Shape .
+
+<http://example.org/ns#Node3082> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3083> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3084> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3085> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3086> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3087> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3088> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3089> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3090> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3091> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3092> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3093> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3094> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3095> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001827DomainShape .
+
+<http://example.org/ns#Node3096> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3097> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3098> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3099> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3100> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3101> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3102> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3103> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3104> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3105> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3106> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3107> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3108> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3109> a ns1:ont00001106 ;
+    sh:description ns1:ont00001106Shape .
+
+<http://example.org/ns#Node3110> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3111> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3112> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3113> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3114> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3115> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3116> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3117> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3118> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3119> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3120> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3121> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3122> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3123> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001791DomainShape .
+
+<http://example.org/ns#Node3124> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3125> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3126> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3127> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3128> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3129> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3130> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3131> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3132> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3133> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3134> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3135> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3136> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3137> a ns1:ont00000911 ;
+    sh:description ns1:ont00000911Shape .
+
+<http://example.org/ns#Node3138> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3139> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3140> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3141> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3142> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3143> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3144> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3145> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3146> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3147> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3148> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3149> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3150> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3151> a ns1:ont00001130 ;
+    sh:description ns1:ont00001130Shape .
+
+<http://example.org/ns#Node3152> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3153> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3154> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3155> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3156> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3157> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3158> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3159> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3160> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3161> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3162> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3163> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3164> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3165> a ns1:ont00000489 ;
+    sh:description ns1:ont00000489Shape .
+
+<http://example.org/ns#Node3166> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3167> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3168> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3169> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3170> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3171> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3172> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3173> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3174> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3175> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3176> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3177> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3178> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3179> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001909DomainShape .
+
+<http://example.org/ns#Node3180> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3181> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3182> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3183> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3184> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3185> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3186> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3187> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3188> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3189> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3190> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3191> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3192> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3193> a ns2:BFO_0000141 ;
+    sh:description ns1:Ont00001931DomainShape .
+
+<http://example.org/ns#Node3194> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3195> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3196> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3197> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3198> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3199> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3200> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3201> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3202> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3203> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3204> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3205> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3206> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3207> a ns1:ont00001195 ;
+    sh:description ns1:ont00001195Shape .
+
+<http://example.org/ns#Node3208> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3209> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3210> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3211> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3212> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3213> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3214> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3215> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3216> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3217> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3218> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3219> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3220> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3221> a ns1:ont00000163 ;
+    sh:description ns1:ont00000163Shape .
+
+<http://example.org/ns#Node3222> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3223> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3224> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3225> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3226> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3227> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3228> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3229> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3230> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3231> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3232> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3233> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3234> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+<http://example.org/ns#Node3235> a ns1:ont00000125 ;
+    sh:description ns1:ont00000125Shape .
+
+[] a ns1:ont00001348 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00000205 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00001348 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00000205 .
+
+[] a ns1:ont00000205 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00001348 .
+
+[] a ns1:ont00001348 .
+
+[] a ns1:ont00001348 .
+
+[] a ns1:ont00001348 .
+
+[] a ns1:ont00000205 .
+
+[] a ns1:ont00000205 .
+
+[] a ns1:ont00001348 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00001348 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00001348 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00001348 .
+
+[] a ns1:ont00000205 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00001348 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00001348 .
+
+[] a ns1:ont00000205 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00000205 .
+
+[] a ns1:ont00000205 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00000205 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00000205 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00001348 .
+
+[] a ns1:ont00001348 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00000205 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00000205 .
+
+[] a ns1:ont00000205 .
+
+[] a ns1:ont00000170 .
+
+[] a ns2:BFO_0000001 .
+
+[] a ns1:ont00000170 .
+
+[] a ns1:ont00000170 .
+

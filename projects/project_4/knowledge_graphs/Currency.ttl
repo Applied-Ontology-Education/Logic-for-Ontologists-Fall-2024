@@ -1,0 +1,86 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+<http://example.org/ns#Node47812> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47813> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47814> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47815> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47816> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47817> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47818> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47819> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47820> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47821> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47822> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47823> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47824> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47825> a <https://www.commoncoreontologies.org/ont00000518> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000518Shape> .
+
+<http://example.org/ns#Node47826> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47827> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47828> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47829> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47830> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47831> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47832> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47833> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47834> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47835> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47836> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47837> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47838> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
+<http://example.org/ns#Node47839> a <https://www.commoncoreontologies.org/ont00000120> ;
+    sh:description <https://www.commoncoreontologies.org/ont00000120Shape> .
+
