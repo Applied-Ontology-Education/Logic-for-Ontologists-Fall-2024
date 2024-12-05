@@ -1,0 +1,212 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix cco: <https://www.commoncoreontologies.org/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <https://www.commoncoreontologies.org/TimeOntology/> .
+
+bfo:BFO_0000203Shape a sh:NodeShape ;
+    sh:targetClass bfo:BFO_0000203 ;
+    sh:property [
+        sh:path bfo:BFO_0000050 ;
+        sh:class bfo:BFO_0000148 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:severity sh:Violation .
+
+bfo:BFO_0000148Shape a sh:NodeShape ;
+    sh:targetClass bfo:BFO_0000148 ;
+    sh:property [
+        sh:path bfo:BFO_0000050 ;
+        sh:class bfo:BFO_0000203 ;
+        sh:minCount 1 ;
+    ] ;
+    sh:severity sh:Violation .
+
+bfo:BFO_0000038Shape a sh:NodeShape ;
+    sh:targetClass bfo:BFO_0000038 ;
+    sh:property [
+        sh:path bfo:BFO_0000051 ;
+        sh:class bfo:BFO_0000202 ;
+        sh:minCount 1 ;
+    ] ;
+    sh:severity sh:Violation .
+
+bfo:BFO_0000202Shape a sh:NodeShape ;
+    sh:targetClass bfo:BFO_0000202 ;
+    sh:property [
+        sh:path bfo:BFO_0000050 ;
+        sh:class bfo:BFO_0000038 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:SecondShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000992> ;
+    sh:property [
+        sh:path bfo:BFO_0000050 ;
+        sh:class bfo:BFO_0000202 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:MinuteShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000085> ;
+    sh:property [
+        sh:path bfo:BFO_0000051 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000992> ;
+        sh:minCount 60 ;
+        sh:maxCount 60 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:HourShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000085> ;
+    sh:property [
+        sh:path bfo:BFO_0000051 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000085> ;
+        sh:minCount 60 ;
+        sh:maxCount 60 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:DayShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000800> ;
+    sh:property [
+        sh:path bfo:BFO_0000051 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000085> ;
+        sh:minCount 24 ;
+        sh:maxCount 24 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:DayShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000800> ;
+    sh:property [
+        sh:path bfo:BFO_0000051 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000085> ;
+        sh:minCount 24 ;
+        sh:maxCount 24 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:WeekShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000619> ;
+    sh:property [
+        sh:path bfo:BFO_0000051 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000800> ;
+        sh:minCount 7 ;
+        sh:maxCount 7 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:MonthShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000225> ;
+    sh:property [
+        sh:path bfo:BFO_0000051 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000800> ;
+        sh:minCount 28 ;
+        sh:maxCount 31 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:YearShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000832> ;
+    sh:property [
+        sh:path bfo:BFO_0000051 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000225> ;
+        sh:minCount 12 ;
+        sh:maxCount 12 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:TimeOfDayShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000223> ;
+    sh:property [
+        sh:path bfo:BFO_0000050 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000800> ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:CalendarDayShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000921> ;
+    sh:property [
+        sh:path bfo:BFO_0000050 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000800> ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:CalendarWeekShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00001023> ;
+    sh:property [
+        sh:path bfo:BFO_0000050 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000619> ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:CalendarMonthShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000259> ;
+    sh:property [
+        sh:path bfo:BFO_0000050 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000225> ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:severity sh:Violation .
+
+cco:CalendarYearShape a sh:NodeShape ;
+    sh:targetClass <https://www.commoncoreontologies.org/ont00000674> ;
+    sh:property [
+        sh:path bfo:BFO_0000050 ;
+        sh:class <https://www.commoncoreontologies.org/ont00000832> ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:severity sh:Violation .
+
+bfo:BFO_0000221Shape a sh:PropertyShape ;
+    sh:path bfo:BFO_0000221 ;
+    sh:class bfo:BFO_0000203 ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:severity sh:Violation .
+
+bfo:BFO_0000223Shape a sh:PropertyShape ;
+    sh:path bfo:BFO_0000223 ;
+    sh:class bfo:BFO_0000203 ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:severity sh:Violation .
+
+cco:interval_containsShape a sh:PropertyShape ;
+    sh:path <https://www.commoncoreontologies.org/ont00001924> ;
+    sh:class bfo:BFO_0000038 ;
+    sh:minCount 1 ;
+    sh:severity sh:Violation .
+
+cco:interval_overlapsShape a sh:PropertyShape ;
+    sh:path <https://www.commoncoreontologies.org/ont00001825> ;
+    sh:class bfo:BFO_0000038 ;
+    sh:minCount 1 ;
+    sh:severity sh:Violation .
+
+cco:interval_meetsShape a sh:PropertyShape ;
+    sh:path <https://www.commoncoreontologies.org/ont00001896> ;
+    sh:class bfo:BFO_0000038 ;
+    sh:minCount 1 ;
+    sh:severity sh:Violation .

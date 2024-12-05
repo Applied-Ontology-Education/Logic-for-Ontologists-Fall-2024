@@ -1,0 +1,5883 @@
+@prefix ns1: <http://purl.obolibrary.org/obo/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+<http://example.org/ns#Node7744> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7745> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7746> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7747> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7748> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7749> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7750> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7751> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7752> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7753> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7754> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7755> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7756> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7757> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139DomainShape .
+
+<http://example.org/ns#Node7758> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7759> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7760> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7761> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7762> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7763> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7764> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7765> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7766> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7767> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7768> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7769> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7770> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7771> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000020Shape .
+
+<http://example.org/ns#Node7772> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "3xSrB5RM0Zua" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7773> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "Oy5eE9tF7KPDG" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7774> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "SXqzbL6i8Dy" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7775> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "kFrVhoa5W" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7776> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "Iodeenvcs" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7777> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "Zwpq8ccN" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7778> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "ZTT1cjZow33o" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7779> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "dzxPSb5zB" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7780> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "G3Bo7YRc" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7781> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "I5BOxdWc" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7782> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "Klu31KVy" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7783> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "DUBNgAZwC" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7784> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "nEP5sJ4XPpCyD" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7785> a ns1:BFO_0000004 ;
+    ns1:BFO_0000176 "YGofqxNnAy1cS" ;
+    sh:description ns1:BFO_0000004Shape .
+
+<http://example.org/ns#Node7786> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7787> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7788> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7789> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7790> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7791> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7792> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7793> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7794> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7795> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7796> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7797> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7798> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7799> sh:description ns1:BFO_0000124DomainShape .
+
+<http://example.org/ns#Node7800> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7801> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7802> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7803> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7804> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7805> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7806> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7807> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7808> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7809> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7810> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7811> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7812> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7813> sh:description ns1:BFO_0000056DomainShape .
+
+<http://example.org/ns#Node7814> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7815> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7816> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7817> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7818> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7819> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7820> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7821> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7822> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7823> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7824> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7825> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7826> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7827> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000055DomainShape .
+
+<http://example.org/ns#Node7828> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "yv1igKR909l8jt" ;
+    ns1:BFO_0000139 "4IgHh6zHP9qx" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7829> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "UO1wOWeEoaPpE" ;
+    ns1:BFO_0000139 "XnWTrkqD9a" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7830> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "UGuASD2NNVeGg" ;
+    ns1:BFO_0000139 "are3996ap" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7831> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "oCT1mKlJtz0Gn" ;
+    ns1:BFO_0000139 "Lo9tiHWgNJzE" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7832> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "bhBrkmZn" ;
+    ns1:BFO_0000139 "kfmvdDHMsr" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7833> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "tEQEEbsfTXb0KN" ;
+    ns1:BFO_0000139 "ZpGc0wO6pgxN0I" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7834> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "1utBpyAX" ;
+    ns1:BFO_0000139 "wfNRIuDkE8KIS" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7835> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "wdol2fQfxCAFH" ;
+    ns1:BFO_0000139 "R1Lr4gzcgXk2" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7836> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "ayclJRwxWXCvSj" ;
+    ns1:BFO_0000139 "mgFBwzLu" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7837> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "cTwZsgAxaZe5g1" ;
+    ns1:BFO_0000139 "LraVq6lmp5uk" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7838> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "3DFfOwqVKU29c" ;
+    ns1:BFO_0000139 "PF3gbx4X" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7839> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "Khzl2lFbL6" ;
+    ns1:BFO_0000139 "FOCibaYIxHWJPSQ" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7840> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "a0ql3Gq4P814b" ;
+    ns1:BFO_0000139 "0xFJGvk6z2d" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7841> a ns1:BFO_0000011 ;
+    ns1:BFO_0000132 "Y1rMw5MhVENed" ;
+    ns1:BFO_0000139 "Ob3jag7E76" ;
+    sh:description ns1:BFO_0000011Shape .
+
+<http://example.org/ns#Node7842> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7843> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7844> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7845> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7846> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7847> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7848> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7849> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7850> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7851> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7852> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7853> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7854> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7855> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000153RangeShape .
+
+<http://example.org/ns#Node7856> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7857> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7858> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7859> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7860> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7861> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7862> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7863> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7864> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7865> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7866> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7867> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7868> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7869> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000108RangeShape .
+
+<http://example.org/ns#Node7870> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7871> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7872> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7873> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7874> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7875> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7876> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7877> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7878> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7879> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7880> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7881> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7882> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7883> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000057DomainShape .
+
+<http://example.org/ns#Node7884> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7885> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7886> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7887> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7888> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7889> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7890> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7891> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7892> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7893> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7894> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7895> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7896> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7897> sh:description ns1:BFO_0000183RangeShape .
+
+<http://example.org/ns#Node7898> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7899> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7900> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7901> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7902> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7903> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7904> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7905> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7906> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7907> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7908> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7909> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7910> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7911> a ns1:BFO_0000030 ;
+    sh:description ns1:BFO_0000030Shape .
+
+<http://example.org/ns#Node7912> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7913> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7914> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7915> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7916> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7917> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7918> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7919> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7920> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7921> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7922> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7923> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7924> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7925> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000084DomainShape .
+
+<http://example.org/ns#Node7926> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7927> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7928> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7929> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7930> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7931> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7932> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7933> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7934> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7935> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7936> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7937> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7938> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7939> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000055RangeShape .
+
+<http://example.org/ns#Node7940> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7941> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7942> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7943> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7944> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7945> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7946> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7947> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7948> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7949> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7950> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7951> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7952> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7953> a ns1:BFO_0000141 ;
+    sh:description ns1:BFO_0000141Shape .
+
+<http://example.org/ns#Node7954> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7955> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7956> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7957> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7958> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7959> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7960> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7961> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7962> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7963> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7964> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7965> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7966> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7967> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000184RangeShape .
+
+<http://example.org/ns#Node7968> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7969> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7970> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7971> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7972> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7973> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7974> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7975> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7976> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7977> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7978> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7979> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7980> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7981> a ns1:BFO_0000023 ;
+    sh:description ns1:BFO_0000023Shape .
+
+<http://example.org/ns#Node7982> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "zc4h4Q9nZ9" ;
+    ns1:BFO_0000139 "PJm6Fg64im" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7983> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "tI8t47zUNtGRcBN" ;
+    ns1:BFO_0000139 "R2bRuuq0aAN" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7984> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "xoX1A3PW" ;
+    ns1:BFO_0000139 "1e6s7uJk1" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7985> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "9ywElWBCy" ;
+    ns1:BFO_0000139 "RMqJR0lM0trX" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7986> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "YNd1eX0R" ;
+    ns1:BFO_0000139 "X0M5krAjTBic84" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7987> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "LkF2ySOPPyqYwu" ;
+    ns1:BFO_0000139 "OSZNhqmzPvn965" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7988> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "PDKZq7o1f" ;
+    ns1:BFO_0000139 "i60YInWwklzLT" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7989> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "f4k8l7hu" ;
+    ns1:BFO_0000139 "CAhTXgntSCby4zE" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7990> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "TXvChVFNqx3" ;
+    ns1:BFO_0000139 "j7VbaqorVTb" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7991> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "gkO2TvR0Hmhf" ;
+    ns1:BFO_0000139 "8sASBYAMPoRp0F" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7992> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "tCJaIsx3Fagr" ;
+    ns1:BFO_0000139 "OPenbv5z0d" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7993> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "wwOMqH0t" ;
+    ns1:BFO_0000139 "3byZ7QiYWoZTx" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7994> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "FNUgykMQf6qCG80" ;
+    ns1:BFO_0000139 "AR4MaXMim1iLL8" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7995> a ns1:BFO_0000038 ;
+    ns1:BFO_0000121 "d1TiKq8FjwH" ;
+    ns1:BFO_0000139 "C5bQILjjy5E0kt" ;
+    sh:description ns1:BFO_0000038Shape .
+
+<http://example.org/ns#Node7996> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node7997> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node7998> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node7999> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8000> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8001> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8002> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8003> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8004> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8005> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8006> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8007> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8008> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8009> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000054RangeShape .
+
+<http://example.org/ns#Node8010> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8011> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8012> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8013> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8014> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8015> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8016> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8017> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8018> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8019> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8020> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8021> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8022> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8023> a ns1:BFO_0000034 ;
+    sh:description ns1:BFO_0000034Shape .
+
+<http://example.org/ns#Node8024> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "ubkOhnU7eMJEKx" ;
+    ns1:BFO_0000178 "32l7JzhCWn" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8025> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "SDReEtMZppkI" ;
+    ns1:BFO_0000178 "5WlkjucsnCtOQHp" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8026> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "DJJwfSq2Ftcu" ;
+    ns1:BFO_0000178 "U92J88JSLGn3u" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8027> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "JCIYPMPB" ;
+    ns1:BFO_0000178 "WKPF7B6jI" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8028> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "Q64K8HMf" ;
+    ns1:BFO_0000178 "oK0PMGtuaneqoc" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8029> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "CDop4PNiZ4" ;
+    ns1:BFO_0000178 "Mbf3PMGLgADq" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8030> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "BQjFTJpJqo7ppEP" ;
+    ns1:BFO_0000178 "CbaWxgd6tFD4S" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8031> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "adsUNOL2QWmt" ;
+    ns1:BFO_0000178 "xydhHag9wPITfY" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8032> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "1TKYLT2gQcFudX" ;
+    ns1:BFO_0000178 "zrSu7qnuNX2" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8033> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "LEcWWZA17" ;
+    ns1:BFO_0000178 "aUvg8KQD" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8034> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "Mxx9cTl4fZcDosB" ;
+    ns1:BFO_0000178 "wyNkxiYw43" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8035> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "8FpdB6m44l" ;
+    ns1:BFO_0000178 "6ub0DJCbnl" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8036> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "rc5b1SlOss" ;
+    ns1:BFO_0000178 "69oRaa7E2f" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8037> a ns1:BFO_0000040 ;
+    ns1:BFO_0000176 "q916jRcMVZzHwdu" ;
+    ns1:BFO_0000178 "k42cFxTUNRt" ;
+    sh:description ns1:BFO_0000040Shape .
+
+<http://example.org/ns#Node8038> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8039> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8040> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8041> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8042> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8043> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8044> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8045> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8046> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8047> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8048> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8049> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8050> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8051> sh:description ns1:BFO_0000058RangeShape .
+
+<http://example.org/ns#Node8052> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8053> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8054> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8055> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8056> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8057> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8058> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8059> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8060> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8061> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8062> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8063> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8064> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8065> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000001Shape .
+
+<http://example.org/ns#Node8066> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8067> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8068> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8069> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8070> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8071> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8072> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8073> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8074> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8075> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8076> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8077> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8078> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8079> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121RangeShape .
+
+<http://example.org/ns#Node8080> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8081> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8082> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8083> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8084> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8085> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8086> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8087> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8088> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8089> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8090> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8091> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8092> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8093> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000194RangeShape .
+
+<http://example.org/ns#Node8094> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8095> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8096> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8097> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8098> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8099> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8100> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8101> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8102> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8103> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8104> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8105> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8106> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8107> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000199RangeShape .
+
+<http://example.org/ns#Node8108> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8109> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8110> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8111> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8112> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8113> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8114> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8115> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8116> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8117> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8118> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8119> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8120> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8121> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000222DomainShape .
+
+<http://example.org/ns#Node8122> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8123> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8124> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8125> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8126> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8127> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8128> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8129> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8130> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8131> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8132> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8133> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8134> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8135> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000223RangeShape .
+
+<http://example.org/ns#Node8136> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8137> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8138> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8139> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8140> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8141> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8142> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8143> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8144> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8145> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8146> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8147> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8148> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8149> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132RangeShape .
+
+<http://example.org/ns#Node8150> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8151> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8152> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8153> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8154> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8155> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8156> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8157> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8158> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8159> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8160> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8161> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8162> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8163> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000218RangeShape .
+
+<http://example.org/ns#Node8164> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8165> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8166> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8167> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8168> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8169> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8170> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8171> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8172> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8173> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8174> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8175> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8176> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8177> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000203Shape .
+
+<http://example.org/ns#Node8178> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8179> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8180> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8181> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8182> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8183> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8184> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8185> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8186> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8187> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8188> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8189> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8190> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8191> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000127RangeShape .
+
+<http://example.org/ns#Node8192> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "3uqLE9PpYgi6obF" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8193> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "gU8BLLo8b98NH4" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8194> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "ucHWvg7TFJZ" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8195> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "G3WWHZYuA5" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8196> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "BHmWHkTygpy" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8197> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "PbDczdsL4Rz" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8198> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "aibns1By" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8199> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "1aXIeK5DSV" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8200> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "kLiN5dd7MEe1d" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8201> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "lLddVocYYHsi" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8202> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "dRcqaHsQgM2E" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8203> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "MFecuX7SjaCWFVq" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8204> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "axMbNUHI0TgK" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8205> a ns1:BFO_0000026 ;
+    ns1:BFO_0000178 "QQyzDVrUYOU" ;
+    sh:description ns1:BFO_0000026Shape .
+
+<http://example.org/ns#Node8206> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8207> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8208> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8209> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8210> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8211> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8212> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8213> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8214> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8215> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8216> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8217> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8218> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8219> a ns1:BFO_0000001 ;
+    sh:description ns1:BFO_0000108DomainShape .
+
+<http://example.org/ns#Node8220> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8221> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8222> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8223> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8224> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8225> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8226> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8227> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8228> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8229> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8230> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8231> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8232> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8233> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000139RangeShape .
+
+<http://example.org/ns#Node8234> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8235> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8236> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8237> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8238> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8239> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8240> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8241> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8242> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8243> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8244> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8245> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8246> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8247> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000222RangeShape .
+
+<http://example.org/ns#Node8248> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8249> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8250> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8251> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8252> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8253> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8254> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8255> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8256> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8257> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8258> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8259> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8260> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8261> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000127DomainShape .
+
+<http://example.org/ns#Node8262> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8263> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8264> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8265> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8266> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8267> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8268> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8269> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8270> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8271> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8272> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8273> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8274> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8275> sh:description ns1:BFO_0000124RangeShape .
+
+<http://example.org/ns#Node8276> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8277> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8278> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8279> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8280> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8281> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8282> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8283> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8284> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8285> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8286> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8287> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8288> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8289> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062DomainShape .
+
+<http://example.org/ns#Node8290> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8291> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8292> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8293> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8294> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8295> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8296> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8297> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8298> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8299> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8300> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8301> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8302> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8303> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176DomainShape .
+
+<http://example.org/ns#Node8304> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8305> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8306> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8307> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8308> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8309> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8310> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8311> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8312> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8313> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8314> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8315> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8316> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8317> sh:description ns1:BFO_0000199DomainShape .
+
+<http://example.org/ns#Node8318> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8319> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8320> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8321> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8322> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8323> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8324> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8325> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8326> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8327> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8328> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8329> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8330> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8331> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000058DomainShape .
+
+<http://example.org/ns#Node8332> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8333> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8334> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8335> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8336> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8337> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8338> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8339> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8340> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8341> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8342> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8343> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8344> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8345> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000185DomainShape .
+
+<http://example.org/ns#Node8346> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8347> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8348> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8349> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8350> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8351> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8352> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8353> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8354> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8355> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8356> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8357> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8358> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8359> sh:description ns1:BFO_0000171RangeShape .
+
+<http://example.org/ns#Node8360> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8361> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8362> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8363> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8364> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8365> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8366> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8367> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8368> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8369> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8370> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8371> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8372> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8373> sh:description ns1:BFO_0000195RangeShape .
+
+<http://example.org/ns#Node8374> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "0kxp7ZO4LSK5XwW" ;
+    ns1:BFO_0000178 "eoSEfDycPhdgn" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8375> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "k25KBJ7PauSXkPt" ;
+    ns1:BFO_0000178 "moDr17ktRM" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8376> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "qkTozhi63" ;
+    ns1:BFO_0000178 "VeIr32RhKvPHL" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8377> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "b4WhjJcNBXY" ;
+    ns1:BFO_0000178 "lMZb7px5wC8" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8378> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "CNG6vIfcweSP" ;
+    ns1:BFO_0000178 "o2iTxej6qT2MD0" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8379> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "T61tXcAFeDZ" ;
+    ns1:BFO_0000178 "0n3WESMwatqYpC" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8380> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "UmabJTgpVKkspG3" ;
+    ns1:BFO_0000178 "tmzRocRFvcrkSG" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8381> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "ECas0SKB" ;
+    ns1:BFO_0000178 "yGLCcKJ8BMUdti" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8382> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "K1AYyGU03A5yvW" ;
+    ns1:BFO_0000178 "OjhLTCMJibnOHwu" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8383> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "AacpZdrW8G0a" ;
+    ns1:BFO_0000178 "uSxcZfhQZZ7qM" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8384> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "SQG58ixJ" ;
+    ns1:BFO_0000178 "SGUvFt6Vg" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8385> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "9l5GCaH6B3" ;
+    ns1:BFO_0000178 "hPOzOS4nQuyPd9" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8386> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "BcsEzIDS" ;
+    ns1:BFO_0000178 "bnHnwZpN" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8387> a ns1:BFO_0000140 ;
+    ns1:BFO_0000124 "hsPEfeB2cz" ;
+    ns1:BFO_0000178 "NoZeNSPJcqUT1M" ;
+    sh:description ns1:BFO_0000140Shape .
+
+<http://example.org/ns#Node8388> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8389> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8390> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8391> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8392> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8393> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8394> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8395> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8396> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8397> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8398> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8399> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8400> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8401> sh:description ns1:BFO_0000066DomainShape .
+
+<http://example.org/ns#Node8402> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8403> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8404> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8405> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8406> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8407> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8408> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8409> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8410> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8411> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8412> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8413> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8414> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8415> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000184DomainShape .
+
+<http://example.org/ns#Node8416> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8417> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8418> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8419> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8420> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8421> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8422> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8423> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8424> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8425> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8426> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8427> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8428> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8429> a ns1:BFO_0000024 ;
+    sh:description ns1:BFO_0000024Shape .
+
+<http://example.org/ns#Node8430> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8431> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8432> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8433> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8434> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8435> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8436> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8437> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8438> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8439> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8440> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8441> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8442> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8443> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000176RangeShape .
+
+<http://example.org/ns#Node8444> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8445> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8446> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8447> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8448> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8449> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8450> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8451> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8452> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8453> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8454> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8455> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8456> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8457> sh:description ns1:BFO_0000183DomainShape .
+
+<http://example.org/ns#Node8458> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8459> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8460> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8461> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8462> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8463> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8464> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8465> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8466> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8467> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8468> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8469> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8470> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8471> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000218DomainShape .
+
+<http://example.org/ns#Node8472> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8473> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8474> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8475> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8476> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8477> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8478> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8479> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8480> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8481> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8482> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8483> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8484> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8485> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117DomainShape .
+
+<http://example.org/ns#Node8486> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8487> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8488> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8489> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8490> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8491> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8492> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8493> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8494> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8495> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8496> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8497> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8498> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8499> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000182Shape .
+
+<http://example.org/ns#Node8500> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8501> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8502> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8503> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8504> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8505> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8506> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8507> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8508> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8509> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8510> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8511> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8512> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8513> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129RangeShape .
+
+<http://example.org/ns#Node8514> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8515> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8516> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8517> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8518> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8519> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8520> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8521> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8522> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8523> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8524> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8525> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8526> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8527> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178DomainShape .
+
+<http://example.org/ns#Node8528> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "OEKkyfaobSWqjs" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8529> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "N8nPwmilIx" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8530> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "7YfACbfzlocyqKA" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8531> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "DsjBX8Efi" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8532> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "JjH6wLlM5cgZe" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8533> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "m4Gf2FLdK3" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8534> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "JUC9gYOxqg4kgE" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8535> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "ATUbYfzh3dwCESX" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8536> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "qXyj6hs7xoQ" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8537> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "hBf5NW7t" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8538> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "Py5KkLY6kiQFF33" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8539> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "WPRgnoi7lBc43lQ" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8540> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "fYiP5uwteDbANk" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8541> a ns1:BFO_0000009 ;
+    ns1:BFO_0000178 "sSBmSN0d" ;
+    sh:description ns1:BFO_0000009Shape .
+
+<http://example.org/ns#Node8542> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8543> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8544> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8545> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8546> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8547> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8548> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8549> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8550> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8551> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8552> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8553> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8554> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8555> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000101RangeShape .
+
+<http://example.org/ns#Node8556> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "RISi8VTf78K" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8557> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "a3IPGy8yKBmQY" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8558> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "VcjKGcAYa8iO" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8559> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "vMwVmTyr" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8560> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "ucFvJmUF" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8561> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "dl7UE0cibjBHhzI" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8562> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "0MMxo8mW6R" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8563> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "Yb6911LtMmo" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8564> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "GvT0kBx8FLZt9" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8565> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "uquDIJYvR" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8566> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "MN27qZPWwEqm6Av" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8567> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "zo1K28RvvI3S7BO" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8568> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "O2uH6cz5EQBs" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8569> a ns1:BFO_0000142 ;
+    ns1:BFO_0000178 "PbSSTTsKkxmts" ;
+    sh:description ns1:BFO_0000142Shape .
+
+<http://example.org/ns#Node8570> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "P10NZgOKqCIdXh" ;
+    ns1:BFO_0000178 "YA7HgSMYaVFqx" ;
+    ns1:BFO_0000210 "17aZPq3hAJrX" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8571> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "yyVKrOYhw" ;
+    ns1:BFO_0000178 "9tJkk3ZG" ;
+    ns1:BFO_0000210 "nBaIK9qMA" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8572> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "8NDHPpGntB" ;
+    ns1:BFO_0000178 "Nw9A0HVNkm" ;
+    ns1:BFO_0000210 "RablHEzEX1vlqK0" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8573> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "G7H5iLgrx" ;
+    ns1:BFO_0000178 "fo7wV0oAffJw" ;
+    ns1:BFO_0000210 "zJhsXLwTetYM64" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8574> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "OuKGWqGBWTcDOui" ;
+    ns1:BFO_0000178 "DEoJQ6xVtXn" ;
+    ns1:BFO_0000210 "tCmxAfHO" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8575> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "fh4VBcPmee" ;
+    ns1:BFO_0000178 "o15oZCEjZdPhpld" ;
+    ns1:BFO_0000210 "E5vlaDrrNTi9" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8576> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "MTu5Mp8FDsH" ;
+    ns1:BFO_0000178 "dzPzRHOP9KPjc" ;
+    ns1:BFO_0000210 "Pm0rVynGaIEyAd" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8577> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "mr13Chk7DhTIM" ;
+    ns1:BFO_0000178 "ZnJPuoN3jOc" ;
+    ns1:BFO_0000210 "AfgkGDeoUM8v" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8578> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "WjvdbBXvH" ;
+    ns1:BFO_0000178 "x5TPMQ1UKbqXa" ;
+    ns1:BFO_0000210 "J6LYHIay" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8579> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "Za56iGRV" ;
+    ns1:BFO_0000178 "XuQfaDHff" ;
+    ns1:BFO_0000210 "0jgFpC3dpPXYax" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8580> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "0RyUsArHUf" ;
+    ns1:BFO_0000178 "UMipaGcX0dAL" ;
+    ns1:BFO_0000210 "Y868TA2D" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8581> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "sJR5iEqlJ" ;
+    ns1:BFO_0000178 "9nN0KckXy9G9YZe" ;
+    ns1:BFO_0000210 "m3uTvSSd5RsD" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8582> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "OF9Zm2FxMiJ6" ;
+    ns1:BFO_0000178 "5D1f8CnRmbXZlcc" ;
+    ns1:BFO_0000210 "v1L6IoYM1A5PwA" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8583> a ns1:BFO_0000029 ;
+    ns1:BFO_0000176 "dQq4gKjmu0Pp" ;
+    ns1:BFO_0000178 "RqHOUJCHPaRz" ;
+    ns1:BFO_0000210 "hBj52Q7KKlp" ;
+    sh:description ns1:BFO_0000029Shape .
+
+<http://example.org/ns#Node8584> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8585> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8586> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8587> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8588> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8589> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8590> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8591> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8592> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8593> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8594> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8595> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8596> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8597> a ns1:BFO_0000202 ;
+    sh:description ns1:BFO_0000202Shape .
+
+<http://example.org/ns#Node8598> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8599> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8600> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8601> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8602> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8603> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8604> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8605> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8606> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8607> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8608> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8609> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8610> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8611> sh:description ns1:BFO_0000196DomainShape .
+
+<http://example.org/ns#Node8612> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "fZt3O3IMhF" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8613> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "oytTXLMA8Ndc0mF" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8614> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "jnSPzSniu" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8615> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "6weWRS6CDpJxzH" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8616> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "XN1XOi720HVf" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8617> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "dfSLdtwgla" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8618> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "dNxyn3LcbIcGN" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8619> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "7qHEAjU67EC" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8620> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "SqG18n2Zh3C" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8621> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "npItQxCvL8P" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8622> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "AMORgYEDI9zWVPo" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8623> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "Pzcm0bQkxl0v" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8624> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "hojtQ98sRPEJ" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8625> a ns1:BFO_0000002 ;
+    ns1:BFO_0000176 "zQ9G96Sfm09KuN" ;
+    sh:description ns1:BFO_0000002Shape .
+
+<http://example.org/ns#Node8626> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "NIZQ4zZl4uplod" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8627> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "jWIFSymfJoX" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8628> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "9aRPipeR97" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8629> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "7qf5ECPMh" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8630> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "Yft0lVmKv" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8631> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "5HCYGo5Pr1" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8632> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "FuMxcIA46I20h1" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8633> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "QGK2coBSmZf" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8634> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "3lveWgC4xMvGB" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8635> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "pRqIpbiqL" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8636> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "Rw5WzYhE" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8637> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "4BGPEaSjtsX" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8638> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "NqeZ9iO0sv" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8639> a ns1:BFO_0000148 ;
+    ns1:BFO_0000121 "s7zNridXlP" ;
+    sh:description ns1:BFO_0000148Shape .
+
+<http://example.org/ns#Node8640> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "pIwiTILYSgk" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8641> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "z0Hg2Elk" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8642> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "JfRWPq8MK" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8643> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "86hdxIXzXehw" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8644> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "HMdlzpT7wQ" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8645> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "1TAJ3aXGoy4vLp" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8646> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "5h8r5vuFeLXb5g" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8647> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "8LsYcL3mmbP" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8648> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "XnGTgi6t" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8649> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "m3KQ3Q2gUq69b" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8650> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "grtl6rfm" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8651> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "8Sa0wM69" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8652> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "XXX9qLIELT" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8653> a ns1:BFO_0000028 ;
+    ns1:BFO_0000178 "qYACR7uQeor9faQ" ;
+    sh:description ns1:BFO_0000028Shape .
+
+<http://example.org/ns#Node8654> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8655> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8656> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8657> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8658> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8659> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8660> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8661> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8662> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8663> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8664> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8665> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8666> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8667> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000221RangeShape .
+
+<http://example.org/ns#Node8668> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8669> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8670> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8671> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8672> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8673> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8674> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8675> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8676> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8677> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8678> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8679> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8680> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8681> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000224RangeShape .
+
+<http://example.org/ns#Node8682> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8683> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8684> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8685> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8686> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8687> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8688> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8689> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8690> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8691> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8692> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8693> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8694> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8695> a ns1:BFO_0000027 ;
+    sh:description ns1:BFO_0000027Shape .
+
+<http://example.org/ns#Node8696> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8697> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8698> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8699> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8700> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8701> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8702> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8703> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8704> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8705> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8706> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8707> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8708> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8709> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063RangeShape .
+
+<http://example.org/ns#Node8710> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8711> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8712> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8713> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8714> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8715> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8716> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8717> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8718> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8719> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8720> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8721> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8722> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8723> a ns1:BFO_0000016 ;
+    sh:description ns1:BFO_0000016Shape .
+
+<http://example.org/ns#Node8724> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8725> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8726> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8727> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8728> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8729> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8730> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8731> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8732> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8733> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8734> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8735> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8736> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8737> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000196RangeShape .
+
+<http://example.org/ns#Node8738> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8739> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8740> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8741> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8742> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8743> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8744> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8745> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8746> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8747> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8748> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8749> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8750> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8751> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000121DomainShape .
+
+<http://example.org/ns#Node8752> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8753> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8754> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8755> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8756> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8757> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8758> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8759> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8760> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8761> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8762> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8763> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8764> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8765> a ns1:BFO_0000145 ;
+    sh:description ns1:BFO_0000145Shape .
+
+<http://example.org/ns#Node8766> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "nYAHHTXYY" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8767> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "szJbcuMKdX" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8768> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "1oHnL4pb4ttgtG2" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8769> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "gDIoarQM0c" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8770> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "8zwYmUC3exd5k" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8771> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "EJHhcpRErA" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8772> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "goUYR12Ab" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8773> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "XzHrWBGlIghs5y" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8774> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "yW5YyYZv8SJ4L7" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8775> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "c3PnpKrL" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8776> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "iehOoTE9r" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8777> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "Rq6N5UOCRo1" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8778> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "FAvp7RQFMp7" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8779> a ns1:BFO_0000146 ;
+    ns1:BFO_0000178 "hoRUiiBJf" ;
+    sh:description ns1:BFO_0000146Shape .
+
+<http://example.org/ns#Node8780> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "1Ug1VrDeBUI7" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8781> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "wpmqhWIhsUP" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8782> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "ShW6Q5BPceI" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8783> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "gTuDve3Yh" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8784> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "dgF4mq24" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8785> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "UzUjWfEn" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8786> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "5JTO1dYApvgQE" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8787> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "ETBDlm3qdNZNVkg" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8788> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "zvrtf6mjRmVaGa" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8789> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "hQudzvnhc" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8790> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "PGqYAJGY0NtAW8j" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8791> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "lTMNFG5XR" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8792> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "oECKaMq6d1O" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8793> a ns1:BFO_0000147 ;
+    ns1:BFO_0000178 "TdTrySGq6LWZ" ;
+    sh:description ns1:BFO_0000147Shape .
+
+<http://example.org/ns#Node8794> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8795> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8796> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8797> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8798> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8799> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8800> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8801> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8802> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8803> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8804> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8805> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8806> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8807> sh:description ns1:BFO_0000066RangeShape .
+
+<http://example.org/ns#Node8808> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "xiHmwVgT0m6SF3" ;
+    ns1:BFO_0000121 "RqaBXJ81V" ;
+    ns1:BFO_0000132 "goWpKQd5hjpMSz" ;
+    ns1:BFO_0000139 "Rcez9WEI3C1" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8809> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "khfXOLjc5mBjHF" ;
+    ns1:BFO_0000121 "I3pUWyJK5" ;
+    ns1:BFO_0000132 "0HUWB6XCFyfP" ;
+    ns1:BFO_0000139 "MTP6v4REgc4g" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8810> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "koYJbg85WfU" ;
+    ns1:BFO_0000121 "FqUj3MgLGX6af5q" ;
+    ns1:BFO_0000132 "luG1APl2vR4sZ" ;
+    ns1:BFO_0000139 "eGgv3xZDqWO" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8811> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "q5uIucGwWNM4DK0" ;
+    ns1:BFO_0000121 "A6GJz8GliQ9e" ;
+    ns1:BFO_0000132 "G1VTlIj1ro" ;
+    ns1:BFO_0000139 "sDp1owzDDxVBdM" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8812> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "wWPFA1TC7" ;
+    ns1:BFO_0000121 "oVVQ542MiVQFM" ;
+    ns1:BFO_0000132 "r17Nm2vQTT" ;
+    ns1:BFO_0000139 "jf4bkYsMyhCC5z" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8813> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "nXTnyv6Uh" ;
+    ns1:BFO_0000121 "YDDBzBEhU4A1rH" ;
+    ns1:BFO_0000132 "Kw0mbM7dHjh" ;
+    ns1:BFO_0000139 "NnceS8QG2G" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8814> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "vat5lBzWCe8TDN" ;
+    ns1:BFO_0000121 "v27kkSkG3wlK" ;
+    ns1:BFO_0000132 "IlZZwqfUqBr" ;
+    ns1:BFO_0000139 "Bb5ABZQ6y" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8815> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "dYv5ctmNGJ8mH" ;
+    ns1:BFO_0000121 "TmZNYdBWyYGe" ;
+    ns1:BFO_0000132 "ZUWZQfQJ" ;
+    ns1:BFO_0000139 "P849XUynONJS" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8816> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "fvcEP2Imh" ;
+    ns1:BFO_0000121 "BDY6Vz25XTfo" ;
+    ns1:BFO_0000132 "FFba62M3MuwY90N" ;
+    ns1:BFO_0000139 "2YLob5BcZc" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8817> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "Nw9VwrYDJq0i6wK" ;
+    ns1:BFO_0000121 "L1wlK750zCqJ" ;
+    ns1:BFO_0000132 "YNuAO85E2W4xAHQ" ;
+    ns1:BFO_0000139 "tmqy6FyC" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8818> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "qKzpNL1w" ;
+    ns1:BFO_0000121 "gTpNPUnfmj" ;
+    ns1:BFO_0000132 "ReGLvDSFGbILwi" ;
+    ns1:BFO_0000139 "4wKvoEhyejl4" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8819> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "7z4ZFidLiOB50W7" ;
+    ns1:BFO_0000121 "uswOFTlXhAqikO" ;
+    ns1:BFO_0000132 "pyQTLdCWipiNYa" ;
+    ns1:BFO_0000139 "UhECk8FXWElppR" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8820> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "sG66mdEC" ;
+    ns1:BFO_0000121 "hmK8oWaIQTZVRq" ;
+    ns1:BFO_0000132 "8cb1BLgFGLPZ" ;
+    ns1:BFO_0000139 "SrKQvN6D" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8821> a ns1:BFO_0000035 ;
+    ns1:BFO_0000117 "WE7AYGBPdY" ;
+    ns1:BFO_0000121 "DMwvZvnRo" ;
+    ns1:BFO_0000132 "1mmtOLNyfe" ;
+    ns1:BFO_0000139 "K35Mml0mxbXpm" ;
+    sh:description ns1:BFO_0000035Shape .
+
+<http://example.org/ns#Node8822> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8823> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8824> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8825> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8826> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8827> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8828> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8829> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8830> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8831> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8832> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8833> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8834> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8835> sh:description ns1:BFO_0000197RangeShape .
+
+<http://example.org/ns#Node8836> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8837> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8838> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8839> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8840> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8841> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8842> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8843> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8844> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8845> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8846> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8847> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8848> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8849> sh:description ns1:BFO_0000210DomainShape .
+
+<http://example.org/ns#Node8850> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8851> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8852> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8853> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8854> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8855> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8856> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8857> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8858> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8859> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8860> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8861> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8862> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8863> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000062RangeShape .
+
+<http://example.org/ns#Node8864> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8865> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8866> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8867> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8868> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8869> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8870> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8871> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8872> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8873> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8874> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8875> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8876> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8877> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000031Shape .
+
+<http://example.org/ns#Node8878> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8879> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8880> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8881> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8882> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8883> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8884> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8885> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8886> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8887> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8888> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8889> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8890> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8891> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000216DomainShape .
+
+<http://example.org/ns#Node8892> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8893> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8894> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8895> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8896> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8897> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8898> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8899> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8900> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8901> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8902> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8903> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8904> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8905> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115DomainShape .
+
+<http://example.org/ns#Node8906> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8907> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8908> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8909> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8910> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8911> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8912> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8913> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8914> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8915> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8916> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8917> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8918> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8919> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000054DomainShape .
+
+<http://example.org/ns#Node8920> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8921> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8922> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8923> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8924> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8925> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8926> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8927> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8928> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8929> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8930> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8931> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8932> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8933> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000153DomainShape .
+
+<http://example.org/ns#Node8934> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8935> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8936> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8937> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8938> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8939> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8940> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8941> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8942> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8943> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8944> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8945> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8946> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8947> sh:description ns1:BFO_0000194DomainShape .
+
+<http://example.org/ns#Node8948> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8949> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8950> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8951> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8952> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8953> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8954> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8955> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8956> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8957> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8958> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8959> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8960> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8961> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000129DomainShape .
+
+<http://example.org/ns#Node8962> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8963> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8964> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8965> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8966> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8967> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8968> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8969> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8970> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8971> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8972> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8973> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8974> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8975> a ns1:BFO_0000017 ;
+    sh:description ns1:BFO_0000017Shape .
+
+<http://example.org/ns#Node8976> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "t6EGV4FYxb0i" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8977> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "av6nMtrEo" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8978> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "z8ACnsZc2dWnK" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8979> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "1vVzQ5Zwt3YTLDd" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8980> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "9kMTtejToE0gkb" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8981> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "84wZGTiL" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8982> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "le3j4S3Wk6CXxT" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8983> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "XlNAvoJ7cVgF" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8984> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "Shxlv71XVZFYD1" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8985> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "aoIIA7XnrlV0" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8986> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "b6UTgwzvugn7" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8987> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "ZR2vjWU1NJZMuu3" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8988> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "PnHNvdsMOTd1" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8989> a ns1:BFO_0000018 ;
+    ns1:BFO_0000178 "nylQADrbQd9j8" ;
+    sh:description ns1:BFO_0000018Shape .
+
+<http://example.org/ns#Node8990> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node8991> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node8992> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node8993> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node8994> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node8995> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node8996> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node8997> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node8998> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node8999> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node9000> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node9001> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node9002> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node9003> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000132DomainShape .
+
+<http://example.org/ns#Node9004> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9005> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9006> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9007> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9008> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9009> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9010> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9011> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9012> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9013> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9014> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9015> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9016> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9017> a ns1:BFO_0000040 ;
+    sh:description ns1:BFO_0000115RangeShape .
+
+<http://example.org/ns#Node9018> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9019> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9020> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9021> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9022> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9023> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9024> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9025> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9026> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9027> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9028> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9029> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9030> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9031> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000195DomainShape .
+
+<http://example.org/ns#Node9032> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "EbBZ06DVU" ;
+    ns1:BFO_0000139 "Wr9vmBmrC" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9033> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "fvu2AG9Dc" ;
+    ns1:BFO_0000139 "dhwMOMiGX37" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9034> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "Z3jQUpGqOcRnEO" ;
+    ns1:BFO_0000139 "WY48l7vaZ4s" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9035> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "UD4aFQcrzeGJp7x" ;
+    ns1:BFO_0000139 "4wQsKuOA4X" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9036> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "00eqi3qd3gb" ;
+    ns1:BFO_0000139 "HSpYHV1g8Q2r9" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9037> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "fqUU6Dog" ;
+    ns1:BFO_0000139 "VNM3Z4RDw0bx7FP" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9038> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "zb1blVPvoMZ8Y" ;
+    ns1:BFO_0000139 "hHcSvWTtLaQYW" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9039> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "ZawxNyfaS" ;
+    ns1:BFO_0000139 "LVN6gz8EXb9" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9040> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "8yHznlvHB" ;
+    ns1:BFO_0000139 "SeiOGDVP9kR" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9041> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "Yo7pYIrLSIY7Z" ;
+    ns1:BFO_0000139 "RtvkplUdlArV" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9042> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "YOUqb5GC2MC" ;
+    ns1:BFO_0000139 "sTH5y8IeqJyui3X" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9043> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "jhFH2i8qZRN" ;
+    ns1:BFO_0000139 "9FOo5KPaD" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9044> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "qtilcFVdDd8p" ;
+    ns1:BFO_0000139 "Omiyb5TOd" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9045> a ns1:BFO_0000008 ;
+    ns1:BFO_0000132 "CfPwiMz2ir8hj" ;
+    ns1:BFO_0000139 "EbyJTs0KZ76" ;
+    sh:description ns1:BFO_0000008Shape .
+
+<http://example.org/ns#Node9046> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "PvFUkgtfpH9" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9047> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "76lONjf76ifqFTu" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9048> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "RXf6Qph81BaE" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9049> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "XzUKjovV" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9050> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "72dPgJowfdMwb" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9051> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "FjJMiY7a0XLB4" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9052> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "HEaSEgi88AL" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9053> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "cpyp5ct24DFC" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9054> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "PqA6uQqlS" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9055> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "TXZKVCVrOvj7kML" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9056> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "TWGZ9fKK2gD7dA6" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9057> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "oqDIVuC9" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9058> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "rZyaaqCgq2t87A" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9059> a ns1:BFO_0000006 ;
+    ns1:BFO_0000176 "Tf5AB1KU92O8T6U" ;
+    sh:description ns1:BFO_0000006Shape .
+
+<http://example.org/ns#Node9060> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9061> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9062> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9063> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9064> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9065> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9066> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9067> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9068> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9069> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9070> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9071> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9072> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9073> sh:description ns1:BFO_0000200DomainShape .
+
+<http://example.org/ns#Node9074> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9075> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9076> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9077> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9078> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9079> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9080> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9081> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9082> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9083> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9084> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9085> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9086> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9087> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000210RangeShape .
+
+<http://example.org/ns#Node9088> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9089> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9090> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9091> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9092> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9093> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9094> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9095> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9096> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9097> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9098> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9099> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9100> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9101> sh:description ns1:BFO_0000084RangeShape .
+
+<http://example.org/ns#Node9102> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9103> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9104> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9105> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9106> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9107> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9108> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9109> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9110> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9111> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9112> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9113> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9114> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9115> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000003Shape .
+
+<http://example.org/ns#Node9116> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "e5zkr5VfRW" ;
+    ns1:BFO_0000132 "VdRl5WoyTpd3UK" ;
+    ns1:BFO_0000139 "visBBko3yBlU" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9117> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "YjTs0i4XkQn8" ;
+    ns1:BFO_0000132 "DrMTzyVII" ;
+    ns1:BFO_0000139 "iBhTMJlwSm" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9118> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "2t37ewZ5J" ;
+    ns1:BFO_0000132 "XvseqJUaxu" ;
+    ns1:BFO_0000139 "dXBSHmH2nqv1" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9119> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "f2BKH0TGuhRC" ;
+    ns1:BFO_0000132 "IibQjRwIhAzsKK" ;
+    ns1:BFO_0000139 "lCGfLvc4nUEasV" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9120> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "VQUFy201ikidno" ;
+    ns1:BFO_0000132 "TgyXYE2WgUz5Fla" ;
+    ns1:BFO_0000139 "1e9DQxD2Cvj7U" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9121> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "8JkLFXhd0O9c" ;
+    ns1:BFO_0000132 "Il9djwOsFoT" ;
+    ns1:BFO_0000139 "HtI4W2tJpiq61" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9122> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "XuuO7n8y7pwlv4U" ;
+    ns1:BFO_0000132 "OQmov0EFqb" ;
+    ns1:BFO_0000139 "PajaXEGvJ" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9123> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "7Bdwpi0xUW" ;
+    ns1:BFO_0000132 "GKef7G5e" ;
+    ns1:BFO_0000139 "tcdZxW0io" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9124> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "emb5pp47VsIKNfz" ;
+    ns1:BFO_0000132 "0dwi4D6bygg" ;
+    ns1:BFO_0000139 "K2iJ21ueq6D" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9125> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "XoqLEQDyatNsFd" ;
+    ns1:BFO_0000132 "H4IiqWTyKTio" ;
+    ns1:BFO_0000139 "LHtbklfP" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9126> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "ZwugmYMdx7PO" ;
+    ns1:BFO_0000132 "qYyrGhyox" ;
+    ns1:BFO_0000139 "ofQbjNOxxSq" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9127> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "eJmVDkJTF75" ;
+    ns1:BFO_0000132 "OZfaKi3LBR0nKb" ;
+    ns1:BFO_0000139 "sIOMyUxgMOqPRPc" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9128> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "8IQ8APeERa" ;
+    ns1:BFO_0000132 "sHe4I3I5HaAD" ;
+    ns1:BFO_0000139 "DpHDZ0MhOJw" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9129> a ns1:BFO_0000015 ;
+    ns1:BFO_0000117 "yFth2MKgOnmTEq" ;
+    ns1:BFO_0000132 "otRVDGo36" ;
+    ns1:BFO_0000139 "nFDEWgAW5eSAQG" ;
+    sh:description ns1:BFO_0000015Shape .
+
+<http://example.org/ns#Node9130> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9131> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9132> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9133> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9134> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9135> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9136> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9137> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9138> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9139> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9140> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9141> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9142> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9143> sh:description ns1:BFO_0000057RangeShape .
+
+<http://example.org/ns#Node9144> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9145> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9146> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9147> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9148> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9149> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9150> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9151> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9152> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9153> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9154> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9155> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9156> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9157> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000223DomainShape .
+
+<http://example.org/ns#Node9158> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9159> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9160> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9161> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9162> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9163> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9164> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9165> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9166> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9167> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9168> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9169> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9170> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9171> sh:description ns1:BFO_0000171DomainShape .
+
+<http://example.org/ns#Node9172> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9173> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9174> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9175> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9176> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9177> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9178> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9179> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9180> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9181> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9182> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9183> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9184> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9185> sh:description ns1:BFO_0000059DomainShape .
+
+<http://example.org/ns#Node9186> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9187> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9188> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9189> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9190> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9191> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9192> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9193> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9194> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9195> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9196> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9197> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9198> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9199> a ns1:BFO_0000011 ;
+    sh:description ns1:BFO_0000200RangeShape .
+
+<http://example.org/ns#Node9200> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9201> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9202> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9203> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9204> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9205> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9206> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9207> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9208> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9209> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9210> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9211> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9212> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9213> a ns1:BFO_0000203 ;
+    sh:description ns1:BFO_0000221DomainShape .
+
+<http://example.org/ns#Node9214> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9215> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9216> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9217> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9218> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9219> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9220> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9221> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9222> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9223> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9224> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9225> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9226> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9227> a ns1:BFO_0000008 ;
+    sh:description ns1:BFO_0000224DomainShape .
+
+<http://example.org/ns#Node9228> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9229> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9230> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9231> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9232> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9233> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9234> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9235> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9236> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9237> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9238> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9239> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9240> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9241> a ns1:BFO_0000006 ;
+    sh:description ns1:BFO_0000216RangeShape .
+
+<http://example.org/ns#Node9242> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9243> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9244> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9245> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9246> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9247> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9248> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9249> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9250> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9251> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9252> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9253> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9254> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9255> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000117RangeShape .
+
+<http://example.org/ns#Node9256> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9257> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9258> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9259> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9260> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9261> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9262> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9263> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9264> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9265> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9266> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9267> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9268> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9269> a ns1:BFO_0000182 ;
+    sh:description ns1:BFO_0000185RangeShape .
+
+<http://example.org/ns#Node9270> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9271> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9272> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9273> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9274> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9275> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9276> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9277> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9278> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9279> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9280> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9281> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9282> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9283> a ns1:BFO_0000031 ;
+    sh:description ns1:BFO_0000059RangeShape .
+
+<http://example.org/ns#Node9284> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9285> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9286> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9287> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9288> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9289> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9290> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9291> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9292> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9293> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9294> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9295> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9296> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9297> a ns1:BFO_0000002 ;
+    sh:description ns1:BFO_0000178RangeShape .
+
+<http://example.org/ns#Node9298> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9299> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9300> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9301> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9302> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9303> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9304> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9305> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9306> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9307> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9308> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9309> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9310> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9311> a ns1:BFO_0000003 ;
+    sh:description ns1:BFO_0000063DomainShape .
+
+<http://example.org/ns#Node9312> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9313> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9314> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9315> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9316> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9317> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9318> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9319> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9320> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9321> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9322> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9323> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9324> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9325> sh:description ns1:BFO_0000101DomainShape .
+
+<http://example.org/ns#Node9326> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9327> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9328> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9329> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9330> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9331> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9332> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9333> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9334> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9335> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9336> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9337> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9338> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9339> a ns1:BFO_0000019 ;
+    sh:description ns1:BFO_0000019Shape .
+
+<http://example.org/ns#Node9340> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9341> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9342> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9343> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9344> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9345> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9346> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9347> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9348> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9349> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9350> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9351> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9352> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9353> a ns1:BFO_0000020 ;
+    sh:description ns1:BFO_0000197DomainShape .
+
+<http://example.org/ns#Node9354> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9355> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9356> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9357> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9358> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9359> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9360> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9361> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9362> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9363> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9364> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9365> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9366> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+<http://example.org/ns#Node9367> a ns1:BFO_0000015 ;
+    sh:description ns1:BFO_0000056RangeShape .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000018 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000148 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000148 .
+
+[] a ns1:BFO_0000040 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000006 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000002 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000015 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a ns1:BFO_0000148 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000018 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000002 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000148 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000002 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000040 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000018 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000148 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000018 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a ns1:BFO_0000147 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000148 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a ns1:BFO_0000006 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a ns1:BFO_0000040 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000002 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000002 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000018 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000040 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000015 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000018 .
+
+[] a ns1:BFO_0000018 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000006 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000028 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a ns1:BFO_0000015 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000018 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a ns1:BFO_0000002 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000002 .
+
+[] a ns1:BFO_0000015 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a ns1:BFO_0000040 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000148 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000040 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a ns1:BFO_0000002 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000148 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000015 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000006 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a ns1:BFO_0000148 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000148 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000002 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000040 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000040 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000006 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a ns1:BFO_0000002 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000006 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000040 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a ns1:BFO_0000028 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000006 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a ns1:BFO_0000040 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000035 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000148 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a ns1:BFO_0000038 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000148 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000040 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000040 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000004 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000006 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000040 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000018 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a ns1:BFO_0000038 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000004 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000018 .
+
+[] a ns1:BFO_0000015 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000006 .
+
+[] a ns1:BFO_0000040 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb7 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000004 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000018 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000148 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb16 .
+
+[] a ns1:BFO_0000147 .
+
+[] a ns1:BFO_0000002 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000028 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb28 .
+
+[] a ns1:BFO_0000035 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a ns1:BFO_0000008 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a ns1:BFO_0000002 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb26 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000015 .
+
+[] a ns1:BFO_0000140 .
+
+[] a ns1:BFO_0000018 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000011 .
+
+[] a ns1:BFO_0000011 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000018 .
+
+[] a ns1:BFO_0000140 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a ns1:BFO_0000002 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb31 .
+
+[] a ns1:BFO_0000002 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb19 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb34 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb13 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb68 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000018 .
+
+[] a ns1:BFO_0000008 .
+
+[] a ns1:BFO_0000148 .
+
+[] a _:n4feb36042ed045b5bfb4962a7276a4fcb21 .
+
+[] a ns1:BFO_0000147 .
+

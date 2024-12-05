@@ -1,0 +1,115 @@
+@prefix cco: <https://www.commoncoreontologies.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+cco:ont00000061Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000061 .
+
+cco:ont00000074Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000074 .
+
+cco:ont00000120Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000120 .
+
+cco:ont00000140Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000140 .
+
+cco:ont00000198Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000198 .
+
+cco:ont00000217Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000217 .
+
+cco:ont00000229Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000229 .
+
+cco:ont00000239Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000239 .
+
+cco:ont00000374Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000374 .
+
+cco:ont00000444Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000444 .
+
+cco:ont00000497Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000497 .
+
+cco:ont00000502Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000502 .
+
+cco:ont00000527Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000527 .
+
+cco:ont00000659Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000659 .
+
+cco:ont00000707Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000707 .
+
+cco:ont00000770Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000770 .
+
+cco:ont00000844Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000844 .
+
+cco:ont00000852Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000852 .
+
+cco:ont00000940Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000940 .
+
+cco:ont00000959Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000959 .
+
+cco:ont00000969Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00000969 .
+
+cco:ont00001004Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001004 .
+
+cco:ont00001090Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001090 .
+
+cco:ont00001290Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001290 .
+
+cco:ont00001307Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001307 .
+
+cco:ont00001317Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001317 .
+
+cco:ont00001345Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001345 .
+
+cco:ont00001357Shape a sh:NodeShape ;
+    sh:severity sh:Warning ;
+    sh:targetClass cco:ont00001357 .
+

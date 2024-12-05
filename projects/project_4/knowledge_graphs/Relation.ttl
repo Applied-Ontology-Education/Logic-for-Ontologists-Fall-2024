@@ -1,0 +1,2872 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+<http://example.org/ns#Node10000> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10001> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10002> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10003> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10004> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10005> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10006> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10007> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10008> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10009> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10010> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10011> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node10012> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10013> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10014> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10015> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10016> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10017> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10018> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10019> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10020> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10021> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10022> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10023> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10024> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10025> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928DomainShape> .
+
+<http://example.org/ns#Node10026> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10027> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10028> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10029> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10030> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10031> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10032> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10033> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10034> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10035> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10036> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10037> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10038> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10039> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895RangeShape> .
+
+<http://example.org/ns#Node10040> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10041> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10042> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10043> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10044> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10045> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10046> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10047> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10048> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10049> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10050> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10051> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10052> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10053> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949RangeShape> .
+
+<http://example.org/ns#Node10054> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10055> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10056> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10057> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10058> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10059> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10060> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10061> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10062> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10063> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10064> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10065> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10066> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10067> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799RangeShape> .
+
+<http://example.org/ns#Node10068> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10069> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10070> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10071> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10072> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10073> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10074> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10075> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10076> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10077> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10078> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10079> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10080> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10081> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805DomainShape> .
+
+<http://example.org/ns#Node10082> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10083> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10084> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10085> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10086> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10087> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10088> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10089> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10090> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10091> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10092> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10093> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10094> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10095> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947RangeShape> .
+
+<http://example.org/ns#Node10096> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10097> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10098> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10099> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10100> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10101> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10102> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10103> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10104> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10105> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10106> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10107> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10108> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10109> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001805RangeShape> .
+
+<http://example.org/ns#Node10110> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10111> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10112> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10113> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10114> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10115> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10116> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10117> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10118> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10119> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10120> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10121> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10122> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10123> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845DomainShape> .
+
+<http://example.org/ns#Node10124> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10125> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10126> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10127> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10128> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10129> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10130> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10131> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10132> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10133> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10134> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10135> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10136> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10137> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857DomainShape> .
+
+<http://example.org/ns#Node10138> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10139> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10140> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10141> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10142> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10143> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10144> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10145> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10146> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10147> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10148> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10149> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10150> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10151> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959DomainShape> .
+
+<http://example.org/ns#Node10152> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10153> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10154> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10155> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10156> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10157> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10158> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10159> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10160> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10161> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10162> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10163> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10164> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10165> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816RangeShape> .
+
+<http://example.org/ns#Node10166> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10167> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10168> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10169> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10170> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10171> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10172> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10173> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10174> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10175> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10176> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10177> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10178> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10179> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803DomainShape> .
+
+<http://example.org/ns#Node10180> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10181> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10182> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10183> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10184> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10185> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10186> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10187> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10188> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10189> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10190> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10191> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10192> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10193> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841DomainShape> .
+
+<http://example.org/ns#Node10194> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10195> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10196> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10197> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10198> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10199> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10200> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10201> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10202> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10203> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10204> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10205> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10206> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10207> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777DomainShape> .
+
+<http://example.org/ns#Node10208> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10209> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10210> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10211> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10212> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10213> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10214> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10215> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10216> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10217> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10218> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10219> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10220> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10221> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901DomainShape> .
+
+<http://example.org/ns#Node10222> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10223> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10224> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10225> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10226> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10227> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10228> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10229> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10230> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10231> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10232> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10233> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10234> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10235> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834DomainShape> .
+
+<http://example.org/ns#Node10236> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10237> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10238> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10239> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10240> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10241> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10242> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10243> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10244> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10245> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10246> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10247> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10248> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10249> a <http://purl.obolibrary.org/obo/BFO_0000008> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001874DomainShape> .
+
+<http://example.org/ns#Node10250> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10251> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10252> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10253> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10254> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10255> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10256> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10257> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10258> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10259> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10260> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10261> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10262> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10263> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921DomainShape> .
+
+<http://example.org/ns#Node10264> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10265> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10266> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10267> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10268> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10269> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10270> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10271> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10272> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10273> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10274> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10275> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10276> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10277> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001803RangeShape> .
+
+<http://example.org/ns#Node10278> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10279> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10280> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10281> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10282> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10283> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10284> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10285> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10286> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10287> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10288> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10289> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10290> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10291> sh:description <https://www.commoncoreontologies.org/Ont00001809DomainShape> .
+
+<http://example.org/ns#Node10292> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10293> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10294> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10295> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10296> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10297> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10298> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10299> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10300> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10301> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10302> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10303> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10304> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10305> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970RangeShape> .
+
+<http://example.org/ns#Node10306> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10307> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10308> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10309> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10310> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10311> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10312> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10313> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10314> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10315> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10316> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10317> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10318> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10319> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819RangeShape> .
+
+<http://example.org/ns#Node10320> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10321> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10322> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10323> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10324> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10325> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10326> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10327> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10328> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10329> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10330> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10331> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10332> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10333> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830DomainShape> .
+
+<http://example.org/ns#Node10334> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10335> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10336> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10337> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10338> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10339> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10340> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10341> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10342> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10343> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10344> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10345> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10346> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node10347> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001830RangeShape> .
+
+<http://example.org/ns#Node9368> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9369> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9370> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9371> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9372> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9373> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9374> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9375> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9376> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9377> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9378> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9379> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9380> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9381> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907DomainShape> .
+
+<http://example.org/ns#Node9382> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9383> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9384> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9385> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9386> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9387> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9388> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9389> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9390> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9391> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9392> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9393> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9394> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9395> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956DomainShape> .
+
+<http://example.org/ns#Node9396> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9397> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9398> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9399> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9400> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9401> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9402> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9403> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9404> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9405> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9406> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9407> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9408> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9409> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001956RangeShape> .
+
+<http://example.org/ns#Node9410> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9411> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9412> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9413> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9414> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9415> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9416> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9417> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9418> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9419> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9420> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9421> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9422> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9423> sh:description <https://www.commoncoreontologies.org/Ont00001836RangeShape> .
+
+<http://example.org/ns#Node9424> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9425> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9426> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9427> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9428> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9429> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9430> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9431> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9432> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9433> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9434> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9435> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9436> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9437> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829RangeShape> .
+
+<http://example.org/ns#Node9438> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9439> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9440> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9441> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9442> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9443> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9444> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9445> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9446> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9447> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9448> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9449> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9450> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9451> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986RangeShape> .
+
+<http://example.org/ns#Node9452> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9453> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9454> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9455> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9456> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9457> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9458> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9459> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9460> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9461> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9462> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9463> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9464> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9465> sh:description <https://www.commoncoreontologies.org/Ont00001874RangeShape> .
+
+<http://example.org/ns#Node9466> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9467> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9468> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9469> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9470> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9471> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9472> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9473> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9474> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9475> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9476> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9477> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9478> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9479> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001857RangeShape> .
+
+<http://example.org/ns#Node9480> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9481> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9482> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9483> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9484> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9485> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9486> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9487> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9488> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9489> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9490> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9491> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9492> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9493> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991DomainShape> .
+
+<http://example.org/ns#Node9494> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9495> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9496> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9497> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9498> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9499> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9500> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9501> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9502> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9503> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9504> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9505> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9506> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9507> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918DomainShape> .
+
+<http://example.org/ns#Node9508> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9509> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9510> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9511> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9512> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9513> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9514> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9515> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9516> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9517> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9518> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9519> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9520> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9521> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001907RangeShape> .
+
+<http://example.org/ns#Node9522> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9523> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9524> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9525> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9526> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9527> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9528> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9529> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9530> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9531> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9532> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9533> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9534> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9535> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001834RangeShape> .
+
+<http://example.org/ns#Node9536> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9537> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9538> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9539> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9540> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9541> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9542> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9543> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9544> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9545> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9546> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9547> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9548> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9549> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001901RangeShape> .
+
+<http://example.org/ns#Node9550> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9551> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9552> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9553> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9554> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9555> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9556> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9557> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9558> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9559> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9560> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9561> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9562> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9563> a <http://purl.obolibrary.org/obo/BFO_0000003> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001819DomainShape> .
+
+<http://example.org/ns#Node9564> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9565> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9566> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9567> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9568> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9569> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9570> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9571> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9572> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9573> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9574> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9575> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9576> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9577> a <http://purl.obolibrary.org/obo/BFO_0000023> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001799DomainShape> .
+
+<http://example.org/ns#Node9578> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9579> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9580> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9581> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9582> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9583> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9584> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9585> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9586> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9587> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9588> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9589> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9590> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9591> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001832DomainShape> .
+
+<http://example.org/ns#Node9592> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9593> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9594> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9595> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9596> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9597> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9598> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9599> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9600> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9601> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9602> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9603> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9604> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9605> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852RangeShape> .
+
+<http://example.org/ns#Node9606> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9607> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9608> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9609> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9610> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9611> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9612> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9613> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9614> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9615> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9616> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9617> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9618> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9619> sh:description <https://www.commoncoreontologies.org/Ont00001832RangeShape> .
+
+<http://example.org/ns#Node9620> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9621> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9622> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9623> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9624> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9625> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9626> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9627> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9628> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9629> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9630> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9631> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9632> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9633> a <http://purl.obolibrary.org/obo/BFO_0000029> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001918RangeShape> .
+
+<http://example.org/ns#Node9634> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9635> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9636> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9637> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9638> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9639> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9640> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9641> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9642> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9643> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9644> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9645> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9646> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9647> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001809RangeShape> .
+
+<http://example.org/ns#Node9648> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9649> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9650> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9651> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9652> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9653> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9654> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9655> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9656> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9657> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9658> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9659> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9660> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9661> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886RangeShape> .
+
+<http://example.org/ns#Node9662> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9663> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9664> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9665> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9666> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9667> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9668> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9669> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9670> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9671> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9672> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9673> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9674> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9675> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001777RangeShape> .
+
+<http://example.org/ns#Node9676> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9677> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9678> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9679> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9680> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9681> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9682> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9683> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9684> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9685> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9686> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9687> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9688> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9689> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001970DomainShape> .
+
+<http://example.org/ns#Node9690> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9691> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9692> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9693> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9694> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9695> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9696> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9697> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9698> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9699> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9700> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9701> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9702> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9703> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001928RangeShape> .
+
+<http://example.org/ns#Node9704> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9705> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9706> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9707> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9708> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9709> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9710> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9711> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9712> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9713> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9714> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9715> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9716> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9717> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001991RangeShape> .
+
+<http://example.org/ns#Node9718> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9719> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9720> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9721> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9722> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9723> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9724> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9725> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9726> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9727> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9728> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9729> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9730> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9731> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861DomainShape> .
+
+<http://example.org/ns#Node9732> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9733> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9734> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9735> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9736> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9737> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9738> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9739> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9740> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9741> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9742> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9743> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9744> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9745> a <http://purl.obolibrary.org/obo/BFO_0000019> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001947DomainShape> .
+
+<http://example.org/ns#Node9746> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9747> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9748> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9749> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9750> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9751> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9752> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9753> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9754> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9755> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9756> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9757> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9758> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9759> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888RangeShape> .
+
+<http://example.org/ns#Node9760> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9761> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9762> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9763> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9764> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9765> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9766> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9767> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9768> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9769> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9770> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9771> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9772> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9773> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001895DomainShape> .
+
+<http://example.org/ns#Node9774> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9775> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9776> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9777> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9778> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9779> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9780> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9781> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9782> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9783> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9784> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9785> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9786> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9787> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775DomainShape> .
+
+<http://example.org/ns#Node9788> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9789> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9790> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9791> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9792> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9793> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9794> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9795> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9796> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9797> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9798> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9799> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9800> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9801> a <http://purl.obolibrary.org/obo/BFO_0000030> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001861RangeShape> .
+
+<http://example.org/ns#Node9802> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9803> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9804> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9805> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9806> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9807> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9808> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9809> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9810> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9811> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9812> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9813> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9814> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9815> sh:description <https://www.commoncoreontologies.org/Ont00001782RangeShape> .
+
+<http://example.org/ns#Node9816> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9817> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9818> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9819> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9820> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9821> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9822> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9823> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9824> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9825> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9826> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9827> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9828> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9829> a <http://purl.obolibrary.org/obo/BFO_0000040> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001852DomainShape> .
+
+<http://example.org/ns#Node9830> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9831> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9832> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9833> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9834> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9835> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9836> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9837> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9838> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9839> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9840> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9841> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9842> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9843> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001888DomainShape> .
+
+<http://example.org/ns#Node9844> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9845> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9846> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9847> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9848> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9849> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9850> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9851> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9852> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9853> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9854> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9855> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9856> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9857> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001886DomainShape> .
+
+<http://example.org/ns#Node9858> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9859> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9860> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9861> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9862> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9863> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9864> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9865> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9866> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9867> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9868> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9869> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9870> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9871> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001845RangeShape> .
+
+<http://example.org/ns#Node9872> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9873> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9874> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9875> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9876> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9877> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9878> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9879> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9880> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9881> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9882> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9883> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9884> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9885> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001836DomainShape> .
+
+<http://example.org/ns#Node9886> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9887> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9888> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9889> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9890> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9891> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9892> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9893> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9894> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9895> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9896> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9897> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9898> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9899> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001959RangeShape> .
+
+<http://example.org/ns#Node9900> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9901> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9902> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9903> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9904> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9905> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9906> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9907> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9908> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9909> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9910> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9911> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9912> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9913> a <http://purl.obolibrary.org/obo/BFO_0000004> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001775RangeShape> .
+
+<http://example.org/ns#Node9914> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9915> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9916> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9917> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9918> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9919> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9920> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9921> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9922> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9923> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9924> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9925> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9926> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9927> a <http://purl.obolibrary.org/obo/BFO_0000027> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001782DomainShape> .
+
+<http://example.org/ns#Node9928> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9929> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9930> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9931> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9932> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9933> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9934> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9935> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9936> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9937> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9938> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9939> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9940> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9941> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001841RangeShape> .
+
+<http://example.org/ns#Node9942> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9943> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9944> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9945> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9946> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9947> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9948> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9949> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9950> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9951> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9952> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9953> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9954> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9955> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001949DomainShape> .
+
+<http://example.org/ns#Node9956> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9957> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9958> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9959> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9960> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9961> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9962> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9963> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9964> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9965> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9966> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9967> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9968> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9969> a <http://purl.obolibrary.org/obo/BFO_0000015> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001986DomainShape> .
+
+<http://example.org/ns#Node9970> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9971> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9972> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9973> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9974> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9975> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9976> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9977> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9978> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9979> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9980> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9981> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9982> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9983> a <http://purl.obolibrary.org/obo/BFO_0000016> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001829DomainShape> .
+
+<http://example.org/ns#Node9984> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9985> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9986> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9987> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9988> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9989> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9990> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9991> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9992> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9993> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9994> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9995> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9996> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9997> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001921RangeShape> .
+
+<http://example.org/ns#Node9998> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
+<http://example.org/ns#Node9999> a <http://purl.obolibrary.org/obo/BFO_0000002> ;
+    sh:description <https://www.commoncoreontologies.org/Ont00001816DomainShape> .
+
