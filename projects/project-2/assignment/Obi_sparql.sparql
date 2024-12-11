@@ -1,0 +1,153 @@
+
+#complex Sophisticated
+# Detect Logical Redundancies in rdfs:subClassOf Hierarchies
+# Constraint Description: Identifies redundant subclass relationships where a class indirectly inherits a superclass through multiple paths.
+# Severity: Warning
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?child ?superclass ?error
+WHERE {
+    ?child rdfs:subClassOf ?intermediate .
+    ?intermediate rdfs:subClassOf ?superclass .
+    ?child rdfs:subClassOf ?superclass .
+    FILTER(?child != ?superclass && ?child != ?intermediate)
+    BIND (concat("WARNING: Class ", str(?child), " redundantly inherits from ", str(?superclass), " through multiple paths.") AS ?error)
+}
+
+
+#complex Sophisticated
+# Detect Redundant Equivalent Class Relationships
+# Description: Identifies classes declared as equivalent through multiple indirect paths, including redundant subclass relationships.
+# Severity: Error
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?class1 ?class2 ?error
+WHERE {
+    { ?class1 owl:equivalentClass ?class2 . }
+    UNION
+    { ?class1 rdfs:subClassOf ?class2 . ?class2 rdfs:subClassOf ?class1 . }
+    UNION
+    { ?class1 owl:equivalentClass ?intermediate . ?intermediate owl:equivalentClass ?class2 . }
+    UNION
+    { ?class1 owl:equivalentClass ?intermediate . ?intermediate rdfs:subClassOf ?class2 . }
+    UNION
+    { ?class1 rdfs:subClassOf ?intermediate . ?intermediate owl:equivalentClass ?class2 . }
+    FILTER(?class1 != ?class2)
+    BIND (concat("ERROR: Redundant equivalentClass relationships detected between ", str(?class1), " and ", str(?class2)) AS ?error)
+}
+
+
+
+#complex Sophisticated
+# Detect Classes with Multiple Conflicting Superclasses Across Disjoint Hierarchies
+# Description: Finds classes inheriting from multiple disjoint superclasses through multiple joins.
+# Severity: Error
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?class ?super1 ?super2 ?error
+WHERE {
+    { ?class rdfs:subClassOf ?super1 . ?super1 owl:disjointWith ?super2 . ?class rdfs:subClassOf ?super2 . }
+    UNION
+    { ?class rdfs:subClassOf ?intermediate . ?intermediate owl:disjointWith ?super2 . ?class rdfs:subClassOf ?super2 . }
+    UNION
+    { ?super1 owl:disjointWith ?super2 . ?class rdfs:subClassOf ?super1 . ?class owl:equivalentClass ?super2 . }
+    UNION
+    { ?class owl:equivalentClass ?super1 . ?super1 owl:disjointWith ?super2 . ?class rdfs:subClassOf ?super2 . }
+    UNION
+    { ?super1 owl:disjointWith ?super2 . ?class owl:equivalentClass ?super1 . ?class owl:equivalentClass ?super2 . }
+    FILTER(?super1 != ?super2)
+    BIND (concat("ERROR: Class ", str(?class), " has conflicting disjoint superclasses ", str(?super1), " and ", str(?super2)) AS ?error)
+}
+
+
+#complex Sophisticated
+#Detect Inconsistent Domains Across Subproperties
+# Description: Flags subproperties with domains inconsistent with their parent property.
+# Severity: Error
+SELECT ?property ?subproperty ?parentDomain ?subDomain ?error
+WHERE {
+    ?subproperty rdfs:subPropertyOf ?property .
+    ?property rdfs:domain ?parentDomain .
+    ?subproperty rdfs:domain ?subDomain .
+    FILTER(?parentDomain != ?subDomain)
+    BIND (concat("ERROR: Subproperty ", str(?subproperty), " has domain ", str(?subDomain), " inconsistent with parent property ", str(?property), " (domain: ", str(?parentDomain), ").") AS ?error)
+}
+
+#complex Sophisticated
+# Detect Classes Used as Both Individuals and Superclasses
+# Description: Finds classes used inconsistently as individuals and as superclasses.
+# Severity: Error
+
+SELECT ?class ?superclass ?error
+WHERE {
+    ?class a owl:Class .
+    ?class a ?superclass .
+    FILTER(?class = ?superclass)
+    BIND (concat("ERROR: Class ", str(?class), " is used as both an individual and a superclass.") AS ?error)
+}
+
+
+#  Moderately Sophisticated
+#  Detect Properties with Conflicting Ranges
+# Description: Flags properties where subproperties have ranges inconsistent with their parent properties.
+# Severity: Error
+SELECT ?property ?subproperty ?parentRange ?subRange ?error
+WHERE {
+    ?subproperty rdfs:subPropertyOf ?property .
+    ?property rdfs:range ?parentRange .
+    ?subproperty rdfs:range ?subRange .
+    FILTER(?parentRange != ?subRange)
+    BIND (concat("ERROR: Subproperty ", str(?subproperty), " has range ", str(?subRange), " inconsistent with parent property ", str(?property), " (range: ", str(?parentRange), ").") AS ?error)
+}
+
+#  Moderately Sophisticated
+# Detect Mixed Use of Datatype and Object Properties
+# Description: Identifies properties used inconsistently as both owl:DatatypeProperty and owl:ObjectProperty.
+# Severity: Error
+
+SELECT ?property ?error
+WHERE {
+    ?property a owl:DatatypeProperty, owl:ObjectProperty .
+    BIND (concat("ERROR: Property ", str(?property), " is inconsistently used as both DatatypeProperty and ObjectProperty.") AS ?error)
+}
+#moderately Sophisticated
+# Description: Finds properties actively used in triples but lacking rdfs:domain or rdfs:range.
+# Severity: Warning
+
+SELECT ?property ?error
+WHERE {
+    ?subject ?property ?object .
+    FILTER NOT EXISTS { ?property rdfs:domain ?domain }
+    FILTER NOT EXISTS { ?property rdfs:range ?range }
+    BIND (concat("WARNING: Property ", str(?property), " is used but has no domain or range.") AS ?error)
+}
+
+
+#  Moderately Sophisticated
+#  Detect Classes with Overlapping Labels
+# Description: Flags classes with the same label but different URIs.
+# Severity: Warning
+
+SELECT ?class1 ?class2 ?label ?error
+WHERE {
+    ?class1 rdfs:label ?label .
+    ?class2 rdfs:label ?label .
+    FILTER(?class1 != ?class2)
+    BIND (concat("WARNING: Classes ", str(?class1), " and ", str(?class2), " share the same label: '", ?label, "'") AS ?error)
+}
+
+#simple Sophisticated
+# Detect Properties Without Labels
+# Description: Identifies properties missing an rdfs:label.
+# Severity: Warning
+
+SELECT ?property ?error
+WHERE {
+    ?property a rdf:Property .
+    FILTER NOT EXISTS { ?property rdfs:label ?label }
+    BIND (concat("WARNING: Property ", str(?property), " lacks an rdfs:label.") AS ?error)
+}
